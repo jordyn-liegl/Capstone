@@ -1,0 +1,19 @@
+# Ignore node_modules
+node_modules
+
+# Ignore local Next.js build output
+.next
+
+# Ignore logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore local environment files
+.env
+.env.local
+
+# Ignore other files not needed for the build
+.DS_Store
+.git
+.gitignore
