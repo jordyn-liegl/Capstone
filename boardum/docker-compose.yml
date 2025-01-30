@@ -24,5 +24,15 @@ services:
     volumes:
       - es_data:/usr/share/elasticsearch/data # Persistent volume for Elasticsearch data
 
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.6.2
+    container_name: kibana
+    ports:
+      - "5601:5601" # Kibana UI port
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+    depends_on:
+      - elasticsearch
+
 volumes:
   es_data:
