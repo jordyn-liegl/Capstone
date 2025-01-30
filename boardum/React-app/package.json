@@ -1,5 +1,5 @@
 {
- "name": "boardum",
+  "name": "boardum",
   "version": "0.1.0",
   "type": "module",
   "private": true,
@@ -11,8 +11,6 @@
   },
   "dependencies": {
     "@elastic/elasticsearch": "^8.17.0",
-    "axios": "^1.7.9",
-    "xml2js": "^0.6.2",
     "next": "^15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
@@ -29,4 +27,3 @@
     "typescript": "^5"
   }
 }
-

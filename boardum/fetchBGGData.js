@@ -8,7 +8,8 @@ async function fetchBGGData() {
   try {
     // 1. Initialize Elasticsearch client (change node URL if needed)
     const esClient = new Client({
-      node: 'https://localhost:9200',
+      node: 'http://localhost:9200',
+      // node: 'https://localhost:9200',
       // If security is enabled, you may need:
       // auth: { username: 'elastic', password: 'YOUR_PASSWORD' },
       // ssl: { rejectUnauthorized: false } // for self-signed dev certs
