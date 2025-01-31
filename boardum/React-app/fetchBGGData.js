@@ -1,30 +1,28 @@
-// fetchBGGData.js
-
 import axios from 'axios';
 import xml2js from 'xml2js';
 import { Client } from '@elastic/elasticsearch';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 async function fetchBGGData() {
   try {
-    // 1. Initialize Elasticsearch client (change node URL if needed)
+    // 1. Initialize Elasticsearch client
     const esClient = new Client({
       node: 'http://localhost:9200',
-      // node: 'https://localhost:9200',
-      // If security is enabled, you may need:
-      // auth: { username: 'elastic', password: 'YOUR_PASSWORD' },
-      // ssl: { rejectUnauthorized: false } // for self-signed dev certs
       auth: {
         username: 'elastic',
         password: 'exJCBObGCRs61HBemmzu'
       },
       ssl: {
-        // If you're using a self-signed cert in development
-        // you can either supply the CA or disable strict validation:
         rejectUnauthorized: false
       }
     });
 
-    // 2. Example: Fetch details for a single board game (e.g. ID = 13 for "Catan")
+    // 2. Fetch data for a board game (e.g., ID = 13 for "Catan")
     const gameId = 13;
     const response = await axios.get(`https://boardgamegeek.com/xmlapi2/thing?id=${gameId}`);
 
@@ -40,27 +38,39 @@ async function fetchBGGData() {
     const playingTime = item.playingtime ? item.playingtime[0].$.value : null;
     const description = item.description ? item.description[0] : '';
 
+    const gameData = {
+      id: gameId.toString(),
+      name,
+      minPlayers: Number(minPlayers),
+      maxPlayers: Number(maxPlayers),
+      playingTime: Number(playingTime),
+      description
+    };
+
     // 5. Index into Elasticsearch
     await esClient.index({
       index: 'boardgames',
-      id: gameId.toString(), // use BGG game ID as _id
-      body: {
-        name,
-        minPlayers: Number(minPlayers),
-        maxPlayers: Number(maxPlayers),
-        playingTime: Number(playingTime),
-        description
-      }
+      id: gameData.id,
+      body: gameData
     });
 
-    // 6. Refresh to make the new doc immediately searchable
+    // 6. Refresh the index
     await esClient.indices.refresh({ index: 'boardgames' });
     console.log(`Board game (ID: ${gameId}) indexed successfully!`);
+
+    // 7. Save to the data/ folder
+    const dataFolderPath = path.resolve(__dirname, 'data');
+    if (!fs.existsSync(dataFolderPath)) {
+      fs.mkdirSync(dataFolderPath); // Create the folder if it doesn't exist
+    }
+
+    const filePath = path.join(dataFolderPath, `${gameId}.json`);
+    fs.writeFileSync(filePath, JSON.stringify(gameData, null, 2), 'utf-8');
+    console.log(`Board game data saved to ${filePath}`);
 
   } catch (err) {
     console.error('Error fetching/indexing BGG data:', err);
   }
 }
 
-// Execute the function when the script runs
 fetchBGGData();
