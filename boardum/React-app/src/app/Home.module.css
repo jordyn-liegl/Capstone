@@ -1,9 +1,5 @@
-/* Home.module.css */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-/* 
-  A container that fills the viewport height, centers content, 
-  and includes a background gradient.
-*/
 .container {
     min-height: 100vh;
     padding: 0 2rem;
@@ -12,61 +8,61 @@
     justify-content: center;
     align-items: center;
   
-    /* Example gradient background */
-    background: linear-gradient(45deg, #3c3b3f, #605c3c);
+    background: linear-gradient(0deg, rgb(85, 44, 233) 0%, rgba(143,163,255,1) 100%);
     color: #fff;
-  }
-  
-  /* The main content area */
-  .main {
+}
+
+/* The main content area */
+.main {
     text-align: center;
     max-width: 600px;
     width: 100%;
-  }
-  
-  /* Large heading style */
-  .title {
+}
+
+.title {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
-  }
-  
-  /* Secondary text, can be reused for small paragraphs or descriptions */
-  .description {
+    font-weight: 700;
+    color: #E4FFDB;
+    font-family: 'Quicksand', sans-serif; 
+}
+
+/* Secondary text */
+.description {
     font-size: 1.1rem;
     margin-bottom: 2rem;
-  }
-  
-  /* Form styles for your input/label/button grouping */
-  .form {
+}
+/* Form styles */
+.form {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.75rem;
     margin-bottom: 2rem;
-  }
-  
-  /* Button styling */
-  .btn {
-    background-color: #feca57;
+}
+
+.form input {
+    padding: 0.5rem 0.7rem;
+    border: 1px solid #3E6B37;
+    border-radius: 4px;
+    font-size: 1rem;
+    text-align: center;
+    color: #222;
+}
+
+/* Button styling */
+.btn {
+    background-color: rgb(63, 28, 189);
     border: none;
     padding: 0.75rem 1.5rem;
     cursor: pointer;
-    color: #333;
+    color: #E4FFDB;
     font-weight: 600;
     border-radius: 4px;
     transition: background 0.2s ease-in;
-  }
-  
-  .btn:hover {
-    background-color: #ffbd4a;
-  }
-  
-  /* Card-like style for the recommendation area */
-  .resultCard {
-    background: rgba(255, 255, 255, 0.1);
-    padding: 1.5rem;
-    border-radius: 6px;
-    margin-top: 2rem;
-    text-align: left;
-  }
-  
+    font-family: 'Quicksand', sans-serif; /* ✅ Apply to buttons */
+}
+
+.btn:hover {
+    background-color: rgb(97, 53, 255);
+}
