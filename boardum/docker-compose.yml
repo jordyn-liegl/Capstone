@@ -23,6 +23,7 @@ services:
       - "9300:9300" # Elasticsearch transport port
     volumes:
       - es_data:/usr/share/elasticsearch/data # Persistent volume for Elasticsearch data
+      - ./data:/data # Mount local data folder into the container
 
   kibana:
     image: docker.elastic.co/kibana/kibana:8.6.2
@@ -33,6 +34,15 @@ services:
       - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
     depends_on:
       - elasticsearch
+
+  seed-data:
+    image: curlimages/curl:latest
+    container_name: seed-data
+    depends_on:
+      - elasticsearch
+    volumes:
+      - ./data:/data # Mount the same data directory
+    entrypoint: ["/bin/sh", "-c", "/data/bulkSeed.sh"] # Run the script automatically on startup
 
 volumes:
   es_data:
