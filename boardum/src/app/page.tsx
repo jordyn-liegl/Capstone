@@ -3,6 +3,7 @@
 import { useState, FormEvent } from 'react';
 import Head from 'next/head';
 import styles from './Home.module.css';
+import { env } from 'process';
 
 // 1. Define an interface that matches what randomGame._source contains.
 interface BoardGameSource {
@@ -21,24 +22,44 @@ export default function Home() {
   const [recommendation, setRecommendation] = useState<BoardGameSource | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
 
+  const ELASTICSEARCH_URL = process.env.ELASTICSEARCH_URL ?? 'https://localhost:9200';
+
   // 4. Type the event if you'd like (FormEvent<HTMLFormElement>)
+  // this lowkey doesn't work yet 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     setLoading(true);
-
+  
     try {
-      const res = await fetch(`/api/recommendations?players=${players}`);
-      // The response is presumably an array of Elasticsearch hits 
-      // shaped like: [ { _source: BoardGameSource }, ... ]
-      const data = await res.json();
+      const query = {
+        query: {
+          bool: {
+            filter: [
+              { range: { minPlayers: { lte: 4 } } },
+              { range: { maxPlayers: { gte: 4 } } }
+            ]
+          }
+        }
+      };
+  
+      const res = await fetch(`${ELASTICSEARCH_URL}/boardgames/_search`, {
+        method: 'POST', 
+        body: JSON.stringify(query),
+      });
 
-      if (data && data.length > 0) {
-        const randomGame = data[Math.floor(Math.random() * data.length)];
-        // Here randomGame._source is of type BoardGameSource
-        // So we store only that part in recommendation
+      console.log(res);
+  
+      if (!res.ok) {
+        throw new Error(`Error: ${res.status}`);
+      }
+  
+      const data = await res.json();
+  
+      if (data && data.hits && data.hits.hits.length > 0) {
+        const randomGame = data.hits.hits[Math.floor(Math.random() * data.hits.hits.length)];
         setRecommendation(randomGame._source);
       } else {
-        setRecommendation(null);
+        setRecommendation(null);  // Handle case when no game is found
       }
     } catch (err) {
       console.error('Error fetching recommendation:', err);
@@ -47,6 +68,7 @@ export default function Home() {
       setLoading(false);
     }
   };
+  
 
   return (
     <div className={styles.container}>
