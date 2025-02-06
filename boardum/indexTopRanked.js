@@ -64,6 +64,7 @@ async function fetchGameData(gameId) {
       minPlayers: Number(item.minplayers?.$.value || 0),
       maxPlayers: Number(item.maxplayers?.$.value || 0),
       playingTime: Number(item.playingtime?.$.value || 0),
+      age: Number(item.minage?.$.value || 0),
       description: item.description || ''
     };
   } catch (error) {

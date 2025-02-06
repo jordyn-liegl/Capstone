@@ -21,24 +21,31 @@ export default function Home() {
   const [recommendation, setRecommendation] = useState<BoardGameSource | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
 
+  const ELASTICSEARCH_URL = process.env.ELASTICSEARCH_URL ?? 'http://localhost:9200';
+
   // 4. Type the event if you'd like (FormEvent<HTMLFormElement>)
+  // this lowkey works now but it's j getting a random game
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     setLoading(true);
-
+  
     try {
-      const res = await fetch(`/api/recommendations?players=${players}`);
-      // The response is presumably an array of Elasticsearch hits 
-      // shaped like: [ { _source: BoardGameSource }, ... ]
+  
+      const res = await fetch(`${ELASTICSEARCH_URL}/boardgames/_search`, {
+        method: 'GET', 
+      });
+  
+      if (!res.ok) {
+        throw new Error(`Error: ${res.status}`);
+      }
+  
       const data = await res.json();
-
-      if (data && data.length > 0) {
-        const randomGame = data[Math.floor(Math.random() * data.length)];
-        // Here randomGame._source is of type BoardGameSource
-        // So we store only that part in recommendation
+  
+      if (data?.hits?.hits.length > 0) {
+        const randomGame = data.hits.hits[Math.floor(Math.random() * data.hits.hits.length)];
         setRecommendation(randomGame._source);
       } else {
-        setRecommendation(null);
+        setRecommendation(null);  // Handle case when no game is found
       }
     } catch (err) {
       console.error('Error fetching recommendation:', err);
@@ -47,6 +54,7 @@ export default function Home() {
       setLoading(false);
     }
   };
+  
 
   return (
     <div className={styles.container}>
