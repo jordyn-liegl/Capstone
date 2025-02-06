@@ -8,9 +8,25 @@
     justify-content: center;
     align-items: center;
   
-    background: linear-gradient(0deg, rgb(85, 44, 233) 0%, rgba(143,163,255,1) 100%);
-    color: #fff;
+    background: linear-gradient(45deg, #fcd1ff, #fabbff, #cbbdff, #a48dff, #8e7bff);
+    background-size: 180% 180%;
+    animation: gradient-animation 15s ease infinite;
+    
+    color: #473d80;
 }
+
+/* Keyframes for the moving gradient animation */
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 
 /* The main content area */
 .main {
@@ -23,7 +39,7 @@
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
     font-weight: 700;
-    color: #E4FFDB;
+    color: #473d80;
     font-family: 'Quicksand', sans-serif; 
 }
 
@@ -43,7 +59,7 @@
 
 .form input {
     padding: 0.5rem 0.7rem;
-    border: 1px solid #3E6B37;
+    border: 1px solid #473d80;
     border-radius: 4px;
     font-size: 1rem;
     text-align: center;
@@ -52,11 +68,11 @@
 
 /* Button styling */
 .btn {
-    background-color: rgb(63, 28, 189);
+    background-color: #816bff;
     border: none;
     padding: 0.75rem 1.5rem;
     cursor: pointer;
-    color: #E4FFDB;
+    color: #ffffff;
     font-weight: 600;
     border-radius: 4px;
     transition: background 0.2s ease-in;
@@ -64,5 +80,25 @@
 }
 
 .btn:hover {
-    background-color: rgb(97, 53, 255);
+    background-color: #9785ff;
+}
+
+.resultCard {
+    background: rgba(255,255,255,0.55);
+    -webkit-backdrop-filter: blur(49px);
+    backdrop-filter: blur(49px);
+    border: 1px solid rgba(255,255,255,0.275);
+    padding: 1rem;
+    border-radius: 1rem;
+}   
+
+.resultCard h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.description {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
 }
