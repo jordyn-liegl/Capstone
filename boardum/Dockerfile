@@ -46,7 +46,6 @@ COPY --from=base /src/app/node_modules ./node_modules
 
 # Copy only necessary files from the build stage
 COPY --from=dev /src/app/package.json ./package.json
-COPY --from=dev /src/app/.next ./.next
 COPY --from=dev /src/app/public ./public
 
 # Install only production dependencies
