@@ -1,4 +1,8 @@
+cluster.name: "elasticsearch"
+network.host: 0.0.0.0
+http.port: 9200
 http.cors.enabled: true
 http.cors.allow-origin: "*"
-http.cors.allow-methods: "OPTIONS, HEAD, GET, POST, PUT"
-http.cors.allow-headers: "X-Requested-With, Content-Type, Content-Length, Authorization"
+http.cors.allow-methods: OPTIONS,HEAD,GET,POST,PUT,DELETE
+http.cors.allow-headers: X-Requested-With,Content-Type,Content-Length,Authorization
+xpack.security.enabled: false
