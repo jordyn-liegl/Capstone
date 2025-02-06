@@ -3,7 +3,6 @@
 import { useState, FormEvent } from 'react';
 import Head from 'next/head';
 import styles from './Home.module.css';
-import { env } from 'process';
 
 // 1. Define an interface that matches what randomGame._source contains.
 interface BoardGameSource {
@@ -22,32 +21,19 @@ export default function Home() {
   const [recommendation, setRecommendation] = useState<BoardGameSource | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
 
-  const ELASTICSEARCH_URL = process.env.ELASTICSEARCH_URL ?? 'https://localhost:9200';
+  const ELASTICSEARCH_URL = process.env.ELASTICSEARCH_URL ?? 'http://localhost:9200';
 
   // 4. Type the event if you'd like (FormEvent<HTMLFormElement>)
-  // this lowkey doesn't work yet 
+  // this lowkey works now but it's j getting a random game
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     setLoading(true);
   
     try {
-      const query = {
-        query: {
-          bool: {
-            filter: [
-              { range: { minPlayers: { lte: 4 } } },
-              { range: { maxPlayers: { gte: 4 } } }
-            ]
-          }
-        }
-      };
   
       const res = await fetch(`${ELASTICSEARCH_URL}/boardgames/_search`, {
-        method: 'POST', 
-        body: JSON.stringify(query),
+        method: 'GET', 
       });
-
-      console.log(res);
   
       if (!res.ok) {
         throw new Error(`Error: ${res.status}`);
@@ -55,7 +41,7 @@ export default function Home() {
   
       const data = await res.json();
   
-      if (data && data.hits && data.hits.hits.length > 0) {
+      if (data?.hits?.hits.length > 0) {
         const randomGame = data.hits.hits[Math.floor(Math.random() * data.hits.hits.length)];
         setRecommendation(randomGame._source);
       } else {
