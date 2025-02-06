@@ -3,7 +3,6 @@ version: '3.8' # Specify the Docker Compose file format version
 services:
   react-app:
     build:
-      context: ./React-app/ # Path to your React app Dockerfile
       dockerfile: Dockerfile
     ports:
       - "3000:3000" # Map port 3000 on the host to port 3000 in the container
@@ -11,6 +10,10 @@ services:
       - elasticsearch # Ensure Elasticsearch starts before the React app
     environment:
       - REACT_APP_ELASTICSEARCH_URL=http://elasticsearch:9200 # Environment variable for React app to connect to Elasticsearch
+    volumes:
+      - .:/src/app/
+      - /src/app/node_modules
+    command: npm run dev
 
   elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:8.6.2 # Use an appropriate Elasticsearch version
