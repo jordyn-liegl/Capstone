@@ -10,6 +10,7 @@ interface BoardGameSource {
   minPlayers: number;
   maxPlayers: number;
   playingTime: number;
+  age: number;
   description: string;
   // Add any other fields you have in _source
 }
@@ -24,15 +25,39 @@ export default function Home() {
   const ELASTICSEARCH_URL = process.env.ELASTICSEARCH_URL ?? 'http://localhost:9200';
 
   // 4. Type the event if you'd like (FormEvent<HTMLFormElement>)
-  // this lowkey works now but it's j getting a random game
+
+  const [searched, setSearched] = useState<boolean>(false);
+
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     setLoading(true);
+    setSearched(false); // Reset before search
+
+    // Convert players input to a number
+    const numPlayers = Number(players);
+    if (isNaN(numPlayers) || numPlayers <= 0) {
+      alert("Please enter a valid number of players.");
+      setLoading(false);
+      return;
+    }
   
     try {
-  
       const res = await fetch(`${ELASTICSEARCH_URL}/boardgames/_search`, {
-        method: 'GET', 
+        method: 'POST',  // Change to POST because we are sending a query
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          query: {
+            bool: {
+              must: [
+                { range: { minPlayers: { lte: numPlayers } } }, // minPlayers ≤ numPlayers
+                { range: { maxPlayers: { gte: numPlayers } } }, // maxPlayers ≥ numPlayers
+              ],
+            },
+          },
+          size: 10, // Get up to 10 matching results
+        }),
       });
   
       if (!res.ok) {
@@ -40,12 +65,13 @@ export default function Home() {
       }
   
       const data = await res.json();
-  
+      setSearched(true); // Mark that a search was attempted
+
       if (data?.hits?.hits.length > 0) {
         const randomGame = data.hits.hits[Math.floor(Math.random() * data.hits.hits.length)];
         setRecommendation(randomGame._source);
       } else {
-        setRecommendation(null);  // Handle case when no game is found
+        setRecommendation(null);  // No matching games
       }
     } catch (err) {
       console.error('Error fetching recommendation:', err);
@@ -54,7 +80,6 @@ export default function Home() {
       setLoading(false);
     }
   };
-  
 
   return (
     <div className={styles.container}>
@@ -87,16 +112,22 @@ export default function Home() {
           </button>
         </form>
 
-        {/* If we have a recommendation, display its fields */}
-        {recommendation && (
+        {/* If we have a recommendation, display it; otherwise, show a message */}
+        {recommendation ? (
           <div className={styles.resultCard}>
             <h2>{recommendation.name}</h2>
-            <p>
-              Players: {recommendation.minPlayers} - {recommendation.maxPlayers}
-            </p>
+            <p>Players: {recommendation.minPlayers} - {recommendation.maxPlayers}</p>
             <p>Play Time: {recommendation.playingTime} minutes</p>
+            <p>Minimum Age: {recommendation.age} </p>
             <p className={styles.description}>{recommendation.description}</p>
           </div>
+        ) : (
+          searched && !loading && (
+            <div>
+              <h2>No matching games found.</h2> 
+              <p>Try a different number of players!</p>
+            </div>
+          )
         )}
       </main>
     </div>
