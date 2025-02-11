@@ -3,6 +3,7 @@
 import { useState, FormEvent } from 'react';
 import Head from 'next/head';
 import styles from './Home.module.css';
+import Image from 'next/image';
 
 interface BoardGameSource {
   name: string;
@@ -82,7 +83,8 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Boardum</h1>
+        <center>
+        <Image src="/boardum.png" alt="boardum" width={500} height={500} /></center>
 
         <p className={styles.description2}>
           Feeling indecisive? Let us recommend a board game for you!
