@@ -132,7 +132,11 @@ export default function Home() {
             <div className={styles.overlay} onClick={() => setSelectedGame(null)}></div>
             <div className={styles.modal}>
               <h2>{selectedGame.name}</h2>
-              <p>{selectedGame.description}</p>
+              <p 
+                dangerouslySetInnerHTML={{ 
+                __html: selectedGame.description.replace(/&#10;&#10;/g, '<br /><br />') 
+                }}
+              />
               <button className={styles.closeButton} onClick={() => setSelectedGame(null)}>x</button>
             </div>
           </>
