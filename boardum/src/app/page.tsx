@@ -1,10 +1,9 @@
-"use client"; // Only if you're in Next.js 13 app router and want client-side code.
+"use client";
 
 import { useState, FormEvent } from 'react';
 import Head from 'next/head';
 import styles from './Home.module.css';
 
-// 1. Define an interface that matches what randomGame._source contains.
 interface BoardGameSource {
   name: string;
   minPlayers: number;
@@ -12,38 +11,32 @@ interface BoardGameSource {
   playingTime: number;
   age: number;
   description: string;
-  // Add any other fields you have in _source
 }
 
 export default function Home() {
-  // 2. "players" can stay as a string if you're just storing input from a field.
   const [players, setPlayers] = useState<string>('');
-  // 3. recommendation is either null or a BoardGameSource
-  const [recommendation, setRecommendation] = useState<BoardGameSource | null>(null);
+  const [recommendations, setRecommendations] = useState<BoardGameSource[]>([]);
+  const [selectedGame, setSelectedGame] = useState<BoardGameSource | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
+  const [searched, setSearched] = useState<boolean>(false);
 
   const ELASTICSEARCH_URL = process.env.ELASTICSEARCH_URL ?? 'http://localhost:9200';
-
-  // 4. Type the event if you'd like (FormEvent<HTMLFormElement>)
-
-  const [searched, setSearched] = useState<boolean>(false);
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     setLoading(true);
-    setSearched(false); // Reset before search
+    setSearched(false);
 
-    // Convert players input to a number
     const numPlayers = Number(players);
     if (isNaN(numPlayers) || numPlayers <= 0) {
       alert("Please enter a valid number of players.");
       setLoading(false);
       return;
     }
-  
+
     try {
       const res = await fetch(`${ELASTICSEARCH_URL}/boardgames/_search`, {
-        method: 'POST',  // Change to POST because we are sending a query
+        method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
@@ -51,31 +44,31 @@ export default function Home() {
           query: {
             bool: {
               must: [
-                { range: { minPlayers: { lte: numPlayers } } }, // minPlayers ≤ numPlayers
-                { range: { maxPlayers: { gte: numPlayers } } }, // maxPlayers ≥ numPlayers
+                { range: { minPlayers: { lte: numPlayers } } },
+                { range: { maxPlayers: { gte: numPlayers } } },
               ],
             },
           },
-          size: 10, // Get up to 10 matching results
+          size: 9,
         }),
       });
-  
+
       if (!res.ok) {
         throw new Error(`Error: ${res.status}`);
       }
-  
+
       const data = await res.json();
-      setSearched(true); // Mark that a search was attempted
+      setSearched(true);
 
       if (data?.hits?.hits.length > 0) {
-        const randomGame = data.hits.hits[Math.floor(Math.random() * data.hits.hits.length)];
-        setRecommendation(randomGame._source);
+        const games = data.hits.hits.map((hit: any) => hit._source);
+        setRecommendations(games);
       } else {
-        setRecommendation(null);  // No matching games
+        setRecommendations([]);
       }
     } catch (err) {
       console.error('Error fetching recommendation:', err);
-      setRecommendation(null);
+      setRecommendations([]);
     } finally {
       setLoading(false);
     }
@@ -89,11 +82,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Boardum
-        </h1>
+        <h1 className={styles.title}>Boardum</h1>
 
-        <p className={styles.description}>
+        <p className={styles.description2}>
           Feeling indecisive? Let us recommend a board game for you!
         </p>
 
@@ -112,14 +103,20 @@ export default function Home() {
           </button>
         </form>
 
-        {/* If we have a recommendation, display it; otherwise, show a message */}
-        {recommendation ? (
-          <div className={styles.resultCard}>
-            <h2>{recommendation.name}</h2>
-            <p>Players: {recommendation.minPlayers} - {recommendation.maxPlayers}</p>
-            <p>Play Time: {recommendation.playingTime} minutes</p>
-            <p>Minimum Age: {recommendation.age} </p>
-            <p className={styles.description}>{recommendation.description}</p>
+        {recommendations.length > 0 ? (
+          <div className={styles.resultsGrid}>
+            {recommendations.map((game, index) => (
+              <div 
+                key={index} 
+                className={styles.resultCard} 
+                onClick={() => setSelectedGame(game)}
+              >
+                <h2>{game.name}</h2>
+                <p>Players: {game.minPlayers} - {game.maxPlayers}</p>
+                <p>Play Time: {game.playingTime} minutes</p>
+                <p>Minimum Age: {game.age}</p>
+              </div>
+            ))}
           </div>
         ) : (
           searched && !loading && (
@@ -128,6 +125,17 @@ export default function Home() {
               <p>Try a different number of players!</p>
             </div>
           )
+        )}
+
+        {selectedGame && (
+          <>
+            <div className={styles.overlay} onClick={() => setSelectedGame(null)}></div>
+            <div className={styles.modal}>
+              <h2>{selectedGame.name}</h2>
+              <p>{selectedGame.description}</p>
+              <button className={styles.closeButton} onClick={() => setSelectedGame(null)}>x</button>
+            </div>
+          </>
         )}
       </main>
     </div>
