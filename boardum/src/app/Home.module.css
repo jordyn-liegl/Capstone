@@ -86,8 +86,8 @@
 .resultsGrid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-    margin-top: 2rem;
+    gap: 1.2rem;
+    margin-top: 4rem;
 }
 
 /* Card-like style for the recommendation area */
@@ -100,6 +100,8 @@
     border-radius: 1rem;
     cursor: pointer;
     transition: transform 0.2s ease;
+    width: 20;
+    height: 11rem;
 }
 
 .resultCard:hover {
