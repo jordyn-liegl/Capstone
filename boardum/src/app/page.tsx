@@ -49,7 +49,7 @@ export default function Home() {
               ],
             },
           },
-          size: 9,
+          size: 100,
         }),
       });
 
