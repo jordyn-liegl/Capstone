@@ -4,7 +4,7 @@ import { Client } from '@elastic/elasticsearch';
 
 
 const esClient = new Client({
-  node: 'http://localhost:9200',
+  node: 'http://elasticsearch:9200',
   tls: {
     rejectUnauthorized: false, // If using self-signed certs in development
   },
