@@ -50,7 +50,7 @@ services:
       - elasticsearch
     volumes:
       - ./data:/data # Mount the same data directory
-    entrypoint: ["/bin/sh", "-c", "/data/bulkSeed.sh"] # Run the script automatically on startup
+    entrypoint: ["/bin/sh", "/data/bulkSeed.sh"] # Run the script automatically on startup
 
 volumes:
   es_data:
