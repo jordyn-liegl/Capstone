@@ -14,8 +14,19 @@ interface BoardGameSource {
   description: string;
 }
 
+interface SearchParams {
+  players: string;
+  maxPlayingTime: string;
+  minAge: string;
+}
+
 export default function Home() {
-  const [players, setPlayers] = useState<string>('');
+  const [searchParams, setSearchParams] = useState<SearchParams>({
+    players: '',
+    maxPlayingTime: '',
+    minAge: ''
+  });
+
   const [recommendations, setRecommendations] = useState<BoardGameSource[]>([]);
   const [selectedGame, setSelectedGame] = useState<BoardGameSource | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
@@ -23,12 +34,23 @@ export default function Home() {
 
   const ELASTICSEARCH_URL = process.env.ELASTICSEARCH_URL ?? 'http://localhost:9200';
 
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const { name, value } = e.target;
+    setSearchParams(prev => ({
+      ...prev,
+      [name]: value
+    }));
+  };
+
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     setLoading(true);
     setSearched(false);
 
-    const numPlayers = Number(players);
+    const numPlayers = Number(searchParams.players);
+    const maxTime = Number(searchParams.maxPlayingTime);
+    const minAge = Number(searchParams.minAge);
+
     if (isNaN(numPlayers) || numPlayers <= 0) {
       alert("Please enter a valid number of players.");
       setLoading(false);
@@ -36,20 +58,36 @@ export default function Home() {
     }
 
     try {
+      const query: any = {
+        bool: {
+          must: [
+            { range: { minPlayers: { lte: numPlayers } } },
+            { range: { maxPlayers: { gte: numPlayers } } },
+          ]
+        }
+      };
+
+      // Add playing time filter if provided
+      if (maxTime > 0) {
+        query.bool.must.push({
+          range: { playingTime: { lte: maxTime } }
+        });
+      }
+
+      // Add age filter if provided
+      if (minAge > 0) {
+        query.bool.must.push({
+          range: { age: { lte: minAge } }
+        });
+      }
+
       const res = await fetch(`${ELASTICSEARCH_URL}/boardgames/_search`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          query: {
-            bool: {
-              must: [
-                { range: { minPlayers: { lte: numPlayers } } },
-                { range: { maxPlayers: { gte: numPlayers } } },
-              ],
-            },
-          },
+          query,
           size: 100,
         }),
       });
@@ -84,22 +122,51 @@ export default function Home() {
 
       <main className={styles.main}>
         <center>
-        <Image src="/boardum.png" alt="boardum" width={500} height={500} /></center>
+          <Image src="/boardum.png" alt="boardum" width={500} height={500} />
+        </center>
 
         <p className={styles.description2}>
           Feeling indecisive? Let us recommend a board game for you!
         </p>
 
         <form onSubmit={handleSubmit} className={styles.form}>
-          <label htmlFor="players">Number of Players</label>
-          <input
-            id="players"
-            type="number"
-            placeholder="e.g. 4"
-            value={players}
-            onChange={(e) => setPlayers(e.target.value)}
-            required
-          />
+          <div className={styles.formGroup}>
+            <label htmlFor="players">Number of Players</label>
+            <input
+              id="players"
+              name="players"
+              type="number"
+              placeholder="e.g. 4"
+              value={searchParams.players}
+              onChange={handleInputChange}
+              required
+            />
+          </div>
+
+          <div className={styles.formGroup}>
+            <label htmlFor="maxPlayingTime">Maximum Playing Time (minutes)</label>
+            <input
+              id="maxPlayingTime"
+              name="maxPlayingTime"
+              type="number"
+              placeholder="e.g. 60"
+              value={searchParams.maxPlayingTime}
+              onChange={handleInputChange}
+            />
+          </div>
+
+          <div className={styles.formGroup}>
+            <label htmlFor="minAge">Minimum Age</label>
+            <input
+              id="minAge"
+              name="minAge"
+              type="number"
+              placeholder="e.g. 12"
+              value={searchParams.minAge}
+              onChange={handleInputChange}
+            />
+          </div>
+
           <button type="submit" className={styles.btn}>
             {loading ? 'Picking...' : 'Pick a Game'}
           </button>
@@ -124,7 +191,7 @@ export default function Home() {
           searched && !loading && (
             <div>
               <h2>No matching games found.</h2> 
-              <p>Try a different number of players!</p>
+              <p>Try different search parameters!</p>
             </div>
           )
         )}
@@ -136,7 +203,7 @@ export default function Home() {
               <h2>{selectedGame.name}</h2>
               <p 
                 dangerouslySetInnerHTML={{ 
-                __html: selectedGame.description.replace(/&#10;&#10;/g, '<br /><br />') 
+                  __html: selectedGame.description.replace(/&#10;&#10;/g, '<br /><br />') 
                 }}
               />
               <button className={styles.closeButton} onClick={() => setSelectedGame(null)}>x</button>
