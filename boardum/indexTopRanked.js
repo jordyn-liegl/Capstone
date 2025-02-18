@@ -3,18 +3,17 @@ import { load } from 'cheerio';
 import xml2js from 'xml2js';
 import fs from 'fs';
 
-// Define output file path
-const OUTPUT_FILE = './data/seed.ndjson';
-
 // Function to add a delay between requests
 async function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 // Function to scrape game IDs from BoardGameGeek
-async function getTopRankedIDs(page = 1) {
-  const url = `https://boardgamegeek.com/browse/boardgame?sort=rank&sortdir=asc&page=${page}`;
+async function getTopRankedIDs(page) {
+  const url = `https://boardgamegeek.com/browse/boardgame/page/${page}?sort=rank&sortdir=asc`;
   console.log(`Scraping board game IDs from: ${url}`);
+  console.log(`Requesting page: ${page}`);
+
 
   const res = await axios.get(url, { timeout: 10000 });
   const $ = load(res.data);
@@ -74,53 +73,33 @@ async function fetchGameData(gameId) {
 }
 
 // Function to write game data to a JSON file
-async function saveToJSON(games) {
-  return new Promise((resolve, reject) => {
-    const stream = fs.createWriteStream(OUTPUT_FILE, { flags: 'w' });
-
-    stream.on('error', reject);
-    stream.on('finish', resolve);
-
-    games.forEach(game => {
-      if (game) {
-        stream.write(JSON.stringify({ index: { _index: "boardgames", _id: game.id } }) + "\n");
-        stream.write(JSON.stringify(game) + "\n");
-      }
-    });
-
-    stream.end();
-    console.log(`Saved ${games.length} games to ${OUTPUT_FILE}`);
-  });
+async function saveToJSON(games, page) {
+  const outputFile = `./data/page_${page}.json`;
+  fs.writeFileSync(outputFile, JSON.stringify(games, null, 2));
+  console.log(`Saved ${games.length} games to ${outputFile}`);
 }
 
 // Main function to scrape, fetch, and save data
 (async function main() {
   try {
-    const allIds = [];
-
-    // Scrape the first 5 pages (~500 games)
-    for (let p = 1; p <= 5; p++) {
+    // Modify p values to decide which page(s) to scrape
+    for (let p = 1; p <= 2; p++) {
       const ids = await getTopRankedIDs(p);
-      allIds.push(...ids);
-    }
+      const allGameData = [];
 
-    console.log(`Total unique game IDs found: ${new Set(allIds).size}`);
-
-    const uniqueIds = [...new Set(allIds)];
-    const allGameData = [];
-
-    for (const gameId of uniqueIds) {
-      const data = await fetchGameData(gameId);
-      if (data) {
-        allGameData.push(data);
+      for (const gameId of ids) {
+        const data = await fetchGameData(gameId);
+        if (data) {
+          allGameData.push(data);
+        }
+        
+        // Wait 2 seconds before the next request
+        console.log(`Waiting 2 seconds before the next request...`);
+        await delay(2000);
       }
-
-      // Wait 2 seconds before the next request
-      console.log(`Waiting 2 seconds before the next request...`);
-      await delay(2000);
+      
+      await saveToJSON(allGameData, p);
     }
-
-    await saveToJSON(allGameData);
 
     console.log('Finished scraping and saving top-ranked board games.');
   } catch (err) {
