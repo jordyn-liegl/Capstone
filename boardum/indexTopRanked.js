@@ -57,6 +57,18 @@ async function fetchGameData(gameId) {
       name = item.name.$.value;
     }
 
+    const categories = item.link
+      ? item.link
+        .filter(link => link.$.type === 'boardgamecategory')
+        .map(link => link.$.value)
+      : [];
+
+    const mechanics = item.link
+      ? item.link
+        .filter(link => link.$.type === 'boardgamemechanic')
+        .map(link => link.$.value)
+      : [];
+
     return {
       id: gameId,
       name,
@@ -64,7 +76,10 @@ async function fetchGameData(gameId) {
       maxPlayers: Number(item.maxplayers?.$.value || 0),
       playingTime: Number(item.playingtime?.$.value || 0),
       age: Number(item.minage?.$.value || 0),
-      description: item.description || ''
+      description: item.description || '',
+      categories: categories,
+      mechanics: mechanics,
+      image: item.thumbnail || '',
     };
   } catch (error) {
     console.error(`Error fetching game ${gameId}:`, error.message);
@@ -83,7 +98,7 @@ async function saveToJSON(games, page) {
 (async function main() {
   try {
     // Modify p values to decide which page(s) to scrape
-    for (let p = 1; p <= 2; p++) {
+    for (let p = 1; p <= 1; p++) {
       const ids = await getTopRankedIDs(p);
       const allGameData = [];
 
