@@ -98,7 +98,7 @@ async function saveToJSON(games, page) {
 (async function main() {
   try {
     // Modify p values to decide which page(s) to scrape
-    for (let p = 1; p <= 1; p++) {
+    for (let p = 11; p <= 11; p++) {
       const ids = await getTopRankedIDs(p);
       const allGameData = [];
 
