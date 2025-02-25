@@ -3,10 +3,20 @@ import { load } from 'cheerio';
 import xml2js from 'xml2js';
 import fs from 'fs';
 
+// Create an Axios instance with cookies
+const axiosInstance = axios.create({
+  withCredentials: true, // Ensure cookies are stored
+  headers: {
+    'User-Agent': 'Mozilla/5.0' // Mimic a browser request
+  }
+});
+
+
 // Function to add a delay between requests
 async function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
+
 
 // Function to scrape game IDs from BoardGameGeek
 async function getTopRankedIDs(page) {
@@ -14,10 +24,11 @@ async function getTopRankedIDs(page) {
   console.log(`Scraping board game IDs from: ${url}`);
   console.log(`Requesting page: ${page}`);
 
-
   const res = await axios.get(url, { timeout: 10000 });
-  const $ = load(res.data);
+  fs.writeFileSync(`./debug_page_${page}.html`, res.data); // Save HTML response
+  console.log(`Saved raw HTML for debugging.`);
 
+  const $ = load(res.data);
   const ids = [];
   $('.collection_table .collection_objectname a.primary').each((_, el) => {
     const href = $(el).attr('href');
@@ -33,9 +44,11 @@ async function getTopRankedIDs(page) {
   return ids;
 }
 
+
 // Function to fetch detailed game data
 async function fetchGameData(gameId) {
   const parser = new xml2js.Parser({ explicitArray: false });
+
 
   try {
     const apiUrl = `https://boardgamegeek.com/xmlapi2/thing?id=${gameId}`;
@@ -43,13 +56,16 @@ async function fetchGameData(gameId) {
     const res = await axios.get(apiUrl, { timeout: 10000 });
     const json = await parser.parseStringPromise(res.data);
 
+
     if (!json.items || !json.items.item) {
       console.warn(`Game ID ${gameId} not found.`);
       return null;
     }
 
+
     const item = json.items.item;
     let name = 'Unknown';
+
 
     if (Array.isArray(item.name)) {
       name = item.name[0]?.$?.value ?? 'Unknown';
@@ -57,17 +73,20 @@ async function fetchGameData(gameId) {
       name = item.name.$.value;
     }
 
+
     const categories = item.link
       ? item.link
         .filter(link => link.$.type === 'boardgamecategory')
         .map(link => link.$.value)
       : [];
 
+
     const mechanics = item.link
       ? item.link
         .filter(link => link.$.type === 'boardgamemechanic')
         .map(link => link.$.value)
       : [];
+
 
     return {
       id: gameId,
@@ -87,34 +106,41 @@ async function fetchGameData(gameId) {
   }
 }
 
+
 // Function to write game data to a JSON file
 async function saveToJSON(games, page) {
-  const outputFile = `./data/page_${page}.json`;
+  const outputFile = `./data/d_${page}.json`;
   fs.writeFileSync(outputFile, JSON.stringify(games, null, 2));
   console.log(`Saved ${games.length} games to ${outputFile}`);
 }
+
 
 // Main function to scrape, fetch, and save data
 (async function main() {
   try {
     // Modify p values to decide which page(s) to scrape
-    for (let p = 11; p <= 11; p++) {
+    for (let p = 1; p <= 10; p++) {
+      console.log(`Processing page ${p}...`);
+
+
       const ids = await getTopRankedIDs(p);
       const allGameData = [];
+
 
       for (const gameId of ids) {
         const data = await fetchGameData(gameId);
         if (data) {
           allGameData.push(data);
         }
-        
+       
         // Wait 2 seconds before the next request
         console.log(`Waiting 2 seconds before the next request...`);
         await delay(2000);
       }
-      
+     
       await saveToJSON(allGameData, p);
     }
+
 
     console.log('Finished scraping and saving top-ranked board games.');
   } catch (err) {
