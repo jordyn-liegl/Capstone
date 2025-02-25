@@ -19,14 +19,21 @@ interface SearchParams {
   players: string;
   maxPlayingTime: string;
   minAge: string;
+  categories: string[];
+  mechanics: string[];
 }
+
+const categoriesList = ['Card Game', 'Fantasy', 'Economic', 'Fighting', 'Science Fiction', 'Exploration', 'Adventure', 'Miniatures', 'City Building', 'Wargame'];
+const mechanicsList = ['Hand Management', 'Variable Player Powers', 'Dice Rolling', 'Solo / Solitaire Game', 'Open Drafting', 'Set Collection', 'Area Majority / Influence', 'Modular Board', 'Cooperative Game', 'Tile Placement'];
 
 export default function Home() {
   const [step, setStep] = useState<number>(0);
   const [searchParams, setSearchParams] = useState<SearchParams>({
     players: '',
     maxPlayingTime: '',
-    minAge: ''
+    minAge: '',
+    categories: [],
+    mechanics: []
   });
 
   const [recommendations, setRecommendations] = useState<BoardGameSource[]>([]);
@@ -44,6 +51,15 @@ export default function Home() {
     }));
   };
 
+  const toggleSelection = (type: 'categories' | 'mechanics', value: string) => {
+    setSearchParams(prev => ({
+      ...prev,
+      [type]: prev[type].includes(value)
+        ? prev[type].filter(item => item !== value)
+        : [...prev[type], value]
+    }));
+  };
+
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     setLoading(true);
@@ -54,47 +70,62 @@ export default function Home() {
     const minAge = Number(searchParams.minAge);
 
     if (isNaN(numPlayers) || numPlayers <= 0) {
-      alert('Please enter a valid number of players.');
-      setLoading(false);
-      return;
+        alert('Please enter a valid number of players.');
+        setLoading(false);
+        return;
     }
 
     try {
-      const query: any = {
-        bool: {
-          must: [
-            { range: { minPlayers: { lte: numPlayers } } },
-            { range: { maxPlayers: { gte: numPlayers } } }
-          ]
+        const query: any = {
+            bool: {
+                must: [
+                    { range: { minPlayers: { lte: numPlayers } } },
+                    { range: { maxPlayers: { gte: numPlayers } } }
+                ],
+                should: [], 
+                minimum_should_match: 1 
+            }
+        };
+
+        if (maxTime > 0) {
+            query.bool.must.push({ range: { playingTime: { lte: maxTime } } });
         }
-      };
 
-      if (maxTime > 0) {
-        query.bool.must.push({ range: { playingTime: { lte: maxTime } } });
-      }
+        if (minAge > 0) {
+            query.bool.must.push({ range: { age: { lte: minAge } } });
+        }
 
-      if (minAge > 0) {
-        query.bool.must.push({ range: { age: { lte: minAge } } });
-      }
+        if (searchParams.categories.length > 0) {
+            query.bool.should.push({ terms: { category: searchParams.categories } });
+        }
 
-      const res = await fetch(`${ELASTICSEARCH_URL}/boardgames/_search`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ query, size: 3 })
-      });
+        if (searchParams.mechanics.length > 0) {
+            query.bool.should.push({ terms: { mechanics: searchParams.mechanics } });
+        }
 
-      if (!res.ok) throw new Error(`Error: ${res.status}`);
+        if (query.bool.should.length === 0) {
+            delete query.bool.minimum_should_match;
+        }
 
-      const data = await res.json();
-      setSearched(true);
-      setRecommendations(data?.hits?.hits.map((hit: any) => hit._source) || []);
+        const res = await fetch(`${ELASTICSEARCH_URL}/boardgames/_search`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ query, size: 3 })
+        });
+
+        if (!res.ok) throw new Error(`Error: ${res.status}`);
+
+        const data = await res.json();
+        setSearched(true);
+        setRecommendations(data?.hits?.hits.map((hit: any) => hit._source) || []);
     } catch (err) {
-      console.error('Error fetching recommendation:', err);
-      setRecommendations([]);
+        console.error('Error fetching recommendation:', err);
+        setRecommendations([]);
     } finally {
-      setLoading(false);
+        setLoading(false);
     }
-  };
+};
+
 
   const handleNext = () => setStep(prev => prev + 1);
   const handleBack = () => setStep(prev => prev - 1);
@@ -103,18 +134,18 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Pick A Board Game</title>
-        <meta name='description' content='Generate the best board game for you' />
+        <meta name="description" content="Generate the best board game for you" />
       </Head>
 
       <main className={styles.main}>
         <center>
-          <Image src='/boardum.png' alt='boardum' width={400} height={400} />
+          <Image src="/boardum.png" alt="boardum" width={400} height={400} />
         </center>
 
-        <AnimatePresence mode='wait'>
+        <AnimatePresence mode="wait">
           {step === 0 && (
             <motion.div
-              key='step1'
+              key="step1"
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: 50 }}
@@ -122,9 +153,9 @@ export default function Home() {
             >
               <h2>Step 1: Enter Number of Players</h2>
               <input
-                name='players'
-                type='number'
-                placeholder='e.g. 4'
+                name="players"
+                type="number"
+                placeholder="e.g. 4"
                 value={searchParams.players}
                 onChange={handleInputChange}
               />
@@ -136,7 +167,7 @@ export default function Home() {
 
           {step === 1 && (
             <motion.div
-              key='step2'
+              key="step2"
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: 50 }}
@@ -144,9 +175,9 @@ export default function Home() {
             >
               <h2>Step 2: Enter Maximum Playing Time (minutes)</h2>
               <input
-                name='maxPlayingTime'
-                type='number'
-                placeholder='e.g. 60'
+                name="maxPlayingTime"
+                type="number"
+                placeholder="e.g. 60"
                 value={searchParams.maxPlayingTime}
                 onChange={handleInputChange}
               />
@@ -159,7 +190,7 @@ export default function Home() {
 
           {step === 2 && (
             <motion.div
-              key='step3'
+              key="step3"
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: 50 }}
@@ -167,12 +198,66 @@ export default function Home() {
             >
               <h2>Step 3: Enter Minimum Age</h2>
               <input
-                name='minAge'
-                type='number'
-                placeholder='e.g. 12'
+                name="minAge"
+                type="number"
+                placeholder="e.g. 12"
                 value={searchParams.minAge}
                 onChange={handleInputChange}
               />
+              <div className={styles.buttonGroup}>
+                <button className={styles.navButton} onClick={handleBack}>←</button>
+                <button className={styles.navButton} onClick={handleNext}>→</button>
+              </div>
+            </motion.div>
+          )}
+
+          {step === 3 && (
+            <motion.div
+              key="step4"
+              initial={{ opacity: 0, x: -50 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: 50 }}
+              transition={{ duration: 0.5 }}
+            >
+              <h2>Step 4: Select Categories</h2>
+              <div className={styles.buttonGroup}>
+                {categoriesList.map((category) => (
+                  <button
+                    key={category}
+                    className={`${styles.optionButton} ${searchParams.categories.includes(category) ? styles.selected : ''}`}
+                    onClick={() => toggleSelection('categories', category)}
+                  >
+                    {category}
+                  </button>
+                ))}
+              </div>
+              <div className={styles.buttonGroup}>
+                <button className={styles.navButton} onClick={handleBack}>←</button>
+                <button className={styles.navButton} onClick={handleNext}>→</button>
+              </div>
+            </motion.div>
+          )}
+
+          {step === 4 && (
+            <motion.div
+              key="step5"
+              initial={{ opacity: 0, x: -50 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: 50 }}
+              transition={{ duration: 0.5 }}
+            >
+              <h2>Step 5: Select Mechanics</h2>
+              <div className={styles.buttonGroup}>
+                {mechanicsList.map((mechanic) => (
+                  <button
+                    key={mechanic}
+                    className={`${styles.optionButton} ${searchParams.mechanics.includes(mechanic) ? styles.selected : ''}`}
+                    onClick={() => toggleSelection('mechanics', mechanic)}
+                  >
+                    {mechanic}
+                  </button>
+                ))}
+              </div>
               <div className={styles.buttonGroup}>
                 <button className={styles.navButton} onClick={handleBack}>←</button>
                 <button className={styles.submitButton} onClick={handleSubmit}>{loading ? '⏳' : '✔'}</button>
@@ -228,3 +313,4 @@ export default function Home() {
     </div>
   );
 }
+

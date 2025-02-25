@@ -120,6 +120,25 @@
     box-shadow: 0 6px 16px rgba(129, 107, 255, 0.4);
 }
 
+.optionButton {
+    margin: 5px;
+    padding: 10px 15px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s;
+  }
+  
+  .optionButton:hover {
+    background-color: #ddd;
+  }
+  
+  .selected {
+    background-color: #333;
+    color: white;
+  }  
+
 /* Grid container for results */
 .resultsGrid {
     display: grid;
