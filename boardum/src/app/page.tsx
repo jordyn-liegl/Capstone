@@ -1,52 +1,134 @@
-"use client"; // Only if you're in Next.js 13 app router and want client-side code.
+"use client";
 
 import { useState, FormEvent } from 'react';
 import Head from 'next/head';
+import Image from 'next/image';
+import { motion, AnimatePresence } from 'framer-motion';
 import styles from './Home.module.css';
 
-// 1. Define an interface that matches what randomGame._source contains.
 interface BoardGameSource {
   name: string;
   minPlayers: number;
   maxPlayers: number;
   playingTime: number;
+  age: number;
   description: string;
-  // Add any other fields you have in _source
 }
 
-export default function Home() {
-  // 2. "players" can stay as a string if you're just storing input from a field.
-  const [players, setPlayers] = useState<string>('');
-  // 3. recommendation is either null or a BoardGameSource
-  const [recommendation, setRecommendation] = useState<BoardGameSource | null>(null);
-  const [loading, setLoading] = useState<boolean>(false);
+interface SearchParams {
+  players: string;
+  maxPlayingTime: string;
+  minAge: string;
+  categories: string[];
+  mechanics: string[];
+}
 
-  // 4. Type the event if you'd like (FormEvent<HTMLFormElement>)
+const categoriesList = ['Card Game', 'Fantasy', 'Economic', 'Fighting', 'Science Fiction', 'Exploration', 'Adventure', 'Miniatures', 'City Building', 'Wargame'];
+const mechanicsList = ['Hand Management', 'Variable Player Powers', 'Dice Rolling', 'Solo / Solitaire Game', 'Open Drafting', 'Set Collection', 'Area Majority / Influence', 'Modular Board', 'Cooperative Game', 'Tile Placement'];
+
+export default function Home() {
+  const [step, setStep] = useState<number>(0);
+  const [searchParams, setSearchParams] = useState<SearchParams>({
+    players: '',
+    maxPlayingTime: '',
+    minAge: '',
+    categories: [],
+    mechanics: []
+  });
+
+  const [recommendations, setRecommendations] = useState<BoardGameSource[]>([]);
+  const [selectedGame, setSelectedGame] = useState<BoardGameSource | null>(null);
+  const [loading, setLoading] = useState<boolean>(false);
+  const [searched, setSearched] = useState<boolean>(false);
+
+  const ELASTICSEARCH_URL = process.env.NEXT_PUBLIC_ELASTICSEARCH_URL ?? 'http://localhost:9200';
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const { name, value } = e.target;
+    setSearchParams(prev => ({
+      ...prev,
+      [name]: value
+    }));
+  };
+
+  const toggleSelection = (type: 'categories' | 'mechanics', value: string) => {
+    setSearchParams(prev => ({
+      ...prev,
+      [type]: prev[type].includes(value)
+        ? prev[type].filter(item => item !== value)
+        : [...prev[type], value]
+    }));
+  };
+
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     setLoading(true);
+    setSearched(false);
+
+    const numPlayers = Number(searchParams.players);
+    const maxTime = Number(searchParams.maxPlayingTime);
+    const minAge = Number(searchParams.minAge);
+
+    if (isNaN(numPlayers) || numPlayers <= 0) {
+        alert('Please enter a valid number of players.');
+        setLoading(false);
+        return;
+    }
 
     try {
-      const res = await fetch(`/api/recommendations?players=${players}`);
-      // The response is presumably an array of Elasticsearch hits 
-      // shaped like: [ { _source: BoardGameSource }, ... ]
-      const data = await res.json();
+        const query: any = {
+            bool: {
+                must: [
+                    { range: { minPlayers: { lte: numPlayers } } },
+                    { range: { maxPlayers: { gte: numPlayers } } }
+                ],
+                should: [], 
+                minimum_should_match: 1 
+            }
+        };
 
-      if (data && data.length > 0) {
-        const randomGame = data[Math.floor(Math.random() * data.length)];
-        // Here randomGame._source is of type BoardGameSource
-        // So we store only that part in recommendation
-        setRecommendation(randomGame._source);
-      } else {
-        setRecommendation(null);
-      }
+        if (maxTime > 0) {
+            query.bool.must.push({ range: { playingTime: { lte: maxTime } } });
+        }
+
+        if (minAge > 0) {
+            query.bool.must.push({ range: { age: { lte: minAge } } });
+        }
+
+        if (searchParams.categories.length > 0) {
+            query.bool.should.push({ terms: { category: searchParams.categories } });
+        }
+
+        if (searchParams.mechanics.length > 0) {
+            query.bool.should.push({ terms: { mechanics: searchParams.mechanics } });
+        }
+
+        if (query.bool.should.length === 0) {
+            delete query.bool.minimum_should_match;
+        }
+
+        const res = await fetch(`${ELASTICSEARCH_URL}/boardgames/_search`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ query, size: 3 })
+        });
+
+        if (!res.ok) throw new Error(`Error: ${res.status}`);
+
+        const data = await res.json();
+        setSearched(true);
+        setRecommendations(data?.hits?.hits.map((hit: any) => hit._source) || []);
     } catch (err) {
-      console.error('Error fetching recommendation:', err);
-      setRecommendation(null);
+        console.error('Error fetching recommendation:', err);
+        setRecommendations([]);
     } finally {
-      setLoading(false);
+        setLoading(false);
     }
-  };
+};
+
+
+  const handleNext = () => setStep(prev => prev + 1);
+  const handleBack = () => setStep(prev => prev - 1);
 
   return (
     <div className={styles.container}>
@@ -56,41 +138,179 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Find Your Perfect Board Game
-        </h1>
+        <center>
+          <Image src="/boardum.png" alt="boardum" width={400} height={400} />
+        </center>
 
-        <p className={styles.description}>
-          Feeling indecisive? Let us recommend a board game for you!
-        </p>
+        <AnimatePresence mode="wait">
+          {step === 0 && (
+            <motion.div
+              key="step1"
+              initial={{ opacity: 0, x: -50 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: 50 }}
+              transition={{ duration: 0.5 }}
+            >
+              <h2>Step 1: Enter Number of Players</h2>
+              <input
+                name="players"
+                type="number"
+                placeholder="e.g. 4"
+                value={searchParams.players}
+                onChange={handleInputChange}
+              />
+              <div className={styles.buttonGroup}>
+                <button className={styles.navButton} onClick={handleNext}>→</button>
+              </div>
+            </motion.div>
+          )}
 
-        <form onSubmit={handleSubmit} className={styles.form}>
-          <label htmlFor="players">Number of Players</label>
-          <input
-            id="players"
-            type="number"
-            placeholder="e.g. 4"
-            value={players}
-            onChange={(e) => setPlayers(e.target.value)}
-            required
-          />
-          <button type="submit" className={styles.btn}>
-            {loading ? 'Picking...' : 'Pick a Game'}
-          </button>
-        </form>
+          {step === 1 && (
+            <motion.div
+              key="step2"
+              initial={{ opacity: 0, x: -50 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: 50 }}
+              transition={{ duration: 0.5 }}
+            >
+              <h2>Step 2: Enter Maximum Playing Time (minutes)</h2>
+              <input
+                name="maxPlayingTime"
+                type="number"
+                placeholder="e.g. 60"
+                value={searchParams.maxPlayingTime}
+                onChange={handleInputChange}
+              />
+              <div className={styles.buttonGroup}>
+                <button className={styles.navButton} onClick={handleBack}>←</button>
+                <button className={styles.navButton} onClick={handleNext}>→</button>
+              </div>
+            </motion.div>
+          )}
 
-        {/* If we have a recommendation, display its fields */}
-        {recommendation && (
-          <div className={styles.resultCard}>
-            <h2>{recommendation.name}</h2>
-            <p>
-              Players: {recommendation.minPlayers} - {recommendation.maxPlayers}
-            </p>
-            <p>Play Time: {recommendation.playingTime} minutes</p>
-            <p className={styles.description}>{recommendation.description}</p>
+          {step === 2 && (
+            <motion.div
+              key="step3"
+              initial={{ opacity: 0, x: -50 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: 50 }}
+              transition={{ duration: 0.5 }}
+            >
+              <h2>Step 3: Enter Minimum Age</h2>
+              <input
+                name="minAge"
+                type="number"
+                placeholder="e.g. 12"
+                value={searchParams.minAge}
+                onChange={handleInputChange}
+              />
+              <div className={styles.buttonGroup}>
+                <button className={styles.navButton} onClick={handleBack}>←</button>
+                <button className={styles.navButton} onClick={handleNext}>→</button>
+              </div>
+            </motion.div>
+          )}
+
+          {step === 3 && (
+            <motion.div
+              key="step4"
+              initial={{ opacity: 0, x: -50 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: 50 }}
+              transition={{ duration: 0.5 }}
+            >
+              <h2>Step 4: Select Categories</h2>
+              <div className={styles.buttonGroup}>
+                {categoriesList.map((category) => (
+                  <button
+                    key={category}
+                    className={`${styles.optionButton} ${searchParams.categories.includes(category) ? styles.selected : ''}`}
+                    onClick={() => toggleSelection('categories', category)}
+                  >
+                    {category}
+                  </button>
+                ))}
+              </div>
+              <div className={styles.buttonGroup}>
+                <button className={styles.navButton} onClick={handleBack}>←</button>
+                <button className={styles.navButton} onClick={handleNext}>→</button>
+              </div>
+            </motion.div>
+          )}
+
+          {step === 4 && (
+            <motion.div
+              key="step5"
+              initial={{ opacity: 0, x: -50 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: 50 }}
+              transition={{ duration: 0.5 }}
+            >
+              <h2>Step 5: Select Mechanics</h2>
+              <div className={styles.buttonGroup}>
+                {mechanicsList.map((mechanic) => (
+                  <button
+                    key={mechanic}
+                    className={`${styles.optionButton} ${searchParams.mechanics.includes(mechanic) ? styles.selected : ''}`}
+                    onClick={() => toggleSelection('mechanics', mechanic)}
+                  >
+                    {mechanic}
+                  </button>
+                ))}
+              </div>
+              <div className={styles.buttonGroup}>
+                <button className={styles.navButton} onClick={handleBack}>←</button>
+                <button className={styles.submitButton} onClick={handleSubmit}>{loading ? '⏳' : '✔'}</button>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        {searched && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+          >
+            <h2>Recommended Games</h2>
+            <div className={styles.resultsGrid}>
+              {recommendations.length > 0 ? (
+                recommendations.map((game, index) => (
+                  <motion.div
+                    key={index}
+                    className={styles.resultCard}
+                    onClick={() => setSelectedGame(game)}
+                    whileHover={{ scale: 1.1 }}
+                  >
+                    <h3>{game.name}</h3>
+                    <p>Players: {game.minPlayers} - {game.maxPlayers}</p>
+                    <p>Play Time: {game.playingTime} minutes</p>
+                    <p>Minimum Age: {game.age}</p>
+                  </motion.div>
+                ))
+              ) : (
+                <p>No matching games found. Try different search parameters!</p>
+              )}
+            </div>
+          </motion.div>
+        )}
+
+        {selectedGame && (
+          <div className={styles.overlay} onClick={() => setSelectedGame(null)}>
+            <motion.div
+              className={styles.modal}
+              initial={{ scale: 0.8, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              transition={{ duration: 0.3 }}
+            >
+              <h2>{selectedGame.name}</h2>
+              <p dangerouslySetInnerHTML={{ __html: selectedGame.description.replace(/&#10;&#10;/g, '<br /><br />') }} />
+              <button className={styles.closeButton} onClick={() => setSelectedGame(null)}>Close</button>
+            </motion.div>
           </div>
         )}
       </main>
     </div>
   );
 }
+
