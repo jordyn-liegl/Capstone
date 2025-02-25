@@ -1,0 +1,2097 @@
+[
+  {
+    "id": "139899",
+    "name": "VivaJava: The Coffee Game: The Dice Game",
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playingTime": 40,
+    "age": 10,
+    "description": "VivaJava: The Coffee Game: The Dice Game &ndash; or, more simply, VivaJava Dice &ndash; is the successor to the well-received 2012 release of VivaJava: The Coffee Game. As in its predecessor, players of VivaJava Dice take on the roles of employees at the VivaJava CoffeeCo., scouring the globe for the best beans to keep the company on top while keeping themselves one step ahead of the rest of the executives.&#10;&#10;Also as in VivaJava, VivaJava Dice has players making the crucial decision between blending beans and research, but with a quick, new twist. Players must now use the dice in their pool to blend &ndash; using the beans to create a best-seller for quick points, then deciding whether to press their luck in subsequent rounds for bigger points but fewer dice as the blends degrade &ndash; or to research, which involves using their valuable beans to gain an ever-changing variety of dice-manipulating abilities, new ways to score, and paths that lead to aiding a competitor for a later payoff or hindering that competitor for immediate gratification. VivaJava Dice also offers a unique system of cooperative dice-rolling that can help you rise to the top, but at the price of someone else riding your coattails.&#10;&#10;With an astounding mix of plug-and-play research abilities, subtle social play in semi-cooperative mode, and the chance to hog all the glory and blend the best for yourself, VivaJava Dice is all about choice, making each game fast and furiously different.&#10;&#10;",
+    "categories": [
+      "Dice"
+    ],
+    "mechanics": [
+      "Dice Rolling",
+      "Modular Board",
+      "Paper-and-Pencil",
+      "Push Your Luck",
+      "Set Collection"
+    ],
+    "image": "https://cf.geekdo-images.com/aXyjPiABIvayGgmvplmMJg__thumb/img/6UdjTyGNp0iuTRTGWk0-xHAcqnY=/fit-in/200x150/filters:strip_icc()/pic2089536.jpg"
+  },
+  {
+    "id": "386502",
+    "name": "Amritsar: The Golden Temple",
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playingTime": 120,
+    "age": 14,
+    "description": "Amritsar, India is home to The Golden Temple or Sri Harmandir Sahib. This spectacular building is world-renowned as a sacred place for the Sikh community and one of the most famous pilgrimage destinations on Earth.&#10;After being demolished several times, Maharaja Ranjit Singh rebuilt it using marble, copper and 750 kilos of pure gold, hence its name.&#10;In Amritsar, the players will represent the different personalities of the time who helped the Maharaja of the Sikh Empire with the reconstruction of the Golden Temple.&#10;Using a clever mechanic based on the sowing system of the classic mancala games, players will use the different workers and their very own elephant to carry out the necessary tasks. On your turn, you will be able to perform 1-3 actions depending on how well you have coordinated the workers and your elephant. These actions will consist of collecting resources in the quarry or the market, advancing on the different paths of knowledge, improving your personal board, turning to your mahout (elephant rider) for help and above all making donations to the temple with the aim of obtaining as many prestige points as possible. At the end of the game, the player with the most prestige will be declared the winner of the game.&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+    "categories": [
+      "Territory Building"
+    ],
+    "mechanics": [
+      "Mancala",
+      "Rondel",
+      "Solo / Solitaire Game",
+      "Track Movement",
+      "Worker Placement",
+      "Worker Placement, Different Worker Types"
+    ],
+    "image": "https://cf.geekdo-images.com/GF21q3A5-3xNClH8MiwAbg__thumb/img/zmyjCI6wyL92DqszJC4FI_s2syo=/fit-in/200x150/filters:strip_icc()/pic7526676.jpg"
+  },
+  {
+    "id": "19841",
+    "name": "Pentago",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playingTime": 5,
+    "age": 8,
+    "description": "Pentago is an abstract strategy game for two players with four 3&times;3 grids arranged into a larger 6&times;6 grid. This game reimplements the well known Connect 4 with a twist: After placing a marble, the player has the option to twist one of the grids by 90&deg;, thus changing the board after every turn. The first player to get five marbles in a row wins.&#10;&#10;",
+    "categories": [
+      "Abstract Strategy"
+    ],
+    "mechanics": [
+      "Map Deformation",
+      "Pattern Building",
+      "Square Grid"
+    ],
+    "image": "https://cf.geekdo-images.com/FGZuDiLwPb8yHQR8Uvc__g__thumb/img/487XU51eQb6uMgbHh_cW43D8wsE=/fit-in/200x150/filters:strip_icc()/pic6813468.jpg"
+  },
+  {
+    "id": "269199",
+    "name": "Dizzle",
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playingTime": 30,
+    "age": 8,
+    "description": "In Dizzle, players want to fill their scorecards with dice collected each round. Players take turns selecting dice from the center of the table, and the next die they collect must match the others. At the end of a round, mark all boxes on your scorecard filled with dice.&#10;&#10;This might sound simple, but of course others will compete for the dice you need...&#10;&#10;",
+    "categories": [
+      "Dice"
+    ],
+    "mechanics": [
+      "Dice Rolling",
+      "Open Drafting",
+      "Paper-and-Pencil"
+    ],
+    "image": "https://cf.geekdo-images.com/T4STo4qr2HDhEnrwcRE2qA__thumb/img/h5mkzOuvF-IfaZDXfyo09cjzykI=/fit-in/200x150/filters:strip_icc()/pic4510286.jpg"
+  },
+  {
+    "id": "313",
+    "name": "Big Boss",
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playingTime": 90,
+    "age": 10,
+    "description": "Big Boss is a game of founding companies, expanding existing companies, taking over smaller companies and share buying. The game is explicitly based on the Sid Sackson classic Acquire and shares many similarities to that game though mergers are not as prevalent or crucial in Big Boss. The main differences between the two games include the three dimensional aspect of Big Boss, and the existence of a strong monetary incentive to expand companies that you do not control.&#10;&#10;",
+    "categories": [
+      "Economic",
+      "Industry / Manufacturing",
+      "Territory Building"
+    ],
+    "mechanics": [
+      "Commodity Speculation",
+      "Hand Management",
+      "Investment",
+      "Market",
+      "Stock Holding",
+      "Tile Placement",
+      "Victory Points as a Resource"
+    ],
+    "image": "https://cf.geekdo-images.com/88O6qyRRVOvWL9f7dh2_Pw__thumb/img/CT9oXELT2sVntXBR22HwA0Csr1w=/fit-in/200x150/filters:strip_icc()/pic7468155.png"
+  },
+  {
+    "id": "103686",
+    "name": "Mundus Novus",
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playingTime": 60,
+    "age": 14,
+    "description": "Spain, 16th century. You are a powerful ship owner in search of wealth from the recently discovered Mundus Novus (New World). Your goal: Charter fleets of caravels to collect valuable goods (including the legendary Inca relics) and trade to form the best sets to expand your business empire and make your fortune.&#10;&#10;The game is played using two decks of cards: a deck of resource cards, which contains cards representing ten different resources, and a deck of development cards, which give special benefits to their owners. The game is played in rounds, with each round consisting of four phases:&#10;&#10;Each round starts with the Event phase, in which a random event may occur that affects all players.&#10;&#10;The next phase is the Supply phase. Each player receives five random resource cards, plus one resource card for each caravel (a type of development card) that he owns, chosen from a common pool.&#10;&#10;Then, during the Trade phase, the players trade some of their cards. One of the players, the Trade Master, determines how many resource cards (2, 3 or 4) each player must offer for trade. The player that offers the resources with the highest value becomes the new Trade Master. He chooses one of the resources offered by one of the other players, and adds it to his hand, or exchanges it with a card from the market (three face-up cards that are available for such exchanges). Then, the player that he has taken a card from gets to take a card, and so on, until all the cards have been taken.&#10;&#10;Finally, during the Progression phase, the players exchange their resources for doubloons and developments. A player may exchange one set of three or more of the same resource for a development. Bigger combinations and rarer resources will allow more choice of which development can be selected from the five that are on offer. In addition, players can exchange sets of three or more different goods for doubloons, with bigger combinations earning more doubloons.&#10;&#10;If a player can make a combination of ten different cards (i.e., one of each type of resource), he wins the game. Alternatively, if a player has accumulated 75 doubloons, he wins the game. If no player has achieved victory by the time the development deck runs out, the player who has accumulated the most doubloons wins.&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Economic",
+      "Nautical",
+      "Renaissance"
+    ],
+    "mechanics": [
+      "Hand Management",
+      "Open Drafting",
+      "Set Collection",
+      "Trading"
+    ],
+    "image": "https://cf.geekdo-images.com/hJqNRXSPlaDRhCskyEgw7w__thumb/img/oLkjqQ6Cg9LPtvl4RdmRpMS_bFs=/fit-in/200x150/filters:strip_icc()/pic1077124.jpg"
+  },
+  {
+    "id": "130882",
+    "name": "Cardline: Animals",
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "playingTime": 15,
+    "age": 7,
+    "description": "Cardline: Animals is a card game played with 110 cards. Both sides of each card depict an animal, its name, and its class (amphibian, mammal, etc.), while its average length, weight, and lifespan are printed on only one side of the card. For each game, players decide before playing whether they're comparing animal lengths, weights, or lifespans.&#10;&#10;At the start of the game, each player places a number of animal cards on the table in front of her with the characteristics hidden. One card is placed in the center of the table with its characteristics revealed. Players then take turns placing a card from their tableau in a row on the table; a player can place a card between any two other cards. After placing the card, the player reveals the characteristics on it. If the card was placed correctly &ndash; that is, with the particular characteristic in numerical order compared to all other cards on the table &ndash; the card stays in place; otherwise the card is removed from play and the player takes another card from the deck and adds it to her tableau.&#10;&#10;The first player to get rid of all her cards by placing them correctly wins. If multiple players go out in the same round, then everyone else is eliminated from play and each of those players are dealt one more card for another round of play. If only one player has no cards after a bonus round, she wins; otherwise play continues until a single player goes out.&#10;&#10;",
+    "categories": [
+      "Animals",
+      "Card Game",
+      "Educational"
+    ],
+    "mechanics": [],
+    "image": "https://cf.geekdo-images.com/UuNZgbBvw-o6mboCwn5t-g__thumb/img/Qj0gNK8qvKuh8bXbJQSGcnZ_qiw=/fit-in/200x150/filters:strip_icc()/pic3154455.jpg"
+  },
+  {
+    "id": "73070",
+    "name": "Olympus",
+    "minPlayers": 3,
+    "maxPlayers": 5,
+    "playingTime": 120,
+    "age": 14,
+    "description": "In the Ancient Greece, the poleis (city-states) thrived increasing their population and culture, occasionally waging war against each other, erecting buildings and celebrating ceremonies to get the favour of the deities abiding on Mount Olympus. The players will lead one of these city-states (like Athens, Sparta, Corinth, Thebes, Argos and others) expanding it and worshipping the various gods in order to become the hegemonic power of the Peloponnesus!&#10;&#10;Olympus is a deterministic (i.e., non-random) strategy game, based on worker-placement, resource management and building an efficient engine to score victory points (VPs). It also features a few more aggressive options than the average game based on the same premises (but the savvy player knows how to defend against them, if he prefers to quietly develop his own position).&#10;&#10;Each player leads a city-state that is defined by six values representing population, culture, military and productivity of the three resources (grain, venison and fish). During your turn, you send one of your three priests to worship one of the ten deities (Zeus, Hera, Demetra, Artemis, Poseidon, Athena, Aphrodite, Ares, Hephaestus or Apollo). Each opponent can now send one of his priests to celebrate the ceremony with you. After that, the deity grants his favor to whoever has sent a worshipper: the favor is larger for the leading priest (the one of the active player) and smaller for all the others (for example, Athena boosts culture by two points for the city of leading priest and by one point for the others; of course no boost is given to those who refused to send a priest to worship her). That deity cannot be chosen again in the current turn.&#10;&#10;Since almost all deities are specialized in a certain field, the players must choose which ones they prefer to worship sooner (also guessing which ones may be of interest for the opponents and which ones are safer to skip as they will not be chosen until later) and when it is better to get a smaller benefit following the priest of another player rather than saving a priest to get a greater boon but in a field that may not interest them as much (sort of quality over quantity).&#10;&#10;The resources your city produces (worshipping the correct deities) can be spent (worshipping other deities) to create buildings giving a variety of effects (and VPs), thus offering a lot of different strategic approaches to the game. Victory can be achieved with a plethora of buildings but also with very few ones. There are 45 different buildings: 33 can be built by anyone (even if someone else already did), while the other 12 are unique as only one copy of each can exist (introducing another element of contention between the players). You can also wage war to steal the resources of the other cities (if they were so foolish to keep their warehouses full and their military underdeveloped, it's just what they deserve) or invoke a terrible plague to decimate their population.&#10;&#10;All the actions (development, production, building, war, scoring, etc.) are done by worshipping the proper deity (and some gods give you a choice like &quot;do you develop your grain productivity &ndash; thus receiving more grain the next time you will produce it &ndash; or do you produce it now even if you won't get much?&quot;, adding crucial tactical decisions to the game).&#10;&#10;When all the priests have been used, there's a brief upkeep to check some simple conditions (e.g., players with more than five unused resources must discard those in excess) and then a new turn begins (all priests return home and all deities can be worshipped again).&#10;&#10;Being the first to reach the maximum value in a certain field (e.g. culture 10) gives you an award worth two VPs. When four of these awards are claimed, the game ends. Each player receives bonus points based on how developed his city is and the highest score wins.&#10;&#10;",
+    "categories": [
+      "Ancient",
+      "City Building",
+      "Civilization",
+      "Mythology"
+    ],
+    "mechanics": [
+      "Follow",
+      "Take That",
+      "Variable Phase Order",
+      "Worker Placement"
+    ],
+    "image": "https://cf.geekdo-images.com/m_JBSpZ1lj4jyD-RY1-mJw__thumb/img/yLElRHA-YOI2yX0o4kX7UfS4fAo=/fit-in/200x150/filters:strip_icc()/pic1280009.jpg"
+  },
+  {
+    "id": "358690",
+    "name": "MANTIS",
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playingTime": 10,
+    "age": 7,
+    "description": "Mantis has only two rules: Steal or Score your way to victory. Collect matching cards by stealing or scoring until the winner has 10 cards in their score pile.&#10;&#10;With the simplicity of UNO and depth of Gin Rummy, Mantis is designed for both kids and adults. But adults should be warned that kids will often beat them at this game.&#10;&#10;",
+    "categories": [
+      "Card Game"
+    ],
+    "mechanics": [
+      "Hand Management",
+      "Push Your Luck",
+      "Set Collection",
+      "Take That"
+    ],
+    "image": "https://cf.geekdo-images.com/lEkzT07ZX_iDNBusFDS_jA__thumb/img/OAi6sxJMeIyuP7ANxhDNRu08wUY=/fit-in/200x150/filters:strip_icc()/pic6811649.png"
+  },
+  {
+    "id": "247342",
+    "name": "Village Pillage",
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playingTime": 20,
+    "age": 10,
+    "description": "Protect your borders, attack your neighbors, and be the first to collect three turnip relics!&#10;&#10;Village Pillage is a 2-5 player game for players 10 and up, featuring simultaneous play and action on all fronts. Each turn, players simultaneously choose two cards from their hand and play one against each neighbor. All cards are revealed at once, then resolved in order: Farmers, Walls, Raiders, Merchants. Farmers produce turnips, Walls block Raiders, Raiders steal turnips, and Merchants either add new cards to your hand or help you purchase a relic. All cards return to hand, and the next round begins! The game ends as soon as any one player has three royal relics.&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Fantasy",
+      "Farming",
+      "Humor",
+      "Medieval"
+    ],
+    "mechanics": [
+      "Hand Management",
+      "Rock-Paper-Scissors",
+      "Simultaneous Action Selection",
+      "Take That"
+    ],
+    "image": "https://cf.geekdo-images.com/1MXXf54JPFnJpQ8iF2wQ0g__thumb/img/KXBDISQ9ol_xdFVvuxWa9CMmu8M=/fit-in/200x150/filters:strip_icc()/pic4055313.png"
+  },
+  {
+    "id": "303554",
+    "name": "Winter Kingdom",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 60,
+    "age": 14,
+    "description": "Winter Kingdom features seven, double-sided hexagonal map tiles that are randomly arranged into the playing area. After that, three scoring conditions, one economy card (showing how players earn money), and one twist card are dealt, giving the unique features of the game. Each player is dealt five ability cards and one terrain card.&#10;&#10;On your turn, you must place three houses in the terrain depicted on your terrain card. If possible, you must place the houses next to previously placed houses. (If not possible, they may be placed anywhere that matches the terrain on the card.) You also start the game with a limited number of forts, which can replace any house and which count as two pieces.&#10;&#10;After placing houses, you may use your gold to make one purchase, either paying the cost to put one ability card into play or paying an additional cost on a previously placed ability to upgrade it. Once purchased, the ability may be used once per turn for the rest of the game. You start the game with a little gold to buy abilities and can earn more gold based on the economy card in play for that game.&#10;&#10;The game ends once one player is out of both houses and forts. Players score based on the criteria of the scoring cards for that game; in addition, whoever has the most houses next to each castle scores 3 additional points. The player with the most points wins.&#10;&#10;",
+    "categories": [],
+    "mechanics": [
+      "Hexagon Grid",
+      "Modular Board",
+      "Network and Route Building",
+      "Tile Placement",
+      "Variable Set-up"
+    ],
+    "image": "https://cf.geekdo-images.com/TSuYOT_8INwrGIUe7gymVw__thumb/img/LM3bJ6dbyCknWWn3SCQx4OkJhaU=/fit-in/200x150/filters:strip_icc()/pic5309968.jpg"
+  },
+  {
+    "id": "9215",
+    "name": "Revolution: The Dutch Revolt 1568-1648",
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playingTime": 480,
+    "age": 12,
+    "description": "(from Phalanx Games:)&#10;&#10;Revolution: The Dutch Revolt simulates the Eighty Years' War between Spain and the Netherlands. This epic struggle lasted from 1568 until 1648 and eventually brought independence to Holland and the northern provinces. In the south, the revolt was less successful and Belgium did not emerge as an independent state until after the Napoleonic era.&#10;&#10;During the initial stages of the struggle, William of Orange became the symbol of freedom. His main adversary was the Spanish King Philip II, who sent in the Duke of Alba with his formidable conquistadores to stop the rebellion.&#10;&#10;Revolution depicts a power struggle with many facets. Each player represents one of the principal factions involved: the Catholics, Habsburgs, Nobility, Burghers and Reformers. Each faction has its particular goals, which are often partly common. Although factions may sometimes co-operate, they are not allies for long and easily turn on each other if the situation calls for this.&#10;&#10;Historically, there were periods of open warfare and others of uneasy peace. The reforming factions gradually became more established, particularly in the north and along the coast. The once supreme Habsburg armies were slowly driven out of these areas through a series of siege battles. The defeat of the mighty Armada by a combined Dutch/English fleet in 1588 cost the Spaniards dearly. The Catholics were eventually allowed to retain some of their influence, while the local Nobility, initially catholic but with local sympathies, succeeded or failed according to their willingness to accept the changed circumstances.&#10;&#10;This game is not a detailed military re-enactment of the Eighty Years' War. It tries to capture the flavor of these interesting times in a much broader sense. It contains an element of warfare in the form of battles and sieges but the main theme is built on economic, religious and political control. The constantly shifting balance of power, caused by temporary alliances, makes Revolution an immensely challenging game, and not for the faint-hearted. Clever and timely use of available resources, including those of foreign sympathizers and allies, is needed to achieve ultimate success.&#10;&#10;Revolution: The Dutch Revolt was more than 15 years in the making, and marks Francis Tresham's long-awaited return to the forefront of game design. He is most famous for his widely acclaimed board games Civilization and 1829.&#10;&#10;Revolution: The Dutch Revolt includes 1 large gameboard, 41 playing cards, 416 colorful game pieces (56 resource pieces in each of 5 colors, 8 army pieces in each of 5 colors, 47 neutral pieces, 3 water beggars, 1 VP marker for each color, 1 game turn marker and 40 status markers), 1 player aid card and 1 rules booklet.&#10;&#10;",
+    "categories": [
+      "Pike and Shot",
+      "Political",
+      "Renaissance",
+      "Wargame"
+    ],
+    "mechanics": [
+      "Area Majority / Influence",
+      "Simulation",
+      "Variable Player Powers"
+    ],
+    "image": "https://cf.geekdo-images.com/EbF3Ps_FRtz8yT1anga9tQ__thumb/img/QEfoTUWtLEgOiQo2UUKf2kRNmSU=/fit-in/200x150/filters:strip_icc()/pic54565.jpg"
+  },
+  {
+    "id": "247314",
+    "name": "Concept Kids: Animals",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "playingTime": 20,
+    "age": 4,
+    "description": "Concept Kids Animals is a cooperative version of the game Concept, adapted for children who don&rsquo;t yet know how to read.&#10;&#10;In turn, the children attempt to make the others guess an animal by playing pawns on the illustrated icons on the game board. Through this, the child indicates a feature of the animal to be guessed. Draw 12 cards and attempt to find as many animals as possible in order to get the most points together!&#10;&#10;Concept Kids Animals offers 110 animals to be guessed, divided into two difficulty levels. Beautifully illustrated by &Eacute;ric Azagury, this communication game for children will allow them to discover the world of animals in a fun and innovative way.&#10;&#10;",
+    "categories": [
+      "Animals",
+      "Card Game",
+      "Children's Game",
+      "Deduction"
+    ],
+    "mechanics": [
+      "Communication Limits",
+      "Cooperative Game"
+    ],
+    "image": "https://cf.geekdo-images.com/JmQ5V6UobToAeWnt2O5eZQ__thumb/img/OdpetBzOKBc9CXIbB4VgZ_AW58Y=/fit-in/200x150/filters:strip_icc()/pic4268509.jpg"
+  },
+  {
+    "id": "256066",
+    "name": "Warhammer 40,000: Kill Team",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 60,
+    "age": 12,
+    "description": "Kill Team is the game of skirmish combat in the 41st Millennium.&#10;&#10;Set in the same universe and using the same miniatures ranges as Warhammer 40,000 but with a different rules set, it allows you to play a game of fast-paced tactical skirmish combat in games of 2-4 players, in less time and with a fraction of the models you&rsquo;d need to play a full game of Warhammer 40,000.&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+    "categories": [
+      "Miniatures",
+      "Science Fiction",
+      "Wargame"
+    ],
+    "mechanics": [
+      "Dice Rolling",
+      "Line of Sight",
+      "Measurement Movement",
+      "Simulation",
+      "Variable Player Powers"
+    ],
+    "image": "https://cf.geekdo-images.com/nfUzKd7cslRijhjgCEX1Xg__thumb/img/hpJ7H833SZ5vsF9ef2ZfT9VTuAk=/fit-in/200x150/filters:strip_icc()/pic4230177.jpg"
+  },
+  {
+    "id": "224483",
+    "name": "Exceed Fighting System",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playingTime": 30,
+    "age": 10,
+    "description": "&#10;&#10;&#10;    &#10;        GAME SYSTEM&#10;&#10;    &#10;    &#10;         This entry is to allow for discussion/rating of the game system as a whole. It is not for a specific product or release. Versions will appear on the individual item pages.&#10;&#10;    &#10;&#10;&#10;&#10; Bring the fast-paced action of head-to-head arcade fighting games to your tabletop with the Exceed Fighting System, which features fast-paced, intuitive mechanisms and gameplay that's accessible to gamers and non-gamers of all skill levels. Choose your fighter from an ever-growing roster of diverse characters, each with their own deck of special moves and supers. Play your cards to unleash fireballs, dragon punches, and deadly combos on your opponents!&#10;&#10;Titles in the Exceed Fighting System come in one of two forms: standalone games that contain decks that allow two players to compete against one another, and individual decks. The standalone games are being released in &quot;seasons&quot;, with each season containing sixteen fighters from various franchises or worlds that are packaged into four-character boxes. Any deck can be played against any other deck, allowing you to compete across seasons and across worlds.&#10;&#10;&#10;     Season 1 features the art and characters of Jasco Games' Red Horizon, which was first featured in the UFS Collectible Card Game.&#10;     Season 2 features the monstrous heroes and villains of Seventh Cross, an upcoming game world from Level 99 Games.&#10;     Season 3 features iconic, fan-favorite, well-known characters from Capcom's Street Fighter.&#10;     Season 4 features the heroes and villains of Shovel Knight.&#10;     Season 5 features fighters from BlazBlue published by Arc System Works.&#10;     Season 6 features 19 characters from Under Night In-Birth also published by Arc System Works.&#10;&#10;&#10;",
+    "categories": [
+      "Bluffing",
+      "Card Game",
+      "Fantasy",
+      "Fighting",
+      "Video Game Theme"
+    ],
+    "mechanics": [
+      "Deduction",
+      "Hand Management",
+      "Multi-Use Cards",
+      "Programmed Movement",
+      "Resource to Move",
+      "Rock-Paper-Scissors",
+      "Simultaneous Action Selection",
+      "Take That",
+      "Track Movement",
+      "Turn Order: Claim Action",
+      "Turn Order: Stat-Based",
+      "Variable Player Powers"
+    ],
+    "image": "https://cf.geekdo-images.com/3b_uPDiStmx29UBY2eiCoQ__thumb/img/1VCDyNNdjlAWCBLxpsBlfxub8NE=/fit-in/200x150/filters:strip_icc()/pic4226153.png"
+  },
+  {
+    "id": "19643",
+    "name": "World of Warcraft Trading Card Game",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playingTime": 20,
+    "age": 12,
+    "description": "This is a collectible trading card game published by Upper Deck in 2006 (Cryptozoic Entertainment took over the license and game in 2010) based on the massively multi-player online roleplaying game &quot;World of Warcraft.&quot;&#10;&#10;The World of Warcraft Trading Card Game draws from the rich lore of the Warcraft universe. Two factions are battling for supremacy over Azeroth&mdash;the Horde and the Alliance&mdash;and each time you play, you choose a hero from one of these factions to represent you. Your hero is the leader of your party who fights alongside your allies. The cards that you play will allow you to equip your hero with weapons and armor, use spells and talents, invite allies into your party, and complete quests. With each successive TCG set, the theme and cards echo the current max-level content from the online game.&#10;&#10;The object of the game is to defeat your opponents before they defeat you. Over the course of the game, your hero and allies will deal damage to your opponents&rsquo; heroes and allies, and that damage is permanent unless it is healed. If your hero takes damage equal to or greater than his or her health, you&rsquo;re out of the game.&#10;&#10;Sets released&#10;&#10;Heroes of Azeroth (released October 2006) &#10;Through the Dark Portal (released April 2007) &#10;Fires of Outland (released August 2007) &#10;March of The Legion (released December 2007) &#10;Servants of the Betrayer (released April 2008) &#10;The Hunt for Illidan (released July 2008) &#10;Drums of War (released November 2008) &#10;Blood of Gladiators (released March 2009) &#10;Fields of Honor (released June 2009) &#10;Scourgewar (released November 2009) &#10;Wrathgate (released May 2010) &#10;Class Starter deck (July 2010)&#10;Archives (released August 2010)&#10;Icecrown (released September 2010)&#10;Worldbreaker (released December 2010)&#10;War of the Elements (released April 2011)&#10;Twilight of the Dragons (released July 2011)&#10;Throne of the Tides (released October 2011)&#10;Crown of the Heavens (released February 2012)&#10;Tomb of the Forgotten (released June 2012)&#10;War of the Ancients (released October 2012)&#10;Betrayal of the Guardian (released February 2013)&#10;Reign of Fire (released July 2013)&#10; Raid Decks&#10;&#10;Onyxia's Lair (December 2006) - Featuring the black dragon Onyxia. Contains special rules for the deck. &#10;Molten Core (May 2007) - Includes ten epic bosses, from Lucifron to Ragnaros the Firelord. It has a different ruleset than the Onyxia's Lair Raid Deck. &#10;Magtheridon's Lair (January 2008) - Contains the Pit Lord Magtheridon, his shadow channelers, and the cubes required to interact with him. &#10;Black Temple (September 2008) - Based around Illidan Stormrage. Contains a 10 hero raid set with heroes such as Supremus and &quot;The Betrayer&quot;. &#10;Naxxramas (December 2009) - An undead necropolis, seat of the lich Kel'Thuzad. &#10;Assault On Icecrown Citadel (February 2011) - This four-player game has everything you and three friends need to play all out of the box. Play as Highlord Tirion Fordring, Lady Jaina Proudmoore, or Queen Sylvanas Windrunner and battle against the Lich King!&#10;Battle of the Aspects (August 2012) - The final confrontation with Deathwing, the corrupted Aspect of Earth.&#10;Caverns of Time (March 2013) - Take on iconic characters from the past, present, and future. Contains 8 raid heroes.&#10;&#10;Dungeon Decks&#10;&#10;There are now not just huge raids for players to play against but entirely new dungeons for you to explore and reclaim! Form a party with two friends to take on the dungeon denizens! You don't need a pilot for the Dungeon Deck as The deck plays itself! You can customize the Dungeon Deck for difficulty and your heros will level up as you gain experience and you can spend those experience points improving your player deck by adding cards. Each dungeon deck contains 60 cards per dungeon deck, Two Dungeon Boss cards, hero Character Sheets, Achievement Cards, and a Nine-card all-foil Treasure Pack (also sold seperately at $6.00 MSRP) for an MSRP of $20.00. These dungeon decks are specifically designed to be played against three Class Starter decks which are sold seperately, allowing for players to jump right into the experience without having to have a deep card collection.&#10;&#10;Shadowfang Keep (November 2011) &#10;Scarlet Monastery (Novemeber 2011)&#10;The Deadmines (November 2011)&#10;&#10;Periodically, bonus card sets are released independently to mark special events or dates.&#10;&#10;Feast of Winter Veil - A special collector's set released in November 2007 which corresponds with the holiday in the online game. This comes in a presentation box which contains a booster pack from Heroes of Azeroth, Through the Dark Portal or Fires of Outland, a deck box and 10 Winter Veil themed cards, as well as 2 vanity pets. &#10;Darkmoon Faire - A special collector's set released in September 2008 which includes 5 preset Darkmoon Faire themed cards and 2 Through the Dark Portal booster packs. &#10;Arena Grand Melee - A small collector's set released to supplement the Arena theme. This was released with two decks, one for the Alliance and one for the Horde. &#10;Burning Crusade Set - A set of 3 cards to mark the release of World of Warcraft: The Burning Crusade. Two Heroes of Azeroth starter decks were included alongside the exclusive cards. &#10;Wrath of the Lich King Set - 2 exclusive cards were included in the Collector's Edition of WotLK with 2 March of the Legion starter decks. &#10;Cataclysm set - Two exclusive hero cards, marking the first appearance of goblin and worgen heroes in the WOW:TCG. One 60-card deck from the new Wrathgate series featuring two extended art cards and visuals from several of fantasy's top creators.&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Collectible Components",
+      "Fantasy",
+      "Video Game Theme"
+    ],
+    "mechanics": [
+      "Hand Management",
+      "Variable Player Powers"
+    ],
+    "image": "https://cf.geekdo-images.com/uuxdxXdw5wLEzbZbxi0BpA__thumb/img/19bnKZOX_couOo_X044u66zvQzs=/fit-in/200x150/filters:strip_icc()/pic6521906.png"
+  },
+  {
+    "id": "254513",
+    "name": "The Grimm Masquerade",
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playingTime": 40,
+    "age": 8,
+    "description": "The Beast has invited you to his castle for a Masquerade. When you enter, you are magically transformed into the identity of another character from The Grimm Forest! The Beast enjoys his antics!&#10;&#10;Players will be outed if they are given 2 artifacts of their bane, but can win the magical masquerade if they are able to collect 3 artifacts of their favor.&#10;&#10;The Beast loves to watch the characters try and oust each other. Each player will draw 2 artifacts, keeping one for themselves and giving 1 to any player at the ball. This reveals a lot of information on both players. Why did you keep that artifact? Oh excuse me Snow White, I see you have 2 mirrors does that oust you as the Evil Queen?&#10;&#10;Turning in 2 Artifacts activates special actions as well, timing these well have great benefits!&#10;&#10;Don't worry if you are outed early, you take on the role of a Ghost, you get to guess what character you think will win the magical masquerade and if you are correct, you win along with them! You also take a turn handing out Artifacts to characters to try and sway the ball to your favor!&#10;&#10;The first player to collect 3 Artifacts of Favor or to be the last player remaining will win. All other players will be given a token in their defeat. When someone has 3 tokens, that triggers the end of the masquerade and we see which player was the best!&#10;&#10;-description from designer&#10;&#10;",
+    "categories": [
+      "Bluffing",
+      "Card Game",
+      "Deduction",
+      "Fantasy"
+    ],
+    "mechanics": [
+      "Deduction",
+      "Hidden Roles",
+      "Set Collection"
+    ],
+    "image": "https://cf.geekdo-images.com/xCV0HRT0YIvcIugEP-ZtGw__thumb/img/jrPJFcrUg4cUSOqQQGH1OAtgqu4=/fit-in/200x150/filters:strip_icc()/pic7493762.jpg"
+  },
+  {
+    "id": "367379",
+    "name": "Deal with the Devil",
+    "minPlayers": 4,
+    "maxPlayers": 4,
+    "playingTime": 150,
+    "age": 14,
+    "description": "Deal with the Devil is a deeply thematic competitive Eurogame set in a fantasy medieval era. Each of the four players takes on a secret role of a mortal, a cultist, or even the Devil. Due to the asymmetrical roles, players experience the same game but with different game goals every play.&#10;&#10;During the blind trading phase, players can offer their resources in exchange for money from another player. The Devil will tempt mortals with goods for a piece of their soul, while the cultist's nature is to sell their soul easily. Only the accompanying app knows who is trading with whom.&#10;&#10;But beware! Showing off how well you are doing can attract unwelcome attention and the suspicion of other players. It also may pique the interest of the Inquisition, which is eager to punish those who cannot prove their souls remain intact.&#10;&#10;There are many dynamic strategies to experiment with across each playing. Will you sell pieces of your soul early on to boost your city-building prowess at the risk of future punishment from the Inquisition? Or will you carefully manage loan and debt repayment while waiting for others to inadvertently reveal their nefarious nature? Every choice has a consequence, and each role has its own unique strategic approach to explore.&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+    "categories": [
+      "City Building",
+      "Deduction",
+      "Fantasy",
+      "Medieval"
+    ],
+    "mechanics": [
+      "Deduction",
+      "Events",
+      "Hidden Roles",
+      "Income",
+      "Loans",
+      "Trading",
+      "Variable Player Powers",
+      "Voting"
+    ],
+    "image": "https://cf.geekdo-images.com/DNZyEyGSihEgliX9fZ2Beg__thumb/img/9DSN6z2c7o7aqYN97eDWM2WEDNg=/fit-in/200x150/filters:strip_icc()/pic6972703.jpg"
+  },
+  {
+    "id": "16",
+    "name": "MarraCash",
+    "minPlayers": 3,
+    "maxPlayers": 4,
+    "playingTime": 60,
+    "age": 12,
+    "description": "Taking on the roles of shop owners in the Moroccan marketplace, players buy various shops, as color-coded tourists in the form of neat little wooden people in hats start showing up at the entry gate. Players can then move them into their own like-colored shops to earn money or move them into opponents' shops for a share of the profits. After all the tourists have been placed onto the board, the player with the biggest bankroll takes the victory. This game combines some great auction elements with spatial relationships for an appealing overall effect.&#10;&#10;Contents:&#10;  1 game board&#10;  1 blue auction stone&#10;  1 counter sheet with:&#10;      - 24 shop signs (6 each of Ali, Anfa, Omar and Leila)&#10;      -   4 player aid cards&#10;24  plastic stands&#10;54 pawns = &quot;visitors&quot; (14 yellow, 10 each of red, blue, green and purple)&#10;25 game cards with &quot;souvenirs&quot;&#10;Money in different values (500, 200, 100 and 25 Dirhams)&#10;&#10;",
+    "categories": [
+      "Economic"
+    ],
+    "mechanics": [
+      "Auction / Bidding"
+    ],
+    "image": "https://cf.geekdo-images.com/MG02VVqE39lZZdOgtJU0mg__thumb/img/okBWket3jiozTnncTFzXEM_Lpag=/fit-in/200x150/filters:strip_icc()/pic573942.jpg"
+  },
+  {
+    "id": "144568",
+    "name": "Dawn of the Zeds (Second Edition)",
+    "minPlayers": 1,
+    "maxPlayers": 1,
+    "playingTime": 90,
+    "age": 13,
+    "description": "THE BATTLE FOR FARMINGDALE&#10;&#10;States of SiegeTM #9&#10;&#10;Arising once again from the grave, from designer Hermann Luttmann and lavishly illustrated by Vinh Ha, arises Dawn of the Zeds Second Edition as you've never seen it before. In this States of Siege&trade; solitaire game of horror and survival, your strategies will be put to the test. The world has gone crazy &ndash; a deadly virus has turned ordinary people into vicious, zombie-like killers. The undead, nicknamed &quot;Zeds,&quot; are now converging on your corner of the world. You have been left to your own devices to stop them while the National Guard organizes a relief column and fights its way to you &ndash; but that could take days, or even weeks, before they arrive.&#10;&#10;At the town of Farmingdale and its surrounding villages, you must coordinate its defenses. Regular citizens may emerge as heroes as you work to halt the Zeds' advances by (re)killing them, discovering and implementing a cure to this vile scourge, and preserving the area and its inhabitants as much as possible. In addition to this madness, the crazy Doctor Marteuse has been working in the underground tunnels and unleashing his uber-deadly Super Zeds, a nasty bunch of beasts that give havoc a whole new name. Bring him to justice, destroy the infectious Zeds, and save your city from peril!&#10;&#10;In a game that requires the utmost test of skill and nerve, will you survive long enough? Will you be able to fight hordes of Zeds while protecting the townspeople? Test your heroics and unearth Dawn of the Zeds, a game that will keep you on your toes!&#10;&#10;What's New in 2nd Edition:&#10;&#10;- Contains a Tutorial Scenario for beginners, in addition to Classic and Walking Zeds Scenarios&#10;- Never before seen cards and counters, including the dreadful Super Zeds&#10;- Three different game lengths to choose from: Short, Standard, and Campaign Game&#10;- Four new Heroes: Wright, Kingman, Wilson, and Carter&#10;- An additional 5th track (the Tunnel Track)&#10;- All new and beautiful artwork&#10;- Bigger cards&#10;- A completely new, two-sided map (for each Scenario)&#10;- Several uniquely-shaped, colorful, laser-cut counters&#10;&#10;Game Data:&#10;&#10;Number of Players: 1 brave soul (with cooperative multi-player play included)&#10;Ages: 13 and up&#10;Playing Time: Approximately 45-90 minutes&#10;Complexity: 4 on a 9 scale (Intro), 6 on a 9 scale (Advanced)&#10;Solitaire Suitability: 9 on a 9 scale&#10;Scale: Each unit represents a single Hero plus their entourage, dozens of citizens, and hundreds of Zeds.&#10;&#10;What's In The Box?:&#10;&#10;&bull;    One 24-page Rules booklet (Extended Example of Play included)&#10;&bull;    123 thick, two-sided, multi-shaped, laser-cut game pieces&#10;&bull;    100 cards&#10;&bull;    One 11&rdquo; x 17&rdquo; two-sided color game map&#10;&bull;    One two-sided 8.5&quot;x11&quot; Player Aid&#10;&bull;    One two-sided 8.5&quot;x11&quot; Player Mat&#10;&bull;    One 4-page Quick Play booklet&#10;&bull;    One Quick Play Set Up sheet&#10;&bull;    Two six-sided 12mm dice&#10;&bull;    One 11&rdquo; x 17&rdquo; mounted, two-sided, jigsaw-cut game map&#10;&bull;    One bright red, 9&quot; x 11 7/8&quot; Deluxe cardboard VPG game box&#10;&bull;    One beautiful box cover sleeve&#10;&bull;    One &quot;Wipes-A-Lot&quot; napkin&#10;&bull;    One charcoal dessicant packet&#10;&#10;Polybag version has the paper board, not the mounted board.&#10;&#10;Newer prints will also include the updated, Tim Allen map spanning 2 11&quot;x17&quot; paper boards.&#10;&#10;",
+    "categories": [
+      "Horror",
+      "Zombies"
+    ],
+    "mechanics": [
+      "Campaign / Battle Card Driven",
+      "Dice Rolling",
+      "Point to Point Movement",
+      "Solo / Solitaire Game"
+    ],
+    "image": "https://cf.geekdo-images.com/V_AFfuSDckofDOFGwD_Wvg__thumb/img/0GQXpT_9urApQgs3BUWquVk7D0k=/fit-in/200x150/filters:strip_icc()/pic1705435.jpg"
+  },
+  {
+    "id": "283152",
+    "name": "Monikers: Serious Nonsense",
+    "minPlayers": 4,
+    "maxPlayers": 20,
+    "playingTime": 60,
+    "age": 18,
+    "description": "Monikers: Serious Nonsense is a standalone expansion for Monikers. It features 330 cards, written by the folks at Shut Up &amp; Sit Down.&#10;&#10;The brand new set from Shut Up &amp; Sit Down also includes the MUCH REQUESTED return of the Monikers: Twelve Hopelessly Stupid Fourth Rounds! (minus &quot;the two least interesting ones&quot;)&#10;&#10;",
+    "categories": [
+      "Humor",
+      "Mature / Adult",
+      "Party Game"
+    ],
+    "mechanics": [
+      "Acting",
+      "Open Drafting",
+      "Role Playing"
+    ],
+    "image": "https://cf.geekdo-images.com/fhaltzDyhDwjaSOyfVA-rA__thumb/img/QPcr96o4Y-wjKRFQbZvKEKhLmJI=/fit-in/200x150/filters:strip_icc()/pic4912732.png"
+  },
+  {
+    "id": "164698",
+    "name": "Fresh Fish",
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playingTime": 45,
+    "age": 12,
+    "description": "It's time for the next market day! As a rising trader, you are trying to get the best spaces for your market stalls. Only the trader with the freshest goods will get the most customers.&#10;&#10;In Fresh Fish you try to build your market stalls as close as possible to the matching delivery trucks on a huge market square. A delivery of goods directly from the delivery truck into the market stall is not allowed; at least one path space must lie between them. Unfortunately the competition between the traders is quite intense, so you will block each other from the shortest paths with your market stalls. Neutral flea market tables will get in the way, too.&#10;&#10;To secure the prime spaces for your market stalls, you must buy the stall tiles cheaply at an auction &mdash; but if you bid too little and lose the auctions you may later get a space much further away.&#10;&#10;At the end of the game you add all the paths between your market stalls and the delivery trucks, then subtract the saved coins from this sum. The player with the lowest value wins as he offers the freshest goods to his customers!&#10;&#10;",
+    "categories": [
+      "City Building"
+    ],
+    "mechanics": [
+      "Auction / Bidding",
+      "Tile Placement"
+    ],
+    "image": "https://cf.geekdo-images.com/d8qNi3yb7lzLc9FJYyP91Q__thumb/img/IeRVBiAbLkddEVrTo20_xWKbwRs=/fit-in/200x150/filters:strip_icc()/pic2220379.jpg"
+  },
+  {
+    "id": "335116",
+    "name": "Motor City",
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "playingTime": 45,
+    "age": 14,
+    "description": "Motor City is a strategic roll-and-write game about running an auto plant in the heyday of Detroit.&#10;&#10;In Motor City, you have two player sheets, each with multiple areas. These areas are represented by tracks that you will mark off as you make progress. Many of the tracks are interconnected with other elements in the game, giving you bonuses along the way and opportunities to unlock more points. Advancing on all of these tracks offers various amounts of points, advancements, and bonuses.&#10;&#10;The game lasts eight rounds. Each round, roll colored dice based on the number of players, then place them on spaces on the blueprint table based on value and color. Each player drafts one die and uses it. Once everyone has drafted a die twice, all players get to use the remaining die on the blueprint table.&#10;&#10;After eight rounds, you score points for your progress in engineering, assembly, testing, and more. Whoever has the most points wins.&#10;&#10;Motor City has a solo mode in which you try to top your own score against an auditor that drafts dice and blocks areas of your sheet. Its difficulty can easily be adjusted by changing the colors of dice during setup, with no added rules.&#10;&#10;Motor City is game 3 of the Motor City Gameworks Loaded Roll and Write series.&#10;&#10;Game 1: Fleet: The Dice Game&#10;Game 2: Three Sisters&#10;Game 3: Motor City&#10;&#10;&ndash;description from the designer&#10;&#10;",
+    "categories": [
+      "Dice",
+      "Industry / Manufacturing"
+    ],
+    "mechanics": [
+      "Action Drafting",
+      "Dice Rolling",
+      "Die Icon Resolution",
+      "Paper-and-Pencil",
+      "Solo / Solitaire Game"
+    ],
+    "image": "https://cf.geekdo-images.com/Gs0eHLcERvap4rRt_5VIvg__thumb/img/Eij1Qs1mazz2iaRyMBpu6HfiOpA=/fit-in/200x150/filters:strip_icc()/pic6861977.png"
+  },
+  {
+    "id": "23107",
+    "name": "Drakon (Third Edition)",
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playingTime": 60,
+    "age": 10,
+    "description": "The old dragon Drakon has captured a brave band of adventurers who have sneaked into her lair to steal her gold. But rather than eat them immediately, Drakon has decided to make it a game: Greed shall set one of the adventurers free. She sends the frightened adventurers into her magical, mad vaulted chambers, and the first one to collect ten gold from Drakon&rsquo;s maze gets to go free. The rest get to be lunch.&#10;&#10;Each turn, players must choose one of two options: (1) place a tile from their hand onto the board, expanding the dungeon; or (2) move their Hero to an adjacent tile. Many of the dungeon tiles have an icon that allows players entering that space to take a special action (for example, taking a piece of gold from the dragon's hoard, stealing gold from another player, or destroying a tile that is already in play).&#10;&#10;This is the third edition of Drakon, and includes the following updates:&#10;&#10;    plastic miniatures are used for the heroes and the Drakon&#10;    new tiles are larger (measuring 2.5 by 2.5 inches) and have all new artwork&#10;    tiles include a combination of rooms from Drakon (Second Edition) and Drakon Expansion 1&#10;    new rules, variants, and player aids are provided&#10;    each gold piece now has a value between 1 and 3&#10;&#10;&#10;In the basic game, the first player to earn 10 gold wins the game. Some variants provide different winning conditions.&#10;&#10;Game last between 20 and 60 minutes.&#10;&#10;",
+    "categories": [
+      "Adventure",
+      "Fantasy",
+      "Maze"
+    ],
+    "mechanics": [
+      "Grid Movement",
+      "Modular Board",
+      "Network and Route Building",
+      "Tile Placement",
+      "Variable Player Powers"
+    ],
+    "image": "https://cf.geekdo-images.com/M16DElXmmeR5O_78d1CpOA__thumb/img/_keAjU3FcMGAkLZFZbhzV-8ZvJ8=/fit-in/200x150/filters:strip_icc()/pic153409.jpg"
+  },
+  {
+    "id": "25261",
+    "name": "Tannhäuser",
+    "minPlayers": 2,
+    "maxPlayers": 10,
+    "playingTime": 120,
+    "age": 11,
+    "description": "In 1949, this incessant war has been raging for 35 years and finally a secret archaeological dig has delivered to the Obscura Korps a long sought ancient relic. This artifact is thought to guard an ancient parcel of knowledge. The exact emplacement of one of the four dark cardinal corners of reality is on the verge of being revealed.&#10;&#10;A portal leading to hell, this un-sanctified zone is found buried within the secular crypt of a fortress situated in the heart of central Europe. The Reich's 13th Occult Division is there now. They are about to call upon the Cohorts of Chaos to help them force the world into eternal servitude.&#10;&#10;Parachuted behind enemy lines, a fistful of men and women are all the Union has left to thwart this peculiar menace. The Unions finest trained commandos armed with technology still in its experimental stages, the glory bound 42nd Alter-Marine Special Forces must now face the most terrible danger to face humanity in recorded history.&#10;&#10;Tannh&auml;user goes beyond the standard package of set of characters, proposing a vast array of customization, allowing players to develop a unique tactic and style of play for their hero. 10 charismatic personalties await them to be groomed for battle, using over 70 magnificently illustrated types of tokens that faithfully depict various weapons, medals, ranks, powers and equipment.&#10;&#10;Rules revised by:&#10;&#10;    Tannh&#195;&#164;user Revised Edition Rulebook&#10;&#10;&#10;",
+    "categories": [
+      "Fantasy",
+      "Fighting",
+      "Horror",
+      "Miniatures",
+      "Science Fiction",
+      "Spies / Secret Agents",
+      "Wargame"
+    ],
+    "mechanics": [
+      "Dice Rolling",
+      "Line of Sight",
+      "Point to Point Movement",
+      "Variable Player Powers"
+    ],
+    "image": "https://cf.geekdo-images.com/v4qUOFlg_TtLbdr5Y6O0cw__thumb/img/trizA71iJM4as4f5xcDfecZtHGg=/fit-in/200x150/filters:strip_icc()/pic6972335.png"
+  },
+  {
+    "id": "161226",
+    "name": "The Builders: Antiquity",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 30,
+    "age": 10,
+    "description": "From the Hanging Gardens of Babylon to the Pyramids of Egypt, and without forgetting the Greek Parthenon, The Builders: Antiquity &mdash; a standalone card game based on The Builders: Middle Ages &mdash; offers a whole range of challenges to its builders. To face these challenges, you must put on your foreman clothes. Between hiring workers, managing their organization, purchasing slaves or tools, and taking out loans, you'll have to make the right decisions to fulfill your dream: Becoming the greatest builder the age has ever known.&#10;&#10;In the game, players score points (and gain money) by completing the construction of buildings. Each building has four characteristics &mdash; carpentry, masonry, architecture, painting &mdash; rated between 0 and 5, and the workers have the same characteristics valued in the same range. To complete a construction, the player must add enough workers to cover the four characteristics of the building, but placing a worker on a construction site costs money.&#10;&#10;Each turn players have three free actions; however, for an added cost players may also chose to buy additional actions during their turn. Unlike in The Builders: Middle Ages, players can acquire slaves and put them to work, but if they don't pay to free the slaves by the end of the game, they lose points. Other changes from the original game include the ability to send your workers to universities or purchase tools to improve their characteristics.&#10;&#10;Make use of your workers, of your slaves, or your freed slaves to build your buildings and amass victory points to ultimately be named the greatest builder of all!&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+    "categories": [
+      "Ancient",
+      "City Building"
+    ],
+    "mechanics": [
+      "Action Points",
+      "Loans",
+      "Open Drafting",
+      "Set Collection"
+    ],
+    "image": "https://cf.geekdo-images.com/D_KnKBBIOrPvqykC_wkRow__thumb/img/-xPxSrRrIdgDxRRi43-5Ml0ieyM=/fit-in/200x150/filters:strip_icc()/pic3095866.jpg"
+  },
+  {
+    "id": "393333",
+    "name": "Galileo Galilei",
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playingTime": 130,
+    "age": 12,
+    "description": "&quot;And yet it moves&quot;, he said.&#10;&#10;Galileo Galilei is a Euro-style game in which you take on the role of an astronomer who will discover new planets, find unknown star systems, develop their telescope, and make a scientific breakthrough in the difficult ages of obscurantism.&#10;&#10;Use your telescope to select one of the five actions available, with you being able to evolve these actions into better ones. Collect cards of different planets and star systems. Collect lenses of the three main colors to make a discovery. Be wary of inquisitors as they might arrive unwelcomed and ruin your fame in no time. Better find a way to profit from their visit instead...&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+    "categories": [
+      "Renaissance"
+    ],
+    "mechanics": [
+      "Area Majority / Influence",
+      "End Game Bonuses",
+      "Rondel",
+      "Variable Set-up"
+    ],
+    "image": "https://cf.geekdo-images.com/VxVtboFXPDhqw6Zd5Pcsrg__thumb/img/pfH4t_A06XVpeM2A8WWF3am29OQ=/fit-in/200x150/filters:strip_icc()/pic7883604.jpg"
+  },
+  {
+    "id": "1044",
+    "name": "Gunslinger",
+    "minPlayers": 2,
+    "maxPlayers": 7,
+    "playingTime": 90,
+    "age": 12,
+    "description": "&quot;Fill Yore Hand ...&quot; with Gunslinger, the game of western gunfights. In Gunslinger, you play the part of a western character who is caught in a sudden gunfight, and you face the split-second decisions and incidents of the showdown as bullets start to fly.&#10;&#10;Gunslinger is based on a quick and easy game system that recreates the split-second nature of gunplay. Each turn the players secretly play cards to define exactly what they will do during the next two seconds in the game. Then they step through these actions on the playing map, resolving each shot in the split-second when it takes place. Gunslinger resolves combat quickly and easily. The attacker draws a result card that shows exactly where the shot hits, which combines with his/her weapon to determine the damage inflicted. This recreates the critical differences between weapons: Winchesters, Shotguns, Buffalo rifles, Colt's &quot;Peacemaker&quot;, Smith &amp; Wesson's breakopen guns and Remington's Derringer are a few of the guns in the game.&#10;&#10;Gunslinger includes eight two-sided boards (a total of sixteen map faces) portraying town and countryside terrain at a scale of six feet per hex. These boards can be assembled in varying ways to create a vast number of different maps that are used in the gunfights. The terrain includes gullies, hills, trees, watering troughs, wells, hitching posts and the interiors of buildings.&#10;&#10;Gunslinger presents 26 different gunfights and several hundred variations, including both historical gunfights and made-up situations. Wild Bill Hickok, Billy the Kid, Wyatt Earp, and John Wesley Hardin are just a few of the real gunslingers of history who appear in re-creations of the gunfights that made them famous.  Indian raids, barroom brawls and poker games are just a few of the hypothetical situations.&#10;&#10;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&#9;&#9;Component List(From box back, augmented with detail from Wayne's Books page)&#10;&#10;&#10;     Rules&#10;     8x two-sided mapboards&#10;     Result card deck (108)&#10;     Pad of personal history sheets&#10;     Countersheet&#10;         60 round (people)&#10;         112 medium square (objects)&#10;         96 small square (tactical)&#10;         9 large (horses)&#10;    &#10;     Action Cards (130)&#10;         7x standard sets of 12 each&#10;         4x B1&#10;         7x B2&#10;         7x B3&#10;         5x B4&#10;         5x B5&#10;         5x B6&#10;         5x B7&#10;         4x B8&#10;         4x B9&#10;    &#10;     &quot;Second Floor&quot; player-aid cards x4&#10;&#10;&#10;",
+    "categories": [
+      "American West",
+      "Fighting",
+      "Wargame"
+    ],
+    "mechanics": [
+      "Action Queue",
+      "Grid Movement",
+      "Hexagon Grid",
+      "Line of Sight",
+      "Modular Board",
+      "Scenario / Mission / Campaign Game",
+      "Simulation",
+      "Simultaneous Action Selection",
+      "Three Dimensional Movement",
+      "Variable Player Powers",
+      "Variable Set-up"
+    ],
+    "image": "https://cf.geekdo-images.com/mdIf5kqUarOQnxd16Lz8HA__thumb/img/4xczzQ-tc7Xo42TBFLDTMj5TbQA=/fit-in/200x150/filters:strip_icc()/pic184259.jpg"
+  },
+  {
+    "id": "293264",
+    "name": "Monsters on Board",
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playingTime": 60,
+    "age": 12,
+    "description": "It&rsquo;s close to midnight...one week before the Blue Moon Monster Mixer at Spook Manor. To throw a proper monster mash, you only need one thing&mdash;Spook Juice&mdash;and you&rsquo;re gonna need an awful lot of it for these party animals. Spook Juice is a powerful spirit distilled from human fear, and the main ingredient in every popular monster drink. The bad news is that you&rsquo;re completely out of it. The good news is that the nearby town, Startleton, is a great place to scare some up.&#10;&#10;You need to send your Monster disciples to scare up some of that sweet Spook Juice. So dust off your Fearmobiles and get your scariest Monsters on Board!&#10;&#10;Monsters on Board is a dice-drafting game that takes place over six rounds. Each round, players will draft Monster Lords (dice) arriving from out of town in Fearmobiles, trying to fulfill their Prophecy cards.&#10;&#10;After each player drafts four Monsters, they will send them to the Order of Spider Jack. Monsters sent here will give players actions, as well as Spook Juice when Spider Jack is summoned. The higher the die&rsquo;s number, the scarier the Monster, which means the more Spook Juice they will scare up for you. However, scarier Monsters have fewer and less powerful actions, while less frightening Monsters have more powerful actions (they try harder)&mdash; so choose wisely!&#10;&#10;Drafted Monsters also move their matching colored Grunt (Monster miniature) through the Town of Startleton, scaring the townspeople with the help of their little Minions (miniatures). In doing so, Grunts will award players bonus actions. If the Grunts terrorize the town well enough, they will grant bonus Spook Juice during final scoring.&#10;&#10;Additionally, players will draft Arch Monsters and Ghosts that will help them achieve their goals.&#10;&#10;During final scoring, players will gain additional Spook Juice based on how well they completed their Prophecy cards, scared the Town, and appeased the Arch Monsters. The player with the most Spook Juice wins!&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+    "categories": [
+      "Dice",
+      "Horror"
+    ],
+    "mechanics": [
+      "Dice Rolling",
+      "Different Dice Movement",
+      "End Game Bonuses",
+      "Open Drafting",
+      "Track Movement"
+    ],
+    "image": "https://cf.geekdo-images.com/4x3DE_jRB4invKrtYDNriw__thumb/img/_UnMQ9TVFcscfDbHeczqMBCY6tw=/fit-in/200x150/filters:strip_icc()/pic5052595.jpg"
+  },
+  {
+    "id": "260407",
+    "name": "Soviet Kitchen Unleashed",
+    "minPlayers": 1,
+    "maxPlayers": 6,
+    "playingTime": 25,
+    "age": 12,
+    "description": "You're a troop of Soviet field cooks cooperating to create meals out of barely available food supplies. Whatever you find at the front, you should consider putting it in the meat grinder! Isn't it more about the looks anyways? The sausage is not red enough? Some rusty nails will do! Your mush looks like vomit? Yellow sand will give it the right color!&#10;But beware! Too much of the good will finish even the toughest Soviet stomach.&#10;&#10;Soviet Kitchen Unleashed is a cooperative card game with app support about color mixing and poison management. &#10;Each player contributes one ingredient from their hand to the ordered dish, scanning the ingredient card with the device's front camera. The virtual meat grinder mixes them all. To match the color of the ordered dish, the players need to discuss the colors and effects of their cards without showing them. If the result is close enough, the meal is accepted and the players earn rubles.&#10;Unfortunately, some ingredients are toxic, some even radioactive. Mother Russia won't survive your toxic recipes unless you act strategically as to when to play which toxic item. &#10;The app (for Android and iPhone devices) guides you through the story and the rules, so you don't even need to touch a rulebook!&#10;&#10;Soviet Kitchen Unleashed includes two playing modes:&#10;&#10;    In story mode, you face 21 unique missions, each with its own introduction and challenge. Mission by mission, you unlock new card and make your way up to cooking for the Kremlin society and serving the KGB.&#10;    Challenge mode offers 4 different challenges from pure Survival to proper deck building. Compare your high scores online!&#10;&#10;&#10;&mdash;description from designer&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Humor"
+    ],
+    "mechanics": [
+      "Cooperative Game",
+      "Hand Management",
+      "Push Your Luck"
+    ],
+    "image": "https://cf.geekdo-images.com/PZt1wHdi7SE7izj9pNPErg__thumb/img/gm3uGH7Y-C6TySAvIV8yxKTapRU=/fit-in/200x150/filters:strip_icc()/pic4790735.png"
+  },
+  {
+    "id": "2529",
+    "name": "Flat Top",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playingTime": 360,
+    "age": 12,
+    "description": "Flat Top is a board wargame of high complexity that covers the battles of the Solomon Seas between the United States and Japan in 1942. It is very well researched and covers all aspects of naval and air combat as it existed in 1942. The system depicts weather, air searches, air combat, surface combat, carrier operations, submarines, air bases, supplies, and much more. The game requires intense planning and searching since movement is covert and the map is huge.&#10;&#10;The units are individual ships and submarines with each air point representing three aircraft. Hexes are twenty miles, and each turn represents one hour.&#10;&#10;The game includes thirteen hundred counters, 4 maps to create a 44&quot; x 28&quot; map of the South Pacific, four Allied/Japanese operations cards, three player aid cards and two log sheets.&#10;&#10;&#10;            First edition Battle Line has two counter card sheets containing 800 counters.&#10;        &#10;    &#10;&#10;&#10;",
+    "categories": [
+      "Aviation / Flight",
+      "Nautical",
+      "Wargame",
+      "World War II"
+    ],
+    "mechanics": [
+      "Dice Rolling",
+      "Events",
+      "Grid Movement",
+      "Hexagon Grid",
+      "Hidden Movement",
+      "Line of Sight",
+      "Movement Points",
+      "Multiple Maps",
+      "Paper-and-Pencil",
+      "Scenario / Mission / Campaign Game",
+      "Secret Unit Deployment",
+      "Simulation",
+      "Variable Set-up"
+    ],
+    "image": "https://cf.geekdo-images.com/U4aLOWpOLNtUjQ5BirlGLA__thumb/img/thPXwIIE3knD9igpLusCdeHVsMI=/fit-in/200x150/filters:strip_icc()/pic806423.jpg"
+  },
+  {
+    "id": "137423",
+    "name": "Pixel Tactics 2",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playingTime": 45,
+    "age": 12,
+    "description": "Pixel Tactics 2 is a head-to-head game of tactical combat for two players. Each player has an identical deck of 25 cards, from which they draft a leader. The leader's abilities alter vastly the strategy and playability of every other card in the deck, making the game playable in 25 different ways.&#10;&#10;In the game, players take turns placing cards and attacking. Each card can activate in various ways, taking on offensive capabilities in the front rows of the unit, or support powers in the back rows. Cards can also be played as orders &ndash; powerful single-time effects that can turn the tide of battle.&#10;&#10;Play continues until either player's leader is defeated. A typical game is best of three or five rounds.&#10;&#10;Pixel Tactics 2 takes place in the same world and uses many of the characters from Level 99 Games' BattleCON: War of Indines, but its gameplay is entirely unrelated.&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Fantasy",
+      "Fighting",
+      "Video Game Theme"
+    ],
+    "mechanics": [
+      "Hand Management",
+      "Multi-Use Cards",
+      "Variable Player Powers"
+    ],
+    "image": "https://cf.geekdo-images.com/U6uLWN6G2DMxc-QUeTa2dQ__thumb/img/Mh0SKHm6IV4bQz7AValXzTM1wMA=/fit-in/200x150/filters:strip_icc()/pic1643310.png"
+  },
+  {
+    "id": "112373",
+    "name": "BraveRats",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playingTime": 15,
+    "age": 8,
+    "description": "BraveRats, first released as R, is a simple and short simultaneous action selection game for two that's played with cards. Both players have a hand of eight cards, numbered 0 to 7, with each card having a special power. Both players choose a card, then reveal them simultaneously. The highest card wins the round, and players play until someone has won four rounds. The cards' special powers greatly influence the game.&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Fantasy"
+    ],
+    "mechanics": [
+      "Rock-Paper-Scissors",
+      "Simultaneous Action Selection"
+    ],
+    "image": "https://cf.geekdo-images.com/2ez8PebxqA3cYpsO7hXA0g__thumb/img/MvIwvNscfllnyGkgYRKkIOSruXM=/fit-in/200x150/filters:strip_icc()/pic5208405.jpg"
+  },
+  {
+    "id": "18748",
+    "name": "Unhappy King Charles!",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playingTime": 240,
+    "age": 0,
+    "description": "Unhappy King Charles! allows two players to decide whether Commons or Cavalier shall rule in England. Both seek to establish control over the country and of its economic structures. They seek not only to defeat their opponents in battle but also to seize control of the local government of England and Wales.&#10;&#10;The game is based on We the People, Mark Herman's ingenious game on a later rebellion. As the organization of armies and states was often desultory, the cards do not provide a wide range of choices (as in Paths of Glory). The players in Unhappy King Charles! must make do with what they have. The three decks of cards - Early(1642-1643), Middle(1644) and Late (1645)- have been developed to give the correct feel for the early, middle and late war, based on storyboarding techniques. As befits a Civil War, there is treachery, bravery and stupidity in the events on the cards.&#10;&#10;Unhappy King Charles! is played over eleven turns, each representing about four months. Brigades of troops are used to form Armies (defined Rule 3) or garrisons of fortresses (Rule 13). Only unled Brigades are on the map; the others are placed on the box of their General on the Command Displays. Generals move on the maps.&#10;&#10;The Armies of Unhappy King Charles! are temporary massings of troops that have as much to do with feudal armies as modern revolutionaries. With inadequate supply and poor equipment it is not surprising that these armies suffer from continual desertion; and in using them you are going to have to ensure they wander the map collecting fresh recruits. Armies can be over 30,000 for a vital siege or battle or 3,000 tough cavalry under Prince Rupert or Black Tom Fairfax.&#10;&#10;Movement activations are initiated via a numbered Ops Card, as in We the People, and are based on Army size. The smaller the Army the faster it can move. Movement across the map is by means of Areas joined by movement lines. Control of areas can change during movement if movement points are spent. Non-moving Armies can attempt interception, placing themselves in the path of the moving Army to cause Battle.&#10;&#10;The game's basic combat unit is the Brigade, which comes in two types: Veterans (value 2) and militia (value 1). Usually militia units must be recruited before veterans of that Region. Each Region's Areas and Brigades use the same basic colour system. Fresh Brigades are received by Recruitment, which is usually limited to the unit's region of origin. Brigades lost in combat are not available for recruitment (though some Event Cards can bring them back); other losses are available.&#10;&#10;Leader counters are either Generals (with a Strategic and Battle Rating) or Local Notables (Governors of fortresses). Generals can be Field Generals (who operate everywhere) or Regional Generals who can suffer disadvantages when outside their Region. Generals cannot transfer Brigades to other Generals (unless Event Cards require), Brigades remain with their original General until death, dispersal or desertion takes them. Local Notables can transfer Brigades to other friendly Generals.&#10;&#10;Battles use the Combat Value of Brigades, General's Battle Ratings and Combat Cards to resolve combat. But before any Battle is fought one side can try to Evade (leave the Area) or Disperse (remove itself before combat). Losses in combat are not available for recruitment. Drawn and Decisive Victories will kill Veteran Brigades (if there are any) first. The loser must retreat and can suffer further losses if he retreats through enemy PC Markers. Major and Decisive Victories earn extra Cards.&#10;&#10;Fortresses cover a wide range of locations. They are ranked by class and must be forced to Surrender by Siege or Event Card. Siege requires the attention of an Army for some time (most Fortresses will require more than one activation to capture). If attacked during that time the besieger can have to abandon the Siege. Assaults can be attempted (at a cost in losses).&#10;&#10;The game can be won by an Automatic Victory, by one side failing to control enough Areas, or at the end of the eleventh turn.&#10;&#10;For those players who like some counter-factuals a pack of would-be events is provided. Now players can use Dutch squadrons to blockade the King, summon the Duke of Lorraine, or cause a rising in London. As an Optional Rule, four events are drawn each game and shuffled into the middle and late decks.&#10;&#10;Cover artwork inspired by Sir Anthony van Dyck (1599-1641)&#10;&#10;",
+    "categories": [
+      "Civil War",
+      "Pike and Shot",
+      "Wargame"
+    ],
+    "mechanics": [
+      "Campaign / Battle Card Driven",
+      "Dice Rolling",
+      "Point to Point Movement"
+    ],
+    "image": "https://cf.geekdo-images.com/THnnB9SIT0gN5s8tp-Hy_g__thumb/img/2BJfdXsj-GvOiIfiA0d9ahs4NXM=/fit-in/200x150/filters:strip_icc()/pic407727.jpg"
+  },
+  {
+    "id": "233955",
+    "name": "Montana",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 45,
+    "age": 10,
+    "description": "Halfway through the 19th century, the first permanent settlements appeared in Montana. After this, many fortune seekers traveled to this region with their caravans in search of work in order to build a better future for themselves &mdash; and there is an abundance of work as in the mountains precious metals are to be found and on the fields a lot of manpower is required. Meanwhile, the number of settlements is growing and the demand for goods is rising. Recruit the right workers, deliver goods on time, and choose your settlements tactically. Only then you will have the biggest chance of winning Montana.&#10;&#10;In more detail, on each turn players choose one of these three actions:&#10;&#10;&#10;     Recruit: Use the spinner to get new workers.&#10;     Work: Send your workers to one of the different locations to get resources or money.&#10;     Build: Spend your resources to build new settlements.&#10;&#10;&#10;The first player to build all of their settlements wins!&#10;&#10;",
+    "categories": [
+      "American West",
+      "City Building",
+      "Racing",
+      "Territory Building"
+    ],
+    "mechanics": [
+      "Auction / Bidding",
+      "Set Collection",
+      "Worker Placement"
+    ],
+    "image": "https://cf.geekdo-images.com/m6DfJ9oG_ybEIpUl775i1A__thumb/img/bNUl4T8JfVs7_XdFN3qaXJBZDOo=/fit-in/200x150/filters:strip_icc()/pic3714270.jpg"
+  },
+  {
+    "id": "181797",
+    "name": "Inhabit the Earth",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 90,
+    "age": 14,
+    "description": "Inhabit the Earth is a race game played on six continent boards. Players create their own menagerie of up to six creatures, each of which is represented by up to six cards, by using cards to introduce, multiply, evolve, and adapt their creatures. Each of the 162 unique cards identifies a creature's class, a continent and terrain that the creature inhabits, and a special or scoring ability.&#10;&#10;Each class of creature is also represented by a counter, and the cards are also used to trigger the movement of the counters along the trails on the boards and by migrating, from one board to another. Breeding, achieved by flipping over a creature's counter, generates new cards. Movement facilitates further breeding and the chance to secure tokens for additional icons and point scoring.&#10;&#10;At the end of the game, points are scored through abilities on the creature's cards, the position of the creatures' counters on the boards, and from tokens; the player with the most points wins. Rules for an introductory game for up to three players are included.&#10;&#10;",
+    "categories": [
+      "Animals",
+      "Environmental"
+    ],
+    "mechanics": [
+      "Action Queue",
+      "Area Movement",
+      "Hand Management",
+      "Melding and Splaying",
+      "Modular Board",
+      "Open Drafting",
+      "Point to Point Movement",
+      "Set Collection",
+      "Tile Placement"
+    ],
+    "image": "https://cf.geekdo-images.com/p74qIG0QUH9k-YdTdVV6CA__thumb/img/u0qlwwzK9vD62Pvc0cOG-29_Pok=/fit-in/200x150/filters:strip_icc()/pic2645523.jpg"
+  },
+  {
+    "id": "85250",
+    "name": "The Dwarf King",
+    "minPlayers": 3,
+    "maxPlayers": 5,
+    "playingTime": 40,
+    "age": 10,
+    "description": "The Dwarf King (Le Roi des Nains) is a trick-taking game played with a deck of 53 cards: three suits (Dwarves, Goblins and Knights) of thirteen cards each and fourteen special cards. The game also includes twenty contract tiles.&#10;&#10;The game is played over seven rounds. At the start of a round, the dealer randomly draws one special card, reads it to all the players, shuffles it into the deck, then deals the deck out evenly to all players. (The dealer for the first round is the game's owner; for subsequent rounds, the dealer is the one who took the 5 of Dwarves in the previous round.) The player who receives the 5 of Knights draws a contract tile, reads it, then chooses one of the two scoring rules on it to apply for that round.&#10;&#10;The player holding the 5 of Goblins leads on the first trick. Players must follow suit if possible, and the game includes no trump. The highest card played of the suit led wins the trick and leads to the next trick. Once all cards have been played, players tally their points (possibly negative), remove the special card and contract tile from the game, then shuffle for the next round.&#10;&#10;The player who scores the most points over seven rounds wins the game.&#10;&#10;Roots to Barbu&#10;&#10;",
+    "categories": [
+      "Bluffing",
+      "Card Game",
+      "Fantasy"
+    ],
+    "mechanics": [
+      "Trick-taking"
+    ],
+    "image": "https://cf.geekdo-images.com/o1rhjVOjf2pfVp7IlknKfg__thumb/img/tbmzj-SeD1yw_l8rwfhJeCMDfBs=/fit-in/200x150/filters:strip_icc()/pic7170573.jpg"
+  },
+  {
+    "id": "191572",
+    "name": "Animals on Board",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 30,
+    "age": 8,
+    "description": "The accessible and clever game Animals on Board features a two-tiered cardboard ark that will hold each player's animal tiles. At the start of the game, each player draws three animal tiles, chooses one of these tiles, and places it on a bracket of his ark without showing it to the other players.&#10;&#10;The leftover animals that players initially drew begin forming what will become a single animal collective in the center of the table. The total number of animals in the collective is based on the number of players, but one animal in the collective will always be face-down. Each player also starts with one food crate and may never have more than five food crates at any time.&#10;&#10;On each turn, a player has two options: (a) split a collective of animals into two groups and take a food crate, or (b) take one of the animal collectives into their ark by paying a food crate for each animal in that group. As players choose their group of animals, they drop out of the turn. The first player to drop out of a turn starts the next turn. The game ends when an ark has at least ten animals on board.&#10;&#10;Before scoring, all animals in pairs are discarded because a guy called Noah claims all animal pairs for himself. Single animals score the points imprinted on the tile (from 1-5) and herds of animals automatically score five points each. Remaining food crates also score one point each.&#10;&#10;",
+    "categories": [
+      "Animals"
+    ],
+    "mechanics": [
+      "I Cut, You Choose",
+      "Set Collection"
+    ],
+    "image": "https://cf.geekdo-images.com/NLgUgFH88DJogE-16PPFsw__thumb/img/CuInp1YTUxTZlrIi3TMTcUwQcKs=/fit-in/200x150/filters:strip_icc()/pic2845593.jpg"
+  },
+  {
+    "id": "204431",
+    "name": "One Night Ultimate Alien",
+    "minPlayers": 4,
+    "maxPlayers": 10,
+    "playingTime": 10,
+    "age": 8,
+    "description": "One Night Ultimate Alien is similar to other One Night Ultimate... titles in that players each secretly take a role as part of a team, but this time the roles all relate to aliens.&#10;&#10;One Night Ultimate Alien can be combined with any other One Night Ultimate... game.&#10;&#10;",
+    "categories": [
+      "Bluffing",
+      "Card Game",
+      "Deduction",
+      "Horror",
+      "Party Game"
+    ],
+    "mechanics": [
+      "Hidden Roles",
+      "Role Playing",
+      "Roles with Asymmetric Information",
+      "Traitor Game",
+      "Variable Player Powers",
+      "Voting"
+    ],
+    "image": "https://cf.geekdo-images.com/sFoWkWzwAWoMoTuldfoEaw__thumb/img/cDUvLZGZRcizhghLKZMHZXv0cGk=/fit-in/200x150/filters:strip_icc()/pic3493866.jpg"
+  },
+  {
+    "id": "153623",
+    "name": "Limes",
+    "minPlayers": 1,
+    "maxPlayers": 2,
+    "playingTime": 20,
+    "age": 8,
+    "description": "Two thousand years ago on the borders of the Roman Empire, life goes on as might be expected &mdash; but barbarians lurk across the border, so not only must the players grow grain in the fields, catch fish, and chop wood, but they must also maintain watchmen in a clever network of watchtowers to keep a lookout for fires and barbarian attacks.&#10;&#10;Limes is based on the designer's board game Cities, and while the game system is roughly the same, the scoring is completely different. In addition, the tiles in Limes have a different layout from those in Cities. Together, these changes ensure that Limes has become an entirely new game. (Limes includes two sets of cards, one for each player, but if you combine copies of the game, any number of people can play at the same time.)&#10;&#10;Each player has his own deck of cards. One player shuffles his deck, then places a card at random on the table; each other player takes this same card and places it on the table in his own area. Each player can optionally place one of his figures on this card; once a figure is placed on a card, it cannot be returned to the supply. The second card played (and all subsequent cards) much be placed adjacent to or touching the corner of an already-played card. After each card placement, a player can either place a new figure on this card or move an already-placed figure; a figure can move from one territory to an adjacent territory, e.g., from woods to lake or from grain fields to woods.&#10;&#10;The game ends as soon as any player has placed 16 cards in a square (4x4 grid). Each player then receives points as follows:&#10;&#10;&#10;    Farmers receive one point for each connected grain field.&#10;    Fishermen receive one point for every house situated directly adjacent to their lake.&#10;    Watchmen receive one point for every patch of woods they can see in a straight line (north, east, south, west) from their tower; other watchtowers block their view, so they can't see woods behind those towers.&#10;    Woodcutters receive one point for every territory to which they can deliver wood, e.g., every different adjacent territory.&#10;&#10;&#10;The player with the most points wins, with ties being broken in favor of the player who has the highest score with a single figure.&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "City Building",
+      "Puzzle"
+    ],
+    "mechanics": [
+      "Bingo",
+      "Pattern Building",
+      "Tile Placement"
+    ],
+    "image": "https://cf.geekdo-images.com/wdWQq8E8yn6tb9eplhVjQg__thumb/img/APJx_YoQqCxDKIxsDlWMLjthdOw=/fit-in/200x150/filters:strip_icc()/pic2012159.png"
+  },
+  {
+    "id": "39927",
+    "name": "Last Train to Wensleydale",
+    "minPlayers": 3,
+    "maxPlayers": 4,
+    "playingTime": 120,
+    "age": 13,
+    "description": "Last Train to Wensleydale is a railway themed game set in the Yorkshire Dales. The aim of the game is to move stone, cheese, and passengers from the Dales to the major trunk routes served by the North Eastern Railway and the Midland Railway.&#10;&#10;Valleys play a large part in dictating where you can build track. Once you have built a line you must acquire second hand engines and rolling stock to move the goods and passengers that your line connects to. Such a line quickly becomes unprofitable and it pays to have one of the two major companies take it over from you.&#10;&#10;Building track can also be made more difficult by local residents who object to railways being built on their land. To overcome such opposition you require influence in government to arrange the necessary compulsory purchase orders.&#10;&#10;Description of the game, from the backside of the box:&#10;For many years the train gaming world has been waiting for a game about moving cheese in the Yorkshire Dales. That wait is now over!&#10;As the director of a small railway company who has inveigled investment money from gullible locals, it's up to you to see if you can actually make a profit from building track amongst some of the most difficult terrain in England. There's stone to be moved from quarries, and cheese to be moved to market. You might also find the odd passenger who wants to travel to civilization.&#10;&#10;However, standing in your way is the local farmer, who really does not want you to build on his land. Fortunately you can buy favours from the necessary government committee to deal with such irritations. You will also need a few contacts with other train companies, as you will need their second-hand engines to run on your lines. Finally, once you've sucked all the profit that you can from a route, you must off-load it to a major train company before you are saddled with the losses.&#10;&#10;",
+    "categories": [
+      "Economic",
+      "Trains",
+      "Transportation"
+    ],
+    "mechanics": [
+      "Auction / Bidding",
+      "Auction: Multiple Lot",
+      "Network and Route Building",
+      "Pick-up and Deliver",
+      "Turn Order: Stat-Based"
+    ],
+    "image": "https://cf.geekdo-images.com/JHfw-nac9A0sfkNJGxDOYQ__thumb/img/E2ghzjuIWJKZMg6Y-dXb8lg3eKs=/fit-in/200x150/filters:strip_icc()/pic501286.jpg"
+  },
+  {
+    "id": "192312",
+    "name": "Mr. Cabbagehead's Garden",
+    "minPlayers": 1,
+    "maxPlayers": 2,
+    "playingTime": 20,
+    "age": 10,
+    "description": "Each year Vernon Cabbagehead, (Mr. Cabbagehead to his friends), wants to be left in peace to grow his award winning vegetable garden for the annual Garden Club contest. However, his tedious neighbours tend to interfere when he is away, and frequently drop by to help themselves to the garden produce. Can Mr. Cabbagehead create a beautiful garden and finally win the blue ribbon?&#10;&#10;In Mr. Cabbagehead's Garden, vegetable cards are drafted and placed in the garden plot, a grid of six cards by three cards. Depending on which cards are selected, one of the tedious neighbours may interfere with the garden in a variety of ways. Players must be careful in their choice of vegetable to plant, in its position in the garden, and in maintaining their supply of invaluable bees, which give Mr. Cabbagehead more flexibility in planting.&#10;&#10;Once all cards have been drawn, the game is over and the Garden Club committee visits to evaluate Mr. Cabbagehead's garden. The number and position of vegetables matter, and players must be creative in developing a garden that is both pleasing to the eye and plentiful in vegetables.&#10;&#10;Originally released in 2016 in a print-and-play version with four neighbours, the 2018 published deluxe edition of Mr. Cabbagehead's Garden adds more neighbours, more variety in scoring, and a streamlined set of rules that includes a fixed garden plot grid variant. More importantly, the published version includes rules for two players.&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Farming",
+      "Print & Play",
+      "Puzzle"
+    ],
+    "mechanics": [
+      "Open Drafting",
+      "Pattern Building",
+      "Pattern Recognition",
+      "Push Your Luck",
+      "Set Collection",
+      "Solo / Solitaire Game"
+    ],
+    "image": "https://cf.geekdo-images.com/1xnqvvQMde7Lu5msb2XBhw__thumb/img/THRAXQtxVBCZmq67rIQBqBQ6lqo=/fit-in/200x150/filters:strip_icc()/pic4092661.jpg"
+  },
+  {
+    "id": "41302",
+    "name": "First Orchard",
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playingTime": 10,
+    "age": 2,
+    "description": "Haba's classic Orchard for the smallest ones. The rules are adjusted to their age and the game material is especially designed for a small child's hand. The beautiful and handy wooden pieces are also very suitable for free play and fostering better motor skills.&#10;&#10;It&rsquo;s time to pick the fruit in the orchard! But watch out for the pesky raven coming down the orchard path to eat it all up. Can you pick all the apples, plums, and pears before the raven arrives? A cooperative game for littles as young as 2, this game works on colors, taking turns, fine motor skills, and the concept of winning and losing.&#10;&#10;A co-operative game for 1 - 4 players, Ages 2 and up&#10;&#10;",
+    "categories": [
+      "Children's Game",
+      "Educational",
+      "Farming"
+    ],
+    "mechanics": [
+      "Cooperative Game",
+      "Dice Rolling"
+    ],
+    "image": "https://cf.geekdo-images.com/xXnlANS29y0laDMXLnvWuw__thumb/img/-0-Sc0uD1HaWR149FlwcZgEJCaA=/fit-in/200x150/filters:strip_icc()/pic2022947.jpg"
+  },
+  {
+    "id": "167763",
+    "name": "DC Deck-Building Game: Teen Titans",
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playingTime": 75,
+    "age": 15,
+    "description": "Teen Titans go! You've played with the old guard. Now play as the youthful up-and-comers. Play as Raven, Beast Boy, Wonder Girl, Red Robin and more. The Teen Titans are all about proving themselves, and with this set you can save your best cards for when you really need them. When you&rsquo;re ready, unleash everything you&rsquo;ve got and the results will be spectacular.&#10;&#10;The big new focus of DC Comics Deck-Building Game: Teen Titans revolves around Ongoing abilities: Cards that stay in play until you need them. Every time you put an Ongoing card into play, it essentially gives you an extra card to utilize on a future turn. Previously, only Locations and a couple of other cards could ever stay in play. Now every card type at every power level has multiple different cards with Ongoing. Sometimes they help you every turn. But mostly they stay in play until you choose to discard them for their mighty effects. If you can build up several Ongoing cards, unleash as many as you need to take down the Super-Villains!&#10;&#10;This set also pays attention to the different card types you have in play. Playing cards from your hand puts cards into play as usual. But with Ongoing cards out there, you often have several card types in play already. Such synergy!&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Comic Book / Strip"
+    ],
+    "mechanics": [
+      "Deck, Bag, and Pool Building"
+    ],
+    "image": "https://cf.geekdo-images.com/F25j_e74SyW0z0xbhevZSw__thumb/img/zjr3Pr-LDfC3oKC5SzqNPvyiQVI=/fit-in/200x150/filters:strip_icc()/pic2503082.jpg"
+  },
+  {
+    "id": "531",
+    "name": "Merchants of Amsterdam",
+    "minPlayers": 3,
+    "maxPlayers": 5,
+    "playingTime": 60,
+    "age": 10,
+    "description": "Is Merchants of Amsterdam, players are attempting to be in first or second place majorities in a variety of categories throughout the game.  These include commodity markets, trading colonies, and warehouses in Amsterdam.&#10;&#10;On a player's turn, that player draws three cards and decides how to resolve them for the turn.  A player can either remove the card from the game, keep it for him or herself, or put it up for auction.  The cards allow players to advance or place one of their markers in the various categories.&#10;&#10;There are also time-marker cards which, when drawn, move the game through various &quot;historical&quot; phases until the last which ends the game.  The historical phases follow a period of time in the history of Amsterdam which can range from no effect, to scoring rounds for particular categories, to bonuses, and towards the end of the game to some penalties as wars begin to disrupt business markets.&#10;&#10;The unique twist in the game is that the game comes with a spring-driven auction clock to perform the Dutch auctions throughout the game.  You start the clock and it ticks down as all of the players hold their hands ready close by.  The idea is that as time passes the cost of the card lowers and it is simply an issue of who will pay for it first by slapping down on the clock and thus stopping it at a certain price.&#10;&#10;",
+    "categories": [
+      "Economic",
+      "Real-time",
+      "Renaissance"
+    ],
+    "mechanics": [
+      "Area Majority / Influence",
+      "Auction / Bidding",
+      "Auction: Dexterity",
+      "Auction: Dutch",
+      "Tile Placement"
+    ],
+    "image": "https://cf.geekdo-images.com/6-Gt5b4KHTfdVWqPhQCeaw__thumb/img/2c3QxjsDbVlgOsaES-K2gu2ftPU=/fit-in/200x150/filters:strip_icc()/pic153968.jpg"
+  },
+  {
+    "id": "231999",
+    "name": "Finished!",
+    "minPlayers": 1,
+    "maxPlayers": 1,
+    "playingTime": 45,
+    "age": 10,
+    "description": "Finished! is a puzzle-solving game, a completely new way to play solitaire!&#10;&#10;It is a typical day at work. Your working schedule is chaotic as always and it&lsquo;s time to focus on the task at hand. Start sorting files and do not fall asleep. If you require a jolt of caffeine or rush of sugar, there is a limited supply of coffee and a small stash of sweets to help complete your tasks and get finished!&#10;&#10;You start Finished! with a shuffled deck of 48 cards and try to sort these cards by cycling through the draw stack during eight rounds. You may sort cards only in your &quot;present&quot; area, but helpful actions will let you manipulate your cards in many different ways. If you sort all cards starting from card 00:01 up to card 00:48, you win the game! If this is too easy for you, the game offers four difficulty levels.&#10;&#10;Whether or not you win the game, we will invite you to watch a short movie at the end of the game!&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Memory",
+      "Puzzle"
+    ],
+    "mechanics": [
+      "Hand Management",
+      "Memory",
+      "Ordering",
+      "Solo / Solitaire Game"
+    ],
+    "image": "https://cf.geekdo-images.com/4ejkn3v5ZV2mxYscqJxvJg__thumb/img/u56wa_WYZvNOhdUCLHZc8-ra5m0=/fit-in/200x150/filters:strip_icc()/pic3666307.jpg"
+  },
+  {
+    "id": "199723",
+    "name": "UltraQuest: Gold, Ruhm! und Ehre!",
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playingTime": 600,
+    "age": 10,
+    "description": "Ultra&bull;Quest is a roleplaying-board-game in which you play a group of four intrepid adventurers. In just ten minutes you create your very own group from eight races (humans, elves, dwarves, halflings, half-elves, half-orcs, centaurs and half-ducks) and six professions (fighter, ranger, thief, seafarer, cleric and wizard).&#10;&#10;Your heroes roam the dangerous realms of Ultimor in search of adventure, Ruhm! (fame/XP), Ehre! (glory) and of course: gold.&#10;&#10;You will be the kings personal heroes and thus attain knighthood upon amass a enough Ehre! (glory) or finding one of the legendary treasures!&#10;&#10;Bewarned though: It may take hours or even days to complete this goal and you may even fail at the last instant.&#10;---&#10;&#10;Ultra&bull;Quest ist das Rollen-Brettspiel, bei dem Du eine Gruppe unerschrockener Abenteurer spielst. W&auml;hle zu Beginn aus 8 Rassen und 6 Berufen Deine unverwechselbare Gruppe. Die Erschaffung dauert nur 10 Minuten. Tauche ein in die fantastische Welt von Ultra&bull;Quest!&#10;&#10;Deine vier wackeren Recken streifen durch das K&ouml;nigreich Ultimor, stets auf der Suche nach Abenteuern, denn die verhei&szlig;en Gold, Ruhm! und Ehre! Sammle wichtige magische Gegenst&auml;nde und werde m&auml;chtiger. Aber sei auf der Hut! &Uuml;berall lauert die Gefahr! Handle klug, dann findest Du am Ende Deiner Queste vielleicht den legend&auml;ren Schatz und wirst zum ewigen Helden von Ultimor!&#10;Viel Gl&uuml;ck, Reisender, viel Gl&uuml;ck!&#10;&#10;Spielinhalt:&#10;&#10;     1 A3-Spielplan mit Karte des K&ouml;nigreiches Ultimor&#10;     1 Spielregelheft (v3)&#10;     1 Ereignisbuch (v3)&#10;     2 B&ouml;gen mit Spielmarken zum Ausschneiden&#10;     90 Abenteurerb&ouml;gen&#10;     20 Gruppenb&ouml;gen&#10;     4 &Uuml;bersichtstafeln&#10;     16 W&uuml;rfel&#10;     6 Holzfiguren&#10;&#10;&#10;",
+    "categories": [
+      "Adventure",
+      "Fantasy"
+    ],
+    "mechanics": [
+      "Dice Rolling",
+      "Paper-and-Pencil",
+      "Role Playing",
+      "Storytelling"
+    ],
+    "image": "https://cf.geekdo-images.com/qLFKi7SszvYW7xvrdPJ6BA__thumb/img/6SAanacns4A1PaJMkrb1EZoxThs=/fit-in/200x150/filters:strip_icc()/pic3026472.jpg"
+  },
+  {
+    "id": "8195",
+    "name": "Viva Topo!",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 30,
+    "age": 4,
+    "description": "In Viva Topo!, players attempt to advance their mice (pieces) from the start to any of various goals. The further the goal, the more cheese (points) it is worth. Pursuing the mice is the cat that removes the mice from the game should it catch the mice.&#10;&#10;Movement is regulated by a die which has 1/1/2/3/4/5 on the sides. The &quot;1&quot; sides also move the cat. Initial cat moves are only one space, but become two spaces after once around the track, so when the cat speeds up, the game is almost all over!&#10;&#10;Viva Topo! is a family game that has players balancing risk and rewards as they attempt to outrun the cat and score for cheese.&#10;&#10;",
+    "categories": [
+      "Animals",
+      "Children's Game",
+      "Dice"
+    ],
+    "mechanics": [
+      "Push Your Luck",
+      "Race",
+      "Roll / Spin and Move",
+      "Track Movement"
+    ],
+    "image": "https://cf.geekdo-images.com/agslhCTZF1YGmq5Qb44YsA__thumb/img/I3d2mP4F7UJ8ZXpJXzVB5QOT2FA=/fit-in/200x150/filters:strip_icc()/pic4907101.jpg"
+  },
+  {
+    "id": "205127",
+    "name": "Haven",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playingTime": 45,
+    "age": 12,
+    "description": "The mystical forest has been home and haven to beasts, spirits, and forgotten gods for thousands of years. While the Haven Guardian slumbers, a nearby human village has grown into a city, hungry to control the powers of the forest. Can the forest creatures discover enough potent lore to defend their ancient home from the oppressive city &mdash; or will the city use this lore to power their machines and turn the forest against itself?&#10;&#10;The battle for Haven begins!&#10;&#10;In Haven, you and your opponent battle for control of a mystical forest. The Haven Guardian, spirit of the forest, sleeps deeply and can no longer protect its kingdom. One of you controls the city in an effort to master the vulnerable forest using &quot;stone lore&quot; and machines. The other plays as the forest and its creatures who defend their home with the aid of &quot;leaf lore&quot; and forest spirits.&#10;&#10;To obtain the power needed to oppose your enemy, you must send seekers to compete for the lore controlled by elementals, ancient beings who bestow the lore on those who seek it. Seekers also engage in combat for control of shrines on the board, scoring you bonus points if you occupy a majority of shrines surrounding forest havens. When one type of lore is depleted or one elemental has left the board, the Haven Guardian awakens and the player with the higher score masters the forest &mdash; or defends it from harm &mdash; and wins the game.&#10;&#10;",
+    "categories": [
+      "Animals",
+      "Card Game",
+      "Environmental",
+      "Fantasy",
+      "Fighting",
+      "Territory Building"
+    ],
+    "mechanics": [
+      "Area Majority / Influence",
+      "Enclosure",
+      "Hand Management",
+      "Push Your Luck",
+      "Set Collection"
+    ],
+    "image": "https://cf.geekdo-images.com/edtVBMzkqTTNBGj53CF4tQ__thumb/img/8ziXwPR4ouSOb_ehTRlejdxxaGM=/fit-in/200x150/filters:strip_icc()/pic4401674.jpg"
+  },
+  {
+    "id": "237211",
+    "name": "Valhalla",
+    "minPlayers": 1,
+    "maxPlayers": 6,
+    "playingTime": 60,
+    "age": 13,
+    "description": "The end is coming and greatest warriors are standing to fight. To die in glory and reach Valhalla.&#10;&#10;Valhalla is a card game with dice placement mechanics. Each player takes role of a Jarl who builds a team of warriors and equips them to fight. In battles player roll dice to activate warriors and play special tactic cards. The winning party sends their activated warriors to Valhalla, and whoever has the most points at the end, wins the game.&#10;&#10;The game puts a classical &quot;war game&quot; concept on its head. In Valhalla the goal is to win a battle and send winning warriors to Valhalla.&#10;&#10;Custom dice add randomness and excitement to the game, and wide variety of Jarls, warriors and battle tactics ensure great replayability.&#10;&#10;&mdash;description from the publisher&#10;&#10;(Espa&ntilde;ol)&#10;&#10;El final se acerca y los principales guerreros se aprestan a la lucha. Para morir gloriosamente y alcanzar Valhalla.&#10;&#10;Valhalla es un juego de cartas con mecanismos de colocaci&oacute;n de dados. Cada jugador toma el papel de un Jarl que re&uacute;ne un equipo de guerreros y los equipa para luchar. En las batallas, los jugadores lanzan los dados para activar luchadores y juegan cartas de t&aacute;cticas especiales. El grupo ganador, env&iacute;a a los guerreros que haya activado al Valhalla y quien tenga m&aacute;s puntos al fina, gana la partida.&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Dice",
+      "Fighting",
+      "Medieval",
+      "Mythology"
+    ],
+    "mechanics": [
+      "Dice Rolling",
+      "Hand Management",
+      "Open Drafting",
+      "Re-rolling and Locking",
+      "Set Collection",
+      "Take That",
+      "Variable Player Powers"
+    ],
+    "image": "https://cf.geekdo-images.com/3CGgrR3sPj17KPJ7bAdvCA__thumb/img/dKKlcnujEuGqLcspRMdbaA6Ckzo=/fit-in/200x150/filters:strip_icc()/pic7870972.jpg"
+  },
+  {
+    "id": "246816",
+    "name": "Tales of Glory",
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playingTime": 45,
+    "age": 10,
+    "description": "All heroes need to prove their worth! In Tales of Glory, the players play emerging heroes. Each turn represents a year in the heroes' lives, and each player decides what their hero has done that year (defeated a monster, looted treasure, met people, etc.) to try to gain glory. After ten turns, the player with the most glory wins.&#10;&#10;Each turn, players simultaneously select a quest they want to do from a common pool. They then have to pay the cost of the quest and place it on their &quot;path of life&quot; connected to another quest they already made or their departure area.&#10;&#10;Some quests such as slaying monsters bring immediate glory points while others are affected by what players have done before or will do afterwards on their path of life.&#10;&#10;(Espa&ntilde;ol)&#10;&#10;J&oacute;venes h&eacute;roes ansiosos de aventuras, &iexcl;vuestro momento de gloria ha llegado! Tomad esta espada y este escudo, coged estas monedas y estas pociones. &iexcl;Y no os olvid&eacute;is del libro de hechizos! Las tierras que est&aacute;is a punto de cruzar est&aacute;n llenas&#10;de criaturas a las que vencer y tesoros que obtener. Visitar&aacute;s lugares incre&iacute;bles y te encontrar&aacute;s con sorprendentes personajes. Volver&eacute;is a casa siendo un h&eacute;roe, &iexcl;pero solo el que alcance la gloria se convertir&aacute; en una leyenda!&#10;&#10;En Tales of Glory construir&aacute;s tu camino hacia la gloria mediante la adquisici&oacute;n de cartas que te permitir&aacute;n ir creando tu senda, luchando con monstruos, ganando poder y reclutando aliados que te ayudar&aacute;n a obtener el prestigio para ganar la partida. El sistema de elecci&oacute;n de carta al azar le ofrece una profundidad t&aacute;ctica donde averiguar en qu&eacute; momento una carta es interesante para tu senda o para la de tus oponentes.&#10;&#10;",
+    "categories": [
+      "Fantasy",
+      "Medieval"
+    ],
+    "mechanics": [
+      "Hand Management",
+      "Open Drafting",
+      "Simultaneous Action Selection",
+      "Tile Placement"
+    ],
+    "image": "https://cf.geekdo-images.com/-kEgc_Ht0kSZO0YGSzUOSw__thumb/img/UbzB0ekqYOmy-GrAIsPsd3BXlmY=/fit-in/200x150/filters:strip_icc()/pic4627097.jpg"
+  },
+  {
+    "id": "66587",
+    "name": "GOSU",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 45,
+    "age": 10,
+    "description": "In a fantasy world dominated by goblins, when the blood moon rises in the sky, a new war begins and new warlords raise their armies.&#10;&#10;GOSU plays like a hybrid of Race for the Galaxy and Magic: The Gathering with each player trying to recruit an army of goblins made up of soldiers, heroes, magicians, and other classes &ndash; then swing it into action against the other players. Five clans of goblins are represented on the game cards, with goblins in one of three ranks. To build an army, a player must first recruit level I goblins, then build on those goblins with level II and finally level III. Those higher level goblins can be played only if a lower level goblin is of the same clan, and since goblins of the same clan have similar abilities or powers that mesh well, players tend to specialize in who they recruit to their ranks.&#10;&#10;Each turn, a player can play a new goblin, activate a goblin, draw cards, or pass. To activate a goblin or draw cards, players need to spend 1-2 activation tokens, with them having only two at the start of each battle. Many goblins have special powers that come into play when they're recruited, attacked, removed from play, placed with other goblins, and so on.&#10;&#10;Once all players have passed, the player with the most powerful army wins the battle. Players keep cards in hand from one battle to the next, so laying out all your forces at once can leave you with little to do but get hit in later battles. The first player to win three battles wins the game.&#10;&#10;Reimplemented as:&#10;&#10;    GOSU 2: Tactics&#10;&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Fantasy"
+    ],
+    "mechanics": [
+      "Catch the Leader",
+      "Hand Management",
+      "Take That",
+      "Team-Based Game"
+    ],
+    "image": "https://cf.geekdo-images.com/QC1oI4zCSy9lKl34JUpykw__thumb/img/RgXeVyZ0qAldnZKIgP9GRqf02cQ=/fit-in/200x150/filters:strip_icc()/pic821651.jpg"
+  },
+  {
+    "id": "394334",
+    "name": "Sunrise Lane",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 45,
+    "age": 8,
+    "description": "In Sunrise Lane, players take on the role of construction companies attempting to build up a residential neighborhood, and to do this, they need to pick prestigious plots of land on which to build houses and town structures.&#10;            &#10;In more detail, the game board depicts a grid of spaces that each show 1-5 dots in a single color, and each player has a set of colored House pieces, with the colors having no connection to the space on the board. On a turn, you either draw 2 colored cards from the deck and add them to your hand (with a limit of 5 cards in hand) or discard cards to place a building, then draw a card.&#10;            &#10;When you build, you must build adjacent to a pre-existing structure (or the central space at the start of the game), and you must discard 1 or more cards of the same color as the dots in the space on which you want to build. You can discard 1-5 cards, after which you place 1-5 of your House pieces on this space, then score points equal to the number of dots on the space multiplied by the number of House pieces you placed. You can build multiple buildings on a turn as long as you build your next one adjacent to the last one you built.&#10;            &#10;When a player has 2 or less House pieces in their supply, the game ends, then players score endgame points, with two of the districts awarding points for the highest buildings and the other two for the most buildings. Additionally, points go to the player with the longest group of adjacent buildings.&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "City Building"
+    ],
+    "mechanics": [
+      "Area Majority / Influence",
+      "Chaining",
+      "End Game Bonuses",
+      "Hand Management"
+    ],
+    "image": "https://cf.geekdo-images.com/nfMAnSqat9Cyy1bwwZlQ_g__thumb/img/Kneh1lUYavhl66fAh0qj4l0iwbY=/fit-in/200x150/filters:strip_icc()/pic7645268.jpg"
+  },
+  {
+    "id": "714",
+    "name": "Talisman",
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playingTime": 240,
+    "age": 9,
+    "description": "The game board represents a fantasy land.  Players chose a character from a list of semi-standard fantasy types: Barbarian, Wizard, Monk, etc.  The objective of the game is to travel through the land encountering event cards and gathering strength along the way.  Hopefully players will eventually become powerful enough to travel to the center of the board, endure the trials there and take the Crown of Command for the victory.  There were also several expansions released for this game, which add new character choices and new places to travel.&#10;&#10;Part of the Talisman series of games and expansions published by Games Workshop Ltd..&#10;&#10;The first edition differs from the second only in the box cover art and the cards, which were printed in black and white (same artwork as the second edition, though). The first edition had no expansions.&#10;&#10;Expanded by:&#10;&#10;    Talisman: Expansion Set&#10;    Talisman: The Adventure&#10;    The Talisman Dungeon&#10;    Talisman Timescape&#10;    Talisman City&#10;    Talisman Dragons&#10;&#10;&#10;Also by:&#10;&#10;    The Jewel in the Crown&#10;    Talisman (Second Edition): White Dwarf #115 Cards&#10;&#10;&#10;Re-implemented by:&#10;&#10;    Talisman (Third Edition)&#10;    Talisman: Revised 4th Edition&#10;&#10;&#10;",
+    "categories": [
+      "Adventure",
+      "Exploration",
+      "Fantasy",
+      "Fighting"
+    ],
+    "mechanics": [
+      "Dice Rolling",
+      "Role Playing",
+      "Roll / Spin and Move",
+      "Variable Player Powers"
+    ],
+    "image": "https://cf.geekdo-images.com/GfXN7KP7ny2YU7A-zrZObA__thumb/img/bYEDBrsJ56D1lv_IHNd2tx6200o=/fit-in/200x150/filters:strip_icc()/pic818904.jpg"
+  },
+  {
+    "id": "376893",
+    "name": "Cyberion",
+    "minPlayers": 1,
+    "maxPlayers": 2,
+    "playingTime": 40,
+    "age": 10,
+    "description": "The factory of the world of dreams is on the brink of destruction! The Evil Cogs have sabotaged all the machines, and it is only a matter of minutes before everything implodes. At the head of a robot squad, will you manage to repair the factory before all the failsafes have collapsed?&#10;&#10;Cyberion is a game of hand-management, and you must use your robot cards wisely, either to repair the machine cards or to trigger powerful effects. The machines get harder to repair throughout the game, but you'll also have opportunities to increase the magnitude of the effects your robot can trigger.&#10;&#10;&mdash;description from the designer&#10;&#10;",
+    "categories": [],
+    "mechanics": [
+      "Cooperative Game",
+      "Hand Management",
+      "Solo / Solitaire Game"
+    ],
+    "image": "https://cf.geekdo-images.com/vr9ebyrLGquq79V_mUjd8w__thumb/img/iCFg2Rb67x7Jk7joWnW_UazCyrA=/fit-in/200x150/filters:strip_icc()/pic7610938.jpg"
+  },
+  {
+    "id": "296694",
+    "name": "BattleTech: A Game of Armored Combat",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playingTime": 120,
+    "age": 12,
+    "description": "In this introduction to the BattleTech game and universe, players each take control of one or more giant walking war machines (BattleMechs, aka 'Mechs) and battle until their opponent is destroyed or until the scenario objectives being played are completed.&#10;&#10;In 2019 the old BattleTech Introductory Box Set was replaced by two all-new box sets. The second of these (after the Beginner Box) is A Game of Armored Combat. AGoAC comes with eight 'Mech miniatures (made to a higher quality level than the previous generation of box set miniatures). The AGoAC rules cover introductory weapons and construction technology, and the standard BattleTech ruleset for 'Mechs.&#10;&#10;An expansion for this set, the BattleTech: Clan Invasion box set, adds more advanced technologies and introduces the Clan factions.&#10;&#10;In terms of rulebooks, the intended follow-on from this box is either the BattleMech Manual (for more advanced but still 'Mech-only play) or Total Warfare (for combined arms play featuring 'Mechs, combat vehicles, infantry, air support, etc).&#10;&#10;",
+    "categories": [
+      "Fighting",
+      "Miniatures",
+      "Science Fiction",
+      "Wargame"
+    ],
+    "mechanics": [
+      "Dice Rolling",
+      "Paper-and-Pencil",
+      "Player Elimination",
+      "Variable Player Powers"
+    ],
+    "image": "https://cf.geekdo-images.com/r1wbk3AK3J07jdb8n2pIDA__thumb/img/mybGIrjUjTQYvsii64H-2haPipA=/fit-in/200x150/filters:strip_icc()/pic4550063.png"
+  },
+  {
+    "id": "2288",
+    "name": "Blood Bowl (Second Edition)",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playingTime": 180,
+    "age": 14,
+    "description": "Blood Bowl is a game of Fantasy Football. The basic game features a match between a human team and an orc team. Ostensibly the teams are playing football. In fact each team takes turns moving, blocking and advancing the football down the field. The game comes with plastic miniatures.&#10;&#10;This is the Second Edition Game in the Blood Bowl Series!&#10;&#10;",
+    "categories": [
+      "Fantasy",
+      "Fighting",
+      "Sports"
+    ],
+    "mechanics": [
+      "Dice Rolling",
+      "Grid Movement",
+      "Variable Player Powers"
+    ],
+    "image": "https://cf.geekdo-images.com/eewLXNdzKH1uhLUX1ztzfg__thumb/img/qeD8inr7DIX6hX-9q2n9LeDE8Y0=/fit-in/200x150/filters:strip_icc()/pic256111.jpg"
+  },
+  {
+    "id": "235591",
+    "name": "History of the World",
+    "minPlayers": 3,
+    "maxPlayers": 6,
+    "playingTime": 180,
+    "age": 14,
+    "description": "Take a ride through humankind's history with History of the World, a game of conquest and cunning for three to six players. Expand your empire as you command mighty empires at the height of their power from the dawn of civilization to the twentieth century. Each game offers an epic experience as great minds work toward technological advances, ambitious leaders inspire their citizens, and unpredictable calamities occur while empires rise and fall.&#10;&#10;This remastered edition of History of the World contains a beautifully illustrated board, revised rules to streamline the experience, and everything you need to etch your name in the annals of history.&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+    "categories": [
+      "Age of Reason",
+      "Ancient",
+      "Civilization",
+      "Medieval",
+      "Napoleonic",
+      "Pike and Shot",
+      "Post-Napoleonic",
+      "Renaissance",
+      "Wargame"
+    ],
+    "mechanics": [
+      "Area Majority / Influence",
+      "Dice Rolling"
+    ],
+    "image": "https://cf.geekdo-images.com/9JQ-Gj4BhA6aW8X03LJugg__thumb/img/5kr5tJ5C427RrU1JlSR6zbl2e-Y=/fit-in/200x150/filters:strip_icc()/pic3742427.jpg"
+  },
+  {
+    "id": "207016",
+    "name": "Flick 'em Up!: Dead of Winter",
+    "minPlayers": 1,
+    "maxPlayers": 10,
+    "playingTime": 45,
+    "age": 8,
+    "description": "Flick 'em Up!: Dead of Winter pits players against zombies in a dexterity game that has you using tools in various ways to take out the undead while they in turn shamble somewhat randomly in your direction.&#10;&#10;Based on the best-selling Dead of Winter, form your group of ten survivors and explore the city with ten scenarios. Shh! The slightest sound will wake the zombies! With the new &mdash; and terrifying &mdash; zombie tower, you'd better be ready and rearing to go when the zombies attack! Will you be able to flick some zombies?&#10;&#10;Part of the Dead of Winter series.&#10;&#10;",
+    "categories": [
+      "Action / Dexterity",
+      "Fighting",
+      "Horror",
+      "Zombies"
+    ],
+    "mechanics": [
+      "Cooperative Game",
+      "Flicking",
+      "Team-Based Game"
+    ],
+    "image": "https://cf.geekdo-images.com/P7W3dCZliN22VxH7JPUG3A__thumb/img/m-ZmSf0iL8fgEb2BmVhqhqmWzLQ=/fit-in/200x150/filters:strip_icc()/pic3365608.jpg"
+  },
+  {
+    "id": "17161",
+    "name": "Tempus",
+    "minPlayers": 3,
+    "maxPlayers": 5,
+    "playingTime": 120,
+    "age": 14,
+    "description": "User review&#10;&#10;Set up:&#10;&#10;The game contains twelve map tiles. Each map tile is made of one hexagon surrounded by six hexagons. Each tile will have a mixture of any or all of five types of terrain: grasslands, farmlands, mountains, woods, and hills. Each player gets a Player Aid card, selects a color of people tokens and places the era cube of the matching color on The Era Starting Box on the Progress Column part of the game board. A starting player is selected. Some tiles are placed contiguously on the game board (the number of tiles depends on the number of players) one at a time in turn order. Each player, in turn, places three of their people tokens on the game board contiguously. The game is now ready to begin.&#10;&#10;Game play:&#10;&#10;Players should note which terrain will be worth Progress Points at the end of the era. Progress Points are the number of hexes occupied of the scoring terrain by one&rsquo;s token plus the number of city tiles plus the value of all eligible Idea Cards. The player or players with the most Progress Points will advance to the new era and get an advantage over the other players.&#10;&#10;In turn, a player may:&#10;-    Move people&#10;-    Have babies (increase the number of people tokens on the game board)&#10;-    Have a fight (initiate the diceless combat system against another player)&#10;-    Have an idea (draw chance cards)&#10;-    Build a city (replace people tokens with a city tile)&#10;&#10;After all the players have used all of their turns the era has ended. If this not the first round then all the players&rsquo; Era Cubes are advanced to the level of the leader(s). Progress Points are then compared and the leader(s) advance to take advantage of one&rsquo;s newest ability.&#10;&#10;The game is over after ten eras. Victory Points are the total of number of non-mountain hexagons occupied by one&rsquo;s tokens plus the values of one&rsquo;s cities plus three points for advancing to the final era. The player with most Victory Points is the winner.&#10;&#10;",
+    "categories": [
+      "Civilization",
+      "Territory Building"
+    ],
+    "mechanics": [
+      "Auction / Bidding",
+      "Card Play Conflict Resolution",
+      "Catch the Leader",
+      "End Game Bonuses",
+      "Grid Movement",
+      "Hand Management",
+      "Hexagon Grid",
+      "Modular Board",
+      "Turn Order: Progressive"
+    ],
+    "image": "https://cf.geekdo-images.com/HbByF3L0K1SdYldIlOJK_Q__thumb/img/2LMtuAl4hssI5FCi5VfpApvdBi0=/fit-in/200x150/filters:strip_icc()/pic218485.jpg"
+  },
+  {
+    "id": "340865",
+    "name": "Lords of Ragnarok",
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playingTime": 180,
+    "age": 14,
+    "description": "In this 1-4 player strategic board game, you will lead a unique, asymmetric hero and their army, trying to be the ultimate victor in a war that unfolds over approximately 120 minutes. Players will choose from various actions, such as building monuments, hunting monsters, ravaging the lands, and gathering armies and artifacts.&#10;Gods will grant you blessings that will heavily impact the game and create a unique combo for each player. On top of all that, special runes will play a significant role in leveling up your armies or earning other bonuses that include control of deadly monsters.&#10;&#10;While the game is a spiritual successor of Lords of Hellas and implements a lot of core gameplay aspects, there will be a lot of new mechanics and twists, so prepare yourself for a fresh, new thematic experience!&#10;&#10;Multiple victory conditions will keep players at the edge of their seats until the end of the game, making room for some stunning, carefully planned last-minute reversals!&#10;&#10;",
+    "categories": [
+      "Fantasy",
+      "Miniatures",
+      "Mythology",
+      "Science Fiction",
+      "Wargame"
+    ],
+    "mechanics": [
+      "Area Majority / Influence",
+      "Area Movement",
+      "Card Play Conflict Resolution",
+      "Dice Rolling",
+      "Hand Management",
+      "Open Drafting",
+      "Solo / Solitaire Game",
+      "Variable Player Powers",
+      "Worker Placement"
+    ],
+    "image": "https://cf.geekdo-images.com/8hiSer9b04DuhsMBbzU-0A__thumb/img/nfNYJD9hcxEKyHh3HdVe-_xhVU4=/fit-in/200x150/filters:strip_icc()/pic6399488.jpg"
+  },
+  {
+    "id": "8172",
+    "name": "Coyote",
+    "minPlayers": 3,
+    "maxPlayers": 6,
+    "playingTime": 30,
+    "age": 10,
+    "description": "Coyote is a simple bluffing game in a western setting. Every player gets a card (bound on his forehead by a fabric tape) showing a number of &quot;hidden&quot; Indians or a special value. You don't know the value of your card, but you can see all the others. The object of the game is to guess how many Indians are shown on the cards, declaring an increasing number every turn. If you are caught over declaring, you lose.&#10;&#10;Many special cards make every game turn a surprise, and don't forget you never know the card you are showing on your forehead.&#10;&#10;Kidultgame originally published the game in 2003.&#10;&#10;The french editions from Tilsit (2004,2005 &amp; 2006) convinced with their real feathers accessory !&#10;&#10;The game has been reprinted by the italian company Oliphante in 2010.&#10;&#10;Starting 2011, the french company Gigamic has got international rights and the game has been printed and distributed in a brand new edition.&#10;&#10;",
+    "categories": [
+      "Bluffing",
+      "Card Game",
+      "Deduction",
+      "Party Game"
+    ],
+    "mechanics": [
+      "Player Elimination"
+    ],
+    "image": "https://cf.geekdo-images.com/SI7PmZvgnG_eGtTLjDUFXw__thumb/img/aZEEzxcuT4dkm6-7aCSdNBEBRIs=/fit-in/200x150/filters:strip_icc()/pic6884733.jpg"
+  },
+  {
+    "id": "69601",
+    "name": "1880: China",
+    "minPlayers": 3,
+    "maxPlayers": 7,
+    "playingTime": 300,
+    "age": 13,
+    "description": "In 1880: China, based on 1829 by Francis Tresham, the players become railway barons in the far east, experiencing China's railway history in a game that was designed to represent related historical events as correctly as possible within its own game mechanisms. Being a classic 18xx game, the players compete to become the richest. In order to gain money, they buy and sell shares of China's historical railway companies, build and expand their railway network, and let trains travel on the networks. Shares of successful companies are worth more, and owning them will increase the chance to win the game. In the end, the player with the highest wealth combined from cash and shares wins.&#10;&#10;1880: China innovates on the 18xx model as follows:&#10;&#10;&#10;    Turn order for companies doesn't change with the evolving stock prices; it is set along with the par price when a player opens a company.&#10;    The game includes a player-manipulated ratio of stock rounds and operation rounds. For example, a new stock round occurs when the last of a type of train is bought.&#10;&#10;&#10;",
+    "categories": [
+      "Economic",
+      "Trains"
+    ],
+    "mechanics": [
+      "Auction / Bidding",
+      "Network and Route Building",
+      "Stock Holding",
+      "Tile Placement"
+    ],
+    "image": "https://cf.geekdo-images.com/THka9Zmgd5oawubLx2hv3w__thumb/img/PigmM5p-SupEgD5pc4umKrN5vnE=/fit-in/200x150/filters:strip_icc()/pic7245218.jpg"
+  },
+  {
+    "id": "18485",
+    "name": "18MEX",
+    "minPlayers": 3,
+    "maxPlayers": 5,
+    "playingTime": 210,
+    "age": 14,
+    "description": "18MEX is an 18xx game set in Mexico, designed for 3-5 players and playable in 3-4 hours. Like other 18xx type games, it is a rather abstact simulation of historical railroad operations and financing, this time with a setting in Mexico. Players compete to control railroads while attempting to accumulate the greatest net worth. 18MEX features private companies, minor railroads, major railroad corporations and a government railroad, the NdM.&#10;&#10;",
+    "categories": [
+      "Economic",
+      "Trains",
+      "Transportation"
+    ],
+    "mechanics": [
+      "Hexagon Grid",
+      "Network and Route Building",
+      "Stock Holding",
+      "Tile Placement"
+    ],
+    "image": "https://cf.geekdo-images.com/kljuOsbQ9yxs2tHTguxUyA__thumb/img/cAAJnv01XV-K3oTFbbM2EwZtu6Q=/fit-in/200x150/filters:strip_icc()/pic4895018.png"
+  },
+  {
+    "id": "171479",
+    "name": "Commissioned",
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playingTime": 60,
+    "age": 14,
+    "description": "Commissioned is a 2-6 player cooperative-style board game with a simple deck-building mechanism that plays in 1 hour. Players are the early Christian Apostles and must work together to mature their faith decks, grow the church, collect the books of the New Testament, and overcome persecution. You do not need to know anything about Christianity to play. The game includes five scenarios that cover the first 150 years of church history, two difficulty levels, and a one-vs-all variation.&#10;&#10;",
+    "categories": [
+      "Ancient",
+      "Educational",
+      "Religious"
+    ],
+    "mechanics": [
+      "Area Movement",
+      "Cooperative Game",
+      "Deck, Bag, and Pool Building",
+      "Set Collection",
+      "Variable Player Powers"
+    ],
+    "image": "https://cf.geekdo-images.com/WbXodt9F_ELZmpNjYH6Hjw__thumb/img/XpMJUWs67_Bx3qjDsyteNSV0e4k=/fit-in/200x150/filters:strip_icc()/pic2509120.png"
+  },
+  {
+    "id": "250396",
+    "name": "Terminator Genisys: Rise of the Resistance",
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playingTime": 120,
+    "age": 14,
+    "description": "Terminator Genisys: Rise of the Resistance is a cooperative tactical board game for 1-4 players where you play as the leaders of the Resistance, liberating humankind from the clutches of the machines. Use the mission guide to select your scenario or play through in campaign mode. Build the modular map and select your favorite resistance hero before engaging the terminators in a battle for survival. Roll dice and allocate them to abilities, weapons, movement and more. Keep pressing on toward the next waypoint but don&rsquo;t get overrun by the machines.&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+    "categories": [
+      "Miniatures",
+      "Movies / TV / Radio theme",
+      "Science Fiction"
+    ],
+    "mechanics": [
+      "Cooperative Game",
+      "Dice Rolling",
+      "Grid Movement",
+      "Line of Sight",
+      "Modular Board",
+      "Scenario / Mission / Campaign Game",
+      "Tile Placement"
+    ],
+    "image": "https://cf.geekdo-images.com/thCa6MsYkrraVQk_eNXwIA__thumb/img/ughpMlOrqbudIp-3eQJMZoLOUHQ=/fit-in/200x150/filters:strip_icc()/pic4076015.jpg"
+  },
+  {
+    "id": "284775",
+    "name": "Funkoverse Strategy Game",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 60,
+    "age": 10,
+    "description": "&#10;&#10;&#10;    &#10;        GAME SYSTEM&#10;&#10;    &#10;    &#10;         This entry is to allow for discussion/rating of the game system as a whole. It is not for a specific product or release. Versions will appear on the individual item pages.&#10;&#10;    &#10;&#10;&#10;&#10; Face off in the ultimate Pop! battle&#10;&#10;In the Funkoverse Strategy Game, you combine your favorite characters and go head-to-head in four exciting game scenarios. Use your characters' unique abilities to gain points and achieve victory!&#10;&#10;Each turn, you select one of your characters and perform two actions. Each character has access to basic actions like moving and challenges as well as several unique abilities that may be performed only by spending ability tokens. Funkoverse uses an innovative &quot;cooldown&quot; system &mdash; the more powerful the ability, the longer it will take for the ability token to become available again &mdash; so players have to spend their ability tokens wisely. Each character in Funkoverse is unique, so players are encouraged to try out different combinations of characters and items in order to discover their favorite synergies and powerful strategies for all four game scenarios.&#10;&#10;As of launch, the Funkoverse Strategy Game consists of four-character sets and two-character sets. Every four-character and two-character set is playable as a standalone game and comes with exclusive Funko Pop! Figures that aren't available anywhere else, a double-sided board, tokens, cards, an item, and dice. Sets may be combined with one another, allowing players the freedom to play how they like!&#10;&#10;&mdash;description from the publisher&#10;&#10;Linked entries in the BGG database:&#10;&#10;&#10;    Funkoverse Strategy Game: Alice in Wonderland 100&#10;    Funkoverse Strategy Game: Aggretsuko 100&#10;    Funkoverse Strategy Game: Back to the Future 100&#10;    Funkoverse Strategy Game: DC Comics 100&#10;    Funkoverse Strategy Game: DC Comics 101&#10;    Funkoverse Strategy Game: DC Comics 102&#10;    Funkoverse Strategy Game: Game of Thrones 100&#10;    Funkoverse Strategy Game: Golden Girls 100&#10;    Funkoverse Strategy Game: Golden Girls 101&#10;    Funkoverse Strategy Game: Harry Potter 100&#10;    Funkoverse Strategy Game: Harry Potter 101&#10;    Funkoverse Strategy Game: Harry Potter 102&#10;    Funkoverse Strategy Game: Jaws 100&#10;    Funkoverse Strategy Game: Jurassic Park 100&#10;    Funkoverse Strategy Game: Jurassic Park 101&#10;    Funkoverse Strategy Game: Kool-Aid Man 100&#10;    Funkoverse Strategy Game: Marvel 100&#10;    Funkoverse Strategy Game: Marvel 101&#10;    Funkoverse Strategy Game: Rick & Morty 100&#10;    Funkoverse Strategy Game: Space Jam A New Legacy 100&#10;    Funkoverse Strategy Game: Tim Burton's The Nightmare Before Christmas 100&#10;&#10;&#10;",
+    "categories": [
+      "Collectible Components",
+      "Dice",
+      "Fighting",
+      "Miniatures"
+    ],
+    "mechanics": [
+      "Action Points",
+      "Dice Rolling",
+      "Grid Movement",
+      "Line of Sight",
+      "Team-Based Game",
+      "Variable Player Powers"
+    ],
+    "image": "https://cf.geekdo-images.com/irXMNn5hyCtO8DRX7zMtKQ__thumb/img/_rhxFoHYr5lvwmCwd7Wjv85uVEY=/fit-in/200x150/filters:strip_icc()/pic4850555.png"
+  },
+  {
+    "id": "19995",
+    "name": "Canal Mania",
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playingTime": 90,
+    "age": 12,
+    "description": "Canal Mania is a game about the great canal-building era of the eighteenth and nineteenth centuries that captures the feel of the period and gives players plenty of decision making in their attempts to complete some of the most famous British canals.&#10;&#10;Players will engage brilliant engineers such as James Brindley and Thomas Telford in their efforts to create canals linking emerging manufacturing centers, thereby providing the waterways that supplied the goods generated by the Industrial Revolution.&#10;&#10;The goal of this game is to have more victory points than your opponents. You gain victory points by building canals (with 0-3 victory point for each hex and 2-8 victory points for the contract) and moving goods through canals (1 for each town you visit, including the first one).&#10;&#10;Each turn has 3 phases. In each Phase you can chose one action:&#10;&#10;First Phase:&#10;- Take a contract from parliament&#10;- Exchange engineers&#10;- Discard the five face up building cards&#10;Second Phase:&#10;- Pick up three face up build cards&#10;- Build tiles&#10;Third Phase:&#10;- Move one good token&#10;Any Phase Alternative:&#10;- Draw one card from the top of the build deck&#10;&#10;",
+    "categories": [
+      "Economic",
+      "Transportation"
+    ],
+    "mechanics": [
+      "Network and Route Building",
+      "Open Drafting",
+      "Pick-up and Deliver",
+      "Tile Placement"
+    ],
+    "image": "https://cf.geekdo-images.com/PDr0SjhkXsfIrNvhIqwvgQ__thumb/img/2nyb5QYMeWszrcdiBnZCLo5Evns=/fit-in/200x150/filters:strip_icc()/pic106560.jpg"
+  },
+  {
+    "id": "158340",
+    "name": "Lost Legacy: Flying Garden",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 10,
+    "age": 10,
+    "description": "Lost Legacy: Flying Garden is a game of risk, deduction, and luck for 2&ndash;4 players. You start the game with one card in hand from a deck of sixteen cards. On a turn, you do the following:&#10;&#10;&#10;         Draw: Draw the top card from the deck and add it to your hand.&#10;         Play: Choose one of the two cards in hand to play and place it face up in front of you.&#10;         Effect: Carry out the played card's effect, after which the card is considered as discarded.&#10;         End: If there is at least one card left in the deck, the turn goes to the next player; if not, the investigation phase starts. Using the investigation speed indicated on the card each player has in hand, players take turns guessing which player (whether yourself or someone else) holds the &quot;Lost Legacy&quot; card; this card might also be in the &quot;Ruins&quot;, a location that holds one card at the start of the game and possibly acquires more cards during play. The player who guesses correctly wins; if no one finds the Lost Legacy, then everybody loses.&#10;    &#10;&#10;&#10;By combining different Lost Legacy sets (while keeping only a single Lost Legacy card in play), up to six players can compete at the same time.&#10;&#10;This is the English release of the 16 cards Flying Garden set in Lost Legacy with new artwork. The Starship set is released separately.&#10;&#10;",
+    "categories": [
+      "Bluffing",
+      "Card Game",
+      "Deduction"
+    ],
+    "mechanics": [
+      "Hand Management",
+      "Memory",
+      "Player Elimination"
+    ],
+    "image": "https://cf.geekdo-images.com/1Zm4GQ769FTRGyCS9RkLzA__thumb/img/sGk-TiJyK7m3xKPKMwvLJvhUjLY=/fit-in/200x150/filters:strip_icc()/pic1998163.jpg"
+  },
+  {
+    "id": "422780",
+    "name": "Mistborn: The Deckbuilding Game",
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playingTime": 60,
+    "age": 13,
+    "description": "Based on the hit Mistborn novel series by Brandon Sanderson, the Mistborn Deckbuilding game takes players into the world of Scadrial! From designer John D Clair, players get to control iconic characters from the series and &quot;burn&quot; metals to unlock Allomantic powers in fast-paced battles.&#10;&#10;Mistborn is a standalone deck-building game in which you &ldquo;purchase&rdquo; cards as you play to build and improve your deck. &quot;Burn&quot; metals to activate cards. Each metal has its own strengths: damaging opponents, earning mission points, and manipulating allies. There are multiple ways to win! Defeat your opponents in furious allomantic battles or complete a series of perilous missions before your enemies do.&#10;&#10;Play head-to-head against your friends, or take on the The Lord Ruler in solo or co-op play!&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Fantasy",
+      "Novel-based"
+    ],
+    "mechanics": [
+      "Cooperative Game",
+      "Deck, Bag, and Pool Building",
+      "Market",
+      "Race",
+      "Solo / Solitaire Game",
+      "Tug of War"
+    ],
+    "image": "https://cf.geekdo-images.com/Fr_k9-uU3hEUnw_3s-UnZQ__thumb/img/YLbnyONFWmI-9bu5J30aZke7BjI=/fit-in/200x150/filters:strip_icc()/pic8290518.png"
+  },
+  {
+    "id": "338468",
+    "name": "Paperback Adventures",
+    "minPlayers": 1,
+    "maxPlayers": 2,
+    "playingTime": 150,
+    "age": 14,
+    "description": "Our intrepid author Paige Turner is back!  In Paperback Adventures, you get to play as the protagonist in one of Paige's wild brainstorming sessions. Conquer a menagerie of pulp novel characters in this solo deckbuilding word game.&#10;&#10;Just like in the original game Paperback &mdash; and the follow-up game Hardback &mdash; you will build your own deck of cards throughout the game, and those cards will have letters to help you spell words every turn. But in Paperback Adventures, instead of testing your wordsmithing wit against other players, you will use your words to defeat a series of AI enemies in &quot;roguelike&quot; fashion.&#10;&#10;Paperback Adventures is a solo-focused game. It was designed from the ground up as a strategic, highly-replayable solo word game. There are also additional gameplay variants for cooperative play between two players. There are three playable characters that have different strengths and playstyles.&#10;&#10;The core box is NOT A COMPLETE GAME! One Character Box required (Ex Machina, Damsel or Plothook)&#10;&#10;",
+    "categories": [
+      "Adventure",
+      "Card Game",
+      "Word Game"
+    ],
+    "mechanics": [
+      "Cooperative Game",
+      "Deck, Bag, and Pool Building",
+      "Hand Management",
+      "Melding and Splaying",
+      "Solo / Solitaire Game",
+      "Spelling"
+    ],
+    "image": "https://cf.geekdo-images.com/ns7dguKP6ZAwVFnTEWhWrA__thumb/img/su6SeJ3ygOIuovp3_EzWYT48cK8=/fit-in/200x150/filters:strip_icc()/pic7068848.png"
+  },
+  {
+    "id": "32424",
+    "name": "1848: Australia",
+    "minPlayers": 3,
+    "maxPlayers": 6,
+    "playingTime": 240,
+    "age": 0,
+    "description": "1848 Australia, is a semi-historical railroad game from the 18xx set, and to which the designers credit some of this games' systems to the originator of the series - Francis Tresham.&#10;&#10;The game consists of two separate series of actions repeated until the game ends, these are stock rounds and operating rounds. During stock rounds, shares in the various railroading companies are bought &amp; sold by players and are tracked on the stock market mat. During operating rounds, the player/directors of those railroading companies are allowed to build track &amp; place station markers on the map, and then may buy trains from which to earn capital from running those trains along routes on the map. The capital earned may be paid out as dividends to shareholders or retained by the company for future expansion.&#10;&#10;The game ends at a pre-determined point, whereupon the player with the most worth,(cash on hand &amp; share certificate value) wins.&#10;&#10;As with many games in this series, there are similarities within the rules, but many feature slight differences, and it is these that give each individual 18xx game its character.&#10;&#10;1848 features an interesting array of differences described above. These include how private companies are purchased, the inclusion of The Bank Of England as a public company that extends loans and administers railroads that are in receivership, dealing with different track gauges between states and 'The Ghan' special train.&#10;&#10;",
+    "categories": [
+      "Economic",
+      "Trains",
+      "Transportation"
+    ],
+    "mechanics": [
+      "Auction / Bidding",
+      "Auction: Dutch Priority",
+      "Loans",
+      "Market",
+      "Network and Route Building",
+      "Ownership",
+      "Stock Holding",
+      "Tile Placement",
+      "Victory Points as a Resource"
+    ],
+    "image": "https://cf.geekdo-images.com/JP_XJHe_yPvS34FMF_w0Cg__thumb/img/aOQOM-l8Qq_qy9vrXATA-7n3l14=/fit-in/200x150/filters:strip_icc()/pic6058697.jpg"
+  },
+  {
+    "id": "302280",
+    "name": "Shifting Stones",
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "playingTime": 20,
+    "age": 8,
+    "description": "Leave no stone unturned! Nine mystical tiles lie before you in a grid of rocky ruins. Rearrange the tiles to match one or more of the patterns in your hand. The catch is that you must sacrifice a card every time you swap or flip a tile. Carve out the most points in Shifting Stones, and your victory will be set in stone!&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+    "categories": [
+      "Abstract Strategy",
+      "Ancient"
+    ],
+    "mechanics": [
+      "Contracts",
+      "Grid Movement",
+      "Hand Management",
+      "Pattern Building",
+      "Pattern Recognition",
+      "Race",
+      "Square Grid"
+    ],
+    "image": "https://cf.geekdo-images.com/plgpLHkEWQX2cMvSzzLyew__thumb/img/lqX8fIQ0z7sU_Kc9WXjRaau9OTo=/fit-in/200x150/filters:strip_icc()/pic5238602.jpg"
+  },
+  {
+    "id": "296167",
+    "name": "Boomerang: Australia",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 30,
+    "age": 8,
+    "description": "Explore the amazing lands of Australia in the new version of this &quot;draft &amp; write&quot; game! Visit the most beautiful places of Australia. While touring, you will meet local animals and enjoy tourist activities, such as hiking, swimming or simply taking beautiful pictures! But don't forget that this trip is not only for pleasure &mdash; you all compete to be the best visitor and discover the most of Australia!&#10;&#10;Boomerang: Australia features a unique blend of set collection and card drafting with the approachable feel of a roll-and-write game. Draft locations from across the Australian continent as you collect sets of activities and animal sightings to gain the most points.&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Travel"
+    ],
+    "mechanics": [
+      "Closed Drafting",
+      "End Game Bonuses",
+      "Paper-and-Pencil",
+      "Set Collection",
+      "Simultaneous Action Selection",
+      "Tags"
+    ],
+    "image": "https://cf.geekdo-images.com/dhFW0s-IilUusfRPHWcXXg__thumb/img/JbXUTZ2FaAXzniYLZo_xdGYuUTI=/fit-in/200x150/filters:strip_icc()/pic5106800.jpg"
+  },
+  {
+    "id": "232520",
+    "name": "Pioneers",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 60,
+    "age": 8,
+    "description": "In a game of Pioneers, the players attempt to populate the cities shown on the game board with their pioneers, using coaches to transport them around the map. Each pioneer has a specific profession, and can only be settled in a city where their work is needed.&#10;&#10;After all the pioneers riding in a coach have been deployed on the game board, the player controlling the coach earns money and victory points. In addition, the players construct roads between the cities, expanding their own network and earning money from other players who use the roads. At the end of the game, each player will be rewarded with additional victory points based on the number of their pioneers in their largest network of connected roads. The player with the most victory points wins!&#10;&#10;",
+    "categories": [
+      "American West"
+    ],
+    "mechanics": [
+      "Network and Route Building",
+      "Pick-up and Deliver",
+      "Point to Point Movement",
+      "Worker Placement"
+    ],
+    "image": "https://cf.geekdo-images.com/nCLHw4-rVRLza8r7sTAN9w__thumb/img/93OUaHfBvtX-Mfzy39nz15uY1BM=/fit-in/200x150/filters:strip_icc()/pic3716925.jpg"
+  },
+  {
+    "id": "215613",
+    "name": "Tao Long: The Way of the Dragon",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playingTime": 30,
+    "age": 14,
+    "description": "&quot;There was something formless and perfect before the Universe was born. For lack of a better name, I call it the Tao.&quot; &mdash;Lao Tsu&#10;&#10;Tao Long: The Way of the Dragon is a circular abstract-like game in which each action taken leaves different options for your foe. In it, each player controls a dragon striving to diminish the other whilst bound together by the Tao; you manipulate tokens on a special board in order to activate your dragon, leaving that same board to be manipulated by your opponent on their turn.&#10;&#10;Among customizable scenarios and increasingly profound modes, both dragons will move, attack, block each other's way and seek dominance. At the end, there can be only one... that is, at least until the tides of change come once again.&#10;&#10;",
+    "categories": [
+      "Abstract Strategy"
+    ],
+    "mechanics": [
+      "Grid Movement",
+      "Mancala",
+      "Modular Board",
+      "Point to Point Movement"
+    ],
+    "image": "https://cf.geekdo-images.com/iM86OQ4esKxfVJz_p8grBA__thumb/img/XlTihNtCVQG0EyLrp-Q-1MGVQn0=/fit-in/200x150/filters:strip_icc()/pic3317172.png"
+  },
+  {
+    "id": "125311",
+    "name": "Okiya",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playingTime": 10,
+    "age": 7,
+    "description": "In Okiya, a.k.a. Niya,, each player tries to arrange her tokens to gain the favor of the emperor. Alternatively, you can prevent your rival from placing a token in the Imperial garden, showing that you have more control than your opponent.&#10;&#10;To set up the game, shuffle the 16 tiles and arrange them in a 4x4 square; each tile shows one of four types of vegetation (maple, cherry, pine or iris) and one of four types of poetic symbols (rising sun, bird, rain or tanzaku - the small pieces of paper on which people sometimes write wishes).&#10;&#10;The starting player removes one tile on the border of the square, sets this tile aside, then places one of her tokens in this space. The opponent must then do the same thing, but can choose from only those tiles that depict the same type of vegetation or poetic symbol shown on the tile first set aside. Play continues, with each set-aside tile determining where the next player can go until:&#10;&#10;&#10;    A player forms a line with four of her tokens in any direction,&#10;    A player forms a 2x2 square with four of her tokens, or&#10;    A player chooses a tile which doesn't allow her opponent to place a token.&#10;&#10;&#10;In any of these cases, the player has won the game. A match can be a single game, a &quot;best of three&quot; series, or a point-based match, with the winner of a game earning as many points as the number of tiles remaining in the grid when she wins; in this case, the player who first collects ten points wins the match.&#10;&#10;",
+    "categories": [
+      "Abstract Strategy"
+    ],
+    "mechanics": [
+      "Pattern Building"
+    ],
+    "image": "https://cf.geekdo-images.com/a86BdUaCSfIqygVvStXsGQ__thumb/img/jAV9bZYZln9N21DaKOXWRp0e8vA=/fit-in/200x150/filters:strip_icc()/pic3711392.png"
+  },
+  {
+    "id": "1260",
+    "name": "Rook",
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playingTime": 45,
+    "age": 8,
+    "description": "Rook is a trump-based trick-taking game played with a deck of Rook playing cards. It was first sold in 1906 by Parker Brothers.  The Rook deck is similar to a standard deck of cards, but has only numbers from 1-14 in four colors (no face cards or card suits (spades, etc.)).&#10;&#10;The standard game is a 4-player partnership game with the 1's, 2's, 3's, and 4's removed for a deck of 41 cards (with the Rook card).  Each hand, players bid for Trump, and then the partnership that won the bid must make the amount of points bid in the hand.  Play of each trick is similar to Whist games like Bridge. The card led must be followed by a card of the same color.  A player may play a trump color if they have none of the color led.  The highest card of the color led wins the trick, unless the trick is trumped, and then the highest trump wins the trick.  The Rook card can be played at any time, and always wins the trick.  Unlike Whist or Bridge, the amount of tricks is not important, but certain count cards (5's, 10's, 14's, and the Rook card) taken in tricks are worth points, which is how the game is scored.&#10;&#10;The standard game is 4-player, but there are variants for 2-player and 3-player in the rules, and there also are many variations and house rules used in play.&#10;&#10;Rook has also been referred to as Missionary Poker.  The Rook deck, with no-face cards or suits from a standard deck of cards, has often been a card game played by religious groups who object to using a standard deck of cards.&#10;&#10;",
+    "categories": [
+      "Card Game"
+    ],
+    "mechanics": [
+      "Hand Management",
+      "Open Drafting",
+      "Predictive Bid",
+      "Team-Based Game",
+      "Trick-taking"
+    ],
+    "image": "https://cf.geekdo-images.com/lKJgntNaJAa8A7QStjRvzA__thumb/img/e6VbhPlXJgY86AMG-NsuS6zC-fw=/fit-in/200x150/filters:strip_icc()/pic394433.jpg"
+  },
+  {
+    "id": "184346",
+    "name": "Go Nuts for Donuts",
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playingTime": 20,
+    "age": 8,
+    "description": "Go Nuts for Donuts is a fast-paced card game for the whole family with just a sprinkle of strategy. Outsmart your opponents and collect donuts hot out of the oven for points. But beware, if two players go after the same donut, then no one gets it!&#10;&#10;In Go Nuts for Donuts, players lay out donuts from the deck equal to the amount of players plus one. Each player has a number card for each donut that is out. Players all pick a donut they want by placing one of their number cards face down on the table. Players simultaneously reveal their number. If two or more players have matching numbers, that donut is discarded and no one gets it. If you're the only player that bid for the donut, than you take it and place it face up in front of you. Collect sets, unique and powerful donuts, and pairs of donuts to maximize points.&#10;&#10;Contents&#10;70 donut cards (full-size cards with brown backs)&#10;&#10;    Teal&#10;&#10;&#10;&#10;        Chocolate Frosted (3)&#10;        Donut Holes (6)&#10;        Eclair (3)&#10;        Glazed (5)&#10;        Jelly Filled (6)&#10;        Maple Bar (2)&#10;        Plain (7) Note that there was a misprint in the 2017 rules incorrectly stating the total of Plain donuts to be only 6.&#10;        Powdered (4)&#10;        French Cruller (1 teal)&#10;&#10;&#10;&#10;    Pink&#10;&#10;&#10;&#10;        Boston Cream (6)&#10;        Double Chocolate (2)&#10;        Red Velvet (2)&#10;        Sprinkled (2)&#10;        French Cruller (1 pink)&#10;&#10;&#10;&#10;    Purple&#10;&#10;&#10;&#10;        Bear Claw (2)&#10;        Cinnamon Twist (2)&#10;        Coffee (2)&#10;        Day Old Donuts (1)&#10;        Milk (1)&#10;        Old Fashioned (2)&#10;        French Cruller (1 purple)&#10;&#10;&#10;&#10;    Blue&#10;&#10;&#10;&#10;        Maple Frosted (2)&#10;        Mucho Matcha (2)&#10;        Raspberry Frosted (2)&#10;        Strawberry Glazed (2)&#10;        French Cruller (1 blue)&#10;&#10;&#10;42 selection cards&#10;&#10;    six sets of miniature cards with white backs. Fronts display the numerals 1 through 7&#10;&#10;&#10;7 donut row indicators&#10;&#10;    cardboard chits with numerals 1 through 7&#10;&#10;&#10;",
+    "categories": [
+      "Bluffing",
+      "Card Game",
+      "Deduction"
+    ],
+    "mechanics": [
+      "Open Drafting",
+      "Set Collection"
+    ],
+    "image": "https://cf.geekdo-images.com/VcbGYVCOnQI5IhDPv9DFUg__thumb/img/juOUDVkJkHAcrlRUqXU9yFAlbSI=/fit-in/200x150/filters:strip_icc()/pic3595157.jpg"
+  },
+  {
+    "id": "111",
+    "name": "Rheinländer",
+    "minPlayers": 3,
+    "maxPlayers": 5,
+    "playingTime": 45,
+    "age": 12,
+    "description": "This Reiner Knizia game, produced by Hasbro&#039;s European division, casts players in the roles of dukes who are trying to establish duchies along the banks of the Rhine River.  Players hold a hand of cards that correspond to numbered plots on each bank, and they place knights in open plots for which they hold the corresponding cards.  After establishing duchies, players attempt to expand them to include more plots of land, as well as buildings - such as castles, cathedrals, and cities. These buildings both add to the value of a duchy and provide their owners with advantages during game play.  Combined with a uniquely Knizia-style scoring system, this game has some very interesting dynamics.&#10;&#10;",
+    "categories": [
+      "Abstract Strategy",
+      "Medieval",
+      "Territory Building"
+    ],
+    "mechanics": [
+      "Area Majority / Influence",
+      "Enclosure",
+      "Hand Management"
+    ],
+    "image": "https://cf.geekdo-images.com/XZOfL2SO5sF1gSu4FFdxSw__thumb/img/cKnTQogrdMYDCmnI1XxYnlO7wGc=/fit-in/200x150/filters:strip_icc()/pic49307.jpg"
+  },
+  {
+    "id": "122",
+    "name": "Quo Vadis?",
+    "minPlayers": 3,
+    "maxPlayers": 5,
+    "playingTime": 45,
+    "age": 12,
+    "description": "In an interesting departure from his normally computational-heavy game structure, Reiner Knizia put together this negotiation game.  Players are represented on the board by a group of politicians moving through a network of committees, and need to seek support from their competitors to advance upward toward the Senate.  Supporting an opponent gains you prestige, needed in quantity at the end of the game.  Once all five Senate positions are filled, the game is over, and only players who have a politician in the Senate are eligible to win.  Of those players, whoever has the most prestige wins.&#10;&#10;",
+    "categories": [
+      "Ancient",
+      "Negotiation",
+      "Political"
+    ],
+    "mechanics": [
+      "Negotiation",
+      "Point to Point Movement",
+      "Trading",
+      "Voting"
+    ],
+    "image": "https://cf.geekdo-images.com/AyOfO7atmdQP23YZikTO3A__thumb/img/XwzZuBmdOTIjQblFyb08-ZAOISY=/fit-in/200x150/filters:strip_icc()/pic3008003.jpg"
+  },
+  {
+    "id": "283212",
+    "name": "MonsDRAWsity",
+    "minPlayers": 3,
+    "maxPlayers": 8,
+    "playingTime": 30,
+    "age": 8,
+    "description": "Imagine seeing a real alien stomping through your backyard. Now imagine describing what it looked like to a police sketch artist. That is exactly what you are expected to do while playing the frantic drawing party game MonsDRAWsity.&#10;&#10;One player, known as &quot;the Witness&quot;, has twenty seconds to examine a picture of a bizarre-looking creature, then they must describe it to the rest of the players, known as &quot;Sketch Artists&quot;. At the end of the round, the witness awards points to the artist who was able to most closely match the monster seen by the witness!&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Party Game"
+    ],
+    "mechanics": [
+      "Line Drawing",
+      "Memory",
+      "Voting"
+    ],
+    "image": "https://cf.geekdo-images.com/7oRPCQ_9TzJXw16AG7qrsw__thumb/img/BuaF_CT0-3Y6YqwnBstlnVlLWko=/fit-in/200x150/filters:strip_icc()/pic5794428.png"
+  },
+  {
+    "id": "367662",
+    "name": "Applejack",
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playingTime": 60,
+    "age": 8,
+    "description": "A clever tile placement game by Uwe Rosenberg&#10;&#10;A wide orchard lies in front of Applejack's cottage. &#10;Help him and his daughter plant apple trees and harvest the juicy apples. Don't forget to set up the beehives between the trees. Because at the end of this game, whoever gets the most honey wins!&#10;&#10;On their turn players choose 1 tree tile from the harvest board in the middle of the table. This tile shows a combination of types of apples and apple blossoms as well as beehives. The beehives show the cost for the tile in honey.&#10;&#10;The tree tile will be placed on the players orchard. The beehives need to be placed next to other beehives on tiles already in play in order to get the players honey tiles.&#10;&#10;When the Applejack die on the harvest board comes across an apple icon this type of apple will be harvested - again gaining the players honey tokens. But only if they arranged the apples in a meaningful way.&#10;&#10;After 19 turns each players orchard is filled and the final scoring takes place. Apples, apple blossoms and collected honey will be scored. Whoever has the highest score will win a game of Applejack!&#10;&#10;",
+    "categories": [
+      "Farming"
+    ],
+    "mechanics": [
+      "Tile Placement"
+    ],
+    "image": "https://cf.geekdo-images.com/jAzKc8Wj3lZIey9_XfKCaQ__thumb/img/SWcrs1VAAFxeeD-NXjG5RJ9oDC4=/fit-in/200x150/filters:strip_icc()/pic7648379.jpg"
+  },
+  {
+    "id": "368954",
+    "name": "Council of Shadows",
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playingTime": 90,
+    "age": 14,
+    "description": "It's the year 2200. We're on the edge of the known universe, and a race for a seat on the mighty Council of Shadows is in full swing, with four civilizations vying for admission. Only those who provide more energy to the council each turn and outdo themselves will be successful.&#10;&#10;In Council of Shadows, you take on the role of one of these four civilizations, secure the strongest actions, take control of important areas, and be the first to make three quantum leaps. This is how you win the race for planets and raw materials and become part of the Council of Shadows!&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+    "categories": [
+      "Science Fiction",
+      "Space Exploration"
+    ],
+    "mechanics": [
+      "Action Queue",
+      "Area Majority / Influence",
+      "Turn Order: Stat-Based"
+    ],
+    "image": "https://cf.geekdo-images.com/tJxtQvUGTxMr__kSFHOMBg__thumb/img/ifuFG3pYfoNrY6hT6-GRYT4RXdY=/fit-in/200x150/filters:strip_icc()/pic7050963.jpg"
+  },
+  {
+    "id": "223278",
+    "name": "The Palace of Mad King Ludwig",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 75,
+    "age": 13,
+    "description": "Description from the publisher:&#10;&#10;King Ludwig II of Bavaria has called all great architects to design his greatest achievement: a world-renowned palace. Only the best will do! Gorgeous appointments, white stone, surrounded by water, with swans everywhere. Oh, and the Ludwig touch? All the architects must design the palace together. The designer who shows the strongest influence will receive the order to build it.&#10;&#10;In The Palace of Mad King Ludwig, each player builds rooms one at a time in a single gigantic palace. As rooms are completed, a moat slowly forms around the outside. Once the ends of the moat connect, the palace is finished, and the player who has contributed the most to the palace wins!&#10;&#10;In more detail, this sequel to Castles of Mad King Ludwig shares a few similarities to its predecessor, such as tile-laying, room rewards, and the magic of watching a unique palace take shape through the course of the game, but the gameplay is entirely different, with no auction, a clever endgame timer that graphically builds pressure for players as the moat slowly closes in around the palace, and a twist on resource management with multi-colored swan tokens being used as currency, points, and the keys to new abilities.&#10;&#10;",
+    "categories": [
+      "Post-Napoleonic"
+    ],
+    "mechanics": [
+      "Tile Placement"
+    ],
+    "image": "https://cf.geekdo-images.com/KJTd8G2AFDhpcp9iFMYHpQ__thumb/img/jS3txzXA_eQ1Y36hfx7vNcLpG7A=/fit-in/200x150/filters:strip_icc()/pic3464108.jpg"
+  },
+  {
+    "id": "145645",
+    "name": "Le Fantôme de l'Opéra",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playingTime": 30,
+    "age": 9,
+    "description": "Le Fant&ocirc;me de l&rsquo;Op&eacute;ra is a two-player game based on the Mr. Jack game system &ndash; that is, the game is an asymmetric affair in which one player wants to reveal which suspect token on the game board represents the opponent, with both players taking turns moving all of the suspects to alternately reveal and hide information. That said, the game differs in a number of ways from Mr. Jack. In more detail...&#10;&#10;In Le Fant&ocirc;me de l&rsquo;Op&eacute;ra, eight suspect tokens stand in the ten rooms of the Op&eacute;ra Garnier. Each suspect has a reason to drive the opera singer La Carlotta away from the production, and at the start of the game one of the suspects is randomly determined to be the true identity of the Phantom player. The other player is the Investigator, and he wants to discover the Phantom's identity; if he does so before La Carlotta flees the Op&eacute;ra Garnier, then he wins. Otherwise, he loses. (To balance play between newcomers and experienced players La Carlotta's starting position can changed.)&#10;&#10;At the start of each odd round, eight suspect cards are shuffled and four of them revealed. The Investigator moves one suspect and (likely) uses this suspect's unique ability, then the Phantom moves two of the remaining three suspects, then the Investigator moves the final suspect. The Phantom player then reveals whether he can or cannot cause a disturbance in the Op&eacute;ra Garnier, thus scaring La Carlotta; he can cause a disturbance only if he's alone or if he's in the room with the blackout token. If he can cause a disturbance, the Investigator clears all suspects sharing a lit room; if not, the Investigator clears all suspects in the dark or on their own. After this, La Carlotta moves one step closer to fleeing for each suspect that hasn't been declared innocent (and an additional step if the Phantom did create a disturbance).&#10;&#10;For each even round, the remaining four suspect cards are revealed, and the players again move characters and use their special abilities, with the Phantom going first. The game continues until only a single suspect is not innocent or La Carlotta flees France for the safety of Milan.&#10;&#10;When a character moves, it can move up to as many spaces as the number of characters in the room from which it moves. Most characters can move only through open corridors, but Meg Giry can use secret passageways that connect many of the rooms. The players must use Meg's ability and the other characters' special abilities to hide or reveal information. One character, for example, moves a padlock that blocks one corridor, while another is responsible for the roaming blackout that allows the Phantom to operate in darkness (or at least provide cover for his activity elsewhere). One sweet character can draw everyone from adjacent rooms to her side, while an unpleasant fellow can drive everyone away. Still another reveals (or hides) an alibi card, clearing one suspect (or keeping his true nature unknown). Every character is useful in the right situation. You just have to learn what those situations are...&#10;&#10;",
+    "categories": [
+      "Deduction",
+      "Music",
+      "Novel-based"
+    ],
+    "mechanics": [
+      "Grid Movement",
+      "Variable Player Powers"
+    ],
+    "image": "https://cf.geekdo-images.com/L4Of6W3yhhjYgmUjH2FDpQ__thumb/img/_evRWSRlE2VrjLu5XCxlayW0qmI=/fit-in/200x150/filters:strip_icc()/pic1726671.jpg"
+  },
+  {
+    "id": "631",
+    "name": "Daytona 500",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 70,
+    "age": 10,
+    "description": "Six little plastic cars race around the big Daytona track.  The track is three spaces wide except for a sweeping curve at either end.  In the curves, the track narrows to two lanes.  The outer lane is a passing lane, requiring twice as many movement points to use and in which a car may not end its turn.  Movement points come from play of the special deck of cards.  Selecting a card from your hand, you move each of the cars on the card the prescribed number of spaces, trying to position your own car or cars most advantageously while leaving your opponents blocked.  Before each race, the six cars are auctioned off, and you bid for them based on the cards in your hand.  Payout is based on where your car(s) finished in the race.  Most money wins.&#10;&#10;Suggested game length is three races (each race lasts about 20 minutes), enough to give the luck of the draw a chance to even out.&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Racing",
+      "Sports"
+    ],
+    "mechanics": [
+      "Auction / Bidding",
+      "Grid Movement",
+      "Hand Management",
+      "Race"
+    ],
+    "image": "https://cf.geekdo-images.com/jOPnHPiihn9sY-ix93AEHQ__thumb/img/K7WU8rHfwCV0R3AdPRkYa4qG4VM=/fit-in/200x150/filters:strip_icc()/pic235297.jpg"
+  },
+  {
+    "id": "123609",
+    "name": "Puzzle Strike Shadows",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 20,
+    "age": 10,
+    "description": "Puzzle Strike Shadows is the standalone expansion to Puzzle Strike (3rd Edition). You can play it by itself or combine it with the base set. The expansion contains 10 new characters, 24 new puzzle chips, as well as:&#10;&#10;&#10;    Panic Time rule to prevent games from going too long&#10;    A 3-player and 4-player mode with no player elimination and that allows crashing your gems to whoever you want&#10;    A 2v2 Team Battle Mode&#10;    A Custom Clockwork mode to draft your own character&#10;    Puzzle chips and character chips updated to ensure healthy competitive play in tournaments&#10;    New components: game boards and screens&#10;&#10;&#10;Puzzle Strike is a card game played with cardboard chips instead of cards that simulates a puzzle video game such as Puzzle Fighter or Tetris.&#10;&#10;It's a deckbuilding game, which means you build your deck *as* you play the game. Every game is different because the bank starts with a different set of chips each time. Also, there are 10 characters to choose from in the base set, each with different gameplay. Between all that, there are over 411 MILLION starting conditions in a 4-player game, and even more if you include the expansion.&#10;&#10;A built-in comeback mechanic means that when you're on the edge of losing, you're also able to do even more combos than usual.&#10;&#10;You don't have to worry about shuffling cards because you just put your cardboard tokens in a bag and shake them up to shuffle! Plus, it&rsquo;s pretty ballin&rsquo; to play a game with chips. Play it on your yacht, impress potential mates, etc.&#10;&#10;Though the game is fun even if you're terrible at it, it's also balanced for high level play by veteran asymmetric game balancer David Sirlin (Street Fighter HD Remix, Puzzle Fighter HD Remix, Kongai, Yomi, and Flash Duel).&#10;&#10;Integrates with:&#10;&#10;    Puzzle Strike: Third Edition&#10;&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Fantasy",
+      "Video Game Theme"
+    ],
+    "mechanics": [
+      "Deck, Bag, and Pool Building",
+      "Hand Management",
+      "Variable Player Powers"
+    ],
+    "image": "https://cf.geekdo-images.com/FwUzmTW87tcuBHEyf8YiZw__thumb/img/W19p_7vHX6UPWQ2B0LVyaJxvJ-w=/fit-in/200x150/filters:strip_icc()/pic1288708.jpg"
+  },
+  {
+    "id": "192934",
+    "name": "Colony",
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playingTime": 60,
+    "age": 13,
+    "description": "In Colony, each player constructs and upgrades buildings, while managing resources to grow their fledgling colony. In a clever twist, dice are used as resources, with each side/number representing a different resource. Some resources are stable, allowing them to be stored between turns, while others must be used right away. Buildings provide new capabilities, such as increased production, resource manipulation, and additional victory points. Using dice-as-resources facilitates a dynamic, ever-changing resources management mini-game while players work to earn victory points by adding building to their tableau on their way to victory.&#10;&#10;Colony includes 28 different building card types, of which only seven are used each game in addition to the fixed buildings that are used each time that you play.&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Dice",
+      "Science Fiction"
+    ],
+    "mechanics": [
+      "Deck, Bag, and Pool Building",
+      "Dice Rolling",
+      "Trading"
+    ],
+    "image": "https://cf.geekdo-images.com/Tcf2t0SyKPNr0GIr7AdAfA__thumb/img/QjHGGU2AQxjhdbGNT5-gVhm7aKA=/fit-in/200x150/filters:strip_icc()/pic2921730.png"
+  },
+  {
+    "id": "392513",
+    "name": "Mindbug: Beyond Eternity",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playingTime": 25,
+    "age": 8,
+    "description": "In this stand alone expansion, Mindbug: Beyond Eternity introduces the Boost ability where you can use cards from your graveyard to give your creatures a +1 boost in power. Also cards can have effects when in your graveyard, such as making them stronger.&#10;&#10;This expansion can be played on its own, or mixed with Mindbug: First Contact or Mindbug: Beyond Evolution.&#10;&#10;In Mindbug, you summon hybrid creatures and send them to battle against your opponent. But be careful: your opponent may use one of their Mindbugs to take control of it.&#10;&#10;Outwit your opponent in a fascinating tactical duel in which having the best cards and playing them at the wrong time can be deadly for yourself.&#10;&#10;Mindbug combines the accessibility and fairness of a simple card game with the strategic depth of a complex Strategy Card Game. The result is a skill-based dueling card game that feels utterly different from all the other card games you have played before.&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Fantasy",
+      "Fighting",
+      "Science Fiction"
+    ],
+    "mechanics": [
+      "Hand Management",
+      "Take That"
+    ],
+    "image": "https://cf.geekdo-images.com/mWxs2U-sLcK6T7WCPEloeQ__thumb/img/lRh4Jz1MfZ3H542ZDWZ0PoJo7IY=/fit-in/200x150/filters:strip_icc()/pic7590378.jpg"
+  },
+  {
+    "id": "191301",
+    "name": "The Walking Dead: All Out War",
+    "minPlayers": 1,
+    "maxPlayers": 2,
+    "playingTime": 60,
+    "age": 14,
+    "description": "The Walking Dead: All Out War is a tactical head-to-head game set in the walker-strewn Georgia countryside, a survival miniatures game from Mantic Games based on the characters from the pages of the bestselling The Walking Dead comic series. Your group will be pitted against other groups in a bitter fight for supplies, but the Walkers react to your every move. In this game, everyone and everything is trying to kill you.&#10;&#10;In more detail, each player controls their own group of survivors made up of popular characters from The Walking Dead storyline, such as Rick, Shane, Michonne and many more. Each survivor is represented by a finely-detailed plastic miniature, which can be painted in your color scheme of choice. It comes with a character card highlighting their game stats and unique abilities, and it can be upgraded with a selection of weapon and equipment cards.&#10;&#10;The game is set around Atlanta and the surrounding suburbs, and contains a gaming mat and a selection of barricades, abandoned cars and supplies to give it that authentic The Walking Dead atmosphere. Your survivors move across the board using the measuring stick included with the game, and you use the terrain to block Walker routes, sneak up on opposing survivors, or raid enemy camps for supplies.&#10;&#10;During the game, you fight a bitter battle for resources against a rival group of survivors &ndash; but be careful not to make too much noise as you'll draw the attention of the Walkers, which are controlled by an AI system developed specifically for this game. They attack anyone who comes within reach &mdash; and because they are AI-controlled, you can play the game solo.&#10;&#10;The base game includes rules for running simple campaigns and basic guidelines for designing your own characters.&#10;&#10;",
+    "categories": [
+      "Comic Book / Strip",
+      "Miniatures",
+      "Zombies"
+    ],
+    "mechanics": [
+      "Dice Rolling",
+      "Measurement Movement"
+    ],
+    "image": "https://cf.geekdo-images.com/7mZUKHnIcmb7cggELgs8Yw__thumb/img/LvCq5HyokRZQ8BlKTD819I1Q6UY=/fit-in/200x150/filters:strip_icc()/pic7537847.png"
+  },
+  {
+    "id": "184459",
+    "name": "Ave Roma",
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playingTime": 120,
+    "age": 12,
+    "description": "Ave Roma is a worker placement game with some unique mechanisms. All workers have a value and all are common workers. At the beginning of a new turn you always start with five workers, but depending on your previous decisions you will always have different workers. In the first phase you have to send out your workers, and in the next one you have to collect them &mdash; but in most cases you get back different ones.&#10;&#10;You have several ways to win the game. You can build buildings, support wars, convince patrons, obtain influence in territories, get money and resources, and so on. It's a complex game with several mechanisms and components.&#10;&#10;",
+    "categories": [
+      "Ancient",
+      "Civilization",
+      "Economic"
+    ],
+    "mechanics": [
+      "Set Collection",
+      "Variable Phase Order",
+      "Variable Player Powers",
+      "Worker Placement",
+      "Worker Placement, Different Worker Types"
+    ],
+    "image": "https://cf.geekdo-images.com/QBlwtRNj0licArskdvd2SA__thumb/img/7Jx6C9H5YrRzpIXkpmTIz55JDn4=/fit-in/200x150/filters:strip_icc()/pic2938270.jpg"
+  },
+  {
+    "id": "349948",
+    "name": "Ceres",
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playingTime": 120,
+    "age": 14,
+    "description": "YEAR: 2219&#10;&#10;The days of Earth being the center of humankind&rsquo;s attention has ceased. The time of long-distance spaceflight and planet colonization is upon us.&#10; Mars has been colonized for more than 100 years. Today, numerous institutions use Mars as the center of their operations. The Asteroid Mining Assembly of Corporations (A.M.A.C) oversees the works of all asteroid mining.&#10;&#10;Ceres, a dwarf planet lying amid the chaos of the Asteroid Belt, is now the home of the asteroid mining industrial complex.&#10;&#10;While corporations compete for profit and power, and operations on Ceres grow rapidly, so is the demand for high-skilled laborers.&#10;&#10;Are you ready to board the mission and lead Ceres?&#10;CERES awaits you!&#10;&#10;Ceres is a 1-4 Sci-Fi worker placement game where players take the role of an Asteroid Mining Corporation in the near future and try to outplay their opponents and rule Ceres! The game consists of 3 rounds that represent 3 years in Ceres and the respective full business cycles of the corporations. Players can choose among a variety of actions including launching mining probes to the Asteroid Belt, trading raw materials, constructing and upgrading their core facilities as well as expanding the colony of Ceres, improving their technology through research and liaising with the Mars council in order to exploit their power even more!&#10;Ceres has been co-developed with an astrophysicist for the best possible thematic applications and brings a couple of innovative twists to the worker placement genre!&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+    "categories": [
+      "Science Fiction",
+      "Space Exploration"
+    ],
+    "mechanics": [
+      "Tech Trees / Tech Tracks",
+      "Worker Placement",
+      "Worker Placement, Different Worker Types"
+    ],
+    "image": "https://cf.geekdo-images.com/6BDlWhCSv2LKJufkYrKB9Q__thumb/img/Ff1R3xvw74kpkC3YripYlAwQLeg=/fit-in/200x150/filters:strip_icc()/pic8173429.jpg"
+  },
+  {
+    "id": "264476",
+    "name": "Rangers of Shadow Deep",
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playingTime": 120,
+    "age": 12,
+    "description": "A kingdom stands on the brink of destruction, as the vast realm called the Shadow Deep slowly swallows everything in its path. As the army fights to contain the tide of evil creatures teeming up out of the black clouds, the kingdom&rsquo;s best soldiers, the rangers, must venture down into the shadows to gather information, rescue prisoners, and ambush enemy supply lines. It is a desperate fight against overwhelming odds, but every little victory brings another day of hope.&#10;&#10;Rangers of Shadow Deep is a solo and co-operative tabletop miniatures game, in which players create their ranger, gather companions, and play through a series of missions in their fight to hold back the darkness. If their rangers survive, they will grow in power and ability, and be sent on more difficult, dangerous and intricate assignments.&#10;&#10;&mdash;description by the publisher&#10;&#10;",
+    "categories": [
+      "Book",
+      "Dice",
+      "Fantasy",
+      "Fighting",
+      "Miniatures",
+      "Wargame"
+    ],
+    "mechanics": [
+      "Action Points",
+      "Cooperative Game",
+      "Dice Rolling",
+      "Role Playing",
+      "Variable Player Powers"
+    ],
+    "image": "https://cf.geekdo-images.com/VNmbsVwq_9jcW2kPPEvM6g__thumb/img/UFBaRrdFUcAd9KBYeKWRSe5uIuY=/fit-in/200x150/filters:strip_icc()/pic4411239.jpg"
+  },
+  {
+    "id": "214234",
+    "name": "Tank Duel: Enemy in the Crosshairs",
+    "minPlayers": 1,
+    "maxPlayers": 8,
+    "playingTime": 180,
+    "age": 12,
+    "description": "The day dawns like any other.  The sun makes its way low over the misty horizon and stays low in the Autumn sky this morning.  All is as it has always been in the fields and meadows of the Steppes.  Commander Garrison Dietrich raises himself through the cupola of the Tiger he commands and begins to scan the landscape.  He looks left to right, right to left searching the fields for his target.  He breathes in deeply.  The scent of metal and leather, sweat and stale cigarettes, rises from inside the musty tank.  He studies the landscape and he listens. With heart pounding and senses alert he is poised&hellip;. anticipating.  For Commander Dietrich, tank to tank warfare is more than a duel.  Beyond the field-rocket artillery, the bombers and U-Boats, the single-seat fighters, beyond the 88mm Flak, is the Tiger. His Tiger and platoon,  only the T-34s of the Red Army standing between them and victory!&#10;&#10;Suddenly, to his right, geese startle from the tall, drying grass of the field.  They fly fast and out of view quickly.  Commander Dietrich turns his gaze sharply to the right and there, indistinctly outlined, silent, foreboding...his eyes make contact with it - a Russian T34.&#10;&#10;Inside the tank, his team is alert and ready.  In the confined space of the tank they are in position. Through the radio they hear the call, &quot;I spot 'em at 1600, 1600!!&quot;  Through the narrow rectangular window the driver attempts to locate the T34.  An AP shell is loaded into the breech. The gunner yells, &quot;Ready to fire!&quot;  His heart, too, is pounding.  Loud sounds now, the gears, the clacking of Bogey wheels over terrain, the vibration of the motor...then, &quot;Hull down, hull down,&quot; is called out to the driver.  The Commander orders, &quot;Traverse, traverse...TRAVERSE!&quot;  The turret moves slowly, the sounds of machinery moving but slow, too slow!  The alert gunner feels the rush.  &quot;I've got 'em in my sights, 1400...1200! Do you see him, do you see him?&quot; The panic, the fear, the adrenaline are palpable.  &quot;I've got 'em sir, I've got 'em!!&quot;  The anticipated command comes as the tanks advance...&quot;FIRE!&quot;  The gunner aims, pulls the lever, and its SHELL AWAY&hellip;.&#10;&#10;Tank Duel: Enemy in the Crosshairs is a card-based game for 1 to 8 players that depicts tank-to-tank warfare on the Eastern Front of World War II in the early to mid 1940s. It attempts to convey the claustrophobia and urgency that tank crews experienced in this bitter conflict, utilizing a simple action system to keep the action moving at a rapid pace. Players will issue commands with the use of battle cards and attempt to score victory points by claiming objectives and eliminating their opponent's tanks and crew.&#10;&#10;",
+    "categories": [
+      "Wargame",
+      "World War II"
+    ],
+    "mechanics": [
+      "Campaign / Battle Card Driven",
+      "Hand Management",
+      "Solo / Solitaire Game"
+    ],
+    "image": "https://cf.geekdo-images.com/IAbQ7Jt95TIr2k40r4eLYQ__thumb/img/JshUp4nOrRAe0unVtoXCmIgA4TM=/fit-in/200x150/filters:strip_icc()/pic4538066.png"
+  },
+  {
+    "id": "253398",
+    "name": "Lost Cities: Rivals",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 40,
+    "age": 10,
+    "description": "Time to travel once again to distant locations, but in Lost Cities: Rivals you might find yourself running short of cash to take the trips you want!&#10;&#10;Lost Cities: Rivals features gameplay familiar from other titles in the Lost Cities series. Players will collect colored expedition cards and place them in ascending order in personal expeditions, possibly placing wager cards before beginning an expedition in order to increase its value. The primary difference in this title compared to others is that you must win auctions in order to place cards in your expeditions.&#10;&#10;The card deck consists of (in each of the five colors) three wager cards, two copies of cards numbered 2-5, and one copy of cards numbered 6-10; shuffle this deck, then divide it into four piles, keeping only one pile in front of players for now. From a separate deck, each player is given two differently colored wager cards at the start of play. A bank of 36 coins is divided equally among the players.&#10;&#10;On a turn, you can either reveal the top card from the current pile (adding it to the display) or auction the cards on display. In the auction, you must raise or pass, and once only a single person remains in the auction, they pay the amount bid to the center of the table, then take any cards that they want to play and start or add to expeditions. Placing the same number in an expedition is okay. The auction winner can also place one card from the display in the box out of play. The auction winner ends their turn by adding a card to the display.&#10;&#10;When the final card of a pile is revealed, divide all the coins in the center of the table equally among all players, then bring in a new pile to continue play. Once the final card of the final pile is revealed, the game ends immediately with no distribution of coins. For each expedition, a player scores the number of footprints on the numbered cards. If they have a wager in that color, they double that value; if two wagers, they triple it; etc. A player also scores 1 point for each gold coin they hold and 8 points for each expedition that contains at least four number cards. Whoever has the highest total wins!&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Exploration"
+    ],
+    "mechanics": [
+      "Auction / Bidding",
+      "Auction: Turn Order Until Pass",
+      "Set Collection"
+    ],
+    "image": "https://cf.geekdo-images.com/4NaIBUKkBY1KDfPdvYPULw__thumb/img/s2k73xkhHOetaFbtyGRhOHv82OU=/fit-in/200x150/filters:strip_icc()/pic4137630.jpg"
+  },
+  {
+    "id": "1917",
+    "name": "Stratego",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playingTime": 45,
+    "age": 8,
+    "description": "Stratego by Jumbo is the most well-known of this type of hidden tactics board games. It was launched just after World War II in 1946 and has led to a variety of various themed versions and spinoff variations.&#10;&#10;This game is very similar to, and almost certainly derived directly from, the Gibsons game L'Attaque who had acquired the UK rights in 1925 from the game&rsquo;s creator Mademoiselle Hermance Edan who launched it in France in 1909. It is not exactly the same, but not far from it (numbered pieces, spy (same name) can kill the strongest piece but only when attacking, flag, bombs, etc.) The game in turn likely drew on various ancient Chinese board games such as Lu Zhan Jun Qi or the classic children's game Jungle.&#10;&#10;From the box:&#10;&#10;The gameboard is your battlefield.  You have an army of men at your disposal and six bombs.  Your mission--protect your flag and capture your opponent's flag.&#10;&#10;Secretly place your men, bombs, and flag on the gameboard with these objectives in mind.  But remember your opponent is doing the same thing, so you must plan a defense as well as an offense.&#10;&#10;Once the armies are in place, advance your men.  When you're one space away from an enemy, attack.  You and your opponent declare ranks.  The lower-ranking man is captured and out of play.&#10;&#10;You control your pieces and risk your men in battles where the strength of your enemy is unknown. The suspense builds as your men move deeper into enemy territory. Move with caution and courage. The next piece you attack could be a bomb.  And when attacked, it could &quot;blast&quot; your man off the board and out of play.&#10;&#10;The first to capture an enemy flag is the winner!&#10;&#10;Re-implemented by:&#10;&#10;     Stratego (Revised Edition) (aka Stratego Fire &amp; Ice)&#10;     The Generals&#10;     Stratego Legends&#10;     Stratego: Star Wars&#10;     Stratego: Lord of the Rings Trilogy Edition&#10;     Ultimate Stratego&#10;     Electronic Stratego&#10;     Stratego: Marvel Heroes&#10;     Stratego: Star Wars Saga Edition&#10;     Stratego: The Chronicles of Narnia &#226;&#128;&#147; The Lion, The Witch, and The Wardrobe&#10;&#10;&#10;and numerous others.&#10;&#10;Similar to:&#10;&#10;    L'Attaque&#10;    Dover Patrol&#10;    Aviation: The Aerial Tactics Game of Attack and Defence&#10;    Battle of Britain (Gibsons English fifth edition)&#10;    Tri-Tactics&#10;    Sharpe's Attack&#10;    Jeu de la Quille&#10;    Admirals&#10;    Attack&#10;    Batalj&#10;    Game of the Generals&#10;    Lu Zhan Jun Qi (Land Army Chess)&#10;    Hai Lu Kong Zhan Qi (Sea-Land-Air Fighting Chess)&#10;    Si Guo Da Zhan (The Great Battle of Four Countries)&#10;    Jungle (&#233;&#172;&#165;&#231;&#141;&#184;&#230;&#163;&#139; (d&ograve;u sh&ograve;u q&iacute;) or &ldquo;Animal Chess&rdquo;)&#10;    Dong Wu Qi (&#229;&#139;&#149;&#231;&#137;&#169;&#230;&#163;&#139; or &ldquo;Animal Game&quot;)&#10;&#10;&#10;Different Edition Complications&#10;When first produced in Europe, the most powerful pieces had higher numbers.  I.e. the Marshall (most powerful piece) was a 10, the General was a 9, and so on.  The higher the rank, the higher the number.&#10;When they introduced Stratego in the USA, the numbering was reversed, so the Marshall was a 1, the General 2, and so on.  The 1st rank (most powerful) was 1, the second most powerful was 2, 3rd most powerful was 3....&#10;Then, in 2000s Hasbro re-imagined Stratego in the USA and made a few changes.  They reduced the number of pieces per side (from 40 to 30), added additional powers, and changed the numbering to reflect the European system.&#10;This caused extreme consternation with many faithful American Stratego fans who preferred the 'old way'.  (Actually the second oldest way, but whatever.)  Many of these insist on playing Stratego with the 'Marshall 1 system'.&#10;This wouldn't be a problem, except any and all discussions of Stratego are fraught with misunderstandings by those who are unaware of dual numbering systems!  Keep this in mind when reading information about Stratego.&#10;&#10;",
+    "categories": [
+      "Abstract Strategy",
+      "Bluffing",
+      "Deduction",
+      "Memory",
+      "Napoleonic",
+      "Wargame"
+    ],
+    "mechanics": [
+      "Grid Movement",
+      "Memory",
+      "Secret Unit Deployment",
+      "Square Grid"
+    ],
+    "image": "https://cf.geekdo-images.com/O3JZyf9nB_2tGl4jpj8SPw__thumb/img/Yo80CtI2QTxVEXDWvjhkc6iYsMo=/fit-in/200x150/filters:strip_icc()/pic25644.jpg"
+  },
+  {
+    "id": "402677",
+    "name": "Daitoshi",
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playingTime": 120,
+    "age": 14,
+    "description": "We have finally perfected the power of steam, and we can now use it to our advantage! We live in an unprecedented era of progress, and new steam-powered inventions are developed faster than ever. Cities are growing, trade is flourishing, and we are developing our most ambitious machine ever: a giant contraption that will bring even more progress to the city. Yes, some trees are being cut down, and the river doesn't flow as plentifully as before, but there's still an abundance of trees and water, and we can use the extra space to expand our city &mdash; and it's not like the old creatures on those forests can do anything about it.&#10;&#10;On your turn in Daitoshi, you either produce or move your magnate to a new district in which you will be able to send your workers to work, command the exploit of forest or river hexes to fuel your endless need for steam, and perform an action to expand and show your greatness to the city.&#10;&#10;These actions not only help you in your search for acknowledgement, but help all the inhabitants of the big city. You will expand the city and electrify its districts, discover and develop new steam-powered inventions, and trade with faraway cities. You may even help the city build its gargantuan project: the mega-machine. Some forests might be cut down, and some rivers may be dried up, but in your generosity, you will help the displaced workers from those areas by giving them new jobs at your service.&#10;&#10;Old legends suggest the forests and rivers are guarded by Y&#197;&#141;kai, but progress can't be stopped because of some old fairy tales. Just in case, though, it could be wise to participate on some reforestation projects and hide your participation in the abuse of the natural resources...&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+    "categories": [],
+    "mechanics": [
+      "Follow",
+      "Modular Board",
+      "Rondel",
+      "Variable Set-up",
+      "Worker Placement"
+    ],
+    "image": "https://cf.geekdo-images.com/RCQf2kr9tPW3RrrZj-9lvA__thumb/img/--Lgerr-HDIhLb7kxrNWV2HLnGY=/fit-in/200x150/filters:strip_icc()/pic7774194.jpg"
+  },
+  {
+    "id": "4741",
+    "name": "Warmachine",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 60,
+    "age": 12,
+    "description": "Warmachine --steam-powered miniatures combat-- is a table-top miniatures game published by Privateer Press. Players take on the role of an elite soldier-sorcerer known as a warcaster. While a warcaster and his army is a formidable force on the battlefield, a warcaster's true strength is in their ability to magically control and coordinate the actions of their mighty warjacks steam-powered combat  automatons that represent the pinnacle of military might in the Iron Kingdoms.&#10;&#10;Rule books&#10;&#10;     Warmachine Prime Remix is a full-color revised version of the Warmachine rules and includes all the rules (but not model stats) introduced in the first three expansions.&#10;&#10;&#10;&#10;     Warmachine Prime Mk II is the second edition of the rule set for Warmachine rules and includes all the rules and model stats for all models from Warmachine Prime Remix and one additional heavy warjack for each of the four factions.&#10;&#10;&#10;",
+    "categories": [
+      "Fantasy",
+      "Fighting",
+      "Miniatures"
+    ],
+    "mechanics": [
+      "Critical Hits and Failures",
+      "Once-Per-Game Abilities",
+      "Variable Player Powers"
+    ],
+    "image": "https://cf.geekdo-images.com/KnIH63MEgenlCchi3gum2A__thumb/img/VfrBK6RYsWK-fj-nk1ifiNhnhbE=/fit-in/200x150/filters:strip_icc()/pic8319080.png"
+  },
+  {
+    "id": "283797",
+    "name": "Exit: The Game – The Stormy Flight",
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playingTime": 120,
+    "age": 12,
+    "description": "Team spirit, creativity, mystery and speed are in demand at EXIT: The Game &ndash; The Stormy Flight. The 1-4 players have little time to bring a complicated situation under control again: The players are part of the crew of a passenger plane headed to Barbados. Suddenly they get into the middle of an electrical storm. Water penetrates the machine and parts of the technology fail. Will the team be able to repair the aircraft and land safely? There is not much time left...&#10;&#10;",
+    "categories": [
+      "Deduction",
+      "Puzzle"
+    ],
+    "mechanics": [
+      "Cooperative Game"
+    ],
+    "image": "https://cf.geekdo-images.com/7kTyrflx3HjvkIHzkTCSkA__thumb/img/Ouy7YOo9Tu9UvDlXvDYH6gYz744=/fit-in/200x150/filters:strip_icc()/pic5300129.jpg"
+  }
+]
