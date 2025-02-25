@@ -1,54 +1,61 @@
+import puppeteer from 'puppeteer';
 import axios from 'axios';
-import { load } from 'cheerio';
 import xml2js from 'xml2js';
-import fs from 'fs';
+import fs from 'fs-extra';
+import dotenv from 'dotenv';
 
-// Create an Axios instance with cookies
-const axiosInstance = axios.create({
-  withCredentials: true, // Ensure cookies are stored
-  headers: {
-    'User-Agent': 'Mozilla/5.0' // Mimic a browser request
-  }
-});
+dotenv.config();
 
-
-// Function to add a delay between requests
+// Delay Function
 async function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+// Login to BGG and Get Browser Instance
+async function loginToBGG() {
+  const browser = await puppeteer.launch({ headless: false }); // Use headless: false for debugging
+  const page = await browser.newPage();
 
-// Function to scrape game IDs from BoardGameGeek
-async function getTopRankedIDs(page) {
-  const url = `https://boardgamegeek.com/browse/boardgame/page/${page}?sort=rank&sortdir=asc`;
-  console.log(`Scraping board game IDs from: ${url}`);
-  console.log(`Requesting page: ${page}`);
+  // Go to login page
+  await page.goto('https://boardgamegeek.com/login', { waitUntil: 'networkidle2' });
 
-  const res = await axios.get(url, { timeout: 10000 });
-  fs.writeFileSync(`./debug_page_${page}.html`, res.data); // Save HTML response
-  console.log(`Saved raw HTML for debugging.`);
+  // Fill in login form (adjust selectors if needed)
+  await page.type('#inputUsername', process.env.BGG_USERNAME);
+  await page.type('#inputPassword', process.env.BGG_PASSWORD);
 
-  const $ = load(res.data);
-  const ids = [];
-  $('.collection_table .collection_objectname a.primary').each((_, el) => {
-    const href = $(el).attr('href');
-    if (href) {
-      const match = href.match(/\/boardgame\/(\d+)/);
-      if (match) {
-        ids.push(match[1]);
-      }
-    }
-  });
+  // Submit the form (Update selector if different)
+  await Promise.all([
+    page.click('button[type="submit"]'), // Use button instead of input
+    page.waitForNavigation({ waitUntil: 'networkidle2' })
+  ]);
 
-  console.log(`Found ${ids.length} game IDs on page ${page}.`);
-  return ids;
+  console.log('✅ Successfully logged into BGG!');
+  return { browser, page };
 }
 
 
-// Function to fetch detailed game data
+// Scrape Game IDs from a Single Page
+async function getTopRankedIDs(page, pageNumber) {
+  const url = `https://boardgamegeek.com/browse/boardgame/page/${pageNumber}?sort=rank&sortdir=asc`;
+  console.log(`Scraping board game IDs from: ${url}`);
+
+  await page.goto(url, { waitUntil: 'networkidle2' });
+  await delay(2000);
+
+  const ids = await page.evaluate(() => {
+    return Array.from(document.querySelectorAll('.collection_table .collection_objectname a.primary'))
+      .map(el => el.getAttribute('href'))
+      .filter(href => href && href.match(/\/boardgame\/(\d+)/))
+      .map(href => href.match(/\/boardgame\/(\d+)/)[1]);
+  });
+
+  console.log(`Found ${ids.length} game IDs on page ${pageNumber}.`);
+  return ids;
+}
+
+// Fetch Detailed Game Data from BGG API
 async function fetchGameData(gameId) {
   const parser = new xml2js.Parser({ explicitArray: false });
-
 
   try {
     const apiUrl = `https://boardgamegeek.com/xmlapi2/thing?id=${gameId}`;
@@ -56,16 +63,13 @@ async function fetchGameData(gameId) {
     const res = await axios.get(apiUrl, { timeout: 10000 });
     const json = await parser.parseStringPromise(res.data);
 
-
     if (!json.items || !json.items.item) {
       console.warn(`Game ID ${gameId} not found.`);
       return null;
     }
 
-
     const item = json.items.item;
     let name = 'Unknown';
-
 
     if (Array.isArray(item.name)) {
       name = item.name[0]?.$?.value ?? 'Unknown';
@@ -73,20 +77,13 @@ async function fetchGameData(gameId) {
       name = item.name.$.value;
     }
 
-
     const categories = item.link
-      ? item.link
-        .filter(link => link.$.type === 'boardgamecategory')
-        .map(link => link.$.value)
+      ? item.link.filter(link => link.$.type === 'boardgamecategory').map(link => link.$.value)
       : [];
-
 
     const mechanics = item.link
-      ? item.link
-        .filter(link => link.$.type === 'boardgamemechanic')
-        .map(link => link.$.value)
+      ? item.link.filter(link => link.$.type === 'boardgamemechanic').map(link => link.$.value)
       : [];
-
 
     return {
       id: gameId,
@@ -96,8 +93,8 @@ async function fetchGameData(gameId) {
       playingTime: Number(item.playingtime?.$.value || 0),
       age: Number(item.minage?.$.value || 0),
       description: item.description || '',
-      categories: categories,
-      mechanics: mechanics,
+      categories,
+      mechanics,
       image: item.thumbnail || '',
     };
   } catch (error) {
@@ -106,44 +103,43 @@ async function fetchGameData(gameId) {
   }
 }
 
+// Save Game Data to JSON File
+async function saveToJSON(games, pageNumber) {
+  const dir = './data';
+  await fs.ensureDir(dir);
 
-// Function to write game data to a JSON file
-async function saveToJSON(games, page) {
-  const outputFile = `./data/d_${page}.json`;
-  fs.writeFileSync(outputFile, JSON.stringify(games, null, 2));
-  console.log(`Saved ${games.length} games to ${outputFile}`);
+  const outputFile = `${dir}/page_${pageNumber}.json`;
+  await fs.writeJson(outputFile, games, { spaces: 2 });
+  console.log(`💾 Saved ${games.length} games to ${outputFile}`);
 }
 
-
-// Main function to scrape, fetch, and save data
+// Main Function
 (async function main() {
   try {
-    // Modify p values to decide which page(s) to scrape
-    for (let p = 1; p <= 10; p++) {
-      console.log(`Processing page ${p}...`);
+    const { browser, page } = await loginToBGG();
 
+    const startPage = 11; // Continue from page 11
+    const endPage = 20;  // Adjust as needed
 
-      const ids = await getTopRankedIDs(p);
+    for (let p = startPage; p <= endPage; p++) {
+      console.log(`\n--- Scraping Page ${p} ---`);
+      const ids = await getTopRankedIDs(page, p);
       const allGameData = [];
-
 
       for (const gameId of ids) {
         const data = await fetchGameData(gameId);
-        if (data) {
-          allGameData.push(data);
-        }
-       
-        // Wait 2 seconds before the next request
-        console.log(`Waiting 2 seconds before the next request...`);
+        if (data) allGameData.push(data);
+
+        // Wait 2 seconds before the next request to avoid getting blocked
         await delay(2000);
       }
-     
+
       await saveToJSON(allGameData, p);
     }
 
-
-    console.log('Finished scraping and saving top-ranked board games.');
+    await browser.close();
+    console.log('\n✅ Finished scraping all pages.');
   } catch (err) {
-    console.error('Unexpected error in main:', err.message);
+    console.error('\n❌ Unexpected error in main:', err.message);
   }
 })();
