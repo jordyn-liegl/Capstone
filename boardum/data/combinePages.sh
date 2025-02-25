@@ -1,27 +1,23 @@
 #!/bin/bash
 
-# Output file
-output_file="all_data.json"
+output_file="combined.ndjson"
 
-# Start the JSON array
-echo "[" > "$output_file"
+# Clear the output file if it already exists
+> "$output_file"
 
-# Find and process all page_#.json files
-first=true
-for file in page_*.json; do
-    if [ -f "$file" ]; then
-        # Add a comma if it's not the first file
-        if [ "$first" = true ]; then
-            first=false
-        else
-            echo "," >> "$output_file"
-        fi
-        # Append the file content without trailing newlines
-        cat "$file" >> "$output_file"
-    fi
+# Loop through all JSON files matching "page_#.json" in sorted order
+for file in $(ls page_*.json | sort -V); do
+        # Process each JSON object individually
+    jq -c '.[]' "$file" | while read -r line; do
+        # Extract the "id" field from the JSON object
+        game_id=$(echo "$line" | jq -r '.id')
+        
+        # Write the Elasticsearch index line
+        echo "{\"index\":{\"_index\":\"boardgames\",\"_id\":\"$game_id\"}}" >> "$output_file"
+        
+        # Write the actual JSON object
+        echo "$line" >> "$output_file"
+    done
 done
 
-# End the JSON array
-echo "]" >> "$output_file"
-
-echo "Combined JSON saved to $output_file"
+echo "Combined JSON files into $output_file"
