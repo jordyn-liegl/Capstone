@@ -21,6 +21,7 @@ interface SearchParams {
   minAge: string;
   categories: string[];
   mechanics: string[];
+  additionalInfo: string;
 }
 
 const categoriesList = ['Card Game', 'Fantasy', 'Economic', 'Fighting', 'Science Fiction', 'Exploration', 'Adventure', 'Miniatures', 'City Building', 'Wargame'];
@@ -33,7 +34,8 @@ export default function Home() {
     maxPlayingTime: '',
     minAge: '',
     categories: [],
-    mechanics: []
+    mechanics: [],
+    additionalInfo: '',
   });
 
   const [recommendations, setRecommendations] = useState<BoardGameSource[]>([]);
@@ -43,7 +45,7 @@ export default function Home() {
 
   const ELASTICSEARCH_URL = process.env.NEXT_PUBLIC_ELASTICSEARCH_URL ?? 'http://localhost:9200';
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setSearchParams(prev => ({
       ...prev,
@@ -88,6 +90,8 @@ export default function Home() {
         ...(searchParams.categories?.length || searchParams.mechanics?.length ? [{ match: { description: searchParams.categories.concat(searchParams.mechanics).join(' ') } }] : [])
     ];
 
+    const additionalInfo = searchParams.additionalInfo
+
     const query = {
       bool: {
         must: mustConditions,
@@ -96,7 +100,7 @@ export default function Home() {
           {
             match: {
               description: {
-                query: "",
+                query: additionalInfo,
                 fuzziness: "AUTO"
               }
             }
@@ -260,6 +264,31 @@ export default function Home() {
                   </button>
                 ))}
               </div>
+              <div className={styles.buttonGroup}>
+                <button className={styles.navButton} onClick={handleBack}>←</button>
+                <button className={styles.navButton} onClick={handleNext}>→</button>
+                <button className={styles.submitButton} onClick={handleNext}>→</button>
+              </div>
+            </motion.div>
+          )}
+
+          {step === 5 && (
+            <motion.div
+              key="step6"
+              initial={{ opacity: 0, x: -50 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: 50 }}
+              transition={{ duration: 0.5 }}
+            >
+              <h2>Step 6: Enter Additional Information</h2>
+              <textarea
+                name="additionalInfo"
+                placeholder="Enter any additional information here..."
+                value={searchParams.additionalInfo || ''}
+                onChange={handleInputChange}
+                rows={4}
+                className={styles.textArea}
+              />
               <div className={styles.buttonGroup}>
                 <button className={styles.navButton} onClick={handleBack}>←</button>
                 <button className={styles.submitButton} onClick={handleSubmit}>{loading ? '⏳' : '✔'}</button>
