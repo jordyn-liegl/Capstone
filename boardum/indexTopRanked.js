@@ -118,8 +118,8 @@ async function saveToJSON(games, pageNumber) {
   try {
     const { browser, page } = await loginToBGG();
 
-    const startPage = 120; // Continue from page 11
-    const endPage = 120;  // Adjust as needed
+    const startPage = 121; // Continue from page 11
+    const endPage = 135;  // Adjust as needed
 
     for (let p = startPage; p <= endPage; p++) {
       console.log(`\n--- Scraping Page ${p} ---`);
