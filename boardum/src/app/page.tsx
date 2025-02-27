@@ -69,44 +69,45 @@ export default function Home() {
     const maxTime = Number(searchParams.maxPlayingTime);
     const minAge = Number(searchParams.minAge);
 
-    if (isNaN(numPlayers) || numPlayers <= 0) {
+    if (numPlayers <= 0) {
         alert('Please enter a valid number of players.');
         setLoading(false);
         return;
     }
 
-    try {
-        const query: any = {
-            bool: {
-                must: [
-                    { range: { minPlayers: { lte: numPlayers } } },
-                    { range: { maxPlayers: { gte: numPlayers } } }
-                ],
-                should: [], 
-                minimum_should_match: 1 
+    const mustConditions = [
+        { range: { minPlayers: { lte: numPlayers } } },
+        { range: { maxPlayers: { gte: numPlayers } } },
+        ...(maxTime > 0 ? [{ range: { playingTime: { lte: maxTime } } }] : []),
+        ...(minAge > 0 ? [{ range: { age: { lte: minAge } } }] : [])
+    ];
+
+    const shouldConditions = [
+        ...(searchParams.categories?.length ? [{ terms: { category: searchParams.categories } }] : []),
+        ...(searchParams.mechanics?.length ? [{ terms: { mechanics: searchParams.mechanics } }] : []),
+        ...(searchParams.categories?.length || searchParams.mechanics?.length ? [{ match: { description: searchParams.categories.concat(searchParams.mechanics).join(' ') } }] : [])
+    ];
+
+    const query = {
+      bool: {
+        must: mustConditions,
+        should: [
+          ...shouldConditions,
+          {
+            match: {
+              description: {
+                query: "",
+                fuzziness: "AUTO"
+              }
             }
-        };
+          }
+        ],
+        minimum_should_match: shouldConditions.length ? 1 : 0
+      }
+    };
+    
 
-        if (maxTime > 0) {
-            query.bool.must.push({ range: { playingTime: { lte: maxTime } } });
-        }
-
-        if (minAge > 0) {
-            query.bool.must.push({ range: { age: { lte: minAge } } });
-        }
-
-        if (searchParams.categories.length > 0) {
-            query.bool.should.push({ terms: { category: searchParams.categories } });
-        }
-
-        if (searchParams.mechanics.length > 0) {
-            query.bool.should.push({ terms: { mechanics: searchParams.mechanics } });
-        }
-
-        if (query.bool.should.length === 0) {
-            delete query.bool.minimum_should_match;
-        }
-
+    try {
         const res = await fetch(`${ELASTICSEARCH_URL}/boardgames/_search`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -124,6 +125,7 @@ export default function Home() {
     } finally {
         setLoading(false);
     }
+
 };
 
 
