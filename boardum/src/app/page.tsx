@@ -118,7 +118,7 @@ export default function Home() {
 
         const data = await res.json();
         setSearched(true);
-        setRecommendations(data?.hits?.hits.map((hit: any) => hit._source) || []);
+        setRecommendations(data?.hits?.hits.map((hit: { _source: BoardGameSource }) => hit._source) || []);
     } catch (err) {
         console.error('Error fetching recommendation:', err);
         setRecommendations([]);
