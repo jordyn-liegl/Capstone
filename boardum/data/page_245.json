@@ -1,0 +1,1890 @@
+[
+  {
+    "id": "204142",
+    "name": "Cheers",
+    "minPlayers": 3,
+    "maxPlayers": 6,
+    "playingTime": 25,
+    "age": 6,
+    "description": "&quot;CHEERS&quot; is a light board game featuring teamwork, logical thinking, and scheming.&#10;&#10;During the game, everyone plays as a mixologist, cooperates with their teammates to gather the secret formula before other teams to claim victory. However, some liquors might &ldquo;CHEERS&rdquo; when they are played. It is a test to players&rsquo; wisdom of how to CHEERS the liquors to victory or to hamper the opponents.&#10;&#10;Moreover, the game can be played in 3 different modes, rendering various CHEERS experiences for players to explore!&#10;&#10;&#239;&#188;&#141;&#239;&#188;&#141;&#239;&#188;&#141;&#239;&#188;&#141;&#239;&#188;&#141;&#239;&#188;&#141;&#10;&#10;&#227;&#128;&#138;&#228;&#185;&#190;&#230;&#157;&#175;&#227;&#128;&#139;&#230;&#152;&#175;&#228;&#184;&#128;&#229;&#128;&#139;&#229;&#144;&#136;&#228;&#189;&#156;&#227;&#128;&#129;&#233;&#187;&#152;&#229;&#165;&#145;&#227;&#128;&#129;&#230;&#142;&#168;&#231;&#144;&#134;&#228;&#187;&#165;&#229;&#143;&#138;&#229;&#191;&#131;&#230;&#169;&#159;&#230;&#148;&#187;&#233;&#152;&#178;&#231;&#154;&#132;&#230;&#161;&#140;&#228;&#184;&#138;&#229;&#176;&#143;&#229;&#147;&#129;&#233;&#129;&#138;&#230;&#136;&#178;&#227;&#128;&#130;&#10;&#10;&#229;&#156;&#168;&#233;&#129;&#138;&#230;&#136;&#178;&#228;&#184;&#173;&#239;&#188;&#140;&#230;&#175;&#143;&#228;&#189;&#141;&#231;&#142;&#169;&#229;&#174;&#182;&#233;&#131;&#189;&#230;&#156;&#131;&#230;&#147;&#148;&#228;&#187;&#187;&#232;&#170;&#191;&#233;&#133;&#146;&#229;&#184;&#171;&#239;&#188;&#140;&#229;&#191;&#133;&#233;&#160;&#136;&#232;&#136;&#135;&#233;&#154;&#138;&#229;&#143;&#139;&#229;&#144;&#140;&#229;&#191;&#131;&#229;&#141;&#148;&#229;&#138;&#155;&#239;&#188;&#140;&#231;&#142;&#135;&#229;&#133;&#136;&#229;&#174;&#140;&#230;&#136;&#144;&#232;&#135;&#170;&#229;&#183;&#177;&#231;&#154;&#132;&#231;&#167;&#152;&#229;&#175;&#134;&#233;&#133;&#141;&#230;&#150;&#185;&#239;&#188;&#140;&#229;&#143;&#150;&#229;&#190;&#151;&#229;&#139;&#157;&#229;&#136;&#169;&#239;&#188;&#129;&#228;&#189;&#134;&#229;&#156;&#168;&#233;&#129;&#138;&#230;&#136;&#178;&#231;&#154;&#132;&#233;&#129;&#142;&#231;&#168;&#139;&#228;&#184;&#173;&#239;&#188;&#140;&#233;&#131;&#168;&#229;&#136;&#134;&#233;&#133;&#146;&#233;&#161;&#158;&#230;&#156;&#131;&#229;&#146;&#140;&#229;&#133;&#182;&#228;&#187;&#150;&#233;&#133;&#146;&#231;&#148;&#162;&#231;&#148;&#159;&#227;&#128;&#140;&#228;&#185;&#190;&#230;&#157;&#175;&#227;&#128;&#141;&#239;&#188;&#140;&#232;&#128;&#140;&#229;&#166;&#130;&#228;&#189;&#149;&#233;&#129;&#139;&#231;&#148;&#168;&#228;&#185;&#190;&#230;&#157;&#175;&#229;&#142;&#187;&#233;&#129;&#148;&#230;&#136;&#144;&#229;&#139;&#157;&#229;&#136;&#169;&#230;&#136;&#150;&#233;&#152;&#187;&#230;&#146;&#147;&#229;&#176;&#141;&#230;&#137;&#139;&#239;&#188;&#140;&#229;&#176;&#177;&#232;&#128;&#131;&#233;&#169;&#151;&#232;&#145;&#151;&#231;&#142;&#169;&#229;&#174;&#182;&#231;&#154;&#132;&#230;&#153;&#186;&#230;&#133;&#167;&#228;&#186;&#134;&#239;&#188;&#129;&#10;&#10;&#230;&#173;&#164;&#229;&#164;&#150;&#239;&#188;&#140;&#227;&#128;&#138;&#228;&#185;&#190;&#230;&#157;&#175;&#227;&#128;&#139;&#230;&#156;&#137;&#228;&#184;&#137;&#231;&#168;&#174;&#228;&#184;&#141;&#229;&#144;&#140;&#231;&#154;&#132;&#233;&#129;&#138;&#230;&#136;&#178;&#230;&#168;&#161;&#229;&#188;&#143;&#239;&#188;&#140;&#230;&#175;&#143;&#231;&#168;&#174;&#230;&#168;&#161;&#229;&#188;&#143;&#233;&#131;&#189;&#230;&#156;&#137;&#228;&#184;&#141;&#229;&#144;&#140;&#231;&#154;&#132;&#230;&#168;&#130;&#232;&#182;&#163;&#228;&#190;&#155;&#231;&#142;&#169;&#229;&#174;&#182;&#233;&#171;&#148;&#233;&#169;&#151;&#229;&#150;&#148;&#239;&#188;&#129;&#10;&#10;",
+    "categories": [
+      "Card Game"
+    ],
+    "mechanics": [
+      "Hand Management",
+      "Set Collection",
+      "Team-Based Game"
+    ],
+    "image": "https://cf.geekdo-images.com/_jME4HEuUgxRdIzyu1O9Nw__thumb/img/oPQ0gzHfVCtJDMxkGncopyukUEo=/fit-in/200x150/filters:strip_icc()/pic6217740.png"
+  },
+  {
+    "id": "6789",
+    "name": "Die grosse Auktion",
+    "minPlayers": 3,
+    "maxPlayers": 8,
+    "playingTime": 60,
+    "age": 12,
+    "description": "In Die grosse Auktion players try to collect valuable sets of museum pieces. Exhibits can be &quot;original&quot;, &quot;in bad condition&quot; or &quot;fake&quot;, a fact usually not known until after the auction. &#10;Players can freely trade exhibits, money, special cards and make any kind of agreement, adding a diplomatic element to the game.&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Economic",
+      "Negotiation"
+    ],
+    "mechanics": [
+      "Auction / Bidding",
+      "Set Collection",
+      "Trading"
+    ],
+    "image": "https://cf.geekdo-images.com/6Rl0kXO73zAbqI8TmGTvmQ__thumb/img/svZIwp9_1nktpUfS4D_Zio6IOto=/fit-in/200x150/filters:strip_icc()/pic1822686.jpg"
+  },
+  {
+    "id": "218574",
+    "name": "Quizoo",
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "playingTime": 15,
+    "age": 6,
+    "description": "Your animal knowledge will be challenged over and over again in Quizoo, a rapid-fire game in which you want to know which animals are biggest, heaviest, fastest, and longest-lived.&#10;&#10;To set up, shuffle the sixty-card deck. The front of each card shows 3-5 animals out of twenty types; the back side shows one of four symbols and either a + or -. A round consists of someone flipping over the top card to reveal the animals on that card and the symbol on the top of the deck. If a heart + is revealed, for example, you want to name the longest-lived animal on the now revealed card more quickly than anyone else; if heart-, then the shortest-lived animal; if stopwatch+, then the fastest animal, etc.&#10;&#10;If you name the correct animal, you keep the revealed card; if not, you return one of your already collected cards to the bottom of the deck along with that revealed card. Whoever collects eight cards first wins!&#10;&#10;To increase the challenge, you can reveal two cards at the start of each round, giving everyone more animals from which to choose.&#10;&#10;",
+    "categories": [
+      "Animals",
+      "Memory"
+    ],
+    "mechanics": [
+      "Memory"
+    ],
+    "image": "https://cf.geekdo-images.com/lCPa83FtOL-q5o1UAu-5vA__thumb/img/s7KO1eWGFjGChyRUOJNvYsuc0hs=/fit-in/200x150/filters:strip_icc()/pic3364264.png"
+  },
+  {
+    "id": "11616",
+    "name": "Monopoly: Spider-Man Collector's Edition",
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playingTime": 120,
+    "age": 8,
+    "description": "Collector's Edition Monopoly based on the Spiderman comic books. Instead of railroads, collect Spiderman's abilities. Properties are the various villians that Spiderman has faced. New game pieces include Venom, Green Goblin, Spiderman, and Peter Parker. The artwork on the board is amazing and very reminiscent of the original comic books.&#10;&#10;",
+    "categories": [
+      "Comic Book / Strip",
+      "Economic",
+      "Negotiation"
+    ],
+    "mechanics": [
+      "Auction / Bidding",
+      "Player Elimination",
+      "Roll / Spin and Move",
+      "Set Collection",
+      "Trading"
+    ],
+    "image": "https://cf.geekdo-images.com/8v2VI_RQ9u9cJo6EEIjhVQ__thumb/img/DewNlI-Mlx7mS3eMa4Tehee_fYE=/fit-in/200x150/filters:strip_icc()/pic1656786.jpg"
+  },
+  {
+    "id": "25526",
+    "name": "Monopoly: Batman",
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playingTime": 120,
+    "age": 8,
+    "description": "Once again, villains lurk in the shadows of Gotham City. But darkness is on your side.&#10;&#10;The Dark Knight can surely bring rule to an unruly world. Can you? From Crime Alley to The Penguin's Iceberg Lounge to the Batcave, now you can buy, sell and trade Gotham City&rsquo;s most coveted real estate and take control of the city.&#10;&#10;Defeat the enemies by taking control of their hangouts and become the ultimate crime fighter as you vie to own it all in this special edition of the world&rsquo;s most famous board game, Monopoly. All components are customized to honor the &ldquo;Guardian of Gotham City&rdquo;. It&rsquo;s time to bring justice to those who harm the innocent.&#10;&#10;",
+    "categories": [
+      "Comic Book / Strip",
+      "Economic",
+      "Negotiation"
+    ],
+    "mechanics": [
+      "Auction / Bidding",
+      "Player Elimination",
+      "Roll / Spin and Move",
+      "Set Collection",
+      "Trading"
+    ],
+    "image": "https://cf.geekdo-images.com/_GKfutraIirgn_5xLCCkNQ__thumb/img/vTZPzqy-VumlXeYl7hqw1yIv3Uo=/fit-in/200x150/filters:strip_icc()/pic147671.jpg"
+  },
+  {
+    "id": "6543",
+    "name": "WorldKiller: The Game of Planetary Assault",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playingTime": 60,
+    "age": 10,
+    "description": "WorldKiller: The Game of Planetary Assault, is a Tactical level simulation of the classic Science-Fiction theme of planetary assault. In the standard scenario, one player commands the ships and orbital fortresses of the defending Human forces; and the other player commands the ships of the attacking Alien forces. Beyond the standard scenario there are provided additional rules and types of ships for players to devise their own scenarios.  A small wargame with 4 pages of rules, a 11&quot;x 16&quot; fold-out map sheet and 100 die-cut counters.&#10;&#10;Originally published in Ares magazine Nr.1 (March 1980)&#10;&#10;",
+    "categories": [
+      "Science Fiction",
+      "Wargame"
+    ],
+    "mechanics": [
+      "Area Movement",
+      "Dice Rolling",
+      "Simulation",
+      "Square Grid",
+      "Three Dimensional Movement"
+    ],
+    "image": "https://cf.geekdo-images.com/5WzxaWt1cnDYBB5OKnZrAQ__thumb/img/7OcJSUG_R6_SpSLPi_jWhseVyhM=/fit-in/200x150/filters:strip_icc()/pic2626584.jpg"
+  },
+  {
+    "id": "6006",
+    "name": "Iron Cross",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playingTime": 240,
+    "age": 12,
+    "description": "Iron Cross is a man-to-man wargame covering infantry battles, on a tactical level, between German and Soviet forces in Russia during 1941-42.  The game was first published in Strategy &amp; Tactics magazine #132.&#10;&#10;The game has been called &quot;the poor man's Squad Leader&quot;, but does a great job simulating small unit tactics in the six provided scenarios.&#10;&#10;Game Scale:&#10;Turn: 2 minutes&#10;Map: 10 meters&#10;Unit: Individual man, weapon, vehicle&#10;&#10;Game Contents:&#10;One 22 x 34&quot; map (designed to be hand cut to give three 12 x 18&quot; maps)&#10;One countersheet (200 1/2&quot; counters)&#10;One 20 page rulebook&#10;&#10;",
+    "categories": [
+      "Wargame",
+      "World War II"
+    ],
+    "mechanics": [
+      "Dice Rolling",
+      "Grid Movement",
+      "Hexagon Grid",
+      "Line of Sight",
+      "Movement Points",
+      "Scenario / Mission / Campaign Game",
+      "Simulation"
+    ],
+    "image": "https://cf.geekdo-images.com/jWdZZTZy7-DpKCp4kP-gLw__thumb/img/ImH_4UidflL14jgqU46qj0bwCFY=/fit-in/200x150/filters:strip_icc()/pic52681.jpg"
+  },
+  {
+    "id": "2186",
+    "name": "Dino",
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playingTime": 30,
+    "age": 10,
+    "description": "Players take to their time machines and attempt to collect dinosaur eggs in an effort to repopulate extinct species. Of course, the adult dinos often block their path to the egg nests.&#10;&#10;",
+    "categories": [
+      "Abstract Strategy",
+      "Prehistoric"
+    ],
+    "mechanics": [
+      "Point to Point Movement",
+      "Set Collection"
+    ],
+    "image": "https://cf.geekdo-images.com/hD8ptoTKi7BT6U_2lqQdeQ__thumb/img/4-dU_0NNfcMblZ3BoFkSk0KjpuA=/fit-in/200x150/filters:strip_icc()/pic30894.jpg"
+  },
+  {
+    "id": "10152",
+    "name": "Super Simon",
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playingTime": 10,
+    "age": 7,
+    "description": "Super Simon - Play head to head, individually or as a team.  Contains 5 different games, 4 skill levels and 3 speeds.&#10;&#10;Gameplay is like original Simon but has 8 colored buttons instead of 4..  Generally, players need to repeat a sequence of increasingly long sequence of button presses.  The sequence starts with one button and each time the sequence is repeated successfully, another button is added to the end and the player(s) need to now repeat the longer sequence.&#10;&#10;1.  In game one, one or more players take turns repeating the sequence.&#10;2.  In game two each player controls one or more colors and has to press their assigned color at the correct time or that color is eliminated.&#10;3.  In game three, Simon randomly determines which player needs to complete the sequence.&#10;4.  In game four, the color and timing of the presses needs to be repeated by the players.&#10;5.  In game five, you have to press the button as Simon lights it.  There is no sequence to memorize.&#10;&#10;",
+    "categories": [
+      "Electronic",
+      "Memory",
+      "Real-time"
+    ],
+    "mechanics": [
+      "Cooperative Game",
+      "Memory",
+      "Pattern Recognition"
+    ],
+    "image": "https://cf.geekdo-images.com/Pw7mtdZ7SGWwap8HLqEtEg__thumb/img/0YIGwxB2DJkzN9ZNj3dRoqohQEw=/fit-in/200x150/filters:strip_icc()/pic693804.jpg"
+  },
+  {
+    "id": "183481",
+    "name": "Rackare!",
+    "minPlayers": 3,
+    "maxPlayers": 20,
+    "playingTime": 60,
+    "age": 13,
+    "description": "The party game Rackare consists of two decks of cards: White and Black. Each round, the Rackarkung or dealer player draws a random white card  from the deck, then the other players each secretly choose the black card in hand that makes for the funniest combination. The Rackarkung then chooses the combination they like best and the winner keeps the white card which is worth one point.&#10;&#10;The title of Rackarkung alternates and the winner is the player to first reach 10 points.&#10;&#10;This is a Swedish adaptation (cultural references as well as language) of Cards Against Humanity, with additional optional rules concerning the white cards. Some of them are marked with one of three smiley-like symbols. One gives double points to the winner, one allows all players to discard one black card of their choice and draw a new black card, one means that the winner of this round gets the punishment that all players agreed to before the game started.&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Humor",
+      "Mature / Adult",
+      "Party Game",
+      "Print & Play"
+    ],
+    "mechanics": [
+      "Hand Management",
+      "Player Judge",
+      "Simultaneous Action Selection"
+    ],
+    "image": "https://cf.geekdo-images.com/WXIVbIp_rhbyiQ3h97yZ7w__thumb/img/jR3g9IdIdieEjWUL7ZheQf9fqSE=/fit-in/200x150/filters:strip_icc()/pic2655929.jpg"
+  },
+  {
+    "id": "15396",
+    "name": "Linkity",
+    "minPlayers": 3,
+    "maxPlayers": 8,
+    "playingTime": 15,
+    "age": 8,
+    "description": "Every player starts with 7 cards and each card has a letter. The first player plays a card and announces a word that starts with that letter. Then any player can throw down another card as long as they can announce a word that starts with the letter on their card AND that has some relationship to the card previously played.&#10;&#10;Poor associations can be challenged and players vote on the acceptance of the explanation. If the explanation is valid, the challenger takes two cards from the discard pile. If it is voted down, the player that played the card picks up two cards.&#10;&#10;Once a player is out of cards, the round ends and each player scores the number of cards remaining in their hand. After three rounds, the player with the lowest score wins.&#10;&#10;WHAT THEY'LL LEARN: Vocabulary, Quick Thinking, Word Association&#10;&#10;",
+    "categories": [
+      "Word Game"
+    ],
+    "mechanics": [],
+    "image": "https://cf.geekdo-images.com/qxyMKkSz4azKNrwAh5F_qA__thumb/img/cjTJznV8wZllrP2dxCVKmEISO0U=/fit-in/200x150/filters:strip_icc()/pic509299.jpg"
+  },
+  {
+    "id": "24443",
+    "name": "Idol Quest",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 30,
+    "age": 10,
+    "description": "Enter a Mysterious Land of 3D Adventure!&#10;In the middle of a lake deep in a jungle, a centuries-old Idol sits atop an ancient tower. It&rsquo;s a race to see who will be the first player to build a path across the lake and up the tower, seize the priceless Idol and escape to a waiting boat. But dangers lurk on every turn -- your opponent might block your escape route or steal the Idol from you -- or even bury your Explorer under a stone block!&#10;&#10;The Strategy Game of Capture and Escape &#10;Using a team of Explorers and an array of action cards, place blocks across the lake to create a 3D path to the top of the tower. With each roll of the die, your Explorers get closer to the Idol. If you draw the right card, you can leap ahead of the other players, steal an opponent&rsquo;s card or send a player back to the start. But the game can change in a heartbeat -&ndash; your Explorers might be stranded on the shore or buried beneath a block -- so every move requires strategy and planning.&#10;&#10;The first player to reach the top of the tower, capture the Idol and escape to a waiting boat wins.&#10;&#10;Idol QuestTM is fast-paced fun for the entire family!&#10;&#10;",
+    "categories": [
+      "Adventure"
+    ],
+    "mechanics": [
+      "Modular Board",
+      "Roll / Spin and Move"
+    ],
+    "image": "https://cf.geekdo-images.com/mFuG38DUAcX7p4Rm5j8RhQ__thumb/img/5BfyVCh8kUixIitwLItNZxj46zU=/fit-in/200x150/filters:strip_icc()/pic778559.jpg"
+  },
+  {
+    "id": "109732",
+    "name": "Three Little Pigs",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 0,
+    "age": 3,
+    "description": "Contents:&#10;1 dice, 1 jigged playing board, 1 wolf spinner, 4 playing piece cards, each showing 3 pigs, 4 coloured card stands, 4 sets of slot-together houses, one of straw, one of sticks and one of brick&#10;The object is to build a straw, stick and brick house in front of you before moving your pigs to the safety of the middle of the playing board.&#10;Players throw the die to move round the board. If the player lands on a brick, stick or straw square they take a house piece of that type from the pile on the table. If they have already completed that particular house, they do not take a house piece and play passes to the next player. Players are aiming to collect both pieces of each house, which are slotted together in front of them.&#10;If the player lands on a wolf square, they spin the wolf spinner. If the spinner points to a stick or straw house, the player may take one of those pieces from another player saying &quot;I&rsquo;ll huff and I&rsquo;ll puff, and I will blow your house down!&quot; If they do not need the house piece, because they have already completed that house, they take the piece and return it to the relevant pile on the table. If the spinner points to the brick house, the wolf cannot blow it down, so the player cannot take another player&rsquo;s house piece.&#10;When a player has assembled all three houses, they have to continue to play in order to reach the safety of the middle of the playing board (throwing the exact number, or more to move there). Other players can still take pieces of their completed straw and stick houses. If this happens, then the player who loses a piece/s of their house, must replace it/them before, again, attempting to go to the middle of the playing board.&#10;The winner is the first player to reach the safety of the middle of the playing board, having assembled their three houses.&#10;&#10;",
+    "categories": [
+      "Animals",
+      "Children's Game"
+    ],
+    "mechanics": [
+      "Roll / Spin and Move",
+      "Set Collection"
+    ],
+    "image": "https://cf.geekdo-images.com/D_zEG_DWeSF_7KsT1WoDHw__thumb/img/O1NAgJHg39sWy9n3BoK8r7mcjmU=/fit-in/200x150/filters:strip_icc()/pic1109553.jpg"
+  },
+  {
+    "id": "3668",
+    "name": "Tribbles Customizable Card Game",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 30,
+    "age": 7,
+    "description": "A self-contained spin-off of the Star Trek Customizable Card Game from Decipher, Tribbles is a fairly straightforward card game where you are trying to empty your 7 card hand in order to score points (&quot;tribbles&quot;) that you have been able to play. Each card represents a certain quantity of &quot;tribbles&quot; (1, 10, 1000, or 10,000.) The game play follows a sequential order, with each player needing to play the next higher value of tribble out of his hand than the one played immediately before.  If no such card is held, the player must pass and draw a card from his personal deck. There are also optional effects on each card, some reminiscent of Uno (among them Skip and Reverse), that vary the play sequence, score some special points, or allow a player to discard a card. A round ends when either a player is out of hand cards or all but one of the players are out of cards in their deck. Only the player who goes out scores points for his Tribbles played that round. Five rounds make a game. The player who scores the most tribbles in those five rounds is the winner.&#10;&#10;The game provides four pre-constructed decks totaling 112 cards, which are color coded to fit a theme. These cards can be interchanged to create different decks. To make the game even more customizable, &quot;tribbles&quot; cards from the ST:CCG expansion set &quot;The Trouble With Tribbles&quot; are compatible with this game. These cards can increase the highest tribbles card to 100,000, plus add a new special ability (a bonus for collecting a specific set of cards) and different combinations than those included in the boxed set.&#10;&#10;Also included in the game are reference cards which list the makeup of each standard deck and explain what the special effects are. In addition, you get a scoresheet and even a small pencil.&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Collectible Components",
+      "Movies / TV / Radio theme",
+      "Science Fiction"
+    ],
+    "mechanics": [
+      "Hand Management",
+      "Set Collection",
+      "Variable Player Powers"
+    ],
+    "image": "https://cf.geekdo-images.com/yFYAsrJWYFxrubtmUiRE5Q__thumb/img/78LnbFtTjf53C-wdZ8UEPVz0XWQ=/fit-in/200x150/filters:strip_icc()/pic10342.jpg"
+  },
+  {
+    "id": "131499",
+    "name": "Counting Fun",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 10,
+    "age": 2,
+    "description": "Game description from the publisher:&#10;&#10;In Counting Fun, Farmer Tim wants to check that everything is in order in the meadow and feed clover leaves to the animal kids. But the rascals are playing tag and happily frolicking about, so Farmer Tim soon loses track! Can you help Tim count and feed the animal kids?&#10;&#10;",
+    "categories": [
+      "Children's Game",
+      "Educational"
+    ],
+    "mechanics": [],
+    "image": "https://cf.geekdo-images.com/6OQQt2G8VbZ5HSPHB8_4mg__thumb/img/TUQRXYKpMvSEdFUanU1xKbBq8LQ=/fit-in/200x150/filters:strip_icc()/pic1436213.jpg"
+  },
+  {
+    "id": "11047",
+    "name": "Barbarossa: Game of the Russo-German War 1941-45",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playingTime": 1200,
+    "age": 12,
+    "description": "&quot;Barbarossa: Game of the Russo-German War 1941-45&quot;&#10;&#10;On 22 June 1941, the German Wehrmacht invaded Soviet Russia in an operation code-named Barbarossa. &#10;Barbarossa is a Strategic level, two-player, Corps-level board wargame simulation of the four year struggle of the East Front War in the Soviet Union. The Axis Player takes the role of the German High Command (OKH) and controls playing pieces representing the forces of Germany and its allies. The Soviet player takes the role of the Soviet High Command (STAVKA) and controls pieces representing the armed forces of Soviet Russia and allied partisans.&#10;&#10;Four scenarios:&#10;1941 Barbarossa: Turns 1 through 8&#10;1942 Blau: Turns 12 through 24&#10;1943 Zitedelle: Turns 26 through 36&#10;Campaign: Turns 1 through 48&#10;&#10;Game Scale:&#10;Game Turn: 1 month&#10;Hex: 27 miles / 44 kilometers&#10;Units: Corps to Army&#10;&#10;Solitaire Playability: Medium&#10;Complexity Level: High&#10;Players: 2 or more&#10;Playing Time: 4-25 hours&#10;&#10;",
+    "categories": [
+      "Wargame",
+      "World War II"
+    ],
+    "mechanics": [
+      "Dice Rolling",
+      "Hexagon Grid",
+      "Ratio / Combat Results Table",
+      "Simulation"
+    ],
+    "image": "https://cf.geekdo-images.com/SqKo9EFrs_00g3C4n0Bi8Q__thumb/img/h3UWxiwpGiPeEtVA1-VxTG7pOXU=/fit-in/200x150/filters:strip_icc()/pic178481.jpg"
+  },
+  {
+    "id": "154841",
+    "name": "Knuckle Sammich: A Kobolds Ate My Baby! Card Game",
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "playingTime": 15,
+    "age": 14,
+    "description": "Knuckle Sammich is a small card game, originally made available to Kickstarter backers of KOBOLDS ATE MY BABY! IN COLOR!!! by 9th Level games.&#10;&#10;The object of the game is to fill your stomach with all manner of items that kobolds eat...especially babies!!&#10;&#10;From the publisher:&#10;&#10;YOU ARE LATE FOR LUNCH!  By the time that you get to the Kitchens, lunch is nearly over!  You and the other slowpokers and lateniks are going to have to make your own, with some KNUCKLE SAMMICHES!&#10;&#10;YOU ARE A KOBOLD trying to tooth and claw your way to a full belly by grabbing the last few sandwiches.  Along they way, you may just give up the pretense of making sandwiches and eat your friends instead.  Watch out for King Torg (ALL HAIL KING TORG!) and maybe you will survive lunch and wind up with a fresh, tasty baby to eat.&#10;&#10;KNUCKLE SAMMICH is a fast card game for 2-7 players that involves a little strategy, a little luck, a few cards, and occasionally shouting at the top of your lungs.  Great for any age or gamer type.  Based on the popular RPG KOBOLDS ATE MY BABY! and featuring the art of JOHN KOVALIC (of Munchkin and Dork Tower and Kobolds Ate My Baby! fame).&#10;&#10;",
+    "categories": [
+      "Fantasy",
+      "Humor",
+      "Print & Play"
+    ],
+    "mechanics": [
+      "Hand Management",
+      "Take That"
+    ],
+    "image": "https://cf.geekdo-images.com/tXDI50geXdyGfWynRlCl4g__thumb/img/LvJYccm5-OunIVAA3cVEf3ktDL4=/fit-in/200x150/filters:strip_icc()/pic3450697.jpg"
+  },
+  {
+    "id": "8335",
+    "name": "Say What!?!",
+    "minPlayers": 2,
+    "maxPlayers": 20,
+    "playingTime": 30,
+    "age": 8,
+    "description": "Say What? is the world's first game designed to be played while you are doing other things! This card game is meant to be played while talking at parties, roleplaying, riding in the car or even watching TV. Each of the 100 cards contains a word or action and a point value. When someone else says or does what is listed, they get the card. Whoever has the least amount of points in the end wins. It's that simple! Each two-piece box comes with 100 custom illustrated cards and complete rules for three different ways to play including a word rummy variation.&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Word Game"
+    ],
+    "mechanics": [],
+    "image": "https://cf.geekdo-images.com/nw54KJp-biOua3ghUytUKw__thumb/img/jVqnZ6B-RZ0OBx6PTTOkf0CjOGw=/fit-in/200x150/filters:strip_icc()/pic34634.jpg"
+  },
+  {
+    "id": "169256",
+    "name": "Hoverkraft",
+    "minPlayers": 1,
+    "maxPlayers": 8,
+    "playingTime": 5,
+    "age": 8,
+    "description": "Hoverkraft is an old-school building game with a twist. Players take turns stacking pieces on a platform... that levitates. Using magnetic repulsion, we've built a gameboard that defies gravity (take that, weak force!). Stack translucent game pieces higher and higher or remove them as the die dictates. The last player to place a block without causing the platform to tumble wins.&#10;&#10;Hoverkraft is intended for two players, but it's fun to challenge yourself to build bigger and better structures. And it's a fast game, lasting anywhere from 30 seconds (what? we were distracted) to 5 minutes. Bring it to a party and you can have an entire tournament in a few hours. Your friends may curse you for introducing them to Hoverkraft at first, but they'll be drawn back to it. There's something addictive about it.&#10;&#10;",
+    "categories": [
+      "Action / Dexterity",
+      "Puzzle"
+    ],
+    "mechanics": [
+      "Dice Rolling",
+      "Physical Removal",
+      "Stacking and Balancing"
+    ],
+    "image": "https://cf.geekdo-images.com/lKUyoVi37AAMEYzb0n1biQ__thumb/img/EDb3Vlbpf2ogsfBIxeLcv8BzinM=/fit-in/200x150/filters:strip_icc()/pic2310434.jpg"
+  },
+  {
+    "id": "108100",
+    "name": "Total Mania",
+    "minPlayers": 4,
+    "maxPlayers": 0,
+    "playingTime": 45,
+    "age": 14,
+    "description": "Total mania is a party game.Each player has time in his turn to describe a word to his teamplayers using many different ways such as drawing,body talk,stand up comedy etc.&#10;&#10;",
+    "categories": [
+      "Action / Dexterity",
+      "Party Game"
+    ],
+    "mechanics": [
+      "Acting",
+      "Paper-and-Pencil"
+    ],
+    "image": "https://cf.geekdo-images.com/bjmlKerzfiIDFiJSnjPZvQ__thumb/img/PywdtfZMphvFdYMMYfm7j4Dm7g0=/fit-in/200x150/filters:strip_icc()/pic2349861.jpg"
+  },
+  {
+    "id": "2550",
+    "name": "Snarf Quest",
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playingTime": 20,
+    "age": 10,
+    "description": "The King is dead! Who will lead the Zeethvahs? According to Zeethvah tradition, every warrior is eligible to rule. The rules of succession are simple.... one year from this date, the warrior that has aquired the most riches or has performed the most heroic deeds will become OUR NEW LEADER!&#10;&#10;The goal of the Snarf Quest Card Game is to take our hero Snarf through a grand adventure and acquire as much treasure as possible. Each player is making his own adventure for Snarf. At the end of the game, the player with the most treasure is declared to have the best Snarf adventure and becomes king of the Zeethvah village and WINS!&#10;&#10;There are two basic departures from most card games. One, everyone draws from the same deck (known as the storydeck). Two, nobody ever holds cards in his hand. All cards are displayed where everyone can see them.&#10;&#10;During each players turn, he controls Snarf (represented by the supplied miniature) and his actions. You must spend Action Points to move Snarf up and down the storyline (ten cards placed side by side next to the storydeck). As these storylines are activated, they are removed, the story line moves together and a replacement card is placed in the storyline next the the storydeck (the draw pile). Activated cards can help you or hurt your opponents, depending on what happens in the storyline. At the end of the game, the player with the most Treasure Points, Wins.&#10;&#10;The basic game comes with 50 cards, a snarf miniature and is made for 2 to 3 players. However, with each additional 20 cards you add to your deck, one more player can be added. 5 is the recommended maximum. 20 card expansion sets can be purchased that also include a new miniature. Each of these expansions is based around a different character from the Snarf Quest comic strip. This is not a collectable card game, all starter and expansion decks are identical.&#10;&#10;In 2003 the game was reproduced as a new version of the game which comes with a 100-card deck and one Snarf miniature. There are no expansions for this edition of the game.&#10;&#10;Expanded by:&#10;&#10;    Snarfquest Expansion 1 (Suthaze)&#10;    Snarfquest Expansion 2 (Telerie)&#10;    Snarfquest Expansion 3 (Aveeare)&#10;    Snarfquest Expansion 4 (Raffendorf)&#10;    Snarfquest Miniatures Bonus Pack&#10;&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Comic Book / Strip",
+      "Fantasy",
+      "Medieval"
+    ],
+    "mechanics": [
+      "Cooperative Game",
+      "Storytelling"
+    ],
+    "image": "https://cf.geekdo-images.com/LjIVgHW4ML2brs9owwGS5g__thumb/img/Grd6Vp_QJS-w47BjgG5TjJTY9HY=/fit-in/200x150/filters:strip_icc()/pic18658.jpg"
+  },
+  {
+    "id": "197571",
+    "name": "Pie Rats of the Carob Bean Farm",
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playingTime": 45,
+    "age": 10,
+    "description": "Once upon a time there was a farm that grew Carob Beans. Carob Beans are grown as a cocoa substitute and for their vitamin value. Like any farm, this farm had rodents living on it. To be honest, it was infested with rats. Lots and lots of rats. For generations these rats had been eating the Carob Beans.&#10;&#10;The farmer had a beautiful wife that loved to bake. More than anything she liked to bake pies ...All kinds of tasty pies. As the hot pies came out of the oven she would put them on the window sill of their quaint little farm house to let them cool off and the sweet aroma of the freshly baked pies would waft across the whole farm.&#10;&#10;One day one of the rats noticed the pleasing fragrance and followed it all the way back the farm house. There he found a pie sitting at the window&rsquo;s edge. He tried and tried as hard as he could but being just a single rat he could not move that pie off the window sill.&#10;&#10;Not wanting to easily give up he quickly ran off to get some of his fellow rats with the promise of a piece of the pie if they would help him lift it off the window sill and carry it away. They were successful! ...Very, very successful! Over time they learned that different pies weighed different amounts and that they needed more rats to take the heavier pies. The rats also started forming groups or &ldquo;crews&rdquo; to try and steal the pies. They were becoming competitive, even among themselves, in their attempts to steal these delicious treats.&#10;&#10;In the human world news quickly spread of this odd phenomenon and they became know as...&#10;&#10;The Pie Rats of the Carob Bean Farm!&#10;&#10;In Pie Rats of the Carob Bean Farm each player takes on the role of a Captain of the Rats and tries to build a crew of not-so-loyal rats in an attempt to loot the farmer&rsquo;s wife of as many of her pies as you can. The heavier the pie the more rats it takes to steal it, the more points it is worth. The Captain with the most points at the end of the game is the winner.&#10;&#10;",
+    "categories": [
+      "Bluffing",
+      "Card Game",
+      "Pirates"
+    ],
+    "mechanics": [
+      "Hand Management",
+      "Set Collection",
+      "Take That",
+      "Trick-taking"
+    ],
+    "image": "https://cf.geekdo-images.com/WZsGGnEVaZJWWV_IUI2pFw__thumb/img/afnc6P1eFT99AiQztXodjSS9TBY=/fit-in/200x150/filters:strip_icc()/pic5121498.jpg"
+  },
+  {
+    "id": "22268",
+    "name": "Asterix & Obelix",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playingTime": 20,
+    "age": 8,
+    "description": "This is a game in the Kosmos two-player series.&#10;&#10;Description from Kosmos:&#10;&#10;In this two-player game featuring Gallic heroes Asterix &amp; Obelix, the occupying Romans wear the usual costume for those stationed here: bumps and bruises.&#10;&#10;New Roman overseer Zenturio has let the money-hungry Gallic chief Moralelastix convince him to mount an operation against his little village. As usual, the question isn't &quot;Will the Romans get beat up?&quot;, it's &quot;How badly will the Romans get beat up?&quot;&#10;&#10;The two players play as Asterix and Obelix. Each takes the matching playing figure as well as a set of 15 beating cards (3 cards in each of 5 different colors), which he places in front of himself as a face-down deck. Each player takes the top 5 cards in hand. In addition to the beating cards, there are Roman cards. Most of them show Roman Legionnaires (in 5 different colors), but there are also Pirates, Wild Boars, the traitor Moralelastix and 5 Village Feast cards.&#10;&#10;The 40 cards are well shuffled and placed as a face-down pile. Then, the top 16 cards are drawn and placed face-down on the table in classic Phalanx formation (4x4 grid). The remaining cards act as a draw pile.&#10;&#10;The player with the longest mustache (or alternately the biggest belly) begins. He places his figure in front of one of the four Phalanx rows and turns the topmost card over. A red Roman! Red Romans can only get beat up by Red beating cards. If the active player doesn't have any, then the Roman card is turned back over again and that player's turn is over. If he does has a red card, though, then he has to choose whether to end his turn (taking the beaten Roman as a trophy) or turn another card over, hoping to press his luck.&#10;&#10;A player can keep going until (in an extreme case) he's cleared an entire row of the Phalanx. In that case, the active player gets to refill his hand to 5 cards and then start in on another row. Of course, that may not be such a good idea. Because if he keeps going and finds a Roman card he can't beat up, then his turn is over and he receives nothing. All of the Romans he would have won are removed from the game instead. Players can reduce the luck a little bit, in that they can discard one card from their hand to look at the last card in the row where they placed their figure.&#10;&#10;When a player ends his turn (freely or because he was forced to), then he refills his hand to five cards and it is the other player's turn. Any holes in the Roman Phalanx are also filled back in with cards from the draw pile. Lastly, the player whose turn just ended gets to block the next player from trying one of the rows (either horizontally or vertically).&#10;&#10;Of the 40 Roman cards, only 30 show actual Romans (as well as Zenturios himself). The remaining 10 cards are: 3 Pirates, 1 Wild Boar, Moralelastix, and 5 Evening Feasts. Pirates are easy to beat: Any card will do. To get Moralelastix, two cards of a single color are needed. The Wild Boar ends the player's turn immediately, but he gets to keep the Romans he beat up on so far. If a Feast is revealed, nothing happens and the player gets to keep going. Revealed Feasts are set aside, and once the fifth Feast shows up the game is over.&#10;&#10;Now, the players count their victory points. The purple point goes to the player who got Moralelastix. A brown point is for the most pirates. The majorities in the five Roman colors are worth the red, blue, yellow, green and black points, respectively. The player with the most victory points wins.&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Comic Book / Strip",
+      "Fighting"
+    ],
+    "mechanics": [
+      "Open Drafting"
+    ],
+    "image": "https://cf.geekdo-images.com/m3ZmCEhNPl6sbCDe7OFqrg__thumb/img/Z1q27WO3FPsWm1ot8bL-VwKkgJM=/fit-in/200x150/filters:strip_icc()/pic196652.jpg"
+  },
+  {
+    "id": "7046",
+    "name": "Push",
+    "minPlayers": 1,
+    "maxPlayers": 2,
+    "playingTime": 10,
+    "age": 8,
+    "description": "Contents:&#10;small plastic board with relief&#10;13 yellow + 13 black plastic balls&#10;&#10;&quot;Players compete against each other by moving the balls a row at a time. Form a square of 3x3 balls of your color to win&quot;&#10;&#10;A player can keep pushing rows as long as the ball that comes out belongs to that same player. Therefore, there are two things to worry about, the 3x3 square to be made, and to try to keep your turn for a few pushes.&#10;&#10;It comes with instructions for solo game.&#10;&#10;",
+    "categories": [
+      "Abstract Strategy"
+    ],
+    "mechanics": [
+      "Pattern Building"
+    ],
+    "image": "https://cf.geekdo-images.com/0HNt1MiV9I1V4XbXb6l4nA__thumb/img/vH4jAbIDuDJ1CVEyhd1oiXDkFiw=/fit-in/200x150/filters:strip_icc()/pic277628.jpg"
+  },
+  {
+    "id": "15236",
+    "name": "MIG (Mobile Intelligence Games)",
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playingTime": 15,
+    "age": 11,
+    "description": "A compact trivia game, consisting of a deck of cards with 1560 questions (five to a card), a scorepad, pen, two special dice and rules.&#10;&#10;MIG - THE BRAIN GAME TO PLAY ON THE MOVE&#10;PLAY IT ANYTIME, ANYWHERE - IT'S UP TO YOU!&#10; MIG is the new quiz game for people on the move. It is ideal for the car, the plane, the boat, the train or on the beach. Or play at home with your friends and family!&#10;&#10;Aim of the game&#10;There are 1560 topical and challenging questions for players to tackle as they battle for the title of MIG champion.&#10;&#10;The questions are divided into five categories:&#10;&#10;Now &amp; Then &#10;Culture &amp; Showbiz &#10;Home &amp; Away &#10;Sports &amp; All sorts &#10;Nature &amp; Science &#10;The player, who answers correctly within each category when the die shows MIG -chance, wins!&#10;&#10;&#10;",
+    "categories": [
+      "Trivia"
+    ],
+    "mechanics": [
+      "Dice Rolling"
+    ],
+    "image": "https://cf.geekdo-images.com/kB4B2MF7YSW88QOIKidRWw__thumb/img/Las6fNciOtrxywy-2NXa9g7VQ60=/fit-in/200x150/filters:strip_icc()/pic63778.jpg"
+  },
+  {
+    "id": "103844",
+    "name": "Castle Dash",
+    "minPlayers": 3,
+    "maxPlayers": 6,
+    "playingTime": 30,
+    "age": 8,
+    "description": "A medieval game where players are trying to steal 3 coins from their rivals.&#10;&#10;Players place soldiers to fight battles or claim Armory cards that grant combat bonuses.&#10;&#10;Once every player has placed their soldiers, battles are resolved by comparing army size plus a die roll.  The winner places the difference in the battle totals on the loser's castle wall.&#10;&#10;Castle walls with three or more soldiers on them are broken through.  The owner of the castle has a coin  stolen or a soldier rescued from the castle by the owner of the soldiers, and the soldiers are returned to their owning player.  Castle walls with fewer than three soldiers on them remain standing and keep any soldiers on them.&#10;&#10;When one player has stolen at least three coins OR when one player runs out of coins, the player that has stolen the most coins is the winner.&#10;&#10;",
+    "categories": [
+      "Medieval"
+    ],
+    "mechanics": [
+      "Dice Rolling",
+      "Worker Placement"
+    ],
+    "image": "https://cf.geekdo-images.com/xwuWh369ueJB-pu1NIrkiw__thumb/img/Hfw4OGMUeclf35lh8977YBzZH7M=/fit-in/200x150/filters:strip_icc()/pic1054814.png"
+  },
+  {
+    "id": "132785",
+    "name": "Monopoly: CityVille",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 75,
+    "age": 8,
+    "description": "From the publisher: Now you can build the city of your dreams together, right at home. With this CITYVILLE edition of the MONOPOLY game, you can buy the properties you love from the online game and build on them as you wish! Be the first to grow your neighborhoods and build four skyscrapers to win! Pick your favorite mover and then start buying up properties in this CITYVILLE-inspired MONOPOLY game. You&rsquo;re the mayor and you need to grow your city to keep the citizens happy. Build houses, set up businesses and provide community spaces any way you want! With more chances to buy properties, you&rsquo;ll be able to build your city fast. Decorate your properties with Mystery Gifts and also share some with friends. They&rsquo;ll increase the amount of rent you can collect. Be the first to grow your neighborhoods and build four skyscrapers to win!&#10;&#10;",
+    "categories": [
+      "City Building",
+      "Economic",
+      "Negotiation"
+    ],
+    "mechanics": [
+      "Auction / Bidding",
+      "Player Elimination",
+      "Roll / Spin and Move",
+      "Set Collection",
+      "Trading"
+    ],
+    "image": "https://cf.geekdo-images.com/m2T6kIi2eM4WQsVGP9_5dg__thumb/img/wB45cR6JGXmUd9VcT3I-yNbLttA=/fit-in/200x150/filters:strip_icc()/pic1460351.jpg"
+  },
+  {
+    "id": "318059",
+    "name": "Lost In Jurassica",
+    "minPlayers": 1,
+    "maxPlayers": 6,
+    "playingTime": 30,
+    "age": 8,
+    "description": "Lost in Jurassica is a survival card game with fighting, crafting and scavenging. You play as a visiting guest to Jurassica, an amazing island dinosaur resort.&#10;&#10;Unfortunately the dinosaurs have escaped, leaving you and your friends to fight for survival!&#10;&#10;Be the first player to win by finding power switches and restoring power to the park - all while scavenging for supplies and fighting off dangerous dinosaurs with improvised weapons!&#10;&#10;Players choose who goes first - we suggest the youngest player.&#10;Make sure there are 3 power switches per player placed in the explore deck. After shuffling each deck separately, Arrange the 3 decks (Explore, Scavenge, Craft) face down on the table in a line next to each other.&#10;&#10;The selected Player One goes first and remaining Players take turns in a clockwise direction. On your turn you can pick up 2 cards from the top of any deck. (Explore, Scavenge, Craft). You are allowed to pickup any deck of your choice, for example, 1 'Explore' card and 1 'Craft' card based on what you need.&#10;&#10;The aim of the game is to make your way through the 'Explore' deck and find 3 Power Switches that are hidden in the deck. The first player to do so wins the game.&#10;&#10;Once you receive foe cards totaling -4 hit points, you cannot advance any further in the 'Explore' deck. You must then craft items picked up from the 'Craft' deck, to remove dinosaur cards cards, using scavenged materials from the 'Scavenge' deck.&#10;&#10;There are also helpful cards scattered throughout each deck that are free to use once found. These are discarded once used.&#10;&#10;-description from designer&#10;&#10;",
+    "categories": [
+      "Adventure",
+      "Animals",
+      "Card Game",
+      "Prehistoric"
+    ],
+    "mechanics": [
+      "Open Drafting",
+      "Set Collection",
+      "Solo / Solitaire Game"
+    ],
+    "image": "https://cf.geekdo-images.com/OEnPMugO-wPxSqrsKLEyKQ__thumb/img/QPmnIVJ5-r5QsviopJbg3OzJyCI=/fit-in/200x150/filters:strip_icc()/pic5622182.jpg"
+  },
+  {
+    "id": "11083",
+    "name": "Moby Pick",
+    "minPlayers": 3,
+    "maxPlayers": 8,
+    "playingTime": 15,
+    "age": 7,
+    "description": "This game is one of daVinci's Allegro line of simple and fast games.&#10;&#10;Here is a description of the game from the publisher:&#10;&#10;Molly the kid, Polly the parrot or Moby Pick the white whale? Which cards will be the same of the concealed ones? What will be their colors? A game of reflexes for refined speakers.&#10;&#10;",
+    "categories": [
+      "Animals",
+      "Card Game",
+      "Memory"
+    ],
+    "mechanics": [
+      "Memory"
+    ],
+    "image": "https://cf.geekdo-images.com/NsfuI4CXSPZU_hutsNiVNQ__thumb/img/CClJob1Qp-3O7HCFfPKp0UN_7JU=/fit-in/200x150/filters:strip_icc()/pic45221.jpg"
+  },
+  {
+    "id": "15284",
+    "name": "Scavengers Gold",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playingTime": 20,
+    "age": 7,
+    "description": "Scavengers Gold is one of the Milton Bradley &quot;Flipsiders&quot; games that resembles an audio cassette until you &quot;flip&quot; the game open. One player controls a scavenger ship trying to loot sunken gold, while the other player controls a naval ship trying to sink the scavenger. Using a spinner, the scavenger player moves across the board trying to land on gold dot spaces (where a different spinner is used to see whether a gold coin is found). The naval player tries to line up next to the scavenger and fire upon it (where the second spinner is used to determine hits). The scavenger player wins by collecting 7 gold coins without getting sunk. The naval player wins by scoring 7 hits on the scavenger ship and sinking it.&#10;&#10;",
+    "categories": [
+      "Nautical"
+    ],
+    "mechanics": [
+      "Roll / Spin and Move"
+    ],
+    "image": "https://cf.geekdo-images.com/kg-aykDUd9jZO3C4kCpsiA__thumb/img/GArVWpRouOsyXd1zzLvpelHIMHE=/fit-in/200x150/filters:strip_icc()/pic70022.jpg"
+  },
+  {
+    "id": "195496",
+    "name": "Lego Ninjago Trading Card Game: Master of Spinjitzu",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playingTime": 15,
+    "age": 6,
+    "description": "Trading Card Game based on the LEGO Ninjago franchise. Two players select decks from a card pool of 180 character, action and vehicle cards and face off each other.&#10;&#10;Offers a basic and advanced rules. Gameplay consists of players alternately placing one character on a playing field containing 3x3 spaces (base game) or 4x4 spaces (advanced game). Character cards feature numerical values on each of the four card edges. After a character is placed next to at least one opponent's character, one or more duels are fought by comparing adjacent numerical values. The character with the higher value wins the duel, and the losing character is turned by 180&deg;, indicating a change of control. Action and vehicle cards provide boosts to character stats or have other effects. The game ends when all spaces of the playing field are filled with a character, and the player who controls the majority of characters wins.&#10;&#10;Game is sold in booster packs containing 5 cards.&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Children's Game",
+      "Collectible Components"
+    ],
+    "mechanics": [],
+    "image": "https://cf.geekdo-images.com/Q-RgzNnzcVzj6cn-oYTvaA__thumb/img/ca3wzLY5-fIZjruapXRJ0PVYjB8=/fit-in/200x150/filters:strip_icc()/pic2982160.jpg"
+  },
+  {
+    "id": "33789",
+    "name": "Monopoly: A Christmas Story",
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playingTime": 60,
+    "age": 8,
+    "description": "&#10;            From Back of Box***&#10;        &#10;    &#10;&#10;&#10;&quot;I's a Major Award!&quot;&#10;&#10;America's favorite board game is getting all decked out for the holidays with the A Christmas Story Collector's Edition of the MONOPOLY game.  relive the funniest and most memorable scenes from this classic holiday film as you buy, sell and trade treasured memories like the BB Gun, Hubcap Full of Nuts and Randy's Snowsuit.  So take off your Pink Bunny Suit, try to repair your shattered Leg Lamp, and be sure to have your Secret Society Decoder Pin handy as you advance to GO!&#10;Go ahead, we triple dog dare you!&#10;&#10;",
+    "categories": [
+      "Economic",
+      "Movies / TV / Radio theme",
+      "Negotiation"
+    ],
+    "mechanics": [
+      "Auction / Bidding",
+      "Player Elimination",
+      "Roll / Spin and Move",
+      "Set Collection",
+      "Trading"
+    ],
+    "image": "https://cf.geekdo-images.com/ixYzNkA2wiiFkFG0RipAhA__thumb/img/qsy2QqzOwPm0R9LTEVhK5LeHiBo=/fit-in/200x150/filters:strip_icc()/pic336841.jpg"
+  },
+  {
+    "id": "4441",
+    "name": "PornStar",
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playingTime": 20,
+    "age": 18,
+    "description": "You've just stepped off the bus from Ohio with a suitcase in your hand, eight dollars in your pocket, and a big old dream in your heart. You've come to L.A. to make it big as a model/actor/musician...&#10;&#10;Sorry, friend. Dreams don&rsquo;t come true here.&#10;&#10;Instead, welcome to the world of adult films! &#10;Porn Star is a non-collectible, non-pornographic card game for 2-6 players in which you play the role of a producer of &quot;adult films&quot;.&#10;&#10;The concept of Porn Star is simple: produce the most (not necessarily the best) adult films and dominate the market. Some are easy and cheap to throw together in a weekend, others actually involve scripts or more than one take! Sometimes you'll be rolling in the cash from your Films, sometimes you'll need to beg, borrow or... something else! Gather the right Stars in your stable and keep the cash flowing to keep them from leaving you for your competition. If you have the right talent and a lot of green, the rest will all fall into place, right?&#10;&#10;http://www.DeathTech.com/&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Dice",
+      "Economic",
+      "Humor",
+      "Print & Play"
+    ],
+    "mechanics": [
+      "Hand Management",
+      "Line Drawing",
+      "Open Drafting",
+      "Team-Based Game",
+      "Trading"
+    ],
+    "image": "https://cf.geekdo-images.com/YgvomkGZ1aWMvPZtJ9WQ1g__thumb/img/OF6vbAficWYY3ywNfLhGdKdF7bs=/fit-in/200x150/filters:strip_icc()/pic326079.jpg"
+  },
+  {
+    "id": "16067",
+    "name": "Star Wars: Electronic Galactic Battle",
+    "minPlayers": 1,
+    "maxPlayers": 2,
+    "playingTime": 30,
+    "age": 5,
+    "description": "A long time ago in a galaxy far, far away.....&#10;It is a time of civil war.  Brave freedom-fighters of the Rebel Alliance struggle against the tyranny of the Galactic Empire.  Though they have won several small victories, the Alliance is outnumbered and outgunned by the technological might of the Empire.  Gathering their forces, the Rebels launch a last, desperate attack against the imperial fleet...&#10;&#10;Welcome to Galactic Battle, the strategic space combat game of the Star Wars galaxy.  As commander of either the Rebel Alliance or the Empire, an entire fleet of starships awaits your command.  The fate of the galaxy is in your hands!&#10;&#10;Ages 5 and up&#10;&#10;Re-implements:&#10;&#10;    Battleship&#10;&#10;&#10;",
+    "categories": [
+      "Children's Game",
+      "Electronic",
+      "Movies / TV / Radio theme",
+      "Science Fiction"
+    ],
+    "mechanics": [
+      "Modular Board",
+      "Secret Unit Deployment"
+    ],
+    "image": "https://cf.geekdo-images.com/zh_PPqcH5uiNRN_cWEPEZQ__thumb/img/6SlUsi5FsmVFikNPQdA_caFAlX0=/fit-in/200x150/filters:strip_icc()/pic339470.jpg"
+  },
+  {
+    "id": "376707",
+    "name": "Cannonades",
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "playingTime": 30,
+    "age": 8,
+    "description": "Each player is the captain of a fleet of pirate ships, and their goal is to sink all of the opponents&rsquo; ships &ndash; shooting cannonades, of course &ndash; and remain the only pirate still afloat. During your turn you can add ships to your fleet or try sinking those of your friends by shooting cannonballs at them. Simple? Yes! The game is explained in 30 seconds but finding and developing a strategy to have the upper hand might not be so easy!&#10;&#10;&mdash;description from the designer&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Pirates"
+    ],
+    "mechanics": [
+      "Solo / Solitaire Game",
+      "Take That"
+    ],
+    "image": "https://cf.geekdo-images.com/Mcg2hVDgp8Dj8lR5abh5zw__thumb/img/GgPmQkj-BUxqlTAjuMX7xNJX92Q=/fit-in/200x150/filters:strip_icc()/pic7235927.jpg"
+  },
+  {
+    "id": "6475",
+    "name": "3 SPOT game",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playingTime": 10,
+    "age": 6,
+    "description": "From Mr. de Bono's website:&#10;The intention was to produce the simplest possible game that could be played with a high degree of skill. An attempt was made to fulfill the following conditions:&#10;&#10;1. A minimum number of playing pieces, preferably one each. &#10;The smallest possible board.&#10;&#10;2. A game with very few rules, one that would be very simple to learn and play.&#10;&#10;3. A game that could be played with a high degree of skill.&#10;&#10;4. A game that would not be determinate. A determinate game such as nim or noughts and crosses, is one in which the starting player could always win if he knew the strategy. An indeterminate game is one which two perfect players would play for ever.&#10;&#10;The object is to score 12 points provided that the other player scores at least 6 points - if the other player scores less than six points then the player reaching 12 points is the loser! Whereas in most games the person scoring the highest number of points is the winner - in the 3 Spot game the 'winner' can be the 'loser'.&#10;&#10;Points are scored by the position of the tiles on the board which is a 3x3 grid. You can try to score the points you need, or force your opponent to take points.&#10;&#10;Appears with L-Game in Rex Games' Two Smart Games mini-anthology.&#10;&#10;",
+    "categories": [
+      "Abstract Strategy"
+    ],
+    "mechanics": [
+      "Tile Placement"
+    ],
+    "image": "https://cf.geekdo-images.com/F9HRVfbX6MwjJpTyArao5w__thumb/img/_dp1o9jTwn5kk0R5klJxphIfgAY=/fit-in/200x150/filters:strip_icc()/pic179494.jpg"
+  },
+  {
+    "id": "218447",
+    "name": "Cha-Cha Chihuahua: The Game of Dancing Doggies",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 15,
+    "age": 3,
+    "description": "Description from the publisher:&#10;&#10;Jump, jive, and wag your tail! Draw cards to get these peppy perritos to join your doggy dance-a-thon in Cha-Cha Chihuahua: The Game of Dancing Doggies.&#10;&#10;Paw away another player's pups with some fetching food, but watch out for &quot;siesta&quot; cards that will send your dog-tired dancers straight to the Nap Shack! End the party with the most chihuahuas on your dance floor and you're the cha-cha-champ!&#10;&#10;",
+    "categories": [
+      "Animals",
+      "Card Game",
+      "Children's Game"
+    ],
+    "mechanics": [
+      "Take That"
+    ],
+    "image": "https://cf.geekdo-images.com/gjKcTUmfFG2yoHEQPOhznQ__thumb/img/FV-w93wHDqolNLaFjNMNQaM944c=/fit-in/200x150/filters:strip_icc()/pic3360325.jpg"
+  },
+  {
+    "id": "32996",
+    "name": "Yucatán",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 60,
+    "age": 12,
+    "description": "&quot;The first stone cities are being built in the depths of the jungle and their citizens raise their eyes to the sky waiting for a sign from the gods. The capricious gods are pleased when humans worship them as much as they can - therefore it is obvious that they will grant favors to the city that builds them a sky-high pyramid. Warriors set out to the jungle to get workers to finish the structure as quick as possible.&quot;&#10;&#10;Jukatan is a strategic game with a pinch of bluff. During the game you will be a ruler of  an ancient city of an arising civilization. Your job is to finish the pyramid before your opponents do. To accomplish this goal you send your warriors to get workforce and try to deceive your opponents with smart moves.&#10;&#10;",
+    "categories": [
+      "Ancient",
+      "Fighting"
+    ],
+    "mechanics": [
+      "Area Movement",
+      "Rock-Paper-Scissors"
+    ],
+    "image": "https://cf.geekdo-images.com/p8atNUKbbVfbdEfdVHqMzw__thumb/img/EUjbBJl25Vyblel3WFE1Pa30ogM=/fit-in/200x150/filters:strip_icc()/pic361971.jpg"
+  },
+  {
+    "id": "121790",
+    "name": "Mines of the Sacred Dragon",
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "playingTime": 30,
+    "age": 10,
+    "description": "In the tile-placement, mine-building game Mines of the Sacred Dragon, players take turns building mines or expanding existing mines in order to score victory points (VPs). When a player has 0-1 mine tokens remaining or the draw pile is depleted, the game ends after the final player has finished his turn.&#10;&#10;Players then score points &ndash; one VP for each solitary mine, with extra points for connecting mines &ndash; and the player with the most points wins. In case of a tie, the player with the larger set of connecting mines wins; if tied again, the tied player who took the later turn wins.&#10;&#10;",
+    "categories": [
+      "Abstract Strategy",
+      "Puzzle",
+      "Territory Building"
+    ],
+    "mechanics": [
+      "Modular Board",
+      "Tile Placement"
+    ],
+    "image": "https://cf.geekdo-images.com/lhYV6s9a8-lQx4gj1XvByw__thumb/img/FbwykRFldaIh_tyxZK71_RB39RI=/fit-in/200x150/filters:strip_icc()/pic1313815.jpg"
+  },
+  {
+    "id": "572",
+    "name": "Battle Cattle",
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "playingTime": 60,
+    "age": 8,
+    "description": "Has been published in 3 editions thus far. Aldo Ghiozzi helmed the second edition. W. Jason Peck joined the design team for 3rd edition.&#10;&#10;Description for the 2nd edition:&#10;&#10;Battle Cattle: Second Edition Expansion in a world of swords and sorcery.&#10;&#10;Gather all the cud available as your Angus Wizard prepares to fire a Magic Moo-ssile! Have your Corriente Pailadin last a little longer by Laying On Hooves! Animate dead cow carcasses with your Jersey Necowmancer!&#10;&#10;Description for the 3rd edition:&#10;&#10;I MOO YOU A THIRD TIME!&quot;&#10;&#10;Moo-ve over people &lsquo;cause the cows are comin&rsquo; home and they&rsquo;re packin&rsquo;! The udder devastation continues with a new evolution of Battle Cattle. Battle Cattle: Third Edition brings you the realism you&rsquo;ve been licking your chops for! Use these new and revised tabletop miniatures rules to play realistic Battle Cattle combat parallel to the cows from the Official Battle Cattle miniatures line (sold separately).&#10;&#10;Also included are more cow breeds, weapons, modifications and accessories. 48 pages of perfect bound rules in a traditional 8.5&rdquo; x 11&rdquo; book with one full color pasture battlefield and full color cow chips to play&hellip;(You meant cow CHITS, right? You&rsquo;re not really putting cow dung in the game, are you?)&hellip;Mooooo&hellip;&#10;&#10;",
+    "categories": [
+      "Animals",
+      "Fighting",
+      "Humor",
+      "Miniatures",
+      "Science Fiction",
+      "Wargame"
+    ],
+    "mechanics": [
+      "Campaign / Battle Card Driven",
+      "Dice Rolling",
+      "Grid Movement",
+      "Player Elimination",
+      "Take That",
+      "Variable Player Powers"
+    ],
+    "image": "https://cf.geekdo-images.com/kRbUn0y9AjF12vyPVsAjlg__thumb/img/6AvcFsZkjcStKTQ3-oH3IUVyRzU=/fit-in/200x150/filters:strip_icc()/pic6058.jpg"
+  },
+  {
+    "id": "4654",
+    "name": "Rigamarole",
+    "minPlayers": 4,
+    "maxPlayers": 99,
+    "playingTime": 85,
+    "age": 16,
+    "description": "An energetic  party game jam-packed with loads of unique activities.  Now in its third printing, Rigamarole has 6 categories of cards:  Stage Fright, Mental Block, Sensory Perception, Free To Be Me, Word Woopie and Hidden Talents.&#10;&#10;Playing Rigamarole is even easier than ever in this latest version.  Teams move around the board and try to earn a card from each of the 6 categories.  Team earn cards and points for how well they perform, and can use their points to steal cards from other teams.  The first team to collect a card from each category wins the game!&#10;&#10;Rigamarole comes with 360 cards, a board, pawns, die and timer.  It is for 4 or more players, Ages 13 and up.  It takes about 1 hour and 15 minutes to play.&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Educational",
+      "Humor",
+      "Party Game",
+      "Trivia",
+      "Word Game"
+    ],
+    "mechanics": [
+      "Cooperative Game",
+      "Roll / Spin and Move",
+      "Storytelling"
+    ],
+    "image": "https://cf.geekdo-images.com/jNC4MY1KovE9DFwnpRKPew__thumb/img/g6AM6QmeSANNkxQyYKM1hoMjMlg=/fit-in/200x150/filters:strip_icc()/pic1025228.jpg"
+  },
+  {
+    "id": "315186",
+    "name": "Over-Rated",
+    "minPlayers": 3,
+    "maxPlayers": 20,
+    "playingTime": 90,
+    "age": 17,
+    "description": "Overrated is the party game in the style of Cards Against Humanity. One player is the judge and draws a location card. All other players play a card with a review on it that they think is the best review for the location. The judge selects the best review, giving the location card as a point to whoever played the best review. The position of judge then rotates to the left and the process continues. The first to win five location cards wins!&#10;&#10;Content: Contains 150 &ldquo;Location&rdquo; cards, 350 &ldquo;Review&rdquo; cards, and instructions.&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Humor",
+      "Mature / Adult",
+      "Party Game"
+    ],
+    "mechanics": [
+      "Hand Management",
+      "Player Judge",
+      "Simultaneous Action Selection"
+    ],
+    "image": "https://cf.geekdo-images.com/1LK_D2u4A02FN7jiKa-U9A__thumb/img/ESCAoH8RSjRtxRBnA_e7WJG2JTo=/fit-in/200x150/filters:strip_icc()/pic7193688.jpg"
+  },
+  {
+    "id": "124395",
+    "name": "Chipleader",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 45,
+    "age": 12,
+    "description": "The Odynauts are a competitive race of aliens that prosper from the feeling that winning brings them. The one place on Earth where lady luck truly smiles at you is the casino. The Odynauts decided to take the gamble and spread out to the foremost gambling cities on our planet, from Macau to Monte Carlo and from Las Vegas to Amsterdam. They turned the casinos upside down and won at every game the casinos have on offer. Slot machines were cleaned out and poker tournaments were won. The casino bosses were not amused and quickly banned the Odynauts from their casinos. To still their voracious appetite for winning, the Odynauts have made their own casino game. Casino chips are bitten into pieces and slot machines are stolen. All these well-known items from the casino form the basis of new and unique game: Chipleader. The Odynauts challenge you. Are you brave enough to accept their challenge? Are you a smart gambler and do you have the strategic insight to score the most points in putting casino chips back together? Can you protect your chips from your opponents' attacks?&#10;&#10;Chipleader is card game for two to four players. The goal is to collect as many points as you can with strategic gambling and by making casino chips before four different casinos have been visited. Players have to protect their casino chips against their opponents' attacks in an effort to become Chipleader.&#10;&#10;Casino chips are made with chip fragment cards of different colors and values. Every chip fragment card has a quarter of a chip depicted on it. Four chip fragment cards can form a casino chip and only when a player has formed such a chip can she place those cards on the table. The value of a complete casino chip placed on the table can increase or decrease with the use of Odynaut face cards. By playing these cards, a player's opponents can even entirely eliminate the value of one of her chips.&#10;&#10;To obtain chip fragment and Odynaut face cards, a player has to make sets with five types of &quot;gamble-suit&quot; cards. Five suit cards are randomly placed face up alongside each other on the table. This row of cards is called the &quot;gambling row&quot;. Each player also receives three suit cards at the beginning of the game. A set is created whenever three, four or five suit cards of the same type are aligned in the gambling row.&#10;&#10;",
+    "categories": [
+      "Card Game"
+    ],
+    "mechanics": [
+      "Hand Management",
+      "Pattern Building",
+      "Set Collection",
+      "Take That"
+    ],
+    "image": "https://cf.geekdo-images.com/q8hbNgZO0o6UmjcOpDHQIg__thumb/img/sd1lMjG_Q4LWS0T_BhkFLl-CLG0=/fit-in/200x150/filters:strip_icc()/pic1311443.jpg"
+  },
+  {
+    "id": "12274",
+    "name": "Bloody Legacy",
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "playingTime": 30,
+    "age": 8,
+    "description": "&quot;An Unnecessarily Violent &amp; Offensive Card Game for All the Family&quot;&#10;&#10;Play &quot;traps&quot; against your opponents and &quot;tricks&quot; to avoid the ones that are played against, or find their way back to, you. Lose your hand or get five skulls worth of damage and you lose a life and have to sit out the rest of the round - with just the three lives, can you survive long enough to inherit the Bloody Legacy?&#10;&#10;Ages 10 and up (the artwork's a bit gruesome - in an Itchy &amp; Scratchy-type way!)&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Humor"
+    ],
+    "mechanics": [
+      "Pick-up and Deliver",
+      "Take That"
+    ],
+    "image": "https://cf.geekdo-images.com/rU6I9U3QOmplVYAEa52EUA__thumb/img/vOnfm883No7mF_JgPNhzGD8TLMU=/fit-in/200x150/filters:strip_icc()/pic54568.jpg"
+  },
+  {
+    "id": "1414",
+    "name": "Decathlon",
+    "minPlayers": 1,
+    "maxPlayers": 8,
+    "playingTime": 120,
+    "age": 10,
+    "description": "This Sports Illustrated game is a simulation of the Olympic Decathlon.  You compete as one of 7 real medal winning decathletes:  Jim Thorpe, Bob Matthias, Vasily Kuznetsov, Milt Campbell, Rafer Johnson, CK Yang, Bill Toomey.  A fictional 8th player is a composite althete composed of the best performance of each event from these 7 athletes.&#10;&#10;Each event is simulated by rolling 3 special dice to generate a number which is used to read a result on a table for each althete.  Some events allow a choice of trying an average attempt, a safe attempt, or going all out (which increase the risks of fouling or injuries).  In events like the high jump and pole vault, the more attempts made the greater chance of fatigue.  Injuries and fatigue affect the results of later events.&#10;&#10;Each event is converted to the standard scoring table for the decathlon.&#10;&#10;Also known as Track Meet.&#10;&#10;",
+    "categories": [
+      "Dice",
+      "Sports"
+    ],
+    "mechanics": [
+      "Dice Rolling"
+    ],
+    "image": "https://cf.geekdo-images.com/XebmbiD1qsoCte4i-XXysw__thumb/img/kAbLBaAdZB6oRSKh4J1C8fEUv_M=/fit-in/200x150/filters:strip_icc()/pic11890.jpg"
+  },
+  {
+    "id": "11608",
+    "name": "Baccade",
+    "minPlayers": 3,
+    "maxPlayers": 8,
+    "playingTime": 20,
+    "age": 8,
+    "description": "There was one time, one soup. A card game of making a soup, the cards showing pigs in various poses and other food, like potatoes and pickle jars. Apparently a variant on a traditional game, this is a bit of French fun for bon vivants.&#10;Great for kids or as a drinking game !&#10;&#10;",
+    "categories": [
+      "Animals",
+      "Card Game"
+    ],
+    "mechanics": [],
+    "image": "https://cf.geekdo-images.com/Y2FPkFlSjKBxh2VC4Exptw__thumb/img/d1RdK1QjOpVXmzv12ocFzshRQ1A=/fit-in/200x150/filters:strip_icc()/pic75607.jpg"
+  },
+  {
+    "id": "131477",
+    "name": "Burg Klettermax",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 15,
+    "age": 4,
+    "description": "Game description from the publisher:&#10;&#10;Disgruntled with their greedy mean king, who has hoarded all of the treasures in his castle, the knights join forces. Already they have a plan for how to get the treasures back. They climb up the castle wall, one on top of the other, then leap into the castle. To do so they need your help.&#10;&#10;In Klettermax Castle, each player stacks a tower made up of five knights of different colors and then carefully flicks the knight on top into the castle. Whoever is lucky at throwing the dice, is a nifty stacker, and has good flicking skills will win back the most valuable treasures.&#10;&#10;",
+    "categories": [
+      "Action / Dexterity",
+      "Children's Game",
+      "Medieval"
+    ],
+    "mechanics": [
+      "Stacking and Balancing"
+    ],
+    "image": "https://cf.geekdo-images.com/tlGT6P8I17u3JUKU91DVJA__thumb/img/wbf-KhTFjBbxWnyGde9PMZh4xII=/fit-in/200x150/filters:strip_icc()/pic1435973.jpg"
+  },
+  {
+    "id": "47258",
+    "name": "Soul Hunters",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 60,
+    "age": 10,
+    "description": "Souls are the most valuable commodity in the universe and by ancient laws the one who possesses the most souls, is declared the ruler of all.&#10;&#10;Your task is to use powerful characters to lure souls on your side. Choose your alignment, play your cards right and you just may become the sovereign ruler of the universe.&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Mythology"
+    ],
+    "mechanics": [
+      "Hand Management",
+      "Open Drafting"
+    ],
+    "image": "https://cf.geekdo-images.com/8dMMceVFOnbe0UrfdaVSTw__thumb/img/R7O_-hTR6XnmVguQcPxl4NmQI3s=/fit-in/200x150/filters:strip_icc()/pic580277.jpg"
+  },
+  {
+    "id": "220440",
+    "name": "1500: The New World",
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playingTime": 60,
+    "age": 12,
+    "description": "Description from the publisher:&#10;&#10;1500 - The New World is a board game for 2 to 6 players! Each game sets-up in 10 minutes and plays in under a hour! The fast flowing game play is perfect for casual and serious gamers ages 12 and up!&#10;&#10;Each player selects a color for their tokens, and then places their Victory tokens and Royal Support tokens on the map. They also gather their Colony tokens in front of them in preparation for conquest! Set-up concludes with each player receiving their starting cards.&#10;&#10;During your turn, you get to play those cards.&#10;&#10;Cards can be played for their text. There are two types of cards: Action cards are tan, and you play them during your turn. Reaction cards are red and are played in reaction to other players' playing cards. Each player, on their turn, can play as many Action cards as they are able to.&#10;&#10;Every card can also be played to perform one of several basic actions. A card can be played to do any of the following: build a colony, reduce a colony, repair a colony, or adjust Royal Support.&#10;&#10;Once you have finished playing cards, you get to tally up your points for the turn. You receive one point for each successful colony you have on the map, and a bonus of two more victory points for each of your export or regional monopolies!&#10;&#10;Each of the other players then takes a turn. Once everyone has had a turn, advance the Time Counter.&#10;&#10;The game ends when you move the Turn token into the Game Over square. The winner of the game is the player with the most Victory Points!&#10;&#10;",
+    "categories": [
+      "City Building",
+      "Civilization",
+      "Pike and Shot"
+    ],
+    "mechanics": [
+      "Area Majority / Influence",
+      "Area Movement",
+      "Campaign / Battle Card Driven",
+      "Simulation"
+    ],
+    "image": "https://cf.geekdo-images.com/sB9m6TqKkGlGJANZHIG_IQ__thumb/img/IoqTYDPi_jlhPjDRECFmIrL70w0=/fit-in/200x150/filters:strip_icc()/pic3959716.jpg"
+  },
+  {
+    "id": "6647",
+    "name": "Ökolopoly",
+    "minPlayers": 1,
+    "maxPlayers": 6,
+    "playingTime": 45,
+    "age": 12,
+    "description": "HISTORY&#10;&#10;Frederic Vester designed &Ouml;kolopoly in 1980 and it was first published as a supplement in the journal Nature. At the Munich International Horticultural Exposition 1983 it was first offered as a board game designed by Vester information pavilion of the Bavarian Ministry of the Environment. In 1984  Ravensburger launched &Ouml;kolopoly for the general market. While the magazine version had used marker stones on the tables, the final version used adjustable dials. Later a computer version was developed and published under the title ecopolicy. (Source: Wikipedia, http://de.wikipedia.org/wiki/%C3%96kolopoly )&#10;&#10;OVERVIEW&#10;&#10;An attempt to turn an ecological/economic/sociological computer simulation into a board game. Since 1993, players can choose between two scenarios: &quot;Kybernetien&quot; is an industrial nation, &quot;Kyborien&quot; a developing country.&#10;&#10;One or more players adjust 9 wheels each turn, representing current conditions. Settings influence each other as well. E.g. high &quot;production&quot; increases &quot;waste&quot;, which in turn decreases &quot;standard of living&quot;, which in turn decreases &quot;action points&quot; (political acceptance) for the next round.&#10;&#10;Goal is to guarantee stable conditions, but often the game ends in disaster. Optionally, the game can be played with event cards (good and bad).&#10;&#10;",
+    "categories": [
+      "City Building",
+      "Economic",
+      "Educational",
+      "Environmental",
+      "Industry / Manufacturing",
+      "Political"
+    ],
+    "mechanics": [
+      "Action Points",
+      "Cooperative Game",
+      "Events",
+      "Simulation"
+    ],
+    "image": "https://cf.geekdo-images.com/wZgWZHrZSJ5p_wF5zTEvYA__thumb/img/A-M1hSwyy_GLBjAUcV-u6CkZsMw=/fit-in/200x150/filters:strip_icc()/pic1030497.jpg"
+  },
+  {
+    "id": "149324",
+    "name": "Escape from Sunset Island:  Zombie Apocalypse Simulator",
+    "minPlayers": 4,
+    "maxPlayers": 10,
+    "playingTime": 90,
+    "age": 9,
+    "description": "Start as the zombie or as one of 9 unique characters whose survival depends on finding and transporting food, water and gas items to either the marina or airport in order to escape the doomed island town.&#10;&#10;Resource items slow your movement down (minus from die roll), while other items, such as weapons, medi-kit and the abandoned jeep, can come in handy.  Some items are better left unfound (the zombie spawn).&#10;&#10;Get caught and there is a chance you will become a zombie for the rest of the game, so use doors and fences for temporary refuge, weave cooperative and individual play, and keep your wits about you if you hope to save at least a strand of what's left of humanity.&#10;&#10;",
+    "categories": [
+      "Zombies"
+    ],
+    "mechanics": [
+      "Cooperative Game",
+      "Role Playing",
+      "Roll / Spin and Move",
+      "Simulation"
+    ],
+    "image": "https://cf.geekdo-images.com/ei2ZMM9dt7wW-LxiUfhOfA__thumb/img/bQK8hkl7XnrwA00Z4rLu9YF9xe4=/fit-in/200x150/filters:strip_icc()/pic1873810.jpg"
+  },
+  {
+    "id": "176872",
+    "name": "Sun, Moon, & Stars",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 15,
+    "age": 8,
+    "description": "Sun, Moon, &amp; Stars is a fast playing, easy to learn game of deduction.  Each of the four great totem spirits, Wolf, Deer, Owl, and Serpent, chase their favored celestial bodies through the  heavens to be the first to capture them and prove they are the greatest of their peers, The Sun, Moon, and the Stars circle the table, mirroring how they move across the sky. In whose domain will they finally come to rest?&#10;&#10;Sun, Moon, &amp; Stars is played with 4 totem animal cards used as hidden roles by the players during the game. There are 11 action  cards which move the Sun, Moon, and Stars tokens among the players until one achieves their victory conditions or the game ends. The game is quite short, taking 5 minutes or so to play; players are invited to play until one wins 3 to 5 games.&#10;&#10;",
+    "categories": [
+      "Bluffing",
+      "Card Game",
+      "Deduction"
+    ],
+    "mechanics": [
+      "Hand Management",
+      "Memory",
+      "Set Collection"
+    ],
+    "image": "https://cf.geekdo-images.com/C_MQcE7fps0G2gIS15PmJw__thumb/img/7ZbQzf3kaqfyHpaVpZ2338lqCW8=/fit-in/200x150/filters:strip_icc()/pic2906734.jpg"
+  },
+  {
+    "id": "187127",
+    "name": "Monopoly: Back to the Future",
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playingTime": 0,
+    "age": 8,
+    "description": "Want to travel from 2015 to 1985 to 1955 to 1885 in the comfort of your own home? Well, now you can!&#10;&#10;This fully licensed Back to the Future Monopoly board game provides hours of fun as you collect locations and time-hop through the world of the BTTF trilogy! The game board features all-new properties taken straight from the films, including Caf&eacute; &rsquo;80s and Doc&rsquo;s Mansion, plus you get new &ldquo;Chance&rdquo; and Community Chest&rdquo; cards, and new die-cast metal game pieces of the time machine, Einstein the dog, the cowboy hat, the futuristic sneaker, the hoverboard and the famous Hill Valley clock! Game comes packaged in a full-color box resembling a case of plutonium.&#10;&#10;",
+    "categories": [
+      "Economic",
+      "Movies / TV / Radio theme",
+      "Negotiation"
+    ],
+    "mechanics": [
+      "Auction / Bidding",
+      "Player Elimination",
+      "Roll / Spin and Move",
+      "Set Collection",
+      "Trading"
+    ],
+    "image": "https://cf.geekdo-images.com/2eeOdPdJGjDtB3d_9-OgCQ__thumb/img/9az6QrZePtvox9JrUJWID9ngR0Q=/fit-in/200x150/filters:strip_icc()/pic2736386.jpg"
+  },
+  {
+    "id": "140153",
+    "name": "T.E.G. Cartas",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 30,
+    "age": 10,
+    "description": "With the same mechanic as traditional Risk a new challenge in playing cards to conquer the planet&#10;&#10;If you already know traditional Risk, you'll enjoy this thrilling adventure between 40 countries. The First player that achieves their secret goal or common goal will emerge victorious!&#10;&#10;In this game you shuffle all the country card and give it evenly to all the players. Then give a secrect objetive, wich consist in having determined countries.&#10;&#10;You must attack other players countries to conquer them and try to complete your objetive before other do!&#10;&#10;also, if in your turn at least you conquer 1 country you can draw a special card wich can help you to get close to the objetive or complicate your rival's objetives&#10;&#10;The great element of chance in T.E.G.. They're now replaced with dice cards, which each have 3 numbers in decreasing order. They're evidently an important part of the game: of the 137 cards, 56 are dice cards.&#10;&#10;The combat between two players happens comparing two dice cards that players select from their hands. The one being attacked can even choose to grab the first dice card from a deck facing down, to leave the result completely to chance. The concept, again, is the same as the original: chance, with a certain degree of player control.&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Wargame"
+    ],
+    "mechanics": [
+      "Action / Event",
+      "Area Majority / Influence",
+      "Area Movement",
+      "Area-Impulse",
+      "Hand Management",
+      "Negotiation",
+      "Player Elimination",
+      "Set Collection"
+    ],
+    "image": "https://cf.geekdo-images.com/RILV9sdJN44zo61ASXp89w__thumb/img/AHQz67qxy8PpklwBFMFCqXRskl0=/fit-in/200x150/filters:strip_icc()/pic2424877.png"
+  },
+  {
+    "id": "232950",
+    "name": "Dare to Dream",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 60,
+    "age": 10,
+    "description": "Description from the publisher:&#10;&#10;Dare to Dream is an asymmetrical battle between The Darkness - a single player with endless hordes of monsters and nightmares at their disposal - and The Dreamers - a team of players who must rely on their few loyal Guardians to protect them through the night.&#10;&#10;At the start of the night The Dreamers set out their defenses, preparing to face the horrors of The Darkness. Once they have set up their Guardians by equipping them with powerful Items and protecting them with potent Wards, they tuck in for the night and go to sleep. Then, the hours begin to tick by and The Darkness goes to work!&#10;&#10;Every hour, new Monsters and Nightmares can brought into play by The Darkness and sent at the Dreamers. Monsters and Nightmares are fleeting things, gone forever once they have been used, while the Dreamers' Guardians persist through the night. The Dreamers' goal is to win by outlasting The Darkness; if morning safely arrives, the Dreamers win. But if The Darkness can wake the Dreamers enough times, the forces of dread have prevailed and The Darkness wins instantly!&#10;&#10;",
+    "categories": [
+      "Card Game"
+    ],
+    "mechanics": [
+      "Team-Based Game",
+      "Variable Player Powers"
+    ],
+    "image": "https://cf.geekdo-images.com/SdfsRwSVwwu-fQRuKHoO9A__thumb/img/OTrKH4odWpS7dq0Cs1sXozejmhA=/fit-in/200x150/filters:strip_icc()/pic3690310.jpg"
+  },
+  {
+    "id": "97287",
+    "name": "Great Western",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 40,
+    "age": 10,
+    "description": "This is the first of four games from Martin Wallace published in the Spielbox magazine No. 92 (edition 2/2011).&#10;It is a Railroad game placed in south England. The game objective is to connect cities in the railroad.&#10;This first magazine comes with the board, rules, one start player marker and 222 tiles for the game. Those tiles will be used also in the next three magazines with the other Wallace games.&#10;The player must provide only the dice in order to play.&#10;&#10;",
+    "categories": [
+      "Trains"
+    ],
+    "mechanics": [
+      "Dice Rolling"
+    ],
+    "image": "https://cf.geekdo-images.com/TG9XpslM8Etb-ro4miW7fA__thumb/img/pSIt3eGlKmsuI6VkUukltNLkrsg=/fit-in/200x150/filters:strip_icc()/pic994344.jpg"
+  },
+  {
+    "id": "2336",
+    "name": "S.P.I.V.'s",
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playingTime": 90,
+    "age": 10,
+    "description": "A fast moving game in which each player is the pilot of a Self-Propelled Interstellar Vehicle (SPIV) seeking a (slightly dishonest) fortune in a dangerous part of space known as Quadrant 13. The object is to move from spaceports to planets where aliens are located and collected and then transported back to spaceports to be sold. This task is made more difficult by the numerous hazards in Quadrant 13 and the abilities of the aliens, which range from irritating to absolutely deadly!&#10;&#10;",
+    "categories": [
+      "Exploration",
+      "Science Fiction"
+    ],
+    "mechanics": [
+      "Action Points",
+      "Pick-up and Deliver"
+    ],
+    "image": "https://cf.geekdo-images.com/l9zcRy9tjHnobwEnRbURQA__thumb/img/-0vkc91P0frkyBgot9gl_OuR5kQ=/fit-in/200x150/filters:strip_icc()/pic855473.jpg"
+  },
+  {
+    "id": "43167",
+    "name": "The Livestock Market",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 20,
+    "age": 7,
+    "description": "Which farmer can successfully buy the most cows, pigs, sheep, and chickens? Players will need smart money management, strategy, and a little luck to score big and bring home the bacon. &#10; During the game, players can earn points by having the most animals of the type(s) being scored. At the end of the game, additional points are awarded for sets of animals. &#10; This free game was created for the print and play dice game design contest: http://www.boardgamegeek.com/thread/405493.&#10;&#10;",
+    "categories": [
+      "Animals",
+      "Dice",
+      "Print & Play"
+    ],
+    "mechanics": [
+      "Dice Rolling",
+      "Set Collection"
+    ],
+    "image": "https://cf.geekdo-images.com/xt7LPPxYekzqELWeEa9CbA__thumb/img/Hba65udIC1cuDag4aQL53Pd4n_Y=/fit-in/200x150/filters:strip_icc()/pic2356367.jpg"
+  },
+  {
+    "id": "303054",
+    "name": "Yacht Rock",
+    "minPlayers": 3,
+    "maxPlayers": 6,
+    "playingTime": 25,
+    "age": 12,
+    "description": "Live the life of a 1970s soft-rock musician in Southern California. In Yacht Rock, you work to create the best combination of clothing and music styles to help you score points while also recording singles and attending schmoozy parties to make connections, all set in Southern California in the 70's. Whoever can score the most points within three rounds is the winner.&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Party Game"
+    ],
+    "mechanics": [
+      "Open Drafting",
+      "Semi-Cooperative Game",
+      "Set Collection",
+      "Trick-taking"
+    ],
+    "image": "https://cf.geekdo-images.com/d_K1C5AAd6egfFWzq9W8sQ__thumb/img/31V8T9btLR0lVUC0nWCLnmMSUCo=/fit-in/200x150/filters:strip_icc()/pic5252912.png"
+  },
+  {
+    "id": "9968",
+    "name": "Custer's Luck",
+    "minPlayers": 1,
+    "maxPlayers": 3,
+    "playingTime": 180,
+    "age": 12,
+    "description": "Four scenarios re-create the U.S. Army&rsquo;s ill-fated 1876 campaign against the Sioux and their allies.  One to three players (all scenarios play solitaire) direct the various army commands: Crook&rsquo;s, Terry&rsquo;s/Gibbon&rsquo;s and, of course Custer&rsquo;s.  The Indians move on the results of a double-dice roll against a wander table.&#10;&#10;There are rules for scouting, surprise attacks, mule and wagon supply-trains and the river-boat &ldquo;Far West&rdquo;.&#10;&#10;Published in The Wargamer Magazine issue 45.&#10;&#10;",
+    "categories": [
+      "American Indian Wars",
+      "American West",
+      "Fighting",
+      "Post-Napoleonic",
+      "Wargame"
+    ],
+    "mechanics": [
+      "Dice Rolling",
+      "Hexagon Grid",
+      "Simulation"
+    ],
+    "image": "https://cf.geekdo-images.com/1C5yyDzBr6vALqN7BOoqdw__thumb/img/3EfwcKVJ4M4Uud2H2LN5jKVIAaY=/fit-in/200x150/filters:strip_icc()/pic55191.jpg"
+  },
+  {
+    "id": "7009",
+    "name": "Khyber Rifles",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playingTime": 120,
+    "age": 12,
+    "description": "&quot;[A] tactical level game, simulating the constant struggle between the forces of the Raj and their various opponents, e.g. Afghan native irregulars and regulars and the fierce Pathan Tribesmen, of the Northwest Frontier. The period depicted here is the mid 1870's through the early 1880's. The scenarios are primarily hypothetical occurrences that are representative of the actions that took place in this area during that time period.&quot;&#10;&#10;A magazine game published in The Wargamer Magazine #34. Features 10 minute turns, 50 yard hexes, and units comprised of about 10 men. Errata appeared in The Wargamer #35 at page 49.&#10;&#10;",
+    "categories": [
+      "Post-Napoleonic",
+      "Wargame"
+    ],
+    "mechanics": [
+      "Dice Rolling",
+      "Events",
+      "Grid Movement",
+      "Hexagon Grid",
+      "Line of Sight",
+      "Movement Points",
+      "Ratio / Combat Results Table",
+      "Scenario / Mission / Campaign Game",
+      "Simulation"
+    ],
+    "image": "https://cf.geekdo-images.com/xngzR2CSibBeNP5BVxen3w__thumb/img/YkkbJEgVquCSDZYbx99k5fALnqk=/fit-in/200x150/filters:strip_icc()/pic196861.jpg"
+  },
+  {
+    "id": "202742",
+    "name": "OrgasMe!: Sex turned into a card game",
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playingTime": 30,
+    "age": 18,
+    "description": "OrgasMe! is sex turned into a card game. 2-6 players take turns at drawing cards and attacking each other with funny or sometimes crazy sex attacks.&#10;&nbsp;&#10;Each player gets an OrgasMeter, which is a cardboard device that displays the level of a person&rsquo;s horniness in units of 1 Horn. Exceeding the measuring range of 10 Horn means that you&rsquo;re having an orgasm.&#10;&nbsp;&#10;Being attacked with an action card increases your horniness by 1 Horn. All other types of cards are either of defensive or offensive use to avoid the end of the game: The first player having an orgasm loses the game.&#10;&nbsp;&#10;To win the game you must not cum first! The clever use of your cards and special abilities might turn the tide of the game if you play them just at the right moment.&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Humor",
+      "Mature / Adult",
+      "Party Game"
+    ],
+    "mechanics": [
+      "Hand Management",
+      "Take That",
+      "Variable Player Powers"
+    ],
+    "image": "https://cf.geekdo-images.com/tDWkNpe40IH2QSL8DHbySw__thumb/img/xhP3cg5zVe1IdFc3tKGRbT8W7Ug=/fit-in/200x150/filters:strip_icc()/pic3069434.jpg"
+  },
+  {
+    "id": "26986",
+    "name": "Retro",
+    "minPlayers": 3,
+    "maxPlayers": 6,
+    "playingTime": 60,
+    "age": 15,
+    "description": "Swedish trivia game about the 50&acute;s, 60&acute;s, 70&acute;s, 80&acute;s and 90&acute;s. The main focus is on popular culture, sports etc.&#10;&#10;Contents:&#10;Gameboard&#10;375 cards&#10;25 markers&#10;Notepad&#10;5 pencils&#10;5 pawns&#10;Die&#10;Rules&#10;&#10;",
+    "categories": [
+      "Trivia"
+    ],
+    "mechanics": [
+      "Race",
+      "Roll / Spin and Move"
+    ],
+    "image": "https://cf.geekdo-images.com/Dk1p87XR5m7JLlFiI3HeUw__thumb/img/8VJEMnBhyJdLODAW3zOXXJt_P20=/fit-in/200x150/filters:strip_icc()/pic6973258.png"
+  },
+  {
+    "id": "24487",
+    "name": "Pirates of the Caribbean Buccaneer",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 45,
+    "age": 8,
+    "description": "Set Sail! &#10;To start the game, the player who does the best pirate impersonation goes first! Move around the board trading, scavenging and battling for treasure. You can pick up Quest Cards on the way, they can help you search for fortune or even bring disaster by sending you off course! Once your ship is laden with treasure, sail back to your port to unload your cargo. The first pirate to safely store 20 treasure points wins!&#10;&#10;The game has a board with 6 harbors and Tortuga Island, Isla Cruces and Isla de Muerta.&#10;The speed at which you can sail across the board is controlled by cards. These cards are either red (normal pirates) or black (cursed pirates) and have a number 1 to 3. The same cards are used to determine your attack value : highest color minus lowest color.&#10;&#10;The aim of the game is to collect 20 treasure points, where treasures are available in a range of 2 to 5.&#10;&#10;Re-implements:&#10;&#10;    Buccaneer&#10;&#10;&#10;",
+    "categories": [
+      "Exploration",
+      "Fantasy",
+      "Movies / TV / Radio theme",
+      "Pirates"
+    ],
+    "mechanics": [
+      "Open Drafting",
+      "Pick-up and Deliver",
+      "Trading"
+    ],
+    "image": "https://cf.geekdo-images.com/6GmzVSxneDZL0SATcaxVtg__thumb/img/iBOli9WFtZpuwIS17nxF2AdHuIs=/fit-in/200x150/filters:strip_icc()/pic475695.jpg"
+  },
+  {
+    "id": "146226",
+    "name": "Witch Hunt",
+    "minPlayers": 3,
+    "maxPlayers": 6,
+    "playingTime": 15,
+    "age": 8,
+    "description": "In an odd little village in a far away place, strange things have been happening. Suspicion and unease have reached a crescendo of wild conjecture and accusations, and Mr Tiddles the cat, once a beloved member of the community, is now seen as an artefact of witchcraft. Just how much does Mrs Hogbottom and her suspiciously hooked nose have to answer for?&#10;&#10;The game is played over a series of rounds, until at least one player has 5 points. In each round, the Villagers try to find the Witches, and the Witches try to stay hidden. You gain points for finding Witches and by keeping your identity hidden the longest.&#10;&#10;The game contains the following 18 cards:&#10;&bull; 6 Identity cards&#10;&bull; 12 Rumour cards&#10;You will also need some paper and a pen to keep score.&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Print & Play"
+    ],
+    "mechanics": [
+      "Betting and Bluffing",
+      "Deduction",
+      "Hand Management",
+      "Hidden Roles",
+      "Player Elimination",
+      "Variable Player Powers"
+    ],
+    "image": "https://cf.geekdo-images.com/g20ZKTBQe28MqjS3HPSgXg__thumb/img/ugm0uMqcAOJWAJUfl2cDwSk5aI8=/fit-in/200x150/filters:strip_icc()/pic1752829.png"
+  },
+  {
+    "id": "235943",
+    "name": "Doppel X",
+    "minPlayers": 3,
+    "maxPlayers": 8,
+    "playingTime": 20,
+    "age": 8,
+    "description": "In Doppel X, players throw their dice together into the box along with the neutral dice, with their die face combined with their position on the board determining how much they score. Try to keep your fellow players from lucrative point fields!&#10;&#10;",
+    "categories": [],
+    "mechanics": [
+      "Dice Rolling"
+    ],
+    "image": "https://cf.geekdo-images.com/5aWjv3u0w528o3e_BiXztg__thumb/img/BB7L_tPx-zQUZO5BV1XgxfruD7E=/fit-in/200x150/filters:strip_icc()/pic3752992.png"
+  },
+  {
+    "id": "16440",
+    "name": "The Alley Cats Game",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 45,
+    "age": 8,
+    "description": "'It's supper time down on the alley and all the cats are setting out on their nightly prowl.&#10;With fish galore to be found, the cats cross the wall to forage in the dustbins on the other side, BUT WATCH OUT, because hiding somewhere under the dustbin lids are some mean old bulldogs, who together with the other cats are going to try and stop you getting that fish home.'&#10;&#10;",
+    "categories": [
+      "Animals",
+      "Children's Game",
+      "Humor"
+    ],
+    "mechanics": [
+      "Pick-up and Deliver",
+      "Roll / Spin and Move"
+    ],
+    "image": "https://cf.geekdo-images.com/xoAcQfbVYUXn5EYIewgoxA__thumb/img/iEGovbCqHVq642i9niLN3bY7rg8=/fit-in/200x150/filters:strip_icc()/pic270949.jpg"
+  },
+  {
+    "id": "2924",
+    "name": "Mr. Ree!:  The Fireside Detective",
+    "minPlayers": 4,
+    "maxPlayers": 7,
+    "playingTime": 60,
+    "age": 10,
+    "description": "This game is planned to give you all the thrills and excitement of a true detective mystery.  More than that, the game gives you an opportunity to play an exciting part in the creation of the plot, and the thrill of actually playing Detective; an eagerly sought opportunity to solve a baffling crime committed right under your very nose.  And, amazing as it may seem, the plot is never the same.&#10;&#10;Each player assumes the part of one of the Characters in AUNT CORA'S red brick house, and by his actions and positions in the house-hold follows thru with his likes and dislikes of the various persons with whom fate has placed him.  The player, represented on the board by a hollow token, roams about inside and outside the house, choosing and concealing weapons with which to commit a crime.  The strong arm of the law, in the person of Mr. Ree, is ever present patrolling the grounds surrounding the house.&#10;&#10;",
+    "categories": [
+      "Deduction",
+      "Murder / Mystery",
+      "Puzzle"
+    ],
+    "mechanics": [
+      "Deduction",
+      "Role Playing"
+    ],
+    "image": "https://cf.geekdo-images.com/ekAjRrtST470TvJ8k4SSSQ__thumb/img/R7BY4VeIkf1kqcmntIuOJXlV7L0=/fit-in/200x150/filters:strip_icc()/pic760019.jpg"
+  },
+  {
+    "id": "192971",
+    "name": "Eyetoons Card Game",
+    "minPlayers": 4,
+    "maxPlayers": 0,
+    "playingTime": 0,
+    "age": 14,
+    "description": "The components consist of a pack of 80 cards each of which has a picture on one side and the answer on the reverse. Each picture contains clues to a popular song and the artist that made it famous .e.g a house with the sun close to the horizon with some creatures nearby would be House of the Rising Sun by The Animals.&#10;&#10;Cards are presented one at a time picture side up and the first to correctly identify tune plus artist wins the card. Player(s) with most cards wins game.&#10;&#10;Rules says game is for two players or teams but clearly any number can play.&#10;&#10;",
+    "categories": [
+      "Party Game",
+      "Trivia"
+    ],
+    "mechanics": [
+      "Line Drawing",
+      "Roll / Spin and Move",
+      "Singing"
+    ],
+    "image": "https://cf.geekdo-images.com/Bv1tBTToIie6BCcTWNGW4g__thumb/img/h0wI2bErEYBaC6Av2MervJSl1u8=/fit-in/200x150/filters:strip_icc()/pic2872798.jpg"
+  },
+  {
+    "id": "166567",
+    "name": "Sequence Letters",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 0,
+    "age": 4,
+    "description": "Sequence Letters is the traditional Sequence game but retooled to help children learn their letters and letter sounds. The winning conditions are the same as Sequence, get four of your pieces in a row to win!  The cards in Sequence Letters have a letter on them and the board has pictures.  To claim a space on the board you need to play a card with the first letter of the picture in the space you are trying to claim.&#10;&#10;",
+    "categories": [
+      "Abstract Strategy",
+      "Educational"
+    ],
+    "mechanics": [
+      "Pattern Recognition"
+    ],
+    "image": "https://cf.geekdo-images.com/65M2s78FapYUdoyvWl1h1Q__thumb/img/QUyALIyN5OqpK-qka_A1CyhaOZI=/fit-in/200x150/filters:strip_icc()/pic7657114.jpg"
+  },
+  {
+    "id": "98426",
+    "name": "Super Tock 6",
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playingTime": 45,
+    "age": 0,
+    "description": "This is a 6-player variant board of Super Tock 4.&#10;&#10;In Tock, instead of rolling the dice to determine movement as in Pachisi, players are dealt cards to use for movement. Players take turns playing their cards, with the value of the card determining how far they may move a pawn. Certain cards have special possibilities (a King or an Ace may be played to get a new pawn into play, while a four moves you back instead of forward). A few spaces on the board have special properties as well, requiring certain cards to be played to enter or leave them. If more than two players are playing, they play in teams, devils vs. angels. When you have brought all your own pawns to your safety zone, you must move your partner's pawns (without conferring with each other).&#10;&#10;Components:&#10;&#10;     game board&#10;     24 playing pieces (marbles)&#10;     requires deck of cards to play (not included)&#10;&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Racing"
+    ],
+    "mechanics": [
+      "Hand Management",
+      "Open Drafting",
+      "Team-Based Game"
+    ],
+    "image": "https://cf.geekdo-images.com/8a6_5jcQ7X46EIKFEeyW9g__thumb/img/0Tupf56NNnizU2Vjt4x2tvJGl3s=/fit-in/200x150/filters:strip_icc()/pic989128.jpg"
+  },
+  {
+    "id": "182284",
+    "name": "Motto",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 30,
+    "age": 8,
+    "description": "What is your personal motto? Does it concern love, passion, or maybe money? Are you focused on finding the &quot;other half&quot; or fulfillment in a hobby &mdash; or do you just dream about fortune?&#10;&#10;Everyone has their own life goals , but in Motto they are all equally important. Only a skillful combination will lead to the final victory. Iconic author Reiner Knizia brings you an attempt to connect these three values. Collect the right cards and combine them into strong melds to win the most valuable tokens. As in life, you will need a bit of luck, prediction, and cold calculation.&#10;&#10;",
+    "categories": [
+      "Humor"
+    ],
+    "mechanics": [
+      "Set Collection"
+    ],
+    "image": "https://cf.geekdo-images.com/yRtH89uBrY_C6CMZz9vO8Q__thumb/img/c-QeqOFGH9spI1bENZ0dblGj5LU=/fit-in/200x150/filters:strip_icc()/pic2639352.jpg"
+  },
+  {
+    "id": "150925",
+    "name": "Hold Your Breath!",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 20,
+    "age": 6,
+    "description": "Hold Your Breath! is the final chapter in the &quot;Get Bit Casual Trilogy&quot; by Mayday Games, but you don't need to know ANYTHING about the first two games in the series to play this one other than that we are revisiting the dumbest pirates known to man. They have been kicked off the ship by their captain in Walk the Plank and chased by sharks in Get Bit, and now they face their final challenge.&#10;&#10;In Hold Your Breath! each player assumes the role of a pirate treading water in the ocean. These brilliant tacticians have decided to play a game of &quot;Hold Your Breath&quot; to see who is the toughest pirate because, you know, what else are you gonna do in the middle of the ocean facing certain death?&#10;&#10;The game is played in two rounds. In the first round, each player may dive deeper, providing they have the &quot;Swim&quot; and &quot;Air&quot; cards to do so. Players press their luck each turn since it is the pirate who dives the deepest in round one AND resurfaces in round two who is the winner. What about the losers? Who cares, they are losers. But if you really want to know, well, they dove down and ran out of oxygen before they could resurface, so now they are just &quot;resting&quot; underwater until the next game, okay? But we digress...&#10;&#10;Players can play &quot;Panic&quot;, &quot;Shark&quot;, and other nasty cards on the other players, slowing their progress. In the second round each player struggles to reach the surface before he runs out of air and therefore decides to take a rest. Most of the pirates may not make it back to the surface, but the one who makes it back alive AND dove the deepest is the winner. Be careful, though, because if you dove the deepest in the first round, you will surely have the toughest time getting back to the surface since A) you swam the deepest and B) no one else wants to see you make it back alive.&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Children's Game",
+      "Humor",
+      "Nautical",
+      "Pirates"
+    ],
+    "mechanics": [
+      "Hand Management",
+      "Push Your Luck"
+    ],
+    "image": "https://cf.geekdo-images.com/F_TURkqGxlE_tT0DKMgTSQ__thumb/img/VRRTdrDjmcFOc_cNDR1b5RAUxjk=/fit-in/200x150/filters:strip_icc()/pic1841265.jpg"
+  },
+  {
+    "id": "38665",
+    "name": "Don't Say It",
+    "minPlayers": 4,
+    "maxPlayers": 0,
+    "playingTime": 0,
+    "age": 6,
+    "description": "Can you get your team to say &quot;Sheep&quot;?  It's not as easy as it sounds, especially when you can't say &quot;Baa&quot;, &quot;Lamb&quot;, &quot;Wool&quot; and &quot;Flock&quot;! Try to go through as many cards as you can before the buzzer goes off. But if you say a forbidden word, you'll lose points from your score.&#10;&#10;Three levels of play - easy, medium, difficult - make Don't Say It! the perfect game to play with different age groups.&#10;&#10;",
+    "categories": [
+      "Party Game",
+      "Word Game"
+    ],
+    "mechanics": [
+      "Team-Based Game"
+    ],
+    "image": "https://cf.geekdo-images.com/v1FbvF_Uay63OgvMBUhkAA__thumb/img/81U2d01SQXfQ3dOcs61uzSOJJTM=/fit-in/200x150/filters:strip_icc()/pic443618.jpg"
+  },
+  {
+    "id": "12289",
+    "name": "Rooster Booster",
+    "minPlayers": 3,
+    "maxPlayers": 5,
+    "playingTime": 30,
+    "age": 8,
+    "description": "Rooster Booster is a game of bluff with cards. Each of the roosters wants to sit on top of the ladder. However, there is only room for one on each step; some may lose feathers in the crowd. Stronger and bigger roosters may replace the smaller ones. Only the one who observes the pecking order may win the race! Or does a small, clever young rooster succeed in sneaking up the ladder and gain valuable points?&#10;&#10;Cards with values from 1 to 100 and which feature pictures of chickens are dealt out to the players. In the first round, players secretly choose a card and reveal simultaneously. After that, cards are played sequentially. The second place card wins and must be added, depending on its value, to one of the eight ladder steps. In doing so, some other chickens may slide down the ladder or fall off completely, in which case they bring only minus points. A game in the tradition of Take 5&#10;&#10;",
+    "categories": [
+      "Card Game"
+    ],
+    "mechanics": [
+      "Trick-taking"
+    ],
+    "image": "https://cf.geekdo-images.com/GVB6mjR_BGS3UK6l9W6ONQ__thumb/img/orNURUz63ePfQ_VyGwFDnE79b9E=/fit-in/200x150/filters:strip_icc()/pic5704855.png"
+  },
+  {
+    "id": "16088",
+    "name": "Calaboose",
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playingTime": 30,
+    "age": 12,
+    "description": "Calaboose is an exciting card game for 2-5 players (ages 12+) from Live Oak Games. Players play the part of sheriffs in the Old West, each trying to capture the highest value collection of outlaws in their jails.&#10;&#10;Your jail (aka Calaboose) is a collection of cards kept face up on the table in front of you.  Jails can only hold 5 outlaws at any one time, and each outlaw has a &quot;strength&quot; rating.&#10;&#10;On your turn, you can either place an outlaw from your hand into an empty slot in your jail or into someone else's jail.  The outlaws each have &quot;power&quot; ratings.  An outlaw can be sent to replace a weaker outlaw in someone else's jail.&#10;&#10;You can defend your jail.  If someone sends an outlaw to your jail, you can eliminate him with one of your outlaws - but you have to send your defender to someone else's jail.  That person can defend against you, of course, so each turn has the possibility of generating a chain reaction that involves multiple players around the table.&#10;&#10;It's a lighthearted social game with a solid core of strategy. Higher value cards tend to be weaker, and sets (or &quot;gangs&quot;) are worth much more than singletons.  Everyone at the table can see what's in your jail, so as you gain the advantage you also acquire a bullseye. Attacking another player's jail may backfire on you, so you have to be careful and constantly adjust your strategy to the cards on the table.&#10;&#10;",
+    "categories": [
+      "American West",
+      "Card Game",
+      "Party Game"
+    ],
+    "mechanics": [
+      "Hand Management",
+      "Set Collection",
+      "Simulation"
+    ],
+    "image": "https://cf.geekdo-images.com/Yek5Nte8OtrhG_rRpJHJRg__thumb/img/-WlDEQLHSP4hxK4S3kn-L3RpVtM=/fit-in/200x150/filters:strip_icc()/pic66547.jpg"
+  },
+  {
+    "id": "237712",
+    "name": "Floppy Ears",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 10,
+    "age": 5,
+    "description": "Woof, woof! In this hilarious game, each player strives to be the first to play out all of their floppy ear cards. But beware, you must always play the cards hanging on your ears, first! Only those who can remember which floppy ear cards are hanging on which ear, and play them at the right moment, have the chance to have the World&rsquo;s Best Floppy Ears!&#10;A floppy eared matching game.&#10;&#10;",
+    "categories": [
+      "Animals",
+      "Card Game",
+      "Children's Game",
+      "Humor",
+      "Memory"
+    ],
+    "mechanics": [
+      "Hand Management",
+      "Memory"
+    ],
+    "image": "https://cf.geekdo-images.com/SLg5spHe2LKfMf1zmWOBSQ__thumb/img/PisZ-IXmwnUaXSommyv06rthHlE=/fit-in/200x150/filters:strip_icc()/pic4417847.jpg"
+  },
+  {
+    "id": "38464",
+    "name": "Crash by Crash",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 30,
+    "age": 8,
+    "description": "The fun fair has arrived in town, and Bumper Cars are the main attraction! The Bumper Car Autodrome is run under the watchful eye of a grumpy operator. For thrills and entertainment, only courageous and brave souls dare drive these bumper cars. With your band of young punks, you must prove to the world that you can drive better than your opponent, and claim the best part of the track for you and your team.&#10;Players drive bumper cars for their respective teams. The basic principle of the game is to push other cars out of the way in order to be in a better scoring position at the right time. The corrupt operator rampages through the Autodrome while busily maintaining the bumper car attraction in perfect working condition. Both teams try to convince the operator to give them unfair advantages.&#10;From time to time, the operator has to repair the overhead grid. Damaged grid sections are marked by signal bells. If a bumper car hits any of the bells, the car is expelled and the grid must be repaired. The operator immediately assesses the position of all cars to determine if a car is traversing a section currently under repair. If so, that car becomes disabled.&#10;Players score points by placing &amp; keeping their cars on higher-value sections and by pushing their opponent&rsquo;s cars onto lower-value sections of the Autodrome. A player can also score points by pushing an opponent&lsquo;s car off the track.&#10;In order to maximize the fun and to keep the game entertaining and challenging, the operator reassembles the Autodrome in a new configuration prior to the start of each game of &quot;Crash by Crash.&quot;&#10;&#10;",
+    "categories": [
+      "Racing"
+    ],
+    "mechanics": [
+      "Area Majority / Influence",
+      "Modular Board",
+      "Tile Placement",
+      "Variable Player Powers"
+    ],
+    "image": "https://cf.geekdo-images.com/du2Pq4WADQqeA6di3iOk1Q__thumb/img/KAyQLy5qUvrR5Laze53SzggVkeE=/fit-in/200x150/filters:strip_icc()/pic373662.jpg"
+  },
+  {
+    "id": "15195",
+    "name": "Monopoly: X-Men",
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playingTime": 120,
+    "age": 8,
+    "description": "Pit yourself against your opponents as you collect your team of mutants, each with their own extraordinary powers and abilities. Make deals and build X-Men Training Bases to increase your dominance of the board until you - as Mutant leader - are the only player remaining.&#10;&#10;Game features include: X-Men &amp; Villain Training Bases and Headquarters, Good &amp; Evil Mutant cards, Deed Cards with character biographies on the back, Custom Playing board, 8 Custom Pewter Game Tokens, Custom Money and Banker's Tray, and 2 Dice.&#10;&#10;A variant on the Monopoly theme, here players choose a mutant leader (such as Mystique, Storm, Professor X, Cyclops or Magneto) and recruit other X-Men and villains from the Marvel universe for their team.&#10;&#10;",
+    "categories": [
+      "Comic Book / Strip",
+      "Economic",
+      "Negotiation"
+    ],
+    "mechanics": [
+      "Auction / Bidding",
+      "Player Elimination",
+      "Roll / Spin and Move",
+      "Set Collection",
+      "Trading"
+    ],
+    "image": "https://cf.geekdo-images.com/3xM6qD0MZhLTsk4oshmD-w__thumb/img/iM8lofG4QXUs8jnuZUm3cc2Q4KI=/fit-in/200x150/filters:strip_icc()/pic63499.jpg"
+  },
+  {
+    "id": "94002",
+    "name": "Nitro Dice",
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playingTime": 60,
+    "age": 9,
+    "description": "Nitro Dice is a card game despite the name. The dice are used as the race cars with the speed recorded on the die so everyone can see the state of the racers with just a glance. The cards are used both as the track which is customizable to the players taste  and as a means to maneuver by matching the track sections you travel over with the same types from your hand.  Some track cards have hazards on them allowing you to put obstacles in your opponent&rsquo;s way forcing them to expend cards or take damage.  Racers also have Nitrous Oxide tanks for an added boost for passing or just staying ahead of the pack.&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Racing"
+    ],
+    "mechanics": [
+      "Action Points",
+      "Hand Management",
+      "Modular Board",
+      "Variable Phase Order"
+    ],
+    "image": "https://cf.geekdo-images.com/00-xVqIQyCbk-0pyFSdulg__thumb/img/voFBQalp8lsw1z29i8DDqJTWppw=/fit-in/200x150/filters:strip_icc()/pic948365.jpg"
+  },
+  {
+    "id": "103640",
+    "name": "Carré",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 30,
+    "age": 8,
+    "description": "In Carr&eacute;, each player has a set of sixteen tiles in different shapes which have to be stacked on his gameboard without hanging over the edges or leaving gaps in the structure.&#10;&#10;The game is played in turns. Each turn, a player gets a chance to build his own tiles and to remove tiles other players have already built. At the start of his turn, a player rolls three dice. The player can now take his actions, paying for them using the dice:&#10;&#10;     He may build one of more tiles. Each tile must be paid for with one or more dice, whose combined value is exactly the value of the tile.&#10;     He may buy one or two stop markers. These markers must be paid for with one or more dice, whose combined value is exactly five (for one marker) or ten (for two markers).&#10;     He may use a previously purchased stop marker to remove a tile from another player's stack. This must be paid for with one or more dice, whose combined value is exactly the value of the tile. If the player uses two stop markers, he may place his own matching tile on his own stack.&#10;     He may buy one or two bonus chips. These markers must be paid for with one or more dice, whose combined value is exactly one (for one chip) or eleven (for two chips). These bonus chips may be used to pay for actions; each chip counts as a die with value 1.&#10;&#10;&#10;As soon as a player has stacked all of his tiles on his game board, the game ends and that player wins.&#10;&#10;",
+    "categories": [
+      "Abstract Strategy"
+    ],
+    "mechanics": [
+      "Dice Rolling",
+      "Tile Placement"
+    ],
+    "image": "https://cf.geekdo-images.com/Kfbdh2zEVAoUo-r2IHlf9Q__thumb/img/N-0POtQI2BsNZHltUU-Fbof_N2E=/fit-in/200x150/filters:strip_icc()/pic1051273.jpg"
+  },
+  {
+    "id": "351535",
+    "name": "War of Civilizations",
+    "minPlayers": 3,
+    "maxPlayers": 6,
+    "playingTime": 90,
+    "age": 14,
+    "description": "War of Civilizations is a 4x strategy board game set in the year 2050 on a climate change-affected dystopian earth. Players take on the role of clan leaders and compete to gain mystical powers, acquire resources, and build powerful war fleets to conquer land and defeat rival clans. The game requires players to balance their acquisition of powers and resources with their warfare tactics, while navigating the challenges of a harsh, post-apocalyptic world.&#10;&#10;The objective of the game is to achieve dominance in one of two ways: either by controlling the Isle of Myth for three consecutive rounds with the capital ship, or by accumulating the maximum number of magic crystals.&#10;&#10;SUPREMACY: Controlling Isle of Myth for 1 full round after paying Ocean crystals for Upkeep.&#10;&#10;WARFARE: Win against Capital Ship.&#10; OR&#10;Win against the opponent fleet or *Pirates.&#10;&#10;EXPLORE Apex Island.&#10;&#10;EXTERMINATE: Eliminate an opponent and gain their magic crystals and resources.&#10;&#10;THE END GAME GETS TRIGGERED WHEN ANY PLAYER ENTERS THE ISLE OF MYTH FOR THE FIRST TIME IN THE GAME. WHEN THE END GAME IS TRIGGERED, THE GAME WILL END IN THE FIVE ROUNDS THEREAFTER.&#10;&#10;",
+    "categories": [
+      "Fantasy",
+      "Science Fiction",
+      "Territory Building",
+      "Wargame"
+    ],
+    "mechanics": [
+      "Area Movement",
+      "Network and Route Building",
+      "Player Elimination",
+      "Turn Order: Progressive",
+      "Worker Placement"
+    ],
+    "image": "https://cf.geekdo-images.com/zjq8C0ffJQ6c-nFt-RigQQ__thumb/img/tlesn9Dd2FosreqtdPaauoJZQtA=/fit-in/200x150/filters:strip_icc()/pic7880040.png"
+  },
+  {
+    "id": "11800",
+    "name": "Fantasyland",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 30,
+    "age": 6,
+    "description": "A children's game about Rudi the giant trying to catch goblins.&#10;&#10;Ages 6 and up.&#10;&#10;",
+    "categories": [
+      "Children's Game",
+      "Maze"
+    ],
+    "mechanics": [
+      "Dice Rolling",
+      "Grid Movement",
+      "Roll / Spin and Move",
+      "Set Collection",
+      "Static Capture"
+    ],
+    "image": "https://cf.geekdo-images.com/TDY3z7FWuCPUDOEyFJZ5LA__thumb/img/Yvp2eeUHbf21p2wd8KXOe1KmPss=/fit-in/200x150/filters:strip_icc()/pic254664.jpg"
+  },
+  {
+    "id": "10705",
+    "name": "Dynamit Joe",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "playingTime": 60,
+    "age": 10,
+    "description": "Tom, the sheriff of Goldfever, advances slowly in the center of the deserted street. The James brothers gang is downtown. Yesterday, they started a brawl at the saloon and today, Tom must expel them. The confrontation is inevitable, Tom carries his faithful 6-shots to the belt and his Winchester with the hand. Further, the James brothers also prepare to receive the sheriff, William posted himself in ambush at the corner of the street whereas his two brothers wait close to the saloon? All the ingredients of the best westerns are joined together in the same game: banks robbery, payback, duels, ambushes.&#10;&#10;",
+    "categories": [
+      "American West"
+    ],
+    "mechanics": [
+      "Action Points"
+    ],
+    "image": "https://cf.geekdo-images.com/K65DNezlyWGRfuSJsHqirQ__thumb/img/PBaMbJA4LFmgfWZLfSSNAuwTIM4=/fit-in/200x150/filters:strip_icc()/pic47881.jpg"
+  },
+  {
+    "id": "305587",
+    "name": "Gierki Małżeńskie: Znamy się",
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "playingTime": 60,
+    "age": 18,
+    "description": "After the success of Gierki Ma&#197;&#130;&#197;&#188;e&#197;&#132;skie (&quot;Marriage Games&quot;; first edition in 2015), four additional versions of the game were issued in 2017: each representing one type of cards available in the original version. Each of them is a stand-alone game, but the cards can also be used in the base game.&#10;&#10;In Gierki Ma&#197;&#130;&#197;&#188;e&#197;&#132;skie: Znamy si&#196;&#153; (&quot;Marriage Games: We know each other&quot;), as in the base game, players play in pairs (1-4 couples) and solve multiple challenges presented on cards. There are four types of cards:&#10;&#10;     We know each other: detailed questions about your partner (e.g. favourite beer, name of the first love)&#10;     Psychotest: what would a partner do in a given situation?&#10;     What do you choose?: choose one of the given options that best describes your partner&#10;     Associations: write down associations to a given drawing - they must match the partner to get points!&#10;&#10;&#10;It is possible to play with multiple couples (up to four) - in such case couples compete with each other. There is also a one couple variant in which partners compete against each other.&#10;&#10;&mdash;user summary&#10;&#10;",
+    "categories": [
+      "Party Game"
+    ],
+    "mechanics": [
+      "Paper-and-Pencil",
+      "Team-Based Game"
+    ],
+    "image": "https://cf.geekdo-images.com/N_YQySpNXUQCU8xW8-YFaw__thumb/img/-OBcE9i8e6wx_5qk-mTRlb36Ybs=/fit-in/200x150/filters:strip_icc()/pic5312938.jpg"
+  },
+  {
+    "id": "12683",
+    "name": "Cookin' Cookies",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 10,
+    "age": 4,
+    "description": "Be the first player to collect each of the cookie ingredients needed to &quot;bake&quot; cookies. Everyone starts playing at the same time, players smack their spoons (provided) into the piles of cards each player trying to grab the ingredients need for their recipe. However don't grab a rotten egg or you'll have to start over.&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Children's Game"
+    ],
+    "mechanics": [
+      "Pick-up and Deliver",
+      "Set Collection",
+      "Simultaneous Action Selection"
+    ],
+    "image": "https://cf.geekdo-images.com/ItRVy1kKlNRU6KOvRtZQFA__thumb/img/jb3JW9IqVXL7it2Fsio3aBvPZvk=/fit-in/200x150/filters:strip_icc()/pic127171.jpg"
+  },
+  {
+    "id": "237553",
+    "name": "30 to Mars",
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playingTime": 120,
+    "age": 8,
+    "description": "Attention Marsonauts! Welcome to NASHA&rsquo;s 30-to Mars space program - the first 30 day one-way flight to Mars in the history of mankind. Your route was meticulously planned and our patented Next-Gen Ion Thrusters combined with Solar Sails will make sure this spacecraft reaches its destination one way or another. But be warned, space is a cruel mistress to even the luckiest of marsonauts. Anything can happen out there. That&rsquo;s where your individual wits and training come in. We are convinced that there is nothing your team can&rsquo;t handle. But just to make sure - please refer to your Daily Routine Planner (last page of the manual) which will brief you on the best way to handle your mission. Godspeed! Earth out.&#10;&#10;30 to Mars the Board Game is a 60 min 1-4 player cooperative space survival game. 4 Marsonauts must work as a team to survive the journey to Mars. You either win together or lose together.&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+    "categories": [
+      "Aviation / Flight",
+      "Dice",
+      "Humor",
+      "Math",
+      "Party Game",
+      "Science Fiction",
+      "Space Exploration"
+    ],
+    "mechanics": [
+      "Area Majority / Influence",
+      "Area Movement",
+      "Cooperative Game",
+      "Dice Rolling",
+      "Variable Player Powers"
+    ],
+    "image": "https://cf.geekdo-images.com/almqtX6S37Vy4-hiuC9Fyw__thumb/img/58Cvt0J2OUhJtuFpCqhy1uiJmyA=/fit-in/200x150/filters:strip_icc()/pic3796820.jpg"
+  },
+  {
+    "id": "228740",
+    "name": "Kitten Klash",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playingTime": 2,
+    "age": 6,
+    "description": "Just like kittens clawing and wrestling for supremacy, Kitten Klash puts two players in a frenzied dash to grab the most matched cards from a constantly changing tableau. You need the attention of a tiger and the speed of a cheetah to win this lightning-fast real-time game.&#10;&#10;In more detail, players continuously lay out cards in two rows of three opposing stacks, keeping an eye peeled for horizontal or vertical color matches. When you spot one, you reach out fast-fast-fast to grab both stacks, then go back to laying out cards until you spot the next match. When one player is out of cards, the round ends and players count up their points from the cards they grabbed: 1 point for each of your own cards and 2 points for each of your opponent's cards.&#10;&#10;You can play a round of Kitten Klash in 30 seconds. Play three rounds to see who is the top kitten in your house!&#10;&#10;Note: With two decks of Kitten Klash, four players can play as two side-by-side teams frantically seeking and grabbing card matches across six opposing stacks.&#10;&#10;",
+    "categories": [
+      "Animals",
+      "Card Game",
+      "Real-time"
+    ],
+    "mechanics": [
+      "Pattern Recognition",
+      "Set Collection"
+    ],
+    "image": "https://cf.geekdo-images.com/GN1XM16xuRchlQ8KnjKzsg__thumb/img/L71JkLoP6RgxxSGYV_v5najKjc8=/fit-in/200x150/filters:strip_icc()/pic3584346.jpg"
+  },
+  {
+    "id": "297635",
+    "name": "Top of Mind",
+    "minPlayers": 3,
+    "maxPlayers": 99,
+    "playingTime": 45,
+    "age": 14,
+    "description": "A farm animal. A pizza topping. A TV show. A day of the week. Something besides a door that you can open with a key. A body part. What will the other players answer?&#10;&#10;Top of Mind is an exciting and fast-paced game where you put your telepathy skills to the test! Try to guess what the other players will answer to more than 400 categories on a variety of entertaining subjects. The more people who answer the same as you, the more points you rack up!&#10;&#10;Top of Mind makes a great gift and is the perfect amount of fun to get any party started!&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+    "categories": [
+      "Party Game",
+      "Trivia",
+      "Word Game"
+    ],
+    "mechanics": [],
+    "image": "https://cf.geekdo-images.com/ZqMtuc_yMlW4BNltq7MnMg__thumb/img/tuAnv6EI-DqJhAQPRd6FEta0kmc=/fit-in/200x150/filters:strip_icc()/pic5149844.png"
+  },
+  {
+    "id": "296115",
+    "name": "Harry Potter Quiz",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 30,
+    "age": 10,
+    "description": "Harry Potter trivia game with 840 questions in eight categories - one square for each movie.&#10;All players start play on square 1, &quot;Harry Potter og de vises sten&quot; (&quot;Harry Potter and the Philosopher's Stone&quot;), and the active player reads out a question about this movie. Each other player chooses the A, B, or C answer token, and whoever answers correctly, advances to the next square.&#10;Each subsequent question will be from the category matching the square of the most advanced player.&#10;Once someone reaches goal, endgame commences, and once everybody has been the active player an equal number of times, the game ends.&#10;In the endgame, the active player chooses which category to read from.&#10;&#10;If only one player has reached the goal, that player wins.&#10;If all players have reached the goal, everybody wins.&#10;If several, but not all players have reached the goal, another player reads a question of their choice, and the tied players compete to answer correctly fastest, and each player only has one attempt per question.&#10;&#10;",
+    "categories": [
+      "Trivia"
+    ],
+    "mechanics": [
+      "Race",
+      "Simultaneous Action Selection",
+      "Track Movement"
+    ],
+    "image": "https://cf.geekdo-images.com/N5I88VLdnNoaHToa_xnd-g__thumb/img/EdriEbD_ZQBhR5EsCD3-TrUi7Yw=/fit-in/200x150/filters:strip_icc()/pic5360501.jpg"
+  },
+  {
+    "id": "90930",
+    "name": "Witty Pong",
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "playingTime": 10,
+    "age": 8,
+    "description": "Witty Pong is the first release from French publisher MyWittyGames, which invites gamers to fund projects that they want to see released.&#10;&#10;As far back as 2005, designer Antoine Bauza was trying to encapsulate the essence of ping-pong in a board or card game, but his design efforts never came to fruition, so the project was shelved &ndash; until mid-2010 when he chanced to show the prototype to Bruno Cathala. Cathala suggested a few changes, then the pair worked together to bring the game to the table.&#10;&#10;In Witty Pong the ping-pong table is recreated by laying four cards in a 2x2 square, with a ball token being placed on one of the cards. On a turn, a player flips a card and places it on one of the three cards not covered by the ball. Two situations can occur:&#10;&#10;&bull; If the card depicts a ball somewhere in the artwork, the player must move the ball token to a new card. If he says anything or hesitates too long, he loses one of the three banana tokens with which he started the game.&#10;&#10;&bull; If the card doesn't have a ball on it, the player must say the &quot;proper&quot; word, with the word being determined by the letters and colors on the three uncovered cards. The word starts with &quot;P&quot; or &quot;T&quot; depending on which letter shows more frequently, and ends with &quot;ong&quot; or &quot;ing&quot; depending on whether more blue or red paddles are showing. If he says the wrong word or takes too long, he loses a banana.&#10;&#10;Lose all your bananas, and you're out of the game. Last moneky standing wins. The game includes advanced rules that change what to say if the same letter or color is on all three paddles; additional rules allow for competitive play in which players can steal bananas from one another if they say the right word first.&#10;&#10;",
+    "categories": [
+      "Sports"
+    ],
+    "mechanics": [
+      "Pattern Recognition"
+    ],
+    "image": "https://cf.geekdo-images.com/5K1ZcXmvC744dOsrpI9v8Q__thumb/img/4aeKErreED6sSYY7ZVx_TAXAX1Y=/fit-in/200x150/filters:strip_icc()/pic899124.jpg"
+  },
+  {
+    "id": "233308",
+    "name": "Tetris Dual",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playingTime": 0,
+    "age": 6,
+    "description": "Tetris Duell is a one on one strategy game based on Tetris. In alternating turns the players drop tetris stones into the matrix. You score for touching the same colour or completing a row, but holes will score minus.&#10;&mdash;user summary&#10;&#10;Tetris Duell ist ein packendes Eins-gegen-Eins Strategiespiel, das auf Tetris basiert, einem der ber&uuml;hmtesten und beliebtesten Videospiele aller Zeiten. Das Spiel ist einfach erkl&auml;rt: Wer an der Reihe ist, muss den auf der LCD-Anzeige abgebildeten Tetrimino in die Matrix fallen lassen. Punkte gibt es, wenn der Tetrimino gleichfarbige Spielsteine ber&uuml;hrt oder Reihen vervollst&auml;ndigt werden. Doch Vorsicht: L&uuml;cken bringen Minuspunkte! H&ouml;rt sich einfach an? Das w&auml;re es auch, wenn da nicht dein Gegenspieler w&auml;re&hellip; tu dein Bestes um ihn zu blocken und selbst die meisten Reihen zu f&uuml;llen!&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+    "categories": [
+      "Abstract Strategy",
+      "Electronic",
+      "Puzzle",
+      "Video Game Theme"
+    ],
+    "mechanics": [
+      "Pattern Building",
+      "Tile Placement"
+    ],
+    "image": "https://cf.geekdo-images.com/tJjNY-IA_5-gMoVYVnKxrw__thumb/img/E_jyPtWw7yWp0IjDwJcoP7rxdno=/fit-in/200x150/filters:strip_icc()/pic4184420.jpg"
+  },
+  {
+    "id": "104756",
+    "name": "Gator Golf",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playingTime": 0,
+    "age": 4,
+    "description": "Tee up for action with this motorized golf ball gobblin' gator!  His giant jaws are open wide - can you hit your ball inside?  Take turns with a friend trying to putt your ball into the gator's mouth.  When you hit it in, he'll flip it out as he spins wildly 'round and 'round!  Who knows where your ball - and the gator's mouth - will end up?  Each putt you sink is worth a point.  Keep track of your score on your unique score-keeping putter.  First to score 4 points is the greatest gator golfer!&#10;   &#10;Note: Updated Goliath version does not have a motorized gator unit and does not spin. It does use spring action to return the ball.&#10;&#10;",
+    "categories": [
+      "Action / Dexterity",
+      "Animals"
+    ],
+    "mechanics": [],
+    "image": "https://cf.geekdo-images.com/sVde1zAypz6ZLjmiPivOzQ__thumb/img/Ghs0r3_AREkvB3YMpmyjZbmtxPY=/fit-in/200x150/filters:strip_icc()/pic1074559.png"
+  },
+  {
+    "id": "388745",
+    "name": "Good Omens: An Ineffable Game",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 30,
+    "age": 14,
+    "description": "Welcome to Tadfield! The forces of prophecy, Heaven, and Hell have assembled to start Armageddon. The angels and demons are preparing for battle and only a ragtag group of valiant interlopers can stop it. That&rsquo;s where you come in. In this game, you will find several different dice and card games themed around the confrontations that took place in the final chapter (for now) of the Good Omens story. Many of the games feature a mix of dice and cards. Why cards? Because cards feature in the series and in the ethos of Good Omens. This whole existence thing is like one big game to those who pull the strings&hellip;&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Dice",
+      "Movies / TV / Radio theme"
+    ],
+    "mechanics": [],
+    "image": "https://cf.geekdo-images.com/S11MSbLCWdnqZ70QowRWxw__thumb/img/XJHKJkh51rHwydfz7KmchApD1qw=/fit-in/200x150/filters:strip_icc()/pic7530942.jpg"
+  },
+  {
+    "id": "153810",
+    "name": "The Simpsons Trivia Game: Fan Edition",
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "playingTime": 0,
+    "age": 18,
+    "description": "In celebration of the 25th anniversary of The Simpsons.&#10;&#10;Challenge your pals to a round of Simpsons trivia with The Simpsons Trivia Game: Fan Edition. This Simpsons trivia game is made up of 300 Simpsons trivia questions written by Simpsons fans just like you.&#10;&#10;Players roll the dice to move around the board. When they land on a trivia space, they must answer trivia questions. If the player answers correctly, they get a character card. Character cards have symbols, and players may trade in cards with matching symbols for donuts. Some spaces give rewards just for landing on them.&#10;&#10;The object of the game is to be the first person to collect 7 donuts.&#10;&#10;",
+    "categories": [
+      "Movies / TV / Radio theme",
+      "Trivia"
+    ],
+    "mechanics": [
+      "Roll / Spin and Move",
+      "Set Collection"
+    ],
+    "image": "https://cf.geekdo-images.com/rooWUzFj80DKbzSXQhPtYQ__thumb/img/bA_mLzsS72sYjh6k4_TwKlLd2NI=/fit-in/200x150/filters:strip_icc()/pic1905146.jpg"
+  },
+  {
+    "id": "42006",
+    "name": "Glücks-Piraten",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 10,
+    "age": 4,
+    "description": "The lucky pirates are over the moon as they return from their last successful treasure hunt! They have had loads of luck finding one of the biggest and most precious treasures of the world. They immediately sail off to the next treasure island to try their luck again. Who will be the first to collect five pieces of treasure?&#10;&#10;The lucky pirates roll the die and move from card to card. When a pirate reaches one of the two treasure islands he gets a treasure. If two or more pirates land on a card at the same time, a duel must be fought and only the winner gets the treasure. Aim of the game is to be the first to collect five pieces of treasure.&#10;&#10;",
+    "categories": [
+      "Children's Game",
+      "Pirates"
+    ],
+    "mechanics": [
+      "Dice Rolling",
+      "Roll / Spin and Move"
+    ],
+    "image": "https://cf.geekdo-images.com/CQ9ohXfUrTE1Uj1OzK0YEA__thumb/img/e6T1NKjX80Rsd8w7V7R_oYSIlpU=/fit-in/200x150/filters:strip_icc()/pic738905.jpg"
+  },
+  {
+    "id": "43799",
+    "name": "Coral Sea Solitaire",
+    "minPlayers": 1,
+    "maxPlayers": 1,
+    "playingTime": 240,
+    "age": 12,
+    "description": "Coral Sea Solitaire (CSS) is a purpose-designed one-player wargame covering the aero-naval battle that took place between the US and Imperial Japanese Navies in May 1942. It was the first of the Pacific War&#10;&#10;CSS is based on the game system used in World at War number three Solomons Campaign; however, there are significant differences owing to the smaller scale of this operation and the systemic necessitates inherent in a solitaire design. The player controls various US and Allied forces; the game system controls Japanese forces. The player may utilize his forces as he pleases within the structures of the rules, while Japanese forces are moved and fought by the&#10;&#10;Historically, US strategic intelligence was good in terms of identifying Japanese forces and their intentions. Consequently, the player will have a certain edge over the IJN insofar as he will have a general knowledge of the location and objectives of major IJN task groups. That&#10;&#10;The game map shows the Coral Sea and adjoining waters, islands and bases as they were in 1942. Each hexagon on the map represents 75 miles from side to opposite side. Each game turn represents 12 hours. Each aircraft strength point represents from six to 24 aircraft, depending on type and pilot quality. Naval units represent one ship for carriers, battleships and heavy cruisers, and two or three ships for other units.&#10;&#10;The rules contain a little more than 11,000 words. That works out to mean an experienced player can finish a game in about three to four hours. Rules cover such things as: leadership, random events, reinforcements, task force organization, carrier operations, surface combat, shore bombardment, transporting ground units, amphibious landings, air bases, anti-aircraft fire, fatigue, night operations, fog of war, scouting, alternative deployments, and panic.&#10;&#10;",
+    "categories": [
+      "Aviation / Flight",
+      "Nautical",
+      "Wargame",
+      "World War II"
+    ],
+    "mechanics": [
+      "Hexagon Grid",
+      "Simulation",
+      "Solo / Solitaire Game"
+    ],
+    "image": "https://cf.geekdo-images.com/j3DUb42L3Oi1BsJ_yKBaTg__thumb/img/ce3cO8nTYSP9Y3ojSC4F42MDuBE=/fit-in/200x150/filters:strip_icc()/pic668250.jpg"
+  },
+  {
+    "id": "16644",
+    "name": "On the Buses",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playingTime": 0,
+    "age": 0,
+    "description": "&quot;On the Buses&quot; is a board game based on the hit 70's UK television situation comedy of the same name.&#10;&#10;A game of fun and skill, the object being to &quot;drive&quot; your bus around the board and get three passengers back to the bus depot to win, but watch out for Blakey!&#10;&#10;",
+    "categories": [
+      "Movies / TV / Radio theme",
+      "Transportation"
+    ],
+    "mechanics": [
+      "Roll / Spin and Move"
+    ],
+    "image": "https://cf.geekdo-images.com/7O0Cyuee2VZn4JTSDiic0w__thumb/img/8NGHuXnSJ6gB3yvWYk1-lfjds6A=/fit-in/200x150/filters:strip_icc()/pic4863715.png"
+  },
+  {
+    "id": "617",
+    "name": "Alles Futsch",
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playingTime": 45,
+    "age": 12,
+    "description": "The object of this game is to be the player with the most cash left when one other player goes bankrupt.&#10;&#10;Each player receives:&#10;1 play-table, which is placed face up in front of him&#10;4 marker stones&#10;Money worth 200,000 (3 x 50,000, 2 x 20,000, 1 x 5000, and 5 x 1000)&#10;&#10;The card holder is placed in the center of the table.&#10;The remaining cash is sorted and laid out in the bank..&#10;The object cards are shuffled and placed in the card holder.&#10;&#10;The top 5 cards are laid openly next to each other beside the card holder.&#10;&#10;If there are fewer than 5 players, the remaining play-tables and marker stones are placed back in the box.&#10;&#10;Play: Starting player selects one of the five face up cards for auction.&#10;&#10;Each player must increase the bids. Beginning with the player who selected the object card, in as many rounds as needed. Bids must increase by 1000 or a multiple thereof. Once a player passes, he may not re-enter this auction.&#10;&#10;The highest bidder pays the bank and receives the object card. The player may make change with the bank. The card will have 3 objects on it. The purchaser now has to distribute each of those objects.&#10;&#10;Three possibilities  exist for the card, each of the three objects on the card are used one at a time in any sequence desired.&#10;&#10;The sequence is decided by the player who paid for the card. Each item is released after it is used:&#10;&#10;1. An object for which he has only 0-2 copies in his collection: in this case he must take the object into his own collection. He sets one mark on the first field of the item or shifts it to the right to the next field. If this is the third type of an item, he immediately receives a bonus of 30000 from the bank.&#10;&#10;2. An object for which he already 3 or more copies in its collection. In this case he sells the object to any fellow player who has from 0-4 copies of the object in his collection. The fellow player cannot reject the purchase and must pay the seller 20000. The buyer moves his marker to the appropriate field. If this causes the marker to move to the third position, he should immediately receive a bonus of 30,000 marks from the bank.&#10;&#10;Note: the fourth and fifth objects of a type are thus always sold; one never receives these two objects from an object card that they have won for auction.&#10;&#10;Buying more than 3 types of art makes ones collection decrease in value. The buyer must pay the seller the fixed purchase price of 20000 marks and he must also pay 10,000 marks to the bank.&#10;&#10;3. A type of object which is not on his play-table (recognizably from the colored beam on his play-table at the bottom left hand corner). In this case, the auction winner sells such objects - as under 2 as described  to other players&#10;&#10;The object card is placed face up in the second side of the card holder after its 3 objects are distributed among the players.&#10;&#10;The top face down card is turned up and added to the remaining 4 face up cards.&#10;&#10;The player who purchased the last card, selects the next card to auction.&#10;&#10;The game ends the moment one of the players goes broke.&#10;&#10;First the fellow player is paid off, then the bank and then buyer receives any possible bonus.&#10;The winner is the player who has the most cash. In case of a tie, the player with more objects in his collection wins.&#10;&#10;",
+    "categories": [
+      "Card Game"
+    ],
+    "mechanics": [
+      "Auction / Bidding",
+      "Open Drafting",
+      "Set Collection"
+    ],
+    "image": "https://cf.geekdo-images.com/AOARkMXsg3d_T5EzkkV4lg__thumb/img/ZgUSjLDu8sXkc66Prf8i0ehF6kY=/fit-in/200x150/filters:strip_icc()/pic223452.jpg"
+  }
+]
