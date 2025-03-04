@@ -5,24 +5,26 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  
+
     background: linear-gradient(45deg, #fcd1ff, #fabbff, #cbbdff, #a48dff, #8e7bff);
     background-size: 180% 180%;
     animation: gradient-animation 15s ease infinite;
-    
+
     color: #473d80;
 }
 
 /* Keyframes for the moving gradient animation */
 @keyframes gradient-animation {
     0% {
-      background-position: 0% 50%;
+        background-position: 0% 50%;
     }
+
     50% {
-      background-position: 100% 50%;
+        background-position: 100% 50%;
     }
+
     100% {
-      background-position: 0% 50%;
+        background-position: 0% 50%;
     }
 }
 
@@ -128,16 +130,16 @@
     cursor: pointer;
     font-size: 16px;
     transition: all 0.3s;
-  }
-  
-  .optionButton:hover {
+}
+
+.optionButton:hover {
     background-color: #ddd;
-  }
-  
-  .selected {
+}
+
+.selected {
     background-color: #333;
     color: white;
-  }  
+}
 
 /* Grid container for results */
 .resultsGrid {
@@ -267,13 +269,33 @@
     .resultsGrid {
         grid-template-columns: 1fr;
     }
-    
+
     .modal {
         width: 90%;
         max-height: 90vh;
     }
-    
+
     .form {
         padding: 1.5rem;
     }
+}
+
+.prompt {
+    font-size: 32px;
+    font-weight: 600;
+    color: #473d80;
+}
+
+.input {
+    font-size: 24px;
+    padding: 1rem;
+    border: 2px solid #473d80;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+.input:focus {
+    outline: none;
+    border-color: #816bff;
+    box-shadow: 0 0 0 3px rgba(129, 107, 255, 0.2);
 }

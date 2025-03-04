@@ -5,6 +5,12 @@ import Head from 'next/head';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import styles from './Home.module.css';
+import { Kanit } from 'next/font/google'
+
+const kanit = Kanit({
+  weight: '400',
+  subsets: ['latin'],
+})
 
 interface BoardGameSource {
   name: string;
@@ -141,6 +147,11 @@ export default function Home() {
       <Head>
         <title>Pick A Board Game</title>
         <meta name="description" content="Generate the best board game for you" />
+        <style jsx global>{`
+        html {
+          font-family: ${kanit.style.fontFamily};
+        }
+      `}</style>
       </Head>
 
       <main className={styles.main}>
@@ -157,8 +168,9 @@ export default function Home() {
               exit={{ opacity: 0, x: 50 }}
               transition={{ duration: 0.5 }}
             >
-              <h2>Step 1: Enter Number of Players</h2>
+              <h2 className={styles.prompt}>Step 1: Enter Number of Players</h2>
               <input
+                className={styles.input}
                 name="players"
                 type="number"
                 placeholder="e.g. 4"
@@ -179,8 +191,9 @@ export default function Home() {
               exit={{ opacity: 0, x: 50 }}
               transition={{ duration: 0.5 }}
             >
-              <h2>Step 2: Enter Maximum Playing Time (minutes)</h2>
+              <h2 className={styles.prompt}>Step 2: Enter Maximum Playing Time (minutes)</h2>
               <input
+                className={styles.input}
                 name="maxPlayingTime"
                 type="number"
                 placeholder="e.g. 60"
@@ -202,8 +215,9 @@ export default function Home() {
               exit={{ opacity: 0, x: 50 }}
               transition={{ duration: 0.5 }}
             >
-              <h2>Step 3: Enter Minimum Age</h2>
+              <h2 className={styles.prompt}>Step 3: Enter Minimum Age</h2>
               <input
+                className={styles.input}
                 name="minAge"
                 type="number"
                 placeholder="e.g. 12"
@@ -225,7 +239,7 @@ export default function Home() {
               exit={{ opacity: 0, x: 50 }}
               transition={{ duration: 0.5 }}
             >
-              <h2>Step 4: Select Categories</h2>
+              <h2 className={styles.prompt}>Step 4: Select Categories</h2>
               <div className={styles.buttonGroup}>
                 {categoriesList.map((category) => (
                   <button
@@ -252,7 +266,7 @@ export default function Home() {
               exit={{ opacity: 0, x: 50 }}
               transition={{ duration: 0.5 }}
             >
-              <h2>Step 5: Select Mechanics</h2>
+              <h2 className={styles.prompt}>Step 5: Select Mechanics</h2>
               <div className={styles.buttonGroup}>
                 {mechanicsList.map((mechanic) => (
                   <button
@@ -267,7 +281,6 @@ export default function Home() {
               <div className={styles.buttonGroup}>
                 <button className={styles.navButton} onClick={handleBack}>←</button>
                 <button className={styles.navButton} onClick={handleNext}>→</button>
-                <button className={styles.submitButton} onClick={handleNext}>→</button>
               </div>
             </motion.div>
           )}
@@ -280,7 +293,7 @@ export default function Home() {
               exit={{ opacity: 0, x: 50 }}
               transition={{ duration: 0.5 }}
             >
-              <h2>Step 6: Enter Additional Information</h2>
+              <h2 className={styles.prompt}>Step 6: Enter Additional Information</h2>
               <textarea
                 name="additionalInfo"
                 placeholder="Enter any additional information here..."
