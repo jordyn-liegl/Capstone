@@ -346,10 +346,11 @@ export default function Home() {
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 0.3 }}
+              onClick={(e) => e.stopPropagation()} // Prevent click from closing modal when clicking inside
             >
               <h2>{selectedGame.name}</h2>
               <p dangerouslySetInnerHTML={{ __html: selectedGame.description.replace(/&#10;&#10;/g, '<br /><br />') }} />
-              <button className={styles.closeButton} onClick={() => setSelectedGame(null)}>Close</button>
+              <button className={styles.closeButton} onClick={() => setSelectedGame(null)}>x</button>
             </motion.div>
           </div>
         )}
