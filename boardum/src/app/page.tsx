@@ -347,6 +347,7 @@ export default function Home() {
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 0.3 }}
+              onClick={(e) => e.stopPropagation()} // Prevent click from closing modal when clicking inside
             >
             <div className={styles.contentContainer}>
               <div className={styles.topRow}>
