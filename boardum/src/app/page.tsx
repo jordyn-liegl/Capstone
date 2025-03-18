@@ -19,6 +19,7 @@ interface BoardGameSource {
   playingTime: number;
   age: number;
   description: string;
+  image: string;
 }
 
 interface SearchParams {
@@ -347,8 +348,20 @@ export default function Home() {
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 0.3 }}
             >
-              <h2>{selectedGame.name}</h2>
-              <p dangerouslySetInnerHTML={{ __html: selectedGame.description.replace(/&#10;&#10;/g, '<br /><br />') }} />
+            <div className={styles.contentContainer}>
+              <div className={styles.topRow}>
+                <img 
+                  src={selectedGame.image} 
+                  alt={selectedGame.name} 
+                  className={styles.gameImage} 
+                />
+                <h2 className={styles.gameTitle}>{selectedGame.name}</h2>
+              </div>
+              <p 
+                className={styles.gameSummary} 
+                dangerouslySetInnerHTML={{ __html: selectedGame.description.replace(/&#10;&#10;/g, '<br /><br />') }} 
+              />
+            </div>
               <button className={styles.closeButton} onClick={() => setSelectedGame(null)}>Close</button>
             </motion.div>
           </div>

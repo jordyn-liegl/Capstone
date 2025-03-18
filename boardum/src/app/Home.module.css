@@ -284,6 +284,27 @@
     z-index: 999;
 }
 
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 12px; /* Space between title+image row and summary */
+  }
+  
+  .topRow {
+    display: flex;
+    align-items: center; /* Aligns image and title */
+    gap: 16px; /* Space between image and title */
+  }
+  
+  .gameImage {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .gameSummary {
+    line-height: 1.5; /* Improves readability */
+  }
 @media (max-width: 768px) {
     .resultsGrid {
         grid-template-columns: 1fr;
