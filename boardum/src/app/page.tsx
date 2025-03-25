@@ -20,6 +20,8 @@ interface BoardGameSource {
   age: number;
   description: string;
   image: string;
+  categories: string[];
+  mechanics: string[];
 }
 
 interface SearchParams {
@@ -373,14 +375,33 @@ export default function Home() {
                   alt={selectedGame.name} 
                   className={styles.gameImage} 
                 />
-                <h2 className={styles.gameTitle}>{selectedGame.name}</h2>
+                <div className={styles.textColumn}>
+                  <h2 className={styles.gameTitle}>{selectedGame.name}</h2>
+                  <div className={styles.tagGroup}>
+                    <p className={styles.tagLabel}>Category:</p>
+                    <div className={styles.tagList}>
+                      {selectedGame.categories.map((cat, index) => (
+                      <span key={index} className={styles.tagButton}>{cat}</span>
+                    ))}
+                  </div>
+                </div>
+
+                <div className={styles.tagGroup}>
+                  <p className={styles.tagLabel}>Mechanics:</p>
+                  <div className={styles.tagList}>
+                    {selectedGame.mechanics.map((cat, index) => (
+                      <span key={index} className={styles.tagButton}>{cat}</span>
+                    ))}
+                  </div>
+                  </div>
+                </div>
               </div>
               <p 
                 className={styles.gameSummary} 
                 dangerouslySetInnerHTML={{ __html: selectedGame.description.replace(/&#10;&#10;/g, '<br /><br />') }} 
               />
             </div>
-              <button className={styles.closeButton} onClick={() => setSelectedGame(null)}>Close</button>
+              <button className={styles.closeButton} onClick={() => setSelectedGame(null)}>x</button>
             </motion.div>
           </div>
         )}

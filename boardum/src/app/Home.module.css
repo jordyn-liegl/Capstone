@@ -241,6 +241,7 @@
     margin-bottom: 1.5rem;
     font-weight: 700;
     padding-right: 2rem;
+    align-self: flex-start;
 }
 
 .modal p {
@@ -290,22 +291,93 @@
     flex-direction: column;
     gap: 12px; /* Space between title+image row and summary */
   }
+
+  .textColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+  }
   
-  .topRow {
+  .gameTitle {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #473d80;
+    text-align: left;
+  }
+  
+  .tagGroup {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .tagLabel {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+    color: #473d80;
+  }
+  
+  .tagList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .tagButton {
+    background-color: #816bff;
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    white-space: nowrap;
+    box-shadow: 0 2px 6px rgba(129, 107, 255, 0.2);
+    transition: background 0.3s ease;
+  }
+  
+  .tagButton:hover {
+    background-color: #9785ff;
+  }
+  
+  @media (max-width: 768px) {
+    .topRow {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .textColumn {
+      align-items: center;
+      text-align: center;
+    }
+  
+    .tagGroup {
+      align-items: center;
+    }
+  
+    .tagList {
+      justify-content: center;
+    }
+  }
+  
+.topRow {
     display: flex;
     align-items: center; /* Aligns image and title */
     gap: 16px; /* Space between image and title */
-  }
+}
   
   .gameImage {
     width: 150px; /* Adjust size as needed */
     height: auto;
     object-fit: cover;
-  }
+}
   
-  .gameSummary {
+.gameSummary {
     line-height: 1.5; /* Improves readability */
-  }
+}
 @media (max-width: 768px) {
     .resultsGrid {
         grid-template-columns: 1fr;
