@@ -157,8 +157,25 @@ export default function Home() {
 
       <main className={styles.main}>
         <center>
-          <Image src="/boardum.png" alt="boardum" width={400} height={400} />
+          <div style={{ position: 'relative', width: '400px', height: '400px' }}>
+            <motion.div
+              animate={{ rotate: 360 }}
+              transition={{ repeat: Infinity, duration: 3, ease: "circInOut" }}
+              style={{ position: 'absolute', top: 20, left: 60, zIndex: 2 }}
+              
+            >
+              <Image src="/dice.png" alt="boardum" width={80} height={80} />
+            </motion.div>
+            <Image
+              src="/boardum2.png"
+              alt="boardum"
+              width={400}
+              height={400}
+              style={{ position: 'absolute', top: 0, left: 0, zIndex: 1 }}
+            />
+          </div>
         </center>
+
 
         <AnimatePresence mode="wait">
           {step === 0 && (
