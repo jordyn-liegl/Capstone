@@ -157,7 +157,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <center>
-          <div style={{ position: 'relative', width: '400px', height: '400px' }}>
+          <div style={{ position: 'relative', width: '400px', height: '150px' }}>
             <motion.div
               animate={{ rotate: 360 }}
               transition={{ repeat: Infinity, duration: 3, ease: "circInOut" }}
@@ -167,7 +167,7 @@ export default function Home() {
               <Image src="/dice.png" alt="boardum" width={80} height={80} />
             </motion.div>
             <Image
-              src="/boardum2.png"
+              src="/boardum.png"
               alt="boardum"
               width={400}
               height={400}
