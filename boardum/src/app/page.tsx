@@ -20,13 +20,15 @@ interface BoardGameSource {
   age: number;
   description: string;
   image: string;
+  categories: string[];
+  mechanics: string[];
 }
 
 interface SearchParams {
   players: string;
   maxPlayingTime: string;
   minAge: string;
-  categories: string[];
+  category: string[];
   mechanics: string[];
   additionalInfo: string;
 }
@@ -357,33 +359,54 @@ export default function Home() {
           </motion.div>
         )}
 
-        {selectedGame && (
-          <div className={styles.overlay} onClick={() => setSelectedGame(null)}>
-            <motion.div
-              className={styles.modal}
-              initial={{ scale: 0.8, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              transition={{ duration: 0.3 }}
-              onClick={(e) => e.stopPropagation()} // Prevent click from closing modal when clicking inside
-            >
-            <div className={styles.contentContainer}>
-              <div className={styles.topRow}>
-                <img 
-                  src={selectedGame.image} 
-                  alt={selectedGame.name} 
-                  className={styles.gameImage} 
-                />
-                <h2 className={styles.gameTitle}>{selectedGame.name}</h2>
+{selectedGame && (
+  <div className={styles.overlay} onClick={() => setSelectedGame(null)}>
+    <motion.div
+      className={styles.modal}
+      initial={{ scale: 0.8, opacity: 0 }}
+      animate={{ scale: 1, opacity: 1 }}
+      transition={{ duration: 0.3 }}
+      onClick={(e) => e.stopPropagation()} // Prevent closing modal on inner click
+    >
+      <div className={styles.contentContainer}>
+        <div className={styles.topRow}>
+          <img 
+            src={selectedGame.image} 
+            alt={selectedGame.name} 
+            className={styles.gameImage} 
+          />
+          <div className={styles.textColumn}>
+            <h2 className={styles.gameTitle}>{selectedGame.name}</h2>
+
+            <div className={styles.tagGroup}>
+              <div className={styles.tagLabel}>Category:</div>
+              <div className={styles.tagList}>
+                {selectedGame.categories.map((cat, index) => (
+                  <span key={index} className={styles.tagButton}>{cat}</span>
+                ))}
               </div>
-              <p 
-                className={styles.gameSummary} 
-                dangerouslySetInnerHTML={{ __html: selectedGame.description.replace(/&#10;&#10;/g, '<br /><br />') }} 
-              />
             </div>
-              <button className={styles.closeButton} onClick={() => setSelectedGame(null)}>Close</button>
-            </motion.div>
+
+            <div className={styles.tagGroup}>
+              <div className={styles.tagLabel}>Mechanism:</div>
+              <div className={styles.tagList}>
+                {selectedGame.mechanics.map((mech, index) => (
+                  <span key={index} className={styles.tagButton}>{mech}</span>
+                ))}
+              </div>
+            </div>
           </div>
-        )}
+        </div>
+
+        <p 
+          className={styles.gameSummary} 
+          dangerouslySetInnerHTML={{ __html: selectedGame.description.replace(/&#10;&#10;/g, '<br /><br />') }} 
+        />
+      </div>
+      <button className={styles.closeButton} onClick={() => setSelectedGame(null)}>x</button>
+    </motion.div>
+  </div>
+)}
       </main>
     </div>
   );
