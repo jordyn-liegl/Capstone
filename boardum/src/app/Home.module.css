@@ -360,5 +360,74 @@
     border-radius: 15px;
     transition: width 0.5s ease;
     box-shadow: 0 2px 6px rgba(129, 107, 255, 0.3);
+    
+.textColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
   }
   
+  .gameTitle {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+    color: #473d80;
+    text-align: left;
+  }
+  
+  .tagGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .tagLabel {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #473d80;
+    margin: 0.2rem;
+  }
+  
+  .tagList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding-left: 1rem;
+  }
+  
+  .tagButton {
+    background-color: #816bff;
+    color: white;
+    padding: 0.2rem 0.7rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    white-space: nowrap;
+    box-shadow: 0 2px 6px rgba(129, 107, 255, 0.2);
+    transition: background 0.2s ease;
+  }
+  
+  .tagButton:hover {
+    background-color: #9785ff;
+  }
+  
+  @media (max-width: 768px) {
+    .topRow {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .textColumn {
+      align-items: center;
+      text-align: center;
+    }
+  
+    .tagGroup {
+      align-items: center;
+    }
+  
+    .tagList {
+      justify-content: center;
+    }
+  }
