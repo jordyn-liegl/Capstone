@@ -360,6 +360,7 @@
     border-radius: 15px;
     transition: width 0.5s ease;
     box-shadow: 0 2px 6px rgba(129, 107, 255, 0.3);
+  }
     
 .textColumn {
     display: flex;
