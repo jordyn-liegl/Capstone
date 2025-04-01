@@ -138,9 +138,7 @@ export default function Home() {
     } finally {
         setLoading(false);
     }
-
-};
-
+  };
 
   const handleNext = () => setStep(prev => prev + 1);
   const handleBack = () => setStep(prev => prev - 1);
@@ -178,7 +176,6 @@ export default function Home() {
           </div>
         </center>
 
-
         <AnimatePresence mode="wait">
           {step === 0 && (
             <motion.div
@@ -199,6 +196,12 @@ export default function Home() {
               />
               <div className={styles.buttonGroup}>
                 <button className={styles.navButton} onClick={handleNext}>→</button>
+              </div>
+              <div className={styles.progressBarContainer}>
+                <div 
+                  className={styles.progressBar} 
+                  style={{ width: `${((step + 1) / 6) * 100}%` }}
+                ></div>
               </div>
             </motion.div>
           )}
@@ -224,6 +227,12 @@ export default function Home() {
                 <button className={styles.navButton} onClick={handleBack}>←</button>
                 <button className={styles.navButton} onClick={handleNext}>→</button>
               </div>
+              <div className={styles.progressBarContainer}>
+                <div 
+                  className={styles.progressBar} 
+                  style={{ width: `${((step + 1) / 6) * 100}%` }}
+                ></div>
+              </div>
             </motion.div>
           )}
 
@@ -247,6 +256,12 @@ export default function Home() {
               <div className={styles.buttonGroup}>
                 <button className={styles.navButton} onClick={handleBack}>←</button>
                 <button className={styles.navButton} onClick={handleNext}>→</button>
+              </div>
+              <div className={styles.progressBarContainer}>
+                <div 
+                  className={styles.progressBar} 
+                  style={{ width: `${((step + 1) / 6) * 100}%` }}
+                ></div>
               </div>
             </motion.div>
           )}
@@ -275,6 +290,12 @@ export default function Home() {
                 <button className={styles.navButton} onClick={handleBack}>←</button>
                 <button className={styles.navButton} onClick={handleNext}>→</button>
               </div>
+              <div className={styles.progressBarContainer}>
+                <div 
+                  className={styles.progressBar} 
+                  style={{ width: `${((step + 1) / 6) * 100}%` }}
+                ></div>
+              </div>
             </motion.div>
           )}
 
@@ -302,6 +323,12 @@ export default function Home() {
                 <button className={styles.navButton} onClick={handleBack}>←</button>
                 <button className={styles.navButton} onClick={handleNext}>→</button>
               </div>
+              <div className={styles.progressBarContainer}>
+                <div 
+                  className={styles.progressBar} 
+                  style={{ width: `${((step + 1) / 6) * 100}%` }}
+                ></div>
+              </div>
             </motion.div>
           )}
 
@@ -325,6 +352,12 @@ export default function Home() {
               <div className={styles.buttonGroup}>
                 <button className={styles.navButton} onClick={handleBack}>←</button>
                 <button className={styles.submitButton} onClick={handleSubmit}>{loading ? '⏳' : '✔'}</button>
+              </div>
+              <div className={styles.progressBarContainer}>
+                <div 
+                  className={styles.progressBar} 
+                  style={{ width: `${((step + 1) / 6) * 100}%` }}
+                ></div>
               </div>
             </motion.div>
           )}
