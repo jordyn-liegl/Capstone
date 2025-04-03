@@ -36,6 +36,46 @@ interface SearchParams {
 const categoriesList = ['Card Game', 'Fantasy', 'Economic', 'Fighting', 'Science Fiction', 'Exploration', 'Adventure', 'Miniatures', 'City Building', 'Wargame'];
 const mechanicsList = ['Hand Management', 'Variable Player Powers', 'Dice Rolling', 'Solo / Solitaire Game', 'Open Drafting', 'Set Collection', 'Area Majority / Influence', 'Modular Board', 'Cooperative Game', 'Tile Placement'];
 
+const categoryDescriptions: Record<string, string> = {
+  'Card Game': 'Games where cards are the primary component.',
+  'Fantasy': 'Games set in fictional worlds often featuring magic, mythical creatures, and heroic quests.',
+  'Economic': 'Games focused on resource management, trading, and wealth accumulation.',
+  'Fighting': 'Games centered around combat or conflict between players or against the game.',
+  'Science Fiction': 'Games set in futuristic, technological, or space-based settings.',
+  'Exploration': 'Games involving discovery, mapping, or revealing unknown territories.',
+  'Adventure': 'Games featuring quests, journeys, or narrative-driven experiences.',
+  'Miniatures': 'Games using small figurines to represent characters or units on a play surface.',
+  'City Building': 'Games focused on developing settlements, infrastructure, and civic spaces.',
+  'Wargame': 'Strategic games simulating military conflicts and tactical warfare.'
+};
+
+const mechanicDescriptions: Record<string, string> = {
+  'Hand Management': 'Players must manage the cards in their hand for optimal play.',
+  'Variable Player Powers': 'Each player has unique abilities that differentiate them from others.',
+  'Dice Rolling': 'Outcomes are determined by rolling dice, introducing an element of chance.',
+  'Solo / Solitaire Game': 'Can be played by a single player against the game system.',
+  'Open Drafting': 'Players select cards or resources from a common pool in turn order.',
+  'Set Collection': 'Players aim to collect specific sets of items to score points or gain advantages.',
+  'Area Majority / Influence': 'Players compete to control regions or territories on the game board.',
+  'Modular Board': 'The game board changes configuration each game for variable play experiences.',
+  'Cooperative Game': 'Players work together against the game to achieve a common goal.',
+  'Tile Placement': 'Players strategically place tiles to build a board or complete objectives.'
+};
+
+interface TooltipProps {
+  text: string;
+  children: React.ReactNode;
+}
+
+const Tooltip: React.FC<TooltipProps> = ({ text, children }) => {
+  return (
+    <div className={styles.tooltipContainer}>
+      {children}
+      <div className={styles.tooltipText}>{text}</div>
+    </div>
+  );
+};
+
 export default function Home() {
   const [step, setStep] = useState<number>(0);
   const [searchParams, setSearchParams] = useState<SearchParams>({
@@ -277,13 +317,14 @@ export default function Home() {
               <h2 className={styles.prompt}>Step 4: Select Categories</h2>
               <div className={styles.buttonGroup}>
                 {categoriesList.map((category) => (
-                  <button
-                    key={category}
-                    className={`${styles.optionButton} ${searchParams.categories.includes(category) ? styles.selected : ''}`}
-                    onClick={() => toggleSelection('categories', category)}
-                  >
-                    {category}
-                  </button>
+                  <Tooltip key={category} text={categoryDescriptions[category]}>
+                    <button
+                      className={`${styles.optionButton} ${searchParams.categories.includes(category) ? styles.selected : ''}`}
+                      onClick={() => toggleSelection('categories', category)}
+                    >
+                      {category}
+                    </button>
+                  </Tooltip>
                 ))}
               </div>
               <div className={styles.buttonGroup}>
@@ -310,13 +351,14 @@ export default function Home() {
               <h2 className={styles.prompt}>Step 5: Select Mechanics</h2>
               <div className={styles.buttonGroup}>
                 {mechanicsList.map((mechanic) => (
-                  <button
-                    key={mechanic}
-                    className={`${styles.optionButton} ${searchParams.mechanics.includes(mechanic) ? styles.selected : ''}`}
-                    onClick={() => toggleSelection('mechanics', mechanic)}
-                  >
-                    {mechanic}
-                  </button>
+                  <Tooltip key={mechanic} text={mechanicDescriptions[mechanic]}>
+                    <button
+                      className={`${styles.optionButton} ${searchParams.mechanics.includes(mechanic) ? styles.selected : ''}`}
+                      onClick={() => toggleSelection('mechanics', mechanic)}
+                    >
+                      {mechanic}
+                    </button>
+                  </Tooltip>
                 ))}
               </div>
               <div className={styles.buttonGroup}>
