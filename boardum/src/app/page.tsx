@@ -111,6 +111,27 @@ export default function Home() {
     }));
   };
 
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      
+      switch (step) {
+        case 0:
+        case 1:
+        case 2:
+          // For steps 0, 1, and 2, we advance to the next step
+          handleNext();
+          break;
+        case 5:
+          // For the final step, we submit the form
+          handleSubmit(e as unknown as FormEvent);
+          break;
+        default:
+          break;
+      }
+    }
+  };
+
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     setLoading(true);
@@ -233,6 +254,7 @@ export default function Home() {
                 placeholder="e.g. 4"
                 value={searchParams.players}
                 onChange={handleInputChange}
+                onKeyDown={handleKeyDown}
               />
               <div className={styles.buttonGroup}>
                 <button className={styles.navButton} onClick={handleNext}>→</button>
@@ -262,6 +284,7 @@ export default function Home() {
                 placeholder="e.g. 60"
                 value={searchParams.maxPlayingTime}
                 onChange={handleInputChange}
+                onKeyDown={handleKeyDown}
               />
               <div className={styles.buttonGroup}>
                 <button className={styles.navButton} onClick={handleBack}>←</button>
@@ -292,6 +315,7 @@ export default function Home() {
                 placeholder="e.g. 12"
                 value={searchParams.minAge}
                 onChange={handleInputChange}
+                onKeyDown={handleKeyDown}
               />
               <div className={styles.buttonGroup}>
                 <button className={styles.navButton} onClick={handleBack}>←</button>
@@ -388,6 +412,7 @@ export default function Home() {
                 placeholder="Enter any additional information here..."
                 value={searchParams.additionalInfo || ''}
                 onChange={handleInputChange}
+                onKeyDown={handleKeyDown}
                 rows={4}
                 className={styles.textArea}
               />
