@@ -33,6 +33,12 @@ interface SearchParams {
   additionalInfo: string;
 }
 
+interface ValidationError {
+  stepIndex: number;
+  isError: boolean;
+  message: string;
+}
+
 const categoriesList = ['Card Game', 'Fantasy', 'Economic', 'Fighting', 'Science Fiction', 'Exploration', 'Adventure', 'Miniatures', 'City Building', 'Wargame'];
 const mechanicsList = ['Hand Management', 'Variable Player Powers', 'Dice Rolling', 'Solo / Solitaire Game', 'Open Drafting', 'Set Collection', 'Area Majority / Influence', 'Modular Board', 'Cooperative Game', 'Tile Placement'];
 
@@ -87,6 +93,12 @@ export default function Home() {
     additionalInfo: '',
   });
 
+  const [errorState, setErrorState] = useState<ValidationError>({
+    stepIndex: -1,
+    isError: false,
+    message: '',
+  });
+
   const [recommendations, setRecommendations] = useState<BoardGameSource[]>([]);
   const [selectedGame, setSelectedGame] = useState<BoardGameSource | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
@@ -100,6 +112,10 @@ export default function Home() {
       ...prev,
       [name]: value
     }));
+
+    if (errorState.isError && errorState.stepIndex === step) {
+      setErrorState({ stepIndex: -1, isError: false, message: '' });
+    }
   };
 
   const toggleSelection = (type: 'categories' | 'mechanics', value: string) => {
@@ -111,24 +127,70 @@ export default function Home() {
     }));
   };
 
-  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    if (e.key === 'Enter') {
-      e.preventDefault();
-      
-      switch (step) {
-        case 0:
-        case 1:
-        case 2:
-          // For steps 0, 1, and 2, we advance to the next step
-          handleNext();
-          break;
-        case 5:
-          // For the final step, we submit the form
-          handleSubmit(e as unknown as FormEvent);
-          break;
-        default:
-          break;
+  const validateInput = (step: number): boolean => {
+    switch (step) {
+      case 0: { 
+        const players = Number(searchParams.players);
+        if (!searchParams.players.length) {
+          setErrorState({ stepIndex: step, isError: true, message: 'Please enter the number of players.' });
+          return false;
+        }
+        if (!/^\d+$/.test(searchParams.players)) {
+          setErrorState({ stepIndex: step, isError: true, message: 'Please enter a valid integer.' });
+          return false;
+        }
+        if (players < 1) {
+          setErrorState({ stepIndex: step, isError: true, message: 'Number of players must be at least 1.' });
+          return false;
+        }
+        if (players > 20) {
+          setErrorState({ stepIndex: step, isError: true, message: 'Number of players cannot exceed 20.' });
+          return false;
+        }
+        return true;
       }
+      case 1: { 
+        const time = Number(searchParams.maxPlayingTime);
+        if (!searchParams.maxPlayingTime.length) {
+          setErrorState({ stepIndex: step, isError: true, message: 'Please enter a maximum playing time.' });
+          return false;
+        }
+        if (!/^\d+$/.test(searchParams.maxPlayingTime)) {
+          setErrorState({ stepIndex: step, isError: true, message: 'Please enter a valid integer.' });
+          return false;
+        }
+        if (time < 1) {
+          setErrorState({ stepIndex: step, isError: true, message: 'Playing time must be at least 1 minute.' });
+          return false;
+        }
+        if (time > 720) {
+          setErrorState({ stepIndex: step, isError: true, message: 'Playing time cannot exceed 720 minutes.' });
+          return false;
+        }
+        return true;
+      }
+      case 2: { 
+        const age = Number(searchParams.minAge);
+        if (!searchParams.minAge.length) {
+          setErrorState({ stepIndex: step, isError: true, message: 'Please enter a minimum age.' });
+          return false;
+        }
+        if (!/^\d+$/.test(searchParams.minAge)) {
+          setErrorState({ stepIndex: step, isError: true, message: 'Please enter a valid integer.' });
+          return false;
+        }
+        if (age < 1) {
+          setErrorState({ stepIndex: step, isError: true, message: 'Minimum age must be at least 1.' });
+          return false;
+        }
+        if (age > 99) {
+          setErrorState({ stepIndex: step, isError: true, message: 'Minimum age cannot exceed 99.' });
+          return false;
+        }
+        return true;
+      }
+      default:
+        return true;
     }
   };
 
@@ -201,8 +263,22 @@ export default function Home() {
     }
   };
 
-  const handleNext = () => setStep(prev => prev + 1);
-  const handleBack = () => setStep(prev => prev - 1);
+  const handleNext = () => {
+    const isValid = validateInput(step);
+    if (isValid) {
+      setStep(prev => prev + 1);
+      setErrorState({ stepIndex: -1, isError: false, message: '' });
+    }
+  };
+  
+  const handleBack = () => {
+    setErrorState({ stepIndex: -1, isError: false, message: '' });
+    setStep(prev => prev - 1);
+  };
+
+  const shouldShowError = (currentStep: number) => {
+    return errorState.isError && errorState.stepIndex === currentStep;
+  };
 
   return (
     <div className={styles.container}>
@@ -238,35 +314,43 @@ export default function Home() {
         </center>
 
         <AnimatePresence mode="wait">
-          {step === 0 && (
-            <motion.div
-              key="step1"
-              initial={{ opacity: 0, x: -50 }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: 50 }}
-              transition={{ duration: 0.5 }}
-            >
-              <h2 className={styles.prompt}>Step 1: Enter Number of Players</h2>
-              <input
-                className={styles.input}
-                name="players"
-                type="number"
-                placeholder="e.g. 4"
-                value={searchParams.players}
-                onChange={handleInputChange}
-                onKeyDown={handleKeyDown}
-              />
-              <div className={styles.buttonGroup}>
-                <button className={styles.navButton} onClick={handleNext}>→</button>
-              </div>
-              <div className={styles.progressBarContainer}>
-                <div 
-                  className={styles.progressBar} 
-                  style={{ width: `${((step + 1) / 6) * 100}%` }}
-                ></div>
-              </div>
-            </motion.div>
-          )}
+        {step === 0 && (
+          <motion.div
+            key="step1"
+            initial={{ opacity: 0, x: -50 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: 50 }}
+            transition={{ duration: 0.5 }}
+          >
+            <h2 className={styles.prompt}>Step 1: Enter Number of Players</h2>
+            <input
+              className={`${styles.input} ${shouldShowError(0) ? styles.inputError : ''}`}
+              name="players"
+              type="number"
+              placeholder="e.g. 4"
+              value={searchParams.players}
+              onChange={handleInputChange}
+            />
+            {shouldShowError(0) && (
+              <motion.div 
+                initial={{ opacity: 0, y: -5 }}
+                animate={{ opacity: 1, y: 0 }}
+                className={styles.errorMessage}
+              >
+                {errorState.message}
+              </motion.div>
+            )}
+            <div className={styles.buttonGroup}>
+              <button className={styles.navButton} onClick={handleNext}>→</button>
+            </div>
+            <div className={styles.progressBarContainer}>
+              <div 
+                className={styles.progressBar} 
+                style={{ width: `${((step + 1) / 6) * 100}%` }}
+              ></div>
+            </div>
+          </motion.div>
+        )}
 
           {step === 1 && (
             <motion.div
@@ -278,7 +362,7 @@ export default function Home() {
             >
               <h2 className={styles.prompt}>Step 2: Enter Maximum Playing Time (minutes)</h2>
               <input
-                className={styles.input}
+                className={`${styles.input} ${shouldShowError(1) ? styles.inputError : ''}`}
                 name="maxPlayingTime"
                 type="number"
                 placeholder="e.g. 60"
@@ -286,6 +370,15 @@ export default function Home() {
                 onChange={handleInputChange}
                 onKeyDown={handleKeyDown}
               />
+              {shouldShowError(1) && (
+                <motion.div 
+                  initial={{ opacity: 0, y: -5 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  className={styles.errorMessage}
+                >
+                  {errorState.message}
+                </motion.div>
+              )}
               <div className={styles.buttonGroup}>
                 <button className={styles.navButton} onClick={handleBack}>←</button>
                 <button className={styles.navButton} onClick={handleNext}>→</button>
@@ -309,7 +402,7 @@ export default function Home() {
             >
               <h2 className={styles.prompt}>Step 3: Enter Minimum Age</h2>
               <input
-                className={styles.input}
+                className={`${styles.input} ${shouldShowError(2) ? styles.inputError : ''}`}
                 name="minAge"
                 type="number"
                 placeholder="e.g. 12"
@@ -317,6 +410,15 @@ export default function Home() {
                 onChange={handleInputChange}
                 onKeyDown={handleKeyDown}
               />
+              {shouldShowError(2) && (
+                <motion.div 
+                  initial={{ opacity: 0, y: -5 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  className={styles.errorMessage}
+                >
+                  {errorState.message}
+                </motion.div>
+              )}
               <div className={styles.buttonGroup}>
                 <button className={styles.navButton} onClick={handleBack}>←</button>
                 <button className={styles.navButton} onClick={handleNext}>→</button>
