@@ -482,6 +482,29 @@
     background-color: #9785ff;
   }
   
+  .inputError {
+    border: 2px solid #ff4d4f !important;
+    background-color: rgba(255, 77, 79, 0.05);
+  }
+  
+  .errorMessage {
+    color: #ff4d4f;
+    font-size: 0.9rem;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    padding: 10px 15px;
+    background-color: rgba(255, 77, 79, 0.1);
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 500;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   @media (max-width: 768px) {
     .topRow {
       flex-direction: column;
