@@ -127,6 +127,27 @@ export default function Home() {
     }));
   };
 
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      
+      switch (step) {
+        case 0:
+        case 1:
+        case 2:
+          // For steps 0, 1, and 2, we advance to the next step
+          handleNext();
+          break;
+        case 5:
+          // For the final step, we submit the form
+          handleSubmit(e as unknown as FormEvent);
+          break;
+        default:
+          break;
+      }
+    };
+  };
+
   const validateInput = (step: number): boolean => {
     switch (step) {
       case 0: { 
